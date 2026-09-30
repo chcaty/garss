@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import main
+from garss import runner
 from garss.models import FeedResult
 
 
@@ -46,13 +47,13 @@ class NotificationTests(unittest.TestCase):
 
     def test_smtp_authentication_failure_does_not_abort_build(self):
         with (
-            patch.dict(main.os.environ, SMTP_ENV),
-            patch("main.fetch_all", side_effect=self.fetched_results),
+            patch.dict(runner.os.environ, SMTP_ENV),
+            patch("garss.runner.fetch_all", side_effect=self.fetched_results),
             patch(
-                "main.send_mail",
+                "garss.runner.send_mail",
                 side_effect=smtplib.SMTPAuthenticationError(535, b"private response"),
             ),
-            self.assertLogs("main", level="WARNING") as logs,
+            self.assertLogs("garss.runner", level="WARNING") as logs,
         ):
             results = main.build(project_root=self.root)
 
@@ -68,18 +69,18 @@ class NotificationTests(unittest.TestCase):
     def test_bad_recipient_configuration_only_warns(self):
         (self.root / "tasks.json").write_text("invalid JSON", encoding="utf-8")
         with (
-            patch.dict(main.os.environ, SMTP_ENV),
-            patch("main.send_mail") as send,
-            self.assertLogs("main", level="WARNING"),
+            patch.dict(runner.os.environ, SMTP_ENV),
+            patch("garss.runner.send_mail") as send,
+            self.assertLogs("garss.runner", level="WARNING"),
         ):
             self.assertFalse(main.notify_email(self.root, "<p>News</p>"))
         send.assert_not_called()
 
     def test_missing_smtp_configuration_skips_reading_files(self):
         with (
-            patch.dict(main.os.environ, {}, clear=True),
-            patch("main.load_recipients") as load,
-            patch("main.send_mail") as send,
+            patch.dict(runner.os.environ, {}, clear=True),
+            patch("garss.runner.load_recipients") as load,
+            patch("garss.runner.send_mail") as send,
         ):
             self.assertFalse(main.notify_email(self.root))
         load.assert_not_called()
@@ -87,8 +88,8 @@ class NotificationTests(unittest.TestCase):
 
     def test_no_email_build_skips_notification(self):
         with (
-            patch("main.fetch_all", side_effect=self.fetched_results),
-            patch("main.notify_email") as notify,
+            patch("garss.runner.fetch_all", side_effect=self.fetched_results),
+            patch("garss.runner.notify_email") as notify,
         ):
             main.build(project_root=self.root, send_email=False)
         notify.assert_not_called()
@@ -97,8 +98,8 @@ class NotificationTests(unittest.TestCase):
         (self.root / "docs").mkdir()
         (self.root / "docs/README.md").write_text("previous", encoding="utf-8")
         with (
-            patch("main.fetch_all", side_effect=self.fetched_results),
-            patch("main.write_static_api", side_effect=OSError("disk failure")),
+            patch("garss.runner.fetch_all", side_effect=self.fetched_results),
+            patch("garss.runner.write_static_api", side_effect=OSError("disk failure")),
         ):
             with self.assertRaises(OSError):
                 main.build(project_root=self.root, send_email=False)
@@ -112,11 +113,11 @@ class NotificationTests(unittest.TestCase):
             encoding="utf-8",
         )
         with (
-            patch.dict(main.os.environ, SMTP_ENV),
+            patch.dict(runner.os.environ, SMTP_ENV),
             patch("main.PROJECT_ROOT", self.root),
             patch("sys.argv", ["main.py", "--email-only"]),
             patch("main.build") as build,
-            patch("main.send_mail", return_value=True) as send,
+            patch("garss.runner.send_mail", return_value=True) as send,
         ):
             main.main()
         build.assert_not_called()
@@ -128,11 +129,11 @@ class NotificationTests(unittest.TestCase):
         artifact = self.root / "notification.html"
         artifact.write_text("<p>Artifact news</p>", encoding="utf-8")
         with (
-            patch.dict(main.os.environ, SMTP_ENV),
+            patch.dict(runner.os.environ, SMTP_ENV),
             patch("main.PROJECT_ROOT", self.root),
             patch("sys.argv", ["main.py", "--email-only", "--email-content", str(artifact)]),
             patch("main.build") as build,
-            patch("main.send_mail", return_value=True) as send,
+            patch("garss.runner.send_mail", return_value=True) as send,
         ):
             main.main()
         build.assert_not_called()

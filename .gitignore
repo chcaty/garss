@@ -9,3 +9,7 @@ __pycache__/
 .garss-build-*/
 /.cache/
 /node_modules/
+
+/.test-deps/
+/.test-tmp/
+/.impeccable/review/
