@@ -5,15 +5,16 @@ verify_ssl = true
 
 [scripts]
 build = "python main.py"
+test = "python -m unittest discover -s tests -v"
+sync-sources = "python sync_sources.py"
 
 [dev-packages]
 
 [packages]
-requests = "*"
-feedparser = "*"
-pytz = "*"
-yagmail = "*"
-markdown = "*"
+requests = "~=2.34.2"
+feedparser = "~=6.0.14"
+yagmail = "~=0.16.0"
+tzdata = "~=2026.4"
 
 [requires]
-python_version = "*"
+python_version = "3.13"

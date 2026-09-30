@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="嘎!RSS 外部订阅源候选审核台">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1f6c4a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <title>订阅源审核台 · 嘎!RSS</title>
+  <link rel="icon" href="./_media/favicon.ico">
+  <link rel="apple-touch-icon" href="./_media/review-icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./assets/review.css">
+  <script defer src="./assets/review.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳到审核内容</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="返回嘎 RSS 首页">
+      <span class="brand-mark" aria-hidden="true">嘎</span>
+      <span>RSS 审核台</span>
+    </a>
+    <nav class="header-links" aria-label="页面导航">
+      <button id="install-app" class="button button-install" type="button" hidden>安装 App</button>
+      <a href="./#/SOURCES">同步说明</a>
+      <a href="./#/API">API 文档</a>
+      <a href="https://github.com/zhaoolee/garss" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="workspace">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">CURATION WORKBENCH</p>
+        <h1 id="page-title">把好源留下来。</h1>
+        <p class="hero-copy">从公开目录中筛选候选订阅。决定只保存在当前浏览器，导出后再进入代码审核，不会直接改动正式源。</p>
+      </div>
+      <div class="snapshot" aria-live="polite">
+        <span class="pulse" aria-hidden="true"></span>
+        <div>
+          <strong id="snapshot-status">正在读取目录…</strong>
+          <span id="snapshot-time">请稍候</span>
+          <span id="connection-status">正在检查网络状态</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="审核统计">
+      <article><span>候选总数</span><strong id="metric-total">—</strong></article>
+      <article><span>待审核</span><strong id="metric-pending">—</strong></article>
+      <article class="metric-approved"><span>已通过</span><strong id="metric-approved">—</strong></article>
+      <article class="metric-rejected"><span>已拒绝</span><strong id="metric-rejected">—</strong></article>
+    </section>
+
+    <div class="tabs" role="tablist" aria-label="数据视图">
+      <button id="candidate-tab" class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="candidate-panel">候选审核</button>
+      <button id="route-tab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="route-panel">RSSHub 路由</button>
+    </div>
+
+    <section id="candidate-panel" class="panel" role="tabpanel" aria-labelledby="candidate-tab">
+      <div class="filters" aria-label="候选筛选">
+        <label class="search-field">
+          <span>搜索</span>
+          <input id="candidate-search" type="search" placeholder="标题、网址或描述" autocomplete="off">
+        </label>
+        <label>
+          <span>收录来源</span>
+          <select id="source-filter"><option value="">全部来源</option></select>
+        </label>
+        <label>
+          <span>分类</span>
+          <select id="category-filter"><option value="">全部分类</option></select>
+        </label>
+        <label>
+          <span>语言</span>
+          <select id="language-filter"><option value="">全部语言</option></select>
+        </label>
+        <label>
+          <span>审核状态</span>
+          <select id="status-filter">
+            <option value="">全部状态</option>
+            <option value="pending">待审核</option>
+            <option value="approved">已通过</option>
+            <option value="rejected">已拒绝</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="action-bar">
+        <div class="selection-actions">
+          <button id="select-page" class="button button-quiet" type="button">选择本页</button>
+          <span id="selection-count">已选择 0 项</span>
+          <button id="approve-selected" class="button button-approve" type="button" disabled>批量通过</button>
+          <button id="reject-selected" class="button button-reject" type="button" disabled>批量拒绝</button>
+          <button id="reset-selected" class="button button-quiet" type="button" disabled>撤销决定</button>
+        </div>
+        <div class="file-actions">
+          <button id="export-reviews" class="button button-primary" type="button">导出审核结果</button>
+          <button id="export-opml" class="button button-quiet" type="button">导出已通过 OPML</button>
+          <label class="button button-quiet file-button" for="import-reviews">导入结果</label>
+          <input id="import-reviews" class="visually-hidden" type="file" accept="application/json,.json">
+          <button id="clear-reviews" class="button button-danger-text" type="button">清空本机记录</button>
+        </div>
+      </div>
+
+      <div class="result-line" aria-live="polite">
+        <span id="candidate-result-count">正在加载候选…</span>
+        <span>每页 50 条</span>
+      </div>
+
+      <div class="table-shell">
+        <table>
+          <thead>
+            <tr>
+              <th class="check-column"><span class="visually-hidden">选择</span></th>
+              <th>订阅源</th>
+              <th>目录来源</th>
+              <th>分类 / 语言</th>
+              <th>审核状态</th>
+              <th class="action-column">操作</th>
+            </tr>
+          </thead>
+          <tbody id="candidate-rows"></tbody>
+        </table>
+        <div id="candidate-empty" class="empty-state" hidden>
+          <strong>没有匹配的候选</strong>
+          <span>换一个关键词或筛选条件试试。</span>
+        </div>
+      </div>
+
+      <nav class="pagination" aria-label="候选分页">
+        <button id="previous-page" class="button button-quiet" type="button">上一页</button>
+        <span id="page-indicator">第 1 / 1 页</span>
+        <button id="next-page" class="button button-quiet" type="button">下一页</button>
+      </nav>
+    </section>
+
+    <section id="route-panel" class="panel" role="tabpanel" aria-labelledby="route-tab" hidden>
+      <div class="filters route-filters" aria-label="RSSHub 路由筛选">
+        <label class="search-field">
+          <span>搜索路由</span>
+          <input id="route-search" type="search" placeholder="名称、命名空间或路径" autocomplete="off">
+        </label>
+        <label>
+          <span>分类</span>
+          <select id="route-category-filter"><option value="">全部分类</option></select>
+        </label>
+        <label>
+          <span>配置要求</span>
+          <select id="route-config-filter">
+            <option value="">全部路由</option>
+            <option value="ready">无需配置</option>
+            <option value="config">需要配置</option>
+            <option value="radar">支持 Radar</option>
+          </select>
+        </label>
+      </div>
+      <div class="result-line" aria-live="polite">
+        <span id="route-result-count">切换到此页时加载路由…</span>
+        <span>每页 50 条</span>
+      </div>
+      <div class="table-shell">
+        <table>
+          <thead>
+            <tr>
+              <th>路由</th>
+              <th>命名空间</th>
+              <th>分类</th>
+              <th>能力</th>
+              <th class="action-column">示例</th>
+            </tr>
+          </thead>
+          <tbody id="route-rows"></tbody>
+        </table>
+        <div id="route-empty" class="empty-state" hidden>
+          <strong>没有匹配的路由</strong>
+          <span>可以尝试搜索站点名或缩短路径关键词。</span>
+        </div>
+      </div>
+      <nav class="pagination" aria-label="路由分页">
+        <button id="previous-route-page" class="button button-quiet" type="button">上一页</button>
+        <span id="route-page-indicator">第 1 / 1 页</span>
+        <button id="next-route-page" class="button button-quiet" type="button">下一页</button>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    <span>GARSS · 本地优先的订阅源审核工具</span>
+    <span>审核决定不会自动上传</span>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">审核台需要启用 JavaScript。</p></noscript>
+</body>
+</html>

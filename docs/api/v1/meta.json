@@ -1,0 +1,10 @@
+{
+  "api_version": "1.0",
+  "generated_at": "2026-09-30T03:28:27.140027Z",
+  "retention_days": 30,
+  "feeds_endpoint": "./feeds.json",
+  "articles_endpoint": "./articles.json",
+  "feed_candidates_endpoint": "./feed-candidates.json",
+  "rsshub_routes_endpoint": "./rsshub-routes.json",
+  "review_schema_endpoint": "./review-schema.json"
+}

@@ -1,0 +1,27 @@
+{
+  "catalogs": [
+    {
+      "id": "tidings",
+      "format": "tidings-json",
+      "url": "https://raw.githubusercontent.com/fuxiaoai/tidings-rss/refs/heads/main/data/feeds.json",
+      "kinds": ["article"]
+    },
+    {
+      "id": "saveweb",
+      "format": "opml",
+      "url": "https://github.com/saveweb/rss-list/releases/latest/download/All.opml.xml"
+    },
+    {
+      "id": "plenary",
+      "format": "opml-zip",
+      "url": "https://codeload.github.com/plenaryapp/awesome-rss-feeds/zip/refs/heads/master",
+      "path_contains": "/recommended/without_category/"
+    },
+    {
+      "id": "rsshub",
+      "format": "rsshub-routes",
+      "url": "https://docs.rsshub.app/routes.json",
+      "instance": "https://rsshub.app"
+    }
+  ]
+}

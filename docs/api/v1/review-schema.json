@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zhaoolee.github.io/garss/api/v1/review-schema.json",
+  "title": "GARSS review export",
+  "description": "Portable review decisions shared by the web reviewer and future apps.",
+  "type": "object",
+  "required": [
+    "schema_url",
+    "schema_version",
+    "catalog_generated_at",
+    "exported_at",
+    "decision_count",
+    "decisions"
+  ],
+  "properties": {
+    "schema_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "catalog_generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "exported_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "decision": {
+      "type": "object",
+      "required": ["id", "status", "reviewed_at", "candidate"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{20}$"
+        },
+        "status": {
+          "enum": ["approved", "rejected"]
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "candidate": {
+          "$ref": "#/$defs/candidate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "candidate": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "feed_url",
+        "site_url",
+        "description",
+        "categories",
+        "language",
+        "packs",
+        "sources",
+        "generated",
+        "review_required"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{20}$"
+        },
+        "title": { "type": "string" },
+        "feed_url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "site_url": { "type": "string" },
+        "description": { "type": "string" },
+        "categories": { "type": "array", "items": { "type": "string" } },
+        "language": { "type": "string" },
+        "packs": { "type": "array", "items": { "type": "string" } },
+        "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "generated": { "type": "boolean" },
+        "review_required": { "const": true }
+      },
+      "additionalProperties": true
+    }
+  }
+}

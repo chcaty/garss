@@ -1,0 +1,39 @@
+{
+  "id": "./review.html",
+  "name": "嘎!RSS 订阅源审核台",
+  "short_name": "RSS 审核台",
+  "description": "离线可用的 GARSS 订阅源候选审核工具",
+  "lang": "zh-CN",
+  "start_url": "./review.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#1f6c4a",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./_media/review-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./_media/review-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "候选审核",
+      "short_name": "候选",
+      "url": "./review.html#candidates"
+    },
+    {
+      "name": "RSSHub 路由",
+      "short_name": "路由",
+      "url": "./review.html#routes"
+    }
+  ]
+}

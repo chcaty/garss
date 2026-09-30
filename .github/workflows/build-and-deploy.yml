@@ -1,0 +1,94 @@
+name: Build feeds and deploy Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:00, 13:00, 17:00 and 22:00 Asia/Shanghai (UTC+8)
+    - cron: "0 22,5,9,14 * * *"
+  push:
+    branches: [main]
+
+concurrency:
+  group: garss-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pipenv
+
+      - name: Install Pipenv
+        run: python -m pip install pipenv==2026.8.0
+
+      - name: Install locked dependencies
+        run: pipenv sync --dev
+
+      - name: Run tests
+        run: pipenv run test
+
+      - name: Build feeds and API
+        env:
+          SMTP_USER: ${{ secrets.USER }}
+          SMTP_PASSWORD: ${{ secrets.PASSWORD }}
+          SMTP_HOST: ${{ secrets.HOST }}
+        run: pipenv run build
+
+      - name: Verify generated files
+        run: |
+          test -s docs/README.md
+          test -s docs/api/v1/meta.json
+          test -s docs/api/v1/feeds.json
+          test -s docs/api/v1/articles.json
+          test -s docs/api/v1/feed-candidates.json
+          test -s docs/api/v1/rsshub-routes.json
+          test -s docs/api/v1/review-schema.json
+          test -s docs/review.html
+          test -s docs/assets/review.js
+          test -s docs/assets/review.css
+          test -s docs/manifest.webmanifest
+          test -s docs/service-worker.js
+          test -s docs/_media/review-icon-192.png
+          test -s docs/_media/review-icon-512.png
+
+      - name: Commit generated data when changed
+        run: |
+          git config user.email "1120873075@qq.com"
+          git config user.name "garss-bot"
+          git add README.md docs garssInfo.json zhaoolee_github_garss_subscription_list_v1.opml zhaoolee_github_garss_subscription_list_v2.opml
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Github Action auto updated"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
