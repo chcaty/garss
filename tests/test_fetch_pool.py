@@ -3,7 +3,6 @@ from datetime import date, datetime, timezone
 from unittest.mock import Mock, patch
 
 import main
-from garss import runner
 from garss.models import FeedSource, FeedResult, Article
 
 
@@ -11,8 +10,8 @@ class FetchPoolTests(unittest.TestCase):
     def test_duplicate_urls_download_once_without_changing_article_identity(self):
         sources = [FeedSource(str(i), "Example", "", "https://example.com/feed") for i in range(2)]
         article = Article("0", "Title", "https://example.com/item", datetime(2026, 9, 30, tzinfo=timezone.utc))
-        with patch("garss.runner.requests.Session"), patch(
-            "garss.runner.fetch_feed", return_value=FeedResult(sources[0], [article])
+        with patch("garss.fetch_pool.requests.Session"), patch(
+            "garss.fetch_pool.fetch_feed", return_value=FeedResult(sources[0], [article])
         ) as fetch:
             results = main.fetch_all(sources, date(2026, 9, 30), 8)
         fetch.assert_called_once()
@@ -25,9 +24,9 @@ class FetchPoolTests(unittest.TestCase):
 
     def test_shared_download_failure_is_reported_for_each_source(self):
         sources = [FeedSource(str(i), "Example", "", "https://example.com/feed") for i in range(2)]
-        with patch("garss.runner.requests.Session") as session, patch(
-            "garss.runner.fetch_feed", side_effect=RuntimeError("broken feed")
-        ) as fetch, self.assertLogs("garss.runner", level="ERROR"):
+        with patch("garss.fetch_pool.requests.Session") as session, patch(
+            "garss.fetch_pool.fetch_feed", side_effect=RuntimeError("broken feed")
+        ) as fetch, self.assertLogs("garss.fetch_pool", level="ERROR"):
             results = main.fetch_all(sources, date(2026, 9, 30), 8)
         fetch.assert_called_once()
         self.assertEqual([result.error for result in results], ["broken feed", "broken feed"])
@@ -36,8 +35,8 @@ class FetchPoolTests(unittest.TestCase):
     def test_session_is_reused_per_worker_and_closed(self):
         sources = [FeedSource(str(i), "Example", "", f"https://example.com/{i}") for i in range(2)]
         session = Mock()
-        with patch("garss.runner.requests.Session", return_value=session) as factory, patch(
-            "garss.runner.fetch_feed", side_effect=lambda source, **kwargs: FeedResult(source)
+        with patch("garss.fetch_pool.requests.Session", return_value=session) as factory, patch(
+            "garss.fetch_pool.fetch_feed", side_effect=lambda source, **kwargs: FeedResult(source)
         ) as fetch:
             results = main.fetch_all(sources, date(2026, 9, 30), workers=1)
         self.assertEqual([result.source for result in results], sources)

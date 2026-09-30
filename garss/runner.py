@@ -1,21 +1,12 @@
 """Feed collection, atomic publication and optional notifications."""
-import argparse
-import json
 import logging
-import os
 import tempfile
-import threading
-import requests
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
-from dataclasses import replace
 from pathlib import Path
 
 from garss.catalog import load_source_templates
-from garss.fetch import fetch_feed
 from garss.feed_cache import FeedCache
 from garss.history import load_cached_articles, merge_recent_history
-from garss.models import FeedResult
 from garss.output import (
     atomic_write_text,
     sync_media,
@@ -25,122 +16,14 @@ from garss.output import (
     publish_generated_files,
     prune_snapshots,
 )
-from garss.render import MAIL_CONTENT_RE, build_readme
+from garss.render import build_readme
+from garss.fetch_pool import fetch_all
+from garss.notifications import notify_email
 from garss.timezones import APP_TIMEZONE
 from retention import DEFAULT_RETENTION_DAYS
 
 LOGGER = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-
-def fetch_all(sources, fetch_date, workers: int, cache=None) -> list[FeedResult]:
-    if workers < 1:
-        raise ValueError("workers must be at least 1")
-    if not sources:
-        return []
-    local = threading.local()
-    sessions = []
-    session_lock = threading.Lock()
-
-    def fetch_one(source):
-        if not hasattr(local, "session"):
-            local.session = requests.Session()
-            with session_lock:
-                sessions.append(local.session)
-        # Reuse connections, not cookies received from unrelated feeds.
-        local.session.cookies.clear()
-        return fetch_feed(source, today=fetch_date, only_date=fetch_date,
-                          request_get=local.session.get, cache=cache)
-
-    try:
-        return _collect_feeds(sources, workers, fetch_one)
-    finally:
-        for session in sessions:
-            session.close()
-
-
-def _collect_feeds(sources, workers, fetch_one):
-    sources_by_url = {}
-    for source in sources:
-        sources_by_url.setdefault(source.feed_url, []).append(source)
-    results_by_id = {}
-    with ThreadPoolExecutor(max_workers=min(workers, len(sources_by_url))) as executor:
-        futures = {
-            executor.submit(fetch_one, group[0]): group
-            for group in sources_by_url.values()
-        }
-        completed = 0
-        for future in as_completed(futures):
-            group = futures[future]
-            source = group[0]
-            try:
-                result = future.result()
-            except (
-                Exception
-            ) as error:  # Keep one broken source from aborting all feeds.
-                LOGGER.exception("Unexpected fetch failure for %s", source.id)
-                result = FeedResult(source=source, error=str(error))
-            for member in group:
-                # One download, but distinct article IDs and independent lists.
-                results_by_id[member.id] = FeedResult(
-                    source=member,
-                    articles=[replace(article, source_id=member.id) for article in result.articles],
-                    error=result.error,
-                )
-            completed += len(group)
-            LOGGER.info("Progress: %d/%d", completed, len(sources))
-    return [results_by_id[source.id] for source in sources]
-
-
-def load_recipients(path: Path) -> list[str]:
-    payload = json.loads(path.read_text(encoding="utf-8"))
-    return [task["email"] for task in payload.get("tasks", []) if task.get("email")]
-
-
-def send_mail(recipients: list[str], subject: str, html_content: str) -> bool:
-    smtp_user = os.getenv("SMTP_USER")
-    smtp_password = os.getenv("SMTP_PASSWORD")
-    smtp_host = os.getenv("SMTP_HOST")
-    if not recipients or not all((smtp_user, smtp_password, smtp_host)):
-        LOGGER.info("Email skipped: recipients or SMTP configuration is missing")
-        return False
-    import yagmail
-
-    with yagmail.Client(
-        user=smtp_user,
-        password=smtp_password,
-        host=smtp_host,
-    ) as client:
-        client.send(recipients, subject, html_content)
-    return True
-
-
-def notify_email(project_root: Path, html_content: str | None = None, content_path: Path | None = None) -> bool:
-    """Treat every notification failure as optional, without logging credentials."""
-    if not all(
-        os.getenv(name) for name in ("SMTP_USER", "SMTP_PASSWORD", "SMTP_HOST")
-    ):
-        LOGGER.info("Email skipped: SMTP configuration is missing")
-        return False
-    try:
-        if html_content is None:
-            if content_path is not None:
-                html_content = content_path.read_text(encoding="utf-8")
-            else:
-                readme = (project_root / "docs/README.md").read_text(encoding="utf-8")
-                match = MAIL_CONTENT_RE.search(readme)
-                if not match:
-                    raise ValueError("generated page has no email content")
-                html_content = match.group(1)
-        recipients = load_recipients(project_root / "tasks.json")
-        return send_mail(recipients, "嘎!RSS订阅", html_content)
-    except Exception as error:
-        # Notifications are optional. Do not include SMTP responses or secrets.
-        LOGGER.warning(
-            "Email notification failed (%s); feed build and deployment are unaffected",
-            type(error).__name__,
-        )
-        return False
 
 
 def build(

@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import main
-from garss import runner
+from garss import notifications
 from garss.models import FeedResult
 
 
@@ -47,13 +47,13 @@ class NotificationTests(unittest.TestCase):
 
     def test_smtp_authentication_failure_does_not_abort_build(self):
         with (
-            patch.dict(runner.os.environ, SMTP_ENV),
+            patch.dict(notifications.os.environ, SMTP_ENV),
             patch("garss.runner.fetch_all", side_effect=self.fetched_results),
             patch(
-                "garss.runner.send_mail",
+                "garss.notifications.send_mail",
                 side_effect=smtplib.SMTPAuthenticationError(535, b"private response"),
             ),
-            self.assertLogs("garss.runner", level="WARNING") as logs,
+            self.assertLogs("garss.notifications", level="WARNING") as logs,
         ):
             results = main.build(project_root=self.root)
 
@@ -69,18 +69,18 @@ class NotificationTests(unittest.TestCase):
     def test_bad_recipient_configuration_only_warns(self):
         (self.root / "tasks.json").write_text("invalid JSON", encoding="utf-8")
         with (
-            patch.dict(runner.os.environ, SMTP_ENV),
-            patch("garss.runner.send_mail") as send,
-            self.assertLogs("garss.runner", level="WARNING"),
+            patch.dict(notifications.os.environ, SMTP_ENV),
+            patch("garss.notifications.send_mail") as send,
+            self.assertLogs("garss.notifications", level="WARNING"),
         ):
             self.assertFalse(main.notify_email(self.root, "<p>News</p>"))
         send.assert_not_called()
 
     def test_missing_smtp_configuration_skips_reading_files(self):
         with (
-            patch.dict(runner.os.environ, {}, clear=True),
-            patch("garss.runner.load_recipients") as load,
-            patch("garss.runner.send_mail") as send,
+            patch.dict(notifications.os.environ, {}, clear=True),
+            patch("garss.notifications.load_recipients") as load,
+            patch("garss.notifications.send_mail") as send,
         ):
             self.assertFalse(main.notify_email(self.root))
         load.assert_not_called()
@@ -113,11 +113,11 @@ class NotificationTests(unittest.TestCase):
             encoding="utf-8",
         )
         with (
-            patch.dict(runner.os.environ, SMTP_ENV),
+            patch.dict(notifications.os.environ, SMTP_ENV),
             patch("main.PROJECT_ROOT", self.root),
             patch("sys.argv", ["main.py", "--email-only"]),
             patch("main.build") as build,
-            patch("garss.runner.send_mail", return_value=True) as send,
+            patch("garss.notifications.send_mail", return_value=True) as send,
         ):
             main.main()
         build.assert_not_called()
@@ -129,11 +129,11 @@ class NotificationTests(unittest.TestCase):
         artifact = self.root / "notification.html"
         artifact.write_text("<p>Artifact news</p>", encoding="utf-8")
         with (
-            patch.dict(runner.os.environ, SMTP_ENV),
+            patch.dict(notifications.os.environ, SMTP_ENV),
             patch("main.PROJECT_ROOT", self.root),
             patch("sys.argv", ["main.py", "--email-only", "--email-content", str(artifact)]),
             patch("main.build") as build,
-            patch("garss.runner.send_mail", return_value=True) as send,
+            patch("garss.notifications.send_mail", return_value=True) as send,
         ):
             main.main()
         build.assert_not_called()
