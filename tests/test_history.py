@@ -1,7 +1,10 @@
 import unittest
+import json
+import tempfile
 from datetime import date, datetime, timezone
+from pathlib import Path
 
-from garss.history import merge_recent_history
+from garss.history import load_cached_articles, merge_recent_history
 from garss.models import Article, FeedResult, FeedSource
 
 
@@ -21,6 +24,24 @@ class HistoryTests(unittest.TestCase):
                 source.id,
                 "Yesterday",
                 "https://example.com/yesterday",
+                datetime(2026, 9, 29, tzinfo=timezone.utc),
+            ),
+            Article(
+                source.id,
+                "Boundary",
+                "https://example.com/boundary",
+                datetime(2026, 9, 1, tzinfo=timezone.utc),
+            ),
+            Article(
+                source.id,
+                "Outside window",
+                "https://example.com/outside",
+                datetime(2026, 8, 31, tzinfo=timezone.utc),
+            ),
+            Article(
+                "removed-source",
+                "Removed source",
+                "https://example.com/removed",
                 datetime(2026, 9, 29, tzinfo=timezone.utc),
             ),
             Article(
@@ -47,8 +68,16 @@ class HistoryTests(unittest.TestCase):
 
         self.assertEqual(
             [article.title for article in merged[0].articles],
-            ["Today", "Yesterday"],
+            ["Today", "Yesterday", "Boundary"],
         )
+
+    def test_malformed_cache_structure_is_ignored(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "articles.json"
+            for payload in ([], None, {"articles": None}, {"articles": {}}):
+                path.write_text(json.dumps(payload), encoding="utf-8")
+                with self.assertLogs("garss.history", level="WARNING"):
+                    self.assertEqual(load_cached_articles(path, {"X001"}), [])
 
 
 if __name__ == "__main__":

@@ -10,6 +10,7 @@ MAIL_CONTENT_RE = re.compile(r"邮件内容区开始>([.\S\s]*)<邮件内容区�
 
 
 def _markdown_text(value: str) -> str:
+    value = value.replace("\r", " ").replace("\n", " ")
     value = html.escape(value, quote=False)
     for character in ("\\", "[", "]", "|", "(", ")"):
         value = value.replace(character, f"\\{character}")
@@ -93,7 +94,12 @@ def build_readme(
     output = output.replace("{{news}}", news)
     output = output.replace("{{new_num}}", str(article_count))
 
+    if "{{source_table}}" in output:
+        output = output.replace("{{source_table}}", render_source_table(source_templates, results, today, retention_days))
+
     for source_template in source_templates:
+        if not source_template.row:
+            continue
         result = result_by_id[source_template.source.id]
         rendered_row = source_template.row.replace(
             "{{latest_content}}", _latest_content(result, today, retention_days)
@@ -110,3 +116,28 @@ def build_readme(
     mail_match = MAIL_CONTENT_RE.search(output)
     email_html = mail_match.group(1) if mail_match else ""
     return output, email_html
+
+
+def render_source_table(templates, results, today, retention_days):
+    result_by_id = {result.source.id: result for result in results}
+    rows = ["| 编号 | 名称 | 描述 | 最新内容 | RSS |", "| --- | --- | --- | --- | --- |"]
+    category = None
+    for item in templates:
+        if category != item.category:
+            category = item.category
+            label = html.escape(category.replace("\r", " ").replace("\n", " "), quote=True)
+            label = label.replace("|", "&#124;")
+            rows.append(f'| <h2 id="{label}">{label}</h2> | | | | |')
+        display_id = _markdown_text(item.display_id or item.source.id)
+        if item.icon:
+            display_id = (
+                f'<img src="./_media/{quote(item.icon, safe="/")}" width="30" alt=""/><br>'
+                f"{display_id}"
+            )
+        content = _latest_content(result_by_id[item.source.id], today, retention_days)
+        rows.append(
+            f"| {display_id} | {_markdown_text(item.source.title)} | "
+            f"{_markdown_text(item.source.description)} | {content} | "
+            f"[订阅地址]({_markdown_url(item.source.feed_url)}) |"
+        )
+    return "\n".join(rows)

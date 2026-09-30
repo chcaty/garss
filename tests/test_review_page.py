@@ -9,7 +9,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 class ReviewPageTests(unittest.TestCase):
     def test_review_page_has_local_first_controls_and_assets(self):
         page = (PROJECT_ROOT / "docs/review.html").read_text(encoding="utf-8")
-        script = (PROJECT_ROOT / "docs/assets/review.js").read_text(encoding="utf-8")
+        script = "\n".join(
+            path.read_text(encoding="utf-8")
+            for path in (PROJECT_ROOT / "docs/assets/review").glob("*.mjs")
+        )
         stylesheet = (PROJECT_ROOT / "docs/assets/review.css").read_text(
             encoding="utf-8"
         )
@@ -30,6 +33,7 @@ class ReviewPageTests(unittest.TestCase):
             self.assertIn(f'id="{element_id}"', page)
 
         self.assertIn("./assets/review.js", page)
+        self.assertIn('type="module"', page)
         self.assertIn("./assets/review.css", page)
         self.assertIn("./manifest.webmanifest", page)
         self.assertIn("./api/v1/feed-candidates.json", script)

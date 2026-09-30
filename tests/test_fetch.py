@@ -1,19 +1,27 @@
 import unittest
+import tempfile
 from datetime import date
+from pathlib import Path
+from unittest.mock import Mock
+import requests
 
-from garss.fetch import MAX_FEED_BYTES, _download_feed, _parse_articles
+from garss.fetch import MAX_FEED_BYTES, _download_feed, _parse_articles, fetch_feed
+from garss.feed_cache import FeedCache, CachedFeed
 from garss.models import FeedSource
 
 
 class FakeResponse:
-    def __init__(self, chunks, content_length=None):
+    def __init__(self, chunks, content_length=None, status=200):
         self.chunks = chunks
         self.headers = {}
         self.closed = False
+        self.status_code = status
         if content_length is not None:
             self.headers["Content-Length"] = str(content_length)
 
     def raise_for_status(self):
+        if self.status_code >= 400:
+            raise requests.HTTPError("HTTP failure", response=self)
         return None
 
     def iter_content(self, chunk_size):
@@ -28,6 +36,78 @@ class FetchTests(unittest.TestCase):
         self.source = FeedSource(
             "X001", "Example", "Example feed", "https://example.com/feed.xml"
         )
+
+    def test_304_reparses_body_for_current_day_instead_of_reusing_old_articles(self):
+        payload = b'<rss version="2.0"><channel><title>Feed</title><item><title>Old</title><link>https://example.com/item</link><pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate></item></channel></rss>'
+        with tempfile.TemporaryDirectory() as directory:
+            cache = FeedCache(Path(directory))
+            first = FakeResponse([payload])
+            first.headers["ETag"] = '"revision1"'
+            first.headers["Last-Modified"] = "Wed, 30 Sep 2026 08:00:00 GMT"
+            get = Mock(return_value=first)
+            result = fetch_feed(self.source, today=date(2026, 9, 30), only_date=date(2026, 9, 30), cache=cache, request_get=get)
+            self.assertEqual(len(result.articles), 1)
+            second = FakeResponse([], status=304)
+            get.return_value = second
+            result = fetch_feed(self.source, today=date(2026, 10, 1), only_date=date(2026, 10, 1), cache=cache, request_get=get)
+            self.assertEqual(result.status, "ok")
+            self.assertEqual(result.articles, [])
+            self.assertEqual(get.call_args.kwargs["headers"]["If-None-Match"], '"revision1"')
+            self.assertIn("If-Modified-Since", get.call_args.kwargs["headers"])
+            self.assertEqual(cache.get(self.source.feed_url).etag, '"revision1"')
+            self.assertTrue(first.closed and second.closed)
+
+    def test_permanent_http_errors_are_not_retried(self):
+        response = FakeResponse([], status=404)
+        get = Mock(return_value=response)
+        sleep = Mock()
+        result = fetch_feed(self.source, request_get=get, sleep=sleep)
+        self.assertEqual(result.status, "error")
+        self.assertEqual(get.call_count, 1)
+        sleep.assert_not_called()
+        self.assertTrue(response.closed)
+
+    def test_malformed_response_does_not_replace_a_valid_cache(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache = FeedCache(Path(directory))
+            cache.put(self.source.feed_url, CachedFeed(b"previous", '"old"'))
+            response = FakeResponse([b"not XML"])
+            result = fetch_feed(self.source, cache=cache, request_get=lambda *a, **k: response)
+            self.assertEqual(result.status, "error")
+            self.assertEqual(cache.get(self.source.feed_url).payload, b"previous")
+
+    def test_transient_errors_retry_but_malformed_feeds_do_not(self):
+        for status, body, expected_calls in [(503, b"", 3), (429, b"", 3), (200, b"not XML", 1)]:
+            with self.subTest(status=status):
+                get = Mock(side_effect=lambda *args, **kwargs: FakeResponse([body], status=status))
+                result = fetch_feed(self.source, request_get=get, sleep=Mock())
+                self.assertEqual(result.status, "error")
+                self.assertEqual(get.call_count, expected_calls)
+
+    def test_budget_is_checked_during_streaming_and_response_closed(self):
+        elapsed = [0]
+        response = FakeResponse([])
+        def chunks(chunk_size):
+            elapsed[0] = 46
+            yield b"slow response"
+        response.iter_content = chunks
+        with self.assertRaises(requests.Timeout):
+            _download_feed(self.source.feed_url, 8, request_get=lambda *a, **k: response,
+                           deadline=45, clock=lambda: elapsed[0])
+        self.assertTrue(response.closed)
+
+    def test_invalid_cache_is_ignored_and_pruning_preserves_user_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            cache = FeedCache(root)
+            cache.put(self.source.feed_url, CachedFeed(b"old", "bad\nvalidator"))
+            self.assertEqual(cache.get(self.source.feed_url).etag, "")
+            cache._path(self.source.feed_url).write_bytes(b"corrupt")
+            self.assertIsNone(cache.get(self.source.feed_url))
+            (root / "notes.txt").write_text("keep", encoding="utf-8")
+            cache.prune([], max_bytes=0)
+            self.assertTrue((root / "notes.txt").is_file())
+            self.assertFalse(cache._path(self.source.feed_url).exists())
 
     def test_parser_filters_expired_unsafe_and_duplicate_articles(self):
         payload = b"""<?xml version="1.0" encoding="UTF-8"?>

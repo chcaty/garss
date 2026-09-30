@@ -15,7 +15,8 @@ def retention_cutoff(
         raise ValueError("retention_days must be at least 1")
     if today is None:
         today = datetime.now(timezone.utc).date()
-    return today - timedelta(days=retention_days)
+    # Include today: a 30-day window spans today and the preceding 29 dates.
+    return today - timedelta(days=retention_days - 1)
 
 
 def entry_published_datetime(entry: Mapping) -> datetime | None:

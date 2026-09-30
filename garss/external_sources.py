@@ -12,7 +12,7 @@ from urllib.parse import urlsplit, urlunsplit
 import requests
 
 from garss import API_VERSION
-from garss.catalog import parse_source_templates, safe_http_url
+from garss.catalog import load_source_templates, safe_http_url
 from garss.output import write_json
 
 MAX_CATALOG_BYTES = 25 * 1024 * 1024
@@ -295,8 +295,7 @@ def sync_external_sources(
     config = json.loads(
         (project_root / "source_catalogs.json").read_text(encoding="utf-8")
     )
-    template = (project_root / "EditREADME.md").read_text(encoding="utf-8")
-    current_sources = [item.source for item in parse_source_templates(template)]
+    current_sources = [item.source for item in load_source_templates(project_root / "sources.json")]
     current_keys = {canonical_feed_key(source.feed_url) for source in current_sources}
 
     merged = {}

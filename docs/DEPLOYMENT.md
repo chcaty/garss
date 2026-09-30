@@ -34,3 +34,31 @@ pipenv run python cleanup.py README.md docs/README.md --retention-days 30
 - `HOST`：SMTP 服务器地址
 
 未配置时，站点构建和部署仍会正常执行，只会跳过邮件发送。
+
+工作流的 `build` 任务用 `--no-email` 完成 RSS 构建、数据提交和文件上传。构建成功后，`deploy` 与 `notify` 两个任务独立执行；部署不等待邮件。邮件内容通过独立 artifact 传递，无需重新抓取 RSS 或从 README 提取。邮件认证、连接或配置读取失败只记录警告；发送步骤最多运行两分钟，失败或超时都不会阻断 Pages 部署。
+
+本地可运行 `pipenv run python main.py --email-only`，使用已生成页面中的邮件内容发送通知，无需重新抓取 RSS。默认本地构建仍会尝试通知，但通知失败不会使构建失败。
+
+也可运行 `pipenv run python main.py --email-only --email-content build/notification.html`，直接发送最近一次本地构建生成的通知文件。`build/` 不进入 Git。
+
+## 构建与发布边界
+
+所有生成文件先写入临时目录，生成成功后才发布；生成阶段失败不会覆盖已发布文件。发布使用逐文件替换，并最后更新 API 快照指针，不是整个目录的事务替换。GitHub Pages 只在构建任务成功后部署上传的站点 artifact。
+
+正式订阅目录维护方式见 [订阅源维护](./SOURCES.md)，移动端一致性读取方式见 [API 文档](./API.md)。
+
+## 抓取性能与缓存
+
+抓取保留 Requests + 线程池，每个工作线程单独持有 Session，复用连接，构建结束后关闭；不跨线程共享 Session。请求前清除 Cookie，避免不同订阅之间沿用会话信息。
+
+HTTP 缓存位于 `.cache/feed-responses/`，不会提交到 Git 或发布到 Pages。支持 ETag 和 Last-Modified 条件请求；收到 304 时重新解析缓存的原始 RSS，并按本次北京时间日期筛选，不复用上一次的文章列表。缓存缺失、损坏或写入失败不影响正常抓取；抓取失败仍由原有文章历史合并逻辑保留近期数据。只保存解析成功的响应，缓存最多 64 MiB，超过 30 天或已移除源的缓存会清理。
+
+连接等待最多 5 秒，单次读取等待最多 8 秒，最多尝试 3 次。404 等永久错误、格式错误和超大响应不重试；408、429、服务端错误和网络错误允许重试。每源设置 45 秒重试预算，在请求、流式读取和退避之间检查。它不是可强制中断的严格墙钟时限：Requests 的超时针对连接/读取等待，底层阻塞及 DNS 等仍可能超过预算。
+
+## 成熟技术方案与审核校验
+
+现阶段保留成熟的 Requests、feedparser 和原生 ES 模块，不引入异步 HTTP 或前端框架的大规模迁移；先优化现有连接和缓存，并用测试验证行为。后续确有并发规模需求时，再基于测量评估异步方案。
+
+审核结构校验使用 [Ajv standalone](https://ajv.js.org/standalone.html)，格式校验使用 ajv-formats，esbuild 将运行时辅助代码打包为浏览器模块。这些只属于开发依赖，版本由 `package-lock.json` 锁定；浏览器不动态编译 Schema，不加载 npm 或 CDN。公开的 `docs/api/v1/review-schema.json` 是唯一结构规则来源，业务层仅额外检查数量一致性、重复 ID、候选 ID 对应关系和安全 URL。
+
+修改 Schema 后执行 `npm ci --ignore-scripts` 和 `npm run build:review-schema`；提交生成的 `contract.mjs`，CI 会执行 `npm run check:review-schema`，阻止 Schema 和校验器不同步。可运行 `npm test` 验证审核行为。

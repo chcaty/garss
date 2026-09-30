@@ -1,10 +1,12 @@
 import json
 import os
+import re
 import shutil
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from hashlib import sha256
 
 from garss import API_VERSION
 from garss.models import FeedResult, FeedSource
@@ -54,6 +56,30 @@ def write_static_api(
         key=lambda article: article.published_at,
         reverse=True,
     )
+    feeds_payload = {
+        "api_version": API_VERSION, "generated_at": generated,
+        "feeds": [{**result.source.as_dict(), "status": result.status,
+                   "article_count": len(result.articles)} for result in results],
+    }
+    articles_payload = {
+        "api_version": API_VERSION, "generated_at": generated,
+        "articles": [article.as_dict() for article in articles],
+    }
+    snapshot_id = sha256(json.dumps(
+        [feeds_payload, articles_payload], ensure_ascii=False, sort_keys=True,
+    ).encode("utf-8")).hexdigest()[:20]
+    snapshot_root = version_root / "snapshots" / snapshot_id
+    write_json(snapshot_root / "feeds.json", feeds_payload)
+    write_json(snapshot_root / "articles.json", articles_payload)
+    files = {}
+    for name in ("feeds.json", "articles.json"):
+        content = (snapshot_root / name).read_bytes()
+        files[name] = {"sha256": sha256(content).hexdigest(), "bytes": len(content)}
+    write_json(snapshot_root / "manifest.json", {
+        "api_version": API_VERSION, "snapshot_id": snapshot_id,
+        "generated_at": generated, "files": files,
+        "feeds_endpoint": "./feeds.json", "articles_endpoint": "./articles.json",
+    })
     write_json(
         api_root / "index.json",
         {
@@ -72,31 +98,12 @@ def write_static_api(
             "feed_candidates_endpoint": "./feed-candidates.json",
             "rsshub_routes_endpoint": "./rsshub-routes.json",
             "review_schema_endpoint": "./review-schema.json",
+            "snapshot_id": snapshot_id,
+            "snapshot_endpoint": f"./snapshots/{snapshot_id}/manifest.json",
         },
     )
-    write_json(
-        version_root / "feeds.json",
-        {
-            "api_version": API_VERSION,
-            "generated_at": generated,
-            "feeds": [
-                {
-                    **result.source.as_dict(),
-                    "status": result.status,
-                    "article_count": len(result.articles),
-                }
-                for result in results
-            ],
-        },
-    )
-    write_json(
-        version_root / "articles.json",
-        {
-            "api_version": API_VERSION,
-            "generated_at": generated,
-            "articles": [article.as_dict() for article in articles],
-        },
-    )
+    write_json(version_root / "feeds.json", feeds_payload)
+    write_json(version_root / "articles.json", articles_payload)
 
 
 def write_opml(
@@ -132,6 +139,37 @@ def write_opml(
 
 
 def sync_media(source: Path, destination: Path):
-    if destination.exists():
-        shutil.rmtree(destination)
-    shutil.copytree(source, destination)
+    shutil.copytree(source, destination, dirs_exist_ok=True)
+
+
+def publish_generated_files(staging: Path, destination: Path):
+    """Publish validated outputs with the App snapshot pointer written last."""
+    files = sorted(path for path in staging.rglob("*") if path.is_file())
+    meta = Path("docs/api/v1/meta.json")
+    files.sort(key=lambda path: path.relative_to(staging) == meta)
+    for source in files:
+        target = destination / source.relative_to(staging)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        os.replace(source, target)
+
+
+def prune_snapshots(version_root: Path, keep: int = 8):
+    """Bound generated history without touching user files or other directories."""
+    snapshot_directory = version_root / "snapshots"
+    if snapshot_directory.is_symlink():
+        raise ValueError("snapshot cleanup root must not be a symbolic link")
+    snapshot_root = snapshot_directory.resolve()
+    if not snapshot_root.is_dir():
+        return
+    current_meta = json.loads((version_root / "meta.json").read_text(encoding="utf-8"))
+    current = current_meta["snapshot_id"]
+    snapshots = [path for path in snapshot_root.iterdir()
+                 if path.is_dir() and not path.is_symlink()
+                 and re.fullmatch(r"[0-9a-f]{20}", path.name)
+                 and (path / "manifest.json").is_file()]
+    snapshots.sort(key=lambda path: (path.name == current, path.stat().st_mtime_ns), reverse=True)
+    for path in snapshots[max(1, keep):]:
+        resolved = path.resolve()
+        if resolved.parent != snapshot_root:
+            raise ValueError("snapshot cleanup target is outside the generated directory")
+        shutil.rmtree(resolved)

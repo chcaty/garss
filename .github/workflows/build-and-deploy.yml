@@ -35,12 +35,27 @@ jobs:
       - name: Run tests
         run: pipenv run test
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Test reviewer modules
+        run: |
+          npm ci --ignore-scripts
+          npm run check:review-schema
+          npm test
+
+      - name: Cache conditional RSS responses
+        uses: actions/cache@v5
+        with:
+          path: .cache/feed-responses
+          key: rss-http-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            rss-http-v1-${{ runner.os }}-
+
       - name: Build feeds and API
-        env:
-          SMTP_USER: ${{ secrets.USER }}
-          SMTP_PASSWORD: ${{ secrets.PASSWORD }}
-          SMTP_HOST: ${{ secrets.HOST }}
-        run: pipenv run build
+        run: pipenv run build --no-email
 
       - name: Verify generated files
         run: |
@@ -53,6 +68,8 @@ jobs:
           test -s docs/api/v1/review-schema.json
           test -s docs/review.html
           test -s docs/assets/review.js
+          test -s docs/assets/review/app.mjs
+          test -s build/notification.html
           test -s docs/assets/review.css
           test -s docs/manifest.webmanifest
           test -s docs/service-worker.js
@@ -79,6 +96,14 @@ jobs:
         with:
           path: docs
 
+      - name: Upload notification content
+        uses: actions/upload-artifact@v7
+        with:
+          name: rss-notification
+          path: build/notification.html
+          if-no-files-found: error
+          retention-days: 1
+
   deploy:
     needs: build
     runs-on: ubuntu-24.04
@@ -92,3 +117,32 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  notify:
+    needs: build
+    runs-on: ubuntu-24.04
+    continue-on-error: true
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pipenv
+      - name: Install locked dependencies
+        run: |
+          python -m pip install pipenv==2026.8.0
+          pipenv sync
+      - uses: actions/download-artifact@v8
+        with:
+          name: rss-notification
+          path: build
+      - name: Send optional email notification
+        timeout-minutes: 2
+        env:
+          SMTP_USER: ${{ secrets.USER }}
+          SMTP_PASSWORD: ${{ secrets.PASSWORD }}
+          SMTP_HOST: ${{ secrets.HOST }}
+        run: pipenv run python main.py --email-only --email-content build/notification.html

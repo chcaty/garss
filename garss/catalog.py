@@ -1,7 +1,9 @@
 import html
+import json
 import re
 from collections import Counter
 from hashlib import sha256
+from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit
 
 from garss.models import FeedSource, SourceTemplate
@@ -31,6 +33,7 @@ def _source_id(cell: str) -> str:
 
 
 def parse_source_templates(content: str) -> list[SourceTemplate]:
+    """Read legacy Markdown for migration tools; builds use sources.json."""
     rows = []
     for line_number, line in enumerate(content.splitlines(), start=1):
         if "{{latest_content}}" not in line:
@@ -68,4 +71,40 @@ def parse_source_templates(content: str) -> list[SourceTemplate]:
             feed_url=feed_url,
         )
         templates.append(SourceTemplate(source=source, row=line))
+    return templates
+
+
+def load_source_templates(path: Path) -> list[SourceTemplate]:
+    """Load explicit, stable source IDs independently of table formatting."""
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict) or payload.get("schema_version") != "1.0":
+        raise ValueError("unsupported source catalog version")
+    entries = payload.get("sources")
+    if not isinstance(entries, list) or not entries:
+        raise ValueError("source catalog must contain sources")
+    templates = []
+    seen = set()
+    for item in entries:
+        if not isinstance(item, dict):
+            raise ValueError("invalid source record")
+        for field in ("id", "display_id", "title", "description", "feed_url", "category", "icon"):
+            if not isinstance(item.get(field), str):
+                raise ValueError(f"source field {field} must be text")
+        source_id = item["id"]
+        if not re.fullmatch(r"[A-Za-z0-9_-]+", source_id) or source_id in seen:
+            raise ValueError(f"duplicate or invalid source ID: {source_id}")
+        if not item["title"].strip() or not item["category"].strip():
+            raise ValueError("source title and category must not be empty")
+        seen.add(source_id)
+        icon_path = PurePosixPath(item["icon"])
+        if item["icon"] and (icon_path.is_absolute() or ".." in icon_path.parts or "\\" in item["icon"] or ":" in item["icon"]):
+            raise ValueError("icon must be a relative media path")
+        source = FeedSource(
+            id=source_id, title=item["title"], description=item["description"],
+            feed_url=safe_http_url(item["feed_url"]),
+        )
+        templates.append(SourceTemplate(
+            source=source, row="", display_id=item["display_id"],
+            category=item["category"], icon=item["icon"],
+        ))
     return templates

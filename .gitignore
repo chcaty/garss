@@ -5,3 +5,7 @@ local_secret.json
 __pycache__/
 *.py[cod]
 .venv/
+/build/
+.garss-build-*/
+/.cache/
+/node_modules/

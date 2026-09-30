@@ -22,6 +22,9 @@ def load_cached_articles(path: Path, source_ids: set[str]) -> list[Article]:
         return []
 
     articles = []
+    if not isinstance(payload, dict) or not isinstance(payload.get("articles"), list):
+        LOGGER.warning("Article cache ignored: invalid document structure")
+        return articles
     for item in payload.get("articles", []):
         try:
             source_id = str(item["source_id"])
@@ -59,7 +62,7 @@ def merge_recent_history(
     }
     for article in cached_articles:
         published_date = app_date(article.published_at)
-        if cutoff <= published_date <= today:
+        if article.source_id in articles_by_source and cutoff <= published_date <= today:
             articles_by_source[article.source_id].setdefault(article.id, article)
 
     for result in results:

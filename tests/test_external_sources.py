@@ -147,12 +147,13 @@ class ExternalSourceTests(unittest.TestCase):
             route_path = root / "docs/api/v1/rsshub-routes.json"
             candidate_path.write_text("old candidates", encoding="utf-8")
             route_path.write_text("old routes", encoding="utf-8")
-            (root / "EditREADME.md").write_text(
-                "|<span>X001</span>| Existing | Desc | "
-                "[订阅地址](https://existing.example/feed.xml) | "
-                "{{latest_content}} |\n",
-                encoding="utf-8",
-            )
+            (root / "sources.json").write_text(json.dumps({
+                "schema_version": "1.0", "sources": [{
+                    "id": "X001", "display_id": "X001", "title": "Existing",
+                    "description": "Desc", "feed_url": "https://existing.example/feed.xml",
+                    "category": "Example", "icon": "",
+                }],
+            }), encoding="utf-8")
             (root / "source_catalogs.json").write_text(
                 json.dumps(
                     {

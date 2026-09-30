@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://zhaoolee.github.io/garss/api/v1/review-schema.json",
+  "$id": "https://chcaty.github.io/garss/api/v1/review-schema.json",
   "title": "GARSS review export",
   "description": "Portable review decisions shared by the web reviewer and future apps.",
   "type": "object",

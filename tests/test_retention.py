@@ -12,11 +12,11 @@ def parsed_date(value):
 
 class RetentionTests(unittest.TestCase):
     def test_cutoff_is_inclusive(self):
-        self.assertEqual(retention_cutoff(date(2026, 9, 30), 30), date(2026, 8, 31))
+        self.assertEqual(retention_cutoff(date(2026, 9, 30), 30), date(2026, 9, 1))
 
         entries = [
-            {"title": "boundary", "published_parsed": parsed_date("2026-08-31")},
-            {"title": "expired", "published_parsed": parsed_date("2026-08-30")},
+            {"title": "boundary", "published_parsed": parsed_date("2026-09-01")},
+            {"title": "expired", "published_parsed": parsed_date("2026-08-31")},
             {"title": "recent", "updated_parsed": parsed_date("2026-09-30")},
             {"title": "unknown"},
         ]
@@ -29,8 +29,8 @@ class RetentionTests(unittest.TestCase):
 
     def test_generated_markdown_cleanup(self):
         content = (
-            "| feed | [‣ old \\| 2026-08-30](https://example.com/old)<br/>"
-            "[‣ boundary \\| 2026-08-31](https://example.com/boundary)<br/>"
+            "| feed | [‣ old \\| 2026-08-31](https://example.com/old)<br/>"
+            "[‣ boundary \\| 2026-09-01](https://example.com/boundary)<br/>"
             "[‣ recent 🌈 2026-09-30](https://example.com/recent) | source |\n"
         )
         cleaned, removed = cleanup_expired_article_info(
@@ -52,6 +52,24 @@ class RetentionTests(unittest.TestCase):
         )
         self.assertEqual(removed, 1)
         self.assertIn("[近30天暂无更新](https://example.com/feed)", cleaned)
+
+
+    def test_window_contains_exactly_requested_dates(self):
+        today = date(2026, 9, 30)
+        for days in (1, 7, 30):
+            self.assertEqual((today - retention_cutoff(today, days)).days + 1, days)
+
+    def test_custom_retention_placeholder(self):
+        content = (
+            "| feed | description | "
+            "[‣ old \\| 2026-09-20](https://example.com/old) | "
+            "[订阅地址](https://example.com/feed) |\n"
+        )
+        cleaned, removed = cleanup_expired_article_info(
+            content, today=date(2026, 9, 30), retention_days=7
+        )
+        self.assertEqual(removed, 1)
+        self.assertIn("近7天暂无更新", cleaned)
 
 
 if __name__ == "__main__":

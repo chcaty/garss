@@ -1,0 +1,14 @@
+{
+  "name": "garss-review-tools",
+  "private": true,
+  "scripts": {
+    "build:review-schema": "node scripts/generate-review-validator.mjs",
+    "check:review-schema": "node scripts/generate-review-validator.mjs --check",
+    "test": "node --test tests/review.test.cjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "esbuild": "0.28.2"
+  }
+}

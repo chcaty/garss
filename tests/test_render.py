@@ -2,11 +2,25 @@ import unittest
 from datetime import datetime, timezone
 
 from garss.catalog import parse_source_templates
-from garss.models import Article, FeedResult
+from garss.models import Article, FeedResult, FeedSource, SourceTemplate
 from garss.render import build_readme
 
 
 class RenderTests(unittest.TestCase):
+    def test_structured_catalog_renders_categories_icons_and_safe_text(self):
+        source = FeedSource("fixed-id", "<unsafe> | title", "[description]", "https://example.com/feed")
+        template = SourceTemplate(source, "", "X001", "News", "favicon/X001.png")
+        output, _ = build_readme(
+            "{{rss_num}}\n{{source_table}}", [template], [FeedResult(source)],
+            datetime(2026, 9, 30, tzinfo=timezone.utc),
+        )
+        self.assertNotIn("{{", output)
+        self.assertIn('<h2 id="News">News</h2>', output)
+        self.assertIn("favicon/X001.png", output)
+        self.assertIn("&lt;unsafe&gt; \\| title", output)
+        self.assertIn("近30天暂无更新", output)
+        self.assertIn("X001", output)
+
     def test_articles_are_escaped_and_use_their_own_dates(self):
         template = (
             "{{rss_num}} {{ga_rss_datetime}} {{new_num}} {{news}}\n"

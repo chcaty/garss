@@ -23,6 +23,9 @@ class FeedSource:
 class SourceTemplate:
     source: FeedSource
     row: str
+    display_id: str = ""
+    category: str = ""
+    icon: str = ""
 
 
 @dataclass(frozen=True)

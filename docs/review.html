@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" href="./_media/review-icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./assets/review.css">
-  <script defer src="./assets/review.js"></script>
+  <script type="module" src="./assets/review.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#workspace">跳到审核内容</a>
@@ -27,7 +27,7 @@
       <button id="install-app" class="button button-install" type="button" hidden>安装 App</button>
       <a href="./#/SOURCES">同步说明</a>
       <a href="./#/API">API 文档</a>
-      <a href="https://github.com/zhaoolee/garss" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/chcaty/garss" target="_blank" rel="noopener noreferrer">GitHub</a>
     </nav>
   </header>
 
@@ -98,10 +98,10 @@
           <button id="reset-selected" class="button button-quiet" type="button" disabled>撤销决定</button>
         </div>
         <div class="file-actions">
-          <button id="export-reviews" class="button button-primary" type="button">导出审核结果</button>
-          <button id="export-opml" class="button button-quiet" type="button">导出已通过 OPML</button>
-          <label class="button button-quiet file-button" for="import-reviews">导入结果</label>
-          <input id="import-reviews" class="visually-hidden" type="file" accept="application/json,.json">
+          <button id="export-reviews" class="button button-primary" type="button" disabled>导出审核结果</button>
+          <button id="export-opml" class="button button-quiet" type="button" disabled>导出已通过 OPML</button>
+          <label id="import-label" class="button button-quiet file-button" for="import-reviews" aria-disabled="true">导入结果</label>
+          <input id="import-reviews" class="visually-hidden" type="file" accept="application/json,.json" disabled>
           <button id="clear-reviews" class="button button-danger-text" type="button">清空本机记录</button>
         </div>
       </div>

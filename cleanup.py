@@ -37,10 +37,15 @@ def cleanup_expired_article_info(
     # A removed first item can leave the second item with a leading separator.
     cleaned = re.sub(r"(\|\s*)<br/>(?=\[‣ )", r"\1", cleaned)
     # Keep the generated table useful when all recent articles were removed.
-    cleaned = EMPTY_INFO_CELL_RE.sub(r"| [近30天暂无更新](\2) | \1", cleaned)
+    cleaned = EMPTY_INFO_CELL_RE.sub(
+        lambda match: (
+            f"| [近{retention_days}天暂无更新]({match.group(2)}) | {match.group(1)}"
+        ),
+        cleaned,
+    )
     # Rewritten rows should not inherit legacy Markdown trailing whitespace.
     cleaned = "\n".join(
-        line.rstrip() if "近30天暂无更新" in line else line
+        line.rstrip() if f"近{retention_days}天暂无更新" in line else line
         for line in cleaned.split("\n")
     )
     return cleaned, removed
