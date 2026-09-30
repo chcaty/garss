@@ -13,7 +13,11 @@
 
 `review.html` 会在同一站点注册 Service Worker。GitHub Pages 默认提供 HTTPS，满足 PWA 安装和离线缓存要求；若在本地调试，应通过 `localhost` HTTP 服务访问，不要直接双击 HTML 文件。每次更新 `service-worker.js` 的缓存版本后，旧缓存会在激活阶段自动清理。
 
-本地样式预览可运行 `python scripts/preview.py`，然后访问 `http://127.0.0.1:8766/review.html`。该脚本固定 `.mjs` 的 JavaScript MIME 类型，避免 Windows MIME 配置导致模块无法加载。审核台在宽屏使用表格、720px 以下使用卡片；导入、导出与清空记录位于可展开的备份区域。
+本地预览运行 `python scripts/preview.py` 或 `npm run preview`。阅读首页位于 `http://127.0.0.1:8766/`，审核台位于 `/review.html`，文档位于 `/guide.html`。脚本固定 `.mjs` 的 JavaScript MIME 类型，避免 Windows MIME 配置导致模块无法加载。
+
+首页支持按来源和标题搜索、时间排序及分页，从 `meta.json` 指定的不可变快照读取来源与文章。更新期间不会混用不同批次的数据。审核台在宽屏使用表格、720px 以下使用条目布局；导入、导出与清空记录位于可展开的备份区域。页签支持方向键、Home 和 End。旧的 `/#/API` 等文档书签会转到新文档入口。
+
+首页和审核台的样式与脚本均由站点本地提供；标题字体使用附带 OFL 许可证的 Noto Serif SC 字符子集。文档入口继续使用 Docsify CDN，需要网络。离线能力覆盖审核台，阅读首页需要网络获取快照。
 
 ## 定时更新与清理
 

@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T19:35:00+00:00",
+  "title": "Design System: 嘎!RSS",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.015 90)",
+          "oklch(26% 0.015 90)",
+          "oklch(38% 0.015 90)",
+          "oklch(49% 0.015 90)",
+          "oklch(61% 0.015 90)",
+          "oklch(72% 0.015 90)",
+          "oklch(84% 0.015 90)",
+          "oklch(95% 0.015 90)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Light Paper",
+        "tonalRamp": [
+          "oklch(15% 0.01 95)",
+          "oklch(26% 0.01 95)",
+          "oklch(38% 0.01 95)",
+          "oklch(49% 0.01 95)",
+          "oklch(61% 0.01 95)",
+          "oklch(72% 0.01 95)",
+          "oklch(84% 0.01 95)",
+          "oklch(95% 0.01 95)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Editorial Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02 115)",
+          "oklch(26% 0.02 115)",
+          "oklch(38% 0.02 115)",
+          "oklch(49% 0.02 115)",
+          "oklch(61% 0.02 115)",
+          "oklch(72% 0.02 115)",
+          "oklch(84% 0.02 115)",
+          "oklch(95% 0.02 115)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "tonalRamp": [
+          "oklch(15% 0.018 110)",
+          "oklch(26% 0.018 110)",
+          "oklch(38% 0.018 110)",
+          "oklch(49% 0.018 110)",
+          "oklch(61% 0.018 110)",
+          "oklch(72% 0.018 110)",
+          "oklch(84% 0.018 110)",
+          "oklch(95% 0.018 110)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "tonalRamp": [
+          "oklch(15% 0.014 100)",
+          "oklch(26% 0.014 100)",
+          "oklch(38% 0.014 100)",
+          "oklch(49% 0.014 100)",
+          "oklch(61% 0.014 100)",
+          "oklch(72% 0.014 100)",
+          "oklch(84% 0.014 100)",
+          "oklch(95% 0.014 100)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Restrained Olive",
+        "tonalRamp": [
+          "oklch(15% 0.06 125)",
+          "oklch(26% 0.06 125)",
+          "oklch(38% 0.06 125)",
+          "oklch(49% 0.06 125)",
+          "oklch(61% 0.06 125)",
+          "oklch(72% 0.06 125)",
+          "oklch(84% 0.06 125)",
+          "oklch(95% 0.06 125)"
+        ]
+      },
+      "green-soft": {
+        "role": "primary",
+        "displayName": "Pale Olive",
+        "tonalRamp": [
+          "oklch(15% 0.035 120)",
+          "oklch(26% 0.035 120)",
+          "oklch(38% 0.035 120)",
+          "oklch(49% 0.035 120)",
+          "oklch(61% 0.035 120)",
+          "oklch(72% 0.035 120)",
+          "oklch(84% 0.035 120)",
+          "oklch(95% 0.035 120)"
+        ]
+      },
+      "olive-deep": {
+        "role": "primary",
+        "displayName": "Dark Olive",
+        "tonalRamp": [
+          "oklch(15% 0.05 125)",
+          "oklch(26% 0.05 125)",
+          "oklch(38% 0.05 125)",
+          "oklch(49% 0.05 125)",
+          "oklch(61% 0.05 125)",
+          "oklch(72% 0.05 125)",
+          "oklch(84% 0.05 125)",
+          "oklch(95% 0.05 125)"
+        ]
+      },
+      "red": {
+        "role": "semantic",
+        "displayName": "Rejection Red",
+        "tonalRamp": [
+          "oklch(15% 0.12 28)",
+          "oklch(26% 0.12 28)",
+          "oklch(38% 0.12 28)",
+          "oklch(49% 0.12 28)",
+          "oklch(61% 0.12 28)",
+          "oklch(72% 0.12 28)",
+          "oklch(84% 0.12 28)",
+          "oklch(95% 0.12 28)"
+        ]
+      },
+      "red-soft": {
+        "role": "semantic",
+        "displayName": "Pale Rejection",
+        "tonalRamp": [
+          "oklch(15% 0.025 35)",
+          "oklch(26% 0.025 35)",
+          "oklch(38% 0.025 35)",
+          "oklch(49% 0.025 35)",
+          "oklch(61% 0.025 35)",
+          "oklch(72% 0.025 35)",
+          "oklch(84% 0.025 35)",
+          "oklch(95% 0.025 35)"
+        ]
+      },
+      "amber": {
+        "role": "semantic",
+        "displayName": "Pending Amber",
+        "tonalRamp": [
+          "oklch(15% 0.085 75)",
+          "oklch(26% 0.085 75)",
+          "oklch(38% 0.085 75)",
+          "oklch(49% 0.085 75)",
+          "oklch(61% 0.085 75)",
+          "oklch(72% 0.085 75)",
+          "oklch(84% 0.085 75)",
+          "oklch(95% 0.085 75)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Action White",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Reading Heading",
+        "purpose": "Reader page heading; self-hosted 600-weight subset."
+      },
+      "headline": {
+        "displayName": "Workbench Heading",
+        "purpose": "Review page heading."
+      },
+      "title": {
+        "displayName": "Article Title",
+        "purpose": "Device-font Chinese serif article links."
+      },
+      "body": {
+        "displayName": "Supporting Copy",
+        "purpose": "Introductory and explanatory sans copy; compact rows use smaller sizes."
+      },
+      "label": {
+        "displayName": "Metadata",
+        "purpose": "Publisher/date and review labels."
+      },
+      "mono": {
+        "displayName": "Route Path",
+        "purpose": "Wrapping RSSHub route paths."
+      }
+    },
+    "shadows": [
+      {
+        "name": "notification",
+        "value": "0 8px 30px rgb(28 48 39 / 20%)",
+        "purpose": "Fixed notification only; reading and review surfaces remain flat."
+      }
+    ],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "reader-margin",
+        "value": "1350px"
+      },
+      {
+        "name": "review-filters",
+        "value": "1050px"
+      },
+      {
+        "name": "reader-index",
+        "value": "950px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      }
+    ],
+    "focus": [
+      {
+        "name": "shared-keyboard",
+        "value": "outline: 2px solid var(--green); outline-offset: 4px",
+        "purpose": "All focus-visible controls."
+      },
+      {
+        "name": "import",
+        "value": "outline: 3px solid #77a78c; outline-offset: 3px",
+        "purpose": "File import label focus-within."
+      }
+    ],
+    "reducedMotion": "At prefers-reduced-motion: reduce, animations and transitions are disabled.",
+    "tonalRampNote": "Ramps are synthesized OKLCH previews, not additional implementation tokens."
+  },
+  "components": [
+    {
+      "name": "Primary / Approval Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid olive action; dark olive hover.",
+      "html": "<button class=\"ds-primary\">批准</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem .8rem;border:1px solid transparent;border-radius:4px;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.75rem;font-weight:600;cursor:pointer;background:var(--green);color:white;}.ds-primary:focus-visible{outline:2px solid var(--green);outline-offset:4px}.ds-primary:disabled{opacity:.45;cursor:not-allowed}.ds-primary:hover:not(:disabled){background:#414e2f}@media(hover:hover){.ds-primary:hover:not(:disabled){filter:brightness(.96)}}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Bordered workbench utility action.",
+      "html": "<button class=\"ds-quiet\">重置</button>",
+      "css": ".ds-quiet{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem .8rem;border:1px solid transparent;border-radius:4px;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.75rem;font-weight:600;cursor:pointer;background:var(--panel);color:var(--ink);border-color:var(--line);}.ds-quiet:focus-visible{outline:2px solid var(--green);outline-offset:4px}.ds-quiet:disabled{opacity:.45;cursor:not-allowed}.ds-quiet:hover:not(:disabled){background:var(--green-soft);filter:brightness(.96)}"
+    },
+    {
+      "name": "Reject Button",
+      "kind": "button",
+      "refersTo": "button-reject",
+      "description": "Pale red decision action.",
+      "html": "<button class=\"ds-reject\">拒绝</button>",
+      "css": ".ds-reject{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem .8rem;border:1px solid transparent;border-radius:4px;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.75rem;font-weight:600;cursor:pointer;background:var(--red-soft);color:var(--red);border-color:#e5c7c5;}.ds-reject:focus-visible{outline:2px solid var(--green);outline-offset:4px}.ds-reject:disabled{opacity:.45;cursor:not-allowed}.ds-reject:hover:not(:disabled){background:var(--green-soft);filter:brightness(.96)}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "Reader search with visible focus and 16px mobile type.",
+      "html": "<input class=\"ds-search\" type=\"search\" aria-label=\"搜索文章\" placeholder=\"搜索文章标题\">",
+      "css": ".ds-search{width:100%;min-height:44px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px;padding:.7rem .85rem;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.85rem;caret-color:var(--green)}.ds-search::placeholder{color:var(--muted);opacity:1}.ds-search:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-search{font-size:16px}}"
+    },
+    {
+      "name": "Masthead Navigation",
+      "kind": "nav",
+      "description": "Muted links with underlined current and hover states.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主导航\"><a href=\"#reading\" aria-current=\"page\">阅读</a><a href=\"#review\">订阅审核</a></nav>",
+      "css": ".ds-nav{display:flex;gap:1.5rem}.ds-nav a{display:flex;align-items:center;min-height:44px;color:var(--muted);font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.82rem;text-decoration:none;text-underline-offset:.25em}.ds-nav a:hover,.ds-nav a[aria-current=page]{color:var(--ink);text-decoration:underline}.ds-nav a:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-nav{gap:1rem}.ds-nav a{font-size:.75rem}}"
+    },
+    {
+      "name": "Review Tabs",
+      "kind": "nav",
+      "description": "Active panel tab styling. Application supplies roving tab stops and Left/Right/Home/End switching; snippet is a visual preview.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"数据视图\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">候选审核</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">RSSHub 路由</button></div>",
+      "css": ".ds-tabs{display:inline-flex;gap:.3rem;padding:.3rem;border:1px solid var(--line);border-radius:4px}.ds-tab{border:0;border-radius:4px;background:transparent;padding:.7rem 1.25rem;min-height:44px;color:var(--muted);font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.85rem;font-weight:650;cursor:pointer}.ds-tab[aria-selected=true]{color:var(--green);background:var(--panel);box-shadow:none}.ds-tab:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-tabs{display:flex}.ds-tab{flex:1;padding:.6rem .5rem}}"
+    },
+    {
+      "name": "Selected Publisher",
+      "kind": "button",
+      "refersTo": "source-selected",
+      "description": "Pressed source filter becomes a mobile strip item.",
+      "html": "<button class=\"ds-source\" aria-pressed=\"true\"><span>少数派</span><span>24</span></button>",
+      "css": ".ds-source{width:100%;border:0;background:transparent;display:flex;justify-content:space-between;align-items:center;gap:.8rem;text-align:left;padding:.75rem;min-height:44px;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.8rem;color:var(--muted);border-radius:4px;cursor:pointer}.ds-source span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-source span:last-child{font-size:.7rem;font-variant-numeric:tabular-nums}.ds-source:hover{background:#efeee6;color:var(--ink)}.ds-source[aria-pressed=true]{background:var(--green-soft);color:var(--green);font-weight:600}.ds-source:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-source{flex:0 0 auto;width:auto;border:1px solid var(--line);gap:.5rem}.ds-source span:first-child{max-width:150px}}"
+    },
+    {
+      "name": "Approved Status",
+      "kind": "chip",
+      "refersTo": "status-approved",
+      "description": "Text and colored dot communicate the review decision.",
+      "html": "<span class=\"ds-status\">已批准</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:.4rem;font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.72rem;font-weight:600;white-space:nowrap;padding:.35rem .5rem;border-radius:.4rem;color:var(--green);background:var(--green-soft)}.ds-status::before{content:\"\";width:.4rem;height:.4rem;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Ruled Article Row",
+      "kind": "custom",
+      "description": "Serif title with compact source/date and quiet horizontal rule.",
+      "html": "<article class=\"ds-article\"><div class=\"ds-meta\"><span>少数派</span><time>10 月 1 日</time></div><h3><a href=\"#article\">从日常阅读开始，发现更大的世界</a></h3></article>",
+      "css": ".ds-article{padding:1.4rem 0;border-bottom:1px solid var(--line)}.ds-meta{display:flex;flex-wrap:wrap;gap:.75rem;color:var(--muted);font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.72rem;margin-bottom:.65rem}.ds-meta span{color:var(--green);font-weight:500}.ds-article h3{margin:0;font-family:var(--reading);font-size:1.25rem;line-height:1.65;font-weight:600;overflow-wrap:anywhere}.ds-article a{color:var(--ink);text-decoration:none;text-underline-offset:.25em}.ds-article a:hover{color:var(--green);text-decoration:underline}.ds-article a:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-article{padding:1.2rem 0}.ds-article h3{font-size:1.12rem}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A daily reading desk",
+    "overview": "Warm paper, restrained olive and Chinese serif headings establish a simple editorial world. Headlines carry the reading surface; compact sans controls support browsing and local curation. Rules and spacing provide structure without a decorative card grid.",
+    "keyCharacteristics": [
+      "Warm paper with quiet panel surfaces.",
+      "Serif reading hierarchy and compact sans controls.",
+      "Flat, ruled lists with visible decision states."
+    ],
+    "rules": [
+      {
+        "name": "The Decision Color Rule",
+        "body": "Pair status color with text or a visible control state.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve warm paper, restrained olive and serif reading hierarchy.",
+      "Do retain visible keyboard focus and (44px) primary touch targets.",
+      "Do adapt source navigation and review rows to narrow screens.",
+      "Do extend the licensed heading subset when heading copy changes."
+    ],
+    "donts": [
+      "Don't turn the reading list into a decorative card grid.",
+      "Don't add shadows to ordinary reading or workbench surfaces.",
+      "Don't use color alone to convey a review decision."
+    ]
+  }
+}

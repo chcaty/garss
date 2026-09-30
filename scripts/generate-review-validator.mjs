@@ -19,7 +19,9 @@ const result = await build({
 const generated = result.outputFiles[0].text;
 const output = path.join(root, "docs/assets/review/contract.mjs");
 if (process.argv.includes("--check")) {
-  if (await fs.readFile(output, "utf8") !== generated) {
+  // Git may check out text as CRLF on Windows; line endings do not change the schema.
+  const current = (await fs.readFile(output, "utf8")).replaceAll("\r\n", "\n");
+  if (current !== generated.replaceAll("\r\n", "\n")) {
     throw new Error("Review validator is stale: run npm run build:review-schema");
   }
 } else {

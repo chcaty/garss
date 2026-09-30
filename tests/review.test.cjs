@@ -69,6 +69,7 @@ function pageHarness(serviceWorker, stored = "{}") {
     document: { getElementById: byId, createElement: makeNode, body: makeNode() },
     window: {
       addEventListener() {}, clearTimeout() {}, setTimeout() {},
+      history: { replaceState() {} },
       location: { protocol: "https:", hostname: "example.com", hash: "", href: "https://example.com/garss/review.html" },
     },
     fetch: async (url) => {
@@ -87,6 +88,24 @@ test("catalog loads even when service worker registration never resolves", async
   assert.deepEqual(page.requests, ["./api/v1/feed-candidates.json"]);
   assert.equal(page.byId("import-reviews").disabled, false);
   assert.equal(page.byId("export-reviews").disabled, false);
+});
+
+test("review tabs support keyboard navigation and a single tab stop", async () => {
+  const page = pageHarness();
+  const focused = [];
+  page.byId("candidate-tab").focus = () => focused.push("candidate");
+  page.byId("route-tab").focus = () => focused.push("route");
+  page.review.state.routesLoaded = true;
+  await page.review.start();
+  let prevented = false;
+  page.byId("candidate-tab").listeners.keydown({ key: "ArrowRight", preventDefault() { prevented = true; } });
+  assert.equal(prevented, true);
+  assert.equal(page.byId("candidate-tab").attributes.tabindex, "-1");
+  assert.equal(page.byId("route-tab").attributes.tabindex, "0");
+  assert.equal(page.byId("candidate-panel").hidden, true);
+  page.byId("route-tab").listeners.keydown({ key: "Home", preventDefault() {} });
+  assert.equal(page.byId("candidate-tab").attributes.tabindex, "0");
+  assert.deepEqual(focused, ["route", "candidate"]);
 });
 
 test("failed import leaves memory and local storage unchanged", async () => {
