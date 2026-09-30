@@ -1,0 +1,17 @@
+{
+  "api_version": "1.0",
+  "snapshot_id": "36104b65b83d917b76d3",
+  "generated_at": "2026-09-30T08:17:15.305702Z",
+  "files": {
+    "feeds.json": {
+      "sha256": "51e858d65089b04e95c45cb7f5ae8ae4188ea88526781b7c16b4252bee6f6d73",
+      "bytes": 55238
+    },
+    "articles.json": {
+      "sha256": "b877a4be2d6456307cc785bb3683188111f37a361263e543ecb02e66edb5b3eb",
+      "bytes": 290336
+    }
+  },
+  "feeds_endpoint": "./feeds.json",
+  "articles_endpoint": "./articles.json"
+}
