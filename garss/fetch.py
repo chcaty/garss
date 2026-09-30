@@ -1,18 +1,19 @@
 import logging
 import time
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 import feedparser
 import requests
 
 from garss.catalog import safe_http_url
-from garss.feed_cache import CachedFeed, safe_validator
+from garss.feed_cache import CachedFeed, MAX_PAYLOAD_BYTES, safe_validator
 from garss.models import Article, FeedResult, FeedSource
 from garss.timezones import app_date
 from retention import entry_published_datetime, retention_cutoff
 
 LOGGER = logging.getLogger(__name__)
-MAX_FEED_BYTES = 5 * 1024 * 1024
+MAX_FEED_BYTES = MAX_PAYLOAD_BYTES
 REQUEST_HEADERS = {
     "User-Agent": "garss/2.0 (+https://github.com/chcaty/garss)",
     "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.1",
@@ -37,9 +38,19 @@ def _download_feed(url: str, timeout: int, request_get=requests.get, *, cached=N
     )
     try:
         response.raise_for_status()
+        if deadline is not None and clock() >= deadline:
+            raise requests.Timeout("feed download budget exceeded")
         if metadata is not None:
             metadata.update(etag=safe_validator(response.headers.get("ETag")),
-                            last_modified=safe_validator(response.headers.get("Last-Modified")))
+                            last_modified=safe_validator(response.headers.get("Last-Modified")),
+                            not_modified=getattr(response, "status_code", 200) == 304,
+                            cacheable=not any(
+                                part.split("=", 1)[0].strip().lower() == "no-store"
+                                for part in response.headers.get("Cache-Control", "").split(",")
+                            ) and not any(
+                                part.strip() == "*"
+                                for part in response.headers.get("Vary", "").split(",")
+                            ))
         if getattr(response, "status_code", 200) == 304:
             if cached is None:
                 raise requests.RequestException("304 response without a cached body")
@@ -125,6 +136,7 @@ def fetch_feed(
     cache=None,
     budget_seconds: float = 45,
     clock=time.monotonic,
+    wall_clock=time.time,
 ) -> FeedResult:
     cached = cache.get(source.feed_url) if cache is not None else None
     deadline = clock() + budget_seconds
@@ -141,6 +153,10 @@ def fetch_feed(
                 request_get=request_get,
                 cached=cached, metadata=metadata, deadline=deadline, clock=clock,
             )
+            cacheable = metadata.pop("cacheable")
+            not_modified = metadata.pop("not_modified")
+            if cache is not None and not cacheable:
+                cache.discard(source.feed_url)
             articles = _parse_articles(
                 source,
                 payload,
@@ -148,8 +164,12 @@ def fetch_feed(
                 retention_days=retention_days,
                 only_date=only_date,
             )
-            if cache is not None:
-                cache.put(source.feed_url, CachedFeed(payload, **metadata))
+            if cache is not None and cacheable:
+                entry = CachedFeed(payload, **metadata)
+                if not_modified and entry == cached:
+                    cache.touch(source.feed_url)
+                else:
+                    cache.put(source.feed_url, entry)
             LOGGER.info("Fetched %s: %d recent article(s)", source.id, len(articles))
             return FeedResult(source=source, articles=articles)
         except (requests.RequestException, ValueError, TypeError) as error:
@@ -168,7 +188,26 @@ def fetch_feed(
                 break
             if attempt + 1 < attempts:
                 delay = 2**attempt
-                if clock() + delay >= deadline:
+                response = getattr(error, "response", None)
+                if response is not None:
+                    delay = max(delay, _retry_after_seconds(response.headers.get("Retry-After"), wall_clock()))
+                if delay >= deadline - clock():
                     break
                 sleep(delay)
     return FeedResult(source=source, error=str(last_error or "unknown fetch error"))
+
+
+def _retry_after_seconds(value, now):
+    """Parse both HTTP Retry-After forms with standard-library date handling."""
+    if not isinstance(value, str):
+        return 0
+    value = value.strip()
+    try:
+        if value.isascii() and value.isdigit():
+            return int(value)
+        timestamp = parsedate_to_datetime(value)
+        if timestamp.tzinfo is None:
+            timestamp = timestamp.replace(tzinfo=timezone.utc)
+        return max(0, timestamp.timestamp() - now)
+    except (ValueError, TypeError, OverflowError):
+        return 0

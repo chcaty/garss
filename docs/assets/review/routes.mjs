@@ -16,6 +16,7 @@ export function createRoutes(context) {
 
   function routeRow(route) {
     const row = document.createElement("tr");
+    row.setAttribute("role", "row");
     const routeCell = document.createElement("td");
     routeCell.append(
       element("strong", { text: route.name || route.path }),
@@ -51,6 +52,11 @@ export function createRoutes(context) {
     if (exampleLink) actions.append(exampleLink);
     actions.append(copyButton);
     actionCell.append(actions);
+    [routeCell, namespaceCell, categoryCell, capabilityCell, actionCell].forEach((cell, index) => {
+      cell.className = ["cell-feed", "cell-source", "cell-category", "cell-status", "cell-actions"][index];
+      cell.setAttribute("role", "cell");
+      cell.setAttribute("data-label", ["路由", "命名空间", "分类", "能力", "示例"][index]);
+    });
     row.append(routeCell, namespaceCell, categoryCell, capabilityCell, actionCell);
     return row;
   }

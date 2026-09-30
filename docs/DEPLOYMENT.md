@@ -13,6 +13,8 @@
 
 `review.html` 会在同一站点注册 Service Worker。GitHub Pages 默认提供 HTTPS，满足 PWA 安装和离线缓存要求；若在本地调试，应通过 `localhost` HTTP 服务访问，不要直接双击 HTML 文件。每次更新 `service-worker.js` 的缓存版本后，旧缓存会在激活阶段自动清理。
 
+本地样式预览可运行 `python scripts/preview.py`，然后访问 `http://127.0.0.1:8766/review.html`。该脚本固定 `.mjs` 的 JavaScript MIME 类型，避免 Windows MIME 配置导致模块无法加载。审核台在宽屏使用表格、720px 以下使用卡片；导入、导出与清空记录位于可展开的备份区域。
+
 ## 定时更新与清理
 
 工作流每天按北京时间 06:00、13:00、17:00 和 22:00 自动执行。每次只采集当天发布的文章，再与已有数据合并去重；页面和 API 只保留最近 30 天，过期信息会随定时构建自动删除。
@@ -51,9 +53,15 @@ pipenv run python cleanup.py README.md docs/README.md --retention-days 30
 
 抓取保留 Requests + 线程池，每个工作线程单独持有 Session，复用连接，构建结束后关闭；不跨线程共享 Session。请求前清除 Cookie，避免不同订阅之间沿用会话信息。
 
+同一次构建中，完全相同的 RSS 地址只下载和解析一次，再映射到各自的订阅源；展示顺序、订阅源 ID 和文章 ID 保持不变。不同源的结果列表相互独立，不会因一处修改影响另一处。
+
 HTTP 缓存位于 `.cache/feed-responses/`，不会提交到 Git 或发布到 Pages。支持 ETag 和 Last-Modified 条件请求；收到 304 时重新解析缓存的原始 RSS，并按本次北京时间日期筛选，不复用上一次的文章列表。缓存缺失、损坏或写入失败不影响正常抓取；抓取失败仍由原有文章历史合并逻辑保留近期数据。只保存解析成功的响应，缓存最多 64 MiB，超过 30 天或已移除源的缓存会清理。
 
+304 内容和校验标识未变化时只刷新缓存时间，不重新压缩或写入响应正文；标识变化时更新缓存。遇到 `Cache-Control: no-store` 或 `Vary: *` 会停止缓存并尝试清除该地址已有的 HTTP 缓存。这是原始响应缓存策略，不改变发布文章的历史保留规则。缓存规则参考 [HTTP Caching](https://www.rfc-editor.org/rfc/rfc9111.html)。
+
 连接等待最多 5 秒，单次读取等待最多 8 秒，最多尝试 3 次。404 等永久错误、格式错误和超大响应不重试；408、429、服务端错误和网络错误允许重试。每源设置 45 秒重试预算，在请求、流式读取和退避之间检查。它不是可强制中断的严格墙钟时限：Requests 的超时针对连接/读取等待，底层阻塞及 DNS 等仍可能超过预算。
+
+错误响应包含 `Retry-After` 时，支持秒数和 HTTP 日期两种格式，并至少等待服务器指定的时间；若等待会耗尽本次预算，则不再重试。缺失或无效值回退到指数退避。格式依据 [HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html#section-10.2.3)，HTTP 日期使用 Python 标准库解析。
 
 ## 成熟技术方案与审核校验
 

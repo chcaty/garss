@@ -159,6 +159,9 @@ export function createReviewer(environment = globalThis) {
 
   function candidateRow(candidate) {
     const row = document.createElement("tr");
+    row.setAttribute("role", "row");
+    row.setAttribute("data-status", decisionStatus(candidate.id));
+    row.setAttribute("data-selected", String(state.selectedIds.has(candidate.id)));
 
     const checkCell = document.createElement("td");
     const checkbox = element("input", { className: "row-checkbox" });
@@ -168,9 +171,12 @@ export function createReviewer(environment = globalThis) {
     checkbox.addEventListener("change", () => {
       if (checkbox.checked) state.selectedIds.add(candidate.id);
       else state.selectedIds.delete(candidate.id);
+      row.setAttribute("data-selected", String(checkbox.checked));
       updateSelectionControls();
     });
-    checkCell.append(checkbox);
+    const checkboxTarget = element("label", { className: "checkbox-target" });
+    checkboxTarget.append(checkbox);
+    checkCell.append(checkboxTarget);
 
     const feedCell = document.createElement("td");
     const feed = element("div", { className: "feed-cell" });
@@ -208,6 +214,11 @@ export function createReviewer(environment = globalThis) {
     statusCell.append(statusNode(decisionStatus(candidate.id)));
     const actionCell = document.createElement("td");
     actionCell.append(candidateActions(candidate));
+    [checkCell, feedCell, sourceCell, categoryCell, statusCell, actionCell].forEach((cell, index) => {
+      cell.className = ["cell-check", "cell-feed", "cell-source", "cell-category", "cell-status", "cell-actions"][index];
+      cell.setAttribute("role", "cell");
+      cell.setAttribute("data-label", ["选择", "订阅源", "目录来源", "分类 / 语言", "审核状态", "操作"][index]);
+    });
     row.append(checkCell, feedCell, sourceCell, categoryCell, statusCell, actionCell);
     return row;
   }

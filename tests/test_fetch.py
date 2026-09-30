@@ -2,10 +2,10 @@ import unittest
 import tempfile
 from datetime import date
 from pathlib import Path
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 import requests
 
-from garss.fetch import MAX_FEED_BYTES, _download_feed, _parse_articles, fetch_feed
+from garss.fetch import MAX_FEED_BYTES, _download_feed, _parse_articles, fetch_feed, _retry_after_seconds
 from garss.feed_cache import FeedCache, CachedFeed
 from garss.models import FeedSource
 
@@ -36,6 +36,65 @@ class FetchTests(unittest.TestCase):
         self.source = FeedSource(
             "X001", "Example", "Example feed", "https://example.com/feed.xml"
         )
+
+    def test_retry_after_supports_seconds_dates_and_invalid_values(self):
+        self.assertEqual(_retry_after_seconds("7", 0), 7)
+        self.assertEqual(_retry_after_seconds("Thu, 01 Jan 1970 00:00:10 GMT", 3), 7)
+        self.assertEqual(_retry_after_seconds("Thu, 01 Jan 1970 00:00:10 GMT", 30), 0)
+        for value in (None, "bad", "-3", "1.5"):
+            self.assertEqual(_retry_after_seconds(value, 0), 0)
+
+    def test_retry_after_is_honored_without_exceeding_retry_budget(self):
+        for wait, expected_calls in [(7, 2), (120, 1), (10**1000, 1)]:
+            with self.subTest(wait=wait):
+                response = FakeResponse([], status=429)
+                response.headers["Retry-After"] = str(wait)
+                get = Mock(return_value=response)
+                sleep = Mock()
+                fetch_feed(self.source, request_get=get, sleep=sleep, attempts=2,
+                           clock=lambda: 0, budget_seconds=45)
+                self.assertEqual(get.call_count, expected_calls)
+                if expected_calls == 2:
+                    sleep.assert_called_once_with(7)
+                else:
+                    sleep.assert_not_called()
+
+    def test_no_store_and_vary_star_remove_old_cache_even_if_body_is_invalid(self):
+        for header, value in [("Cache-Control", "public, NO-STORE"), ("Vary", "*"), ("Vary", "Accept, *")]:
+            with self.subTest(header=header), tempfile.TemporaryDirectory() as directory:
+                cache = FeedCache(Path(directory))
+                cache.put(self.source.feed_url, CachedFeed(b"previous", '"old"'))
+                response = FakeResponse([b"not XML"])
+                response.headers[header] = value
+                fetch_feed(self.source, cache=cache, request_get=lambda *a, **k: response)
+                self.assertIsNone(cache.get(self.source.feed_url))
+
+    def test_304_refreshes_without_rewriting_body_but_persists_changed_validators(self):
+        payload = b'<rss version="2.0"><channel><title>Feed</title></channel></rss>'
+        with tempfile.TemporaryDirectory() as directory:
+            cache = FeedCache(Path(directory))
+            cache.put(self.source.feed_url, CachedFeed(payload, '"old"'))
+            unchanged = cache._path(self.source.feed_url).read_bytes()
+            response = FakeResponse([], status=304)
+            with patch.object(cache, "put", wraps=cache.put) as put, patch.object(cache, "touch", wraps=cache.touch) as touch:
+                fetch_feed(self.source, cache=cache, request_get=lambda *a, **k: response)
+                put.assert_not_called()
+                touch.assert_called_once()
+            self.assertEqual(cache._path(self.source.feed_url).read_bytes(), unchanged)
+            response.headers["ETag"] = '"new"'
+            fetch_feed(self.source, cache=cache, request_get=lambda *a, **k: response)
+            self.assertEqual(cache.get(self.source.feed_url).etag, '"new"')
+
+    def test_invalid_compression_falls_back_to_a_fresh_fetch(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache = FeedCache(Path(directory))
+            cache._path(self.source.feed_url).write_bytes(b"\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x06")
+            self.assertIsNone(cache.get(self.source.feed_url))
+            response = FakeResponse([b'<rss version="2.0"><channel><title>Feed</title></channel></rss>'])
+            get = Mock(return_value=response)
+            result = fetch_feed(self.source, cache=cache, request_get=get)
+            self.assertEqual(result.status, "ok")
+            self.assertNotIn("If-None-Match", get.call_args.kwargs["headers"])
 
     def test_304_reparses_body_for_current_day_instead_of_reusing_old_articles(self):
         payload = b'<rss version="2.0"><channel><title>Feed</title><item><title>Old</title><link>https://example.com/item</link><pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate></item></channel></rss>'

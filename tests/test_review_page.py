@@ -44,6 +44,14 @@ class ReviewPageTests(unittest.TestCase):
         self.assertIn("beforeinstallprompt", script)
         self.assertNotIn("innerHTML", script)
         self.assertIn("@media (max-width: 720px)", stylesheet)
+        self.assertIn("viewport-fit=cover", page)
+        self.assertIn('<details class="transfer-tools">', page)
+        self.assertIn('[hidden] { display: none !important; }', stylesheet)
+        self.assertIn("min-height: 44px", stylesheet)
+        self.assertIn("content: attr(data-label)", stylesheet)
+        self.assertIn("prefers-reduced-motion", stylesheet)
+        self.assertIn('cell.setAttribute("role", "cell")', script)
+        self.assertIn("checkbox-target", script)
 
     def test_pwa_manifest_and_review_schema_are_versioned(self):
         manifest = json.loads(

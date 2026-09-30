@@ -51,8 +51,12 @@ function pageHarness(serviceWorker, stored = "{}") {
   const writes = [];
   const makeNode = () => ({
     value: "", textContent: "", hidden: false,
-    classList: { toggle() {} }, addEventListener() {}, setAttribute() {},
-    replaceChildren() {}, append() {}, remove() {}, click() {},
+    children: [], attributes: {}, listeners: {},
+    classList: { toggle() {} },
+    addEventListener(name, callback) { this.listeners[name] = callback; },
+    setAttribute(name, value) { this.attributes[name] = value; },
+    replaceChildren(...children) { this.children = children; },
+    append(...children) { this.children.push(...children); }, remove() {}, click() {},
   });
   const byId = (id) => {
     if (!nodes.has(id)) nodes.set(id, makeNode());
@@ -117,6 +121,23 @@ test("valid import writes one complete result and skips absent candidates", asyn
   assert.equal(page.writes.length, 1);
   assert.equal(JSON.parse(page.writes[0])[candidate.id].status, "approved");
   assert.equal(Object.keys(page.review.state.decisions).length, 1);
+});
+
+test("responsive rows retain cell semantics and update selection highlighting", async () => {
+  const page = pageHarness();
+  await page.review.importReviews({ size: 100, text: async () => JSON.stringify(payload([decision])) });
+  const row = page.byId("candidate-rows").children[0];
+  assert.equal(row.attributes.role, "row");
+  assert.equal(row.attributes["data-status"], "approved");
+  assert.equal(row.children.length, 6);
+  assert.ok(row.children.every((cell) => cell.attributes.role === "cell" && cell.attributes["data-label"]));
+  const target = row.children[0].children[0];
+  assert.equal(target.className, "checkbox-target");
+  const checkbox = target.children[0];
+  checkbox.checked = true;
+  checkbox.listeners.change();
+  assert.equal(row.attributes["data-selected"], "true");
+  assert.equal(page.byId("approve-selected").disabled, false);
 });
 
 test("malformed local decisions are removed before use", () => {

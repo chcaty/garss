@@ -7,7 +7,7 @@
   "start_url": "./review.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f1e8",
+  "background_color": "#f4f6f2",
   "theme_color": "#1f6c4a",
   "categories": ["productivity", "utilities"],
   "icons": [

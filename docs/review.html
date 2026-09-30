@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="嘎!RSS 外部订阅源候选审核台">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#1f6c4a">
@@ -22,6 +22,7 @@
     <a class="brand" href="./" aria-label="返回嘎 RSS 首页">
       <span class="brand-mark" aria-hidden="true">嘎</span>
       <span>RSS 审核台</span>
+      <span class="brand-note">本地优先</span>
     </a>
     <nav class="header-links" aria-label="页面导航">
       <button id="install-app" class="button button-install" type="button" hidden>安装 App</button>
@@ -34,9 +35,10 @@
   <main id="workspace">
     <section class="hero" aria-labelledby="page-title">
       <div>
-        <p class="eyebrow">CURATION WORKBENCH</p>
+        <p class="eyebrow">GARSS / CURATION WORKBENCH</p>
         <h1 id="page-title">把好源留下来。</h1>
-        <p class="hero-copy">从公开目录中筛选候选订阅。决定只保存在当前浏览器，导出后再进入代码审核，不会直接改动正式源。</p>
+        <p class="hero-copy">发现、筛选、留下值得订阅的内容。审核记录保存在本机，导出后再加入正式源。</p>
+        <span class="privacy-note">本机保存 · 离线可用 · 不自动上传</span>
       </div>
       <div class="snapshot" aria-live="polite">
         <span class="pulse" aria-hidden="true"></span>
@@ -97,13 +99,16 @@
           <button id="reject-selected" class="button button-reject" type="button" disabled>批量拒绝</button>
           <button id="reset-selected" class="button button-quiet" type="button" disabled>撤销决定</button>
         </div>
-        <div class="file-actions">
+        <details class="transfer-tools">
+          <summary>导入 / 导出与备份</summary>
+          <div class="file-actions">
           <button id="export-reviews" class="button button-primary" type="button" disabled>导出审核结果</button>
           <button id="export-opml" class="button button-quiet" type="button" disabled>导出已通过 OPML</button>
           <label id="import-label" class="button button-quiet file-button" for="import-reviews" aria-disabled="true">导入结果</label>
           <input id="import-reviews" class="visually-hidden" type="file" accept="application/json,.json" disabled>
           <button id="clear-reviews" class="button button-danger-text" type="button">清空本机记录</button>
-        </div>
+          </div>
+        </details>
       </div>
 
       <div class="result-line" aria-live="polite">
@@ -112,15 +117,15 @@
       </div>
 
       <div class="table-shell">
-        <table>
+        <table role="table" aria-label="候选订阅源">
           <thead>
             <tr>
-              <th class="check-column"><span class="visually-hidden">选择</span></th>
-              <th>订阅源</th>
-              <th>目录来源</th>
-              <th>分类 / 语言</th>
-              <th>审核状态</th>
-              <th class="action-column">操作</th>
+              <th scope="col" class="check-column"><span class="visually-hidden">选择</span></th>
+              <th scope="col">订阅源</th>
+              <th scope="col">目录来源</th>
+              <th scope="col">分类 / 语言</th>
+              <th scope="col">审核状态</th>
+              <th scope="col" class="action-column">操作</th>
             </tr>
           </thead>
           <tbody id="candidate-rows"></tbody>
@@ -163,14 +168,14 @@
         <span>每页 50 条</span>
       </div>
       <div class="table-shell">
-        <table>
+        <table role="table" aria-label="RSSHub 路由">
           <thead>
             <tr>
-              <th>路由</th>
-              <th>命名空间</th>
-              <th>分类</th>
-              <th>能力</th>
-              <th class="action-column">示例</th>
+              <th scope="col">路由</th>
+              <th scope="col">命名空间</th>
+              <th scope="col">分类</th>
+              <th scope="col">能力</th>
+              <th scope="col" class="action-column">示例</th>
             </tr>
           </thead>
           <tbody id="route-rows"></tbody>

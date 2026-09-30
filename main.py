@@ -7,6 +7,7 @@ import threading
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from dataclasses import replace
 from pathlib import Path
 
 from garss.catalog import load_source_templates
@@ -50,25 +51,27 @@ def fetch_all(sources, fetch_date, workers: int, cache=None) -> list[FeedResult]
         return fetch_feed(source, today=fetch_date, only_date=fetch_date,
                           request_get=local.session.get, cache=cache)
 
-    results_by_id = {}
     try:
-        return _collect_feeds(sources, workers, fetch_one, results_by_id)
+        return _collect_feeds(sources, workers, fetch_one)
     finally:
         for session in sessions:
             session.close()
 
 
-def _collect_feeds(sources, workers, fetch_one, results_by_id):
-    with ThreadPoolExecutor(max_workers=min(workers, len(sources))) as executor:
+def _collect_feeds(sources, workers, fetch_one):
+    sources_by_url = {}
+    for source in sources:
+        sources_by_url.setdefault(source.feed_url, []).append(source)
+    results_by_id = {}
+    with ThreadPoolExecutor(max_workers=min(workers, len(sources_by_url))) as executor:
         futures = {
-            executor.submit(
-                fetch_one,
-                source,
-            ): source
-            for source in sources
+            executor.submit(fetch_one, group[0]): group
+            for group in sources_by_url.values()
         }
-        for completed, future in enumerate(as_completed(futures), start=1):
-            source = futures[future]
+        completed = 0
+        for future in as_completed(futures):
+            group = futures[future]
+            source = group[0]
             try:
                 result = future.result()
             except (
@@ -76,7 +79,14 @@ def _collect_feeds(sources, workers, fetch_one, results_by_id):
             ) as error:  # Keep one broken source from aborting all feeds.
                 LOGGER.exception("Unexpected fetch failure for %s", source.id)
                 result = FeedResult(source=source, error=str(error))
-            results_by_id[source.id] = result
+            for member in group:
+                # One download, but distinct article IDs and independent lists.
+                results_by_id[member.id] = FeedResult(
+                    source=member,
+                    articles=[replace(article, source_id=member.id) for article in result.articles],
+                    error=result.error,
+                )
+            completed += len(group)
             LOGGER.info("Progress: %d/%d", completed, len(sources))
     return [results_by_id[source.id] for source in sources]
 
