@@ -1,50 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>🐣嘎!RSS</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="icon" type="image/png" href="./_media/favicon.ico">
-  <meta name="description" content="嘎!RSS,为打破信息茧房而生">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
-  <!-- Theme: Simple -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <!-- 谷歌广告 -->
-  <script data-ad-client="ca-pub-4504000699134547" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- 百度统计 -->
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?58db316ae8a39f946e264dae4c0b0dd4";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="嘎!RSS，为打破信息茧房而生。阅读来自不同订阅源的最新文章。">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <title>阅读信息流 · 嘎!RSS</title>
+  <link rel="icon" href="./_media/favicon.ico">
+  <link rel="stylesheet" href="./assets/shared/base.css">
+  <link rel="stylesheet" href="./assets/reader.css">
+  <script type="module" src="./assets/reader/app.mjs"></script>
 </head>
-
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      loadNavbar: true,
-      loadSidebar: true,
-      subMaxLevel: 6,
-      name: '嘎RSS',
-      search: 'auto', // 默认值
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- 搜索插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <!-- 使用Emoji -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <!-- 图片缩放 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <a class="skip-link" href="#articles">跳到文章列表</a>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">嘎</span><span>嘎!RSS</span><span class="brand-note">为打破信息茧房而生</span></a>
+    <nav class="header-links" aria-label="主导航"><a href="./" aria-current="page">阅读</a><a href="./review.html">订阅源审核</a><a href="./guide.html">文档</a><a href="https://github.com/chcaty/garss" target="_blank" rel="noopener noreferrer">GitHub</a></nav>
+  </header>
+  <main class="reader">
+    <section class="reading-heading" aria-labelledby="page-title">
+      <div><h1 id="page-title">世界很大，<br>多读一点。</h1><p>从熟悉的关注之外，发现新的声音。</p></div>
+      <div class="edition"><strong id="edition-date">正在读取信息流</strong><span id="snapshot-info">连接静态目录…</span><a href="./guide.html#/SOURCES">了解订阅源</a></div>
+    </section>
+    <div class="reading-layout">
+      <aside class="source-index" aria-label="订阅来源"><h2>阅读来源 <span id="source-count"></span></h2><label class="visually-hidden" for="source-search">搜索订阅来源</label><input id="source-search" type="search" placeholder="查找来源" autocomplete="off"><div id="source-list"></div><p class="index-note">不同的视角，<br>同一个世界。</p></aside>
+      <section class="reading-column" aria-labelledby="stream-title">
+        <div class="stream-toolbar"><div><h2 id="stream-title">全部文章</h2><span id="result-count" aria-live="polite">正在加载…</span></div><label class="article-search"><span class="visually-hidden">搜索文章</span><input id="article-search" type="search" placeholder="搜索标题或来源" autocomplete="off"></label></div>
+        <div class="stream-options"><label for="article-sort">排序 <select id="article-sort"><option value="newest">最新发布</option><option value="oldest">最早发布</option></select></label><button id="clear-filters" class="text-button" type="button" hidden>清除筛选</button><span>点击标题，阅读原文</span></div>
+        <div id="articles" class="article-list" aria-busy="true"></div>
+        <div id="reader-message" class="reader-message" role="status"><strong>正在整理文章…</strong><p>请稍候，正在读取最新目录。</p></div>
+        <button id="retry-load" class="button" type="button" hidden>重新加载</button>
+        <nav class="reader-pagination" aria-label="文章分页"><button id="previous-page" class="button" type="button" disabled>上一页</button><span id="page-indicator">第 1 / 1 页</span><button id="next-page" class="button" type="button" disabled>下一页</button></nav>
+      </section>
+    </div>
+  </main>
+  <footer><span>嘎!RSS · 让信息流保持开阔</span><span>由 RSS 与 GitHub Actions 驱动 <a href="./guide.html#/API">开放 API</a></span></footer>
+  <noscript><p>请启用 JavaScript，也可查看 <a href="./guide.html#/README">文字版文章目录</a>。</p></noscript>
 </body>
-
 </html>

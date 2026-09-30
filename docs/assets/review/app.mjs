@@ -17,6 +17,7 @@ export function createReviewer(environment = globalThis) {
   const dateFormat = new Intl.DateTimeFormat("zh-CN", {
     dateStyle: "medium",
     timeStyle: "short",
+    timeZone: "Asia/Shanghai",
   });
 
   const state = {
@@ -39,7 +40,7 @@ export function createReviewer(environment = globalThis) {
   const byId = (id) => document.getElementById(id);
   const { element, appendBadge, appendBadges, externalLink } = createView(document);
   const { loadRoutes, wireRouteControls } = createRoutes({
-    state, byId, navigator, window, fetch, showToast, populateSelect, debounce, normalize,
+    document, state, byId, navigator, window, fetch, showToast, populateSelect, debounce, normalize,
     element, appendBadge, appendBadges, externalLink, numberFormat,
     PAGE_SIZE, ROUTE_ENDPOINT,
   });
@@ -267,6 +268,8 @@ export function createReviewer(environment = globalThis) {
     byId("route-tab").classList.toggle("is-active", !candidateActive);
     byId("candidate-tab").setAttribute("aria-selected", String(candidateActive));
     byId("route-tab").setAttribute("aria-selected", String(!candidateActive));
+    byId("candidate-tab").setAttribute("tabindex", candidateActive ? "0" : "-1");
+    byId("route-tab").setAttribute("tabindex", candidateActive ? "-1" : "0");
     byId("candidate-panel").hidden = !candidateActive;
     byId("route-panel").hidden = candidateActive;
     if (!candidateActive) loadRoutes();
@@ -278,6 +281,17 @@ export function createReviewer(environment = globalThis) {
   function wireTabs() {
     byId("candidate-tab").addEventListener("click", () => activateTab("candidates"));
     byId("route-tab").addEventListener("click", () => activateTab("routes"));
+    const tabs = ["candidate-tab", "route-tab"];
+    tabs.forEach((id, index) => byId(id).addEventListener("keydown", (event) => {
+      let next;
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") next = 1 - index;
+      else if (event.key === "Home") next = 0;
+      else if (event.key === "End") next = 1;
+      else return;
+      event.preventDefault();
+      activateTab(next === 0 ? "candidates" : "routes");
+      byId(tabs[next]).focus();
+    }));
     window.addEventListener("hashchange", () => {
       activateTab(window.location.hash === "#routes" ? "routes" : "candidates", false);
     });

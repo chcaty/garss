@@ -4,7 +4,8 @@
   "scripts": {
     "build:review-schema": "node scripts/generate-review-validator.mjs",
     "check:review-schema": "node scripts/generate-review-validator.mjs --check",
-    "test": "node --test tests/review.test.cjs"
+    "test": "node --test --test-isolation=none tests/review.test.cjs tests/reader.test.cjs",
+    "preview": "python scripts/preview.py"
   },
   "devDependencies": {
     "ajv": "8.20.0",

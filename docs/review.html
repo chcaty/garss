@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="嘎!RSS 外部订阅源候选审核台">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#1f6c4a">
+  <meta name="theme-color" content="#f7f5ef">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
@@ -13,6 +13,7 @@
   <link rel="icon" href="./_media/favicon.ico">
   <link rel="apple-touch-icon" href="./_media/review-icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./assets/shared/base.css">
   <link rel="stylesheet" href="./assets/review.css">
   <script type="module" src="./assets/review.js"></script>
 </head>
@@ -21,13 +22,15 @@
   <header class="site-header">
     <a class="brand" href="./" aria-label="返回嘎 RSS 首页">
       <span class="brand-mark" aria-hidden="true">嘎</span>
-      <span>RSS 审核台</span>
-      <span class="brand-note">本地优先</span>
+      <span>嘎!RSS</span>
+      <span class="brand-note">订阅源审核台</span>
     </a>
     <nav class="header-links" aria-label="页面导航">
       <button id="install-app" class="button button-install" type="button" hidden>安装 App</button>
-      <a href="./#/SOURCES">同步说明</a>
-      <a href="./#/API">API 文档</a>
+      <a href="./">阅读</a>
+      <a href="./review.html" aria-current="page">订阅源审核</a>
+      <a href="./guide.html#/SOURCES">同步说明</a>
+      <a href="./guide.html#/API">API 文档</a>
       <a href="https://github.com/chcaty/garss" target="_blank" rel="noopener noreferrer">GitHub</a>
     </nav>
   </header>
@@ -35,7 +38,6 @@
   <main id="workspace">
     <section class="hero" aria-labelledby="page-title">
       <div>
-        <p class="eyebrow">GARSS / CURATION WORKBENCH</p>
         <h1 id="page-title">把好源留下来。</h1>
         <p class="hero-copy">发现、筛选、留下值得订阅的内容。审核记录保存在本机，导出后再加入正式源。</p>
         <span class="privacy-note">本机保存 · 离线可用 · 不自动上传</span>

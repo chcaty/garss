@@ -1,5 +1,5 @@
 export function createRoutes(context) {
-  const { state, byId, navigator, window, fetch, showToast, populateSelect, debounce, normalize, element, appendBadge, appendBadges, externalLink, numberFormat, PAGE_SIZE, ROUTE_ENDPOINT } = context;
+  const { document, state, byId, navigator, window, fetch, showToast, populateSelect, debounce, normalize, element, appendBadge, appendBadges, externalLink, numberFormat, PAGE_SIZE, ROUTE_ENDPOINT } = context;
   function currentRoutePage() {
     const start = (state.routePage - 1) * PAGE_SIZE;
     return state.filteredRoutes.slice(start, start + PAGE_SIZE);

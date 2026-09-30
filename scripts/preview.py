@@ -13,7 +13,8 @@ def main():
     class Handler(SimpleHTTPRequestHandler):
         extensions_map = {**SimpleHTTPRequestHandler.extensions_map, ".mjs": "text/javascript"}
     with ThreadingHTTPServer(("127.0.0.1", args.port), partial(Handler, directory=str(root))) as server:
-        print(f"Preview: http://127.0.0.1:{args.port}/review.html", flush=True)
+        print(f"Reader: http://127.0.0.1:{args.port}/", flush=True)
+        print(f"Review: http://127.0.0.1:{args.port}/review.html", flush=True)
         try:
             server.serve_forever()
         except KeyboardInterrupt:

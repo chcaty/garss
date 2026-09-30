@@ -43,7 +43,7 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Test reviewer modules
+      - name: Test reader and reviewer modules
         run: |
           npm ci --ignore-scripts
           npm run check:review-schema
@@ -70,6 +70,15 @@ jobs:
           test -s docs/api/v1/rsshub-routes.json
           test -s docs/api/v1/review-schema.json
           test -s docs/review.html
+          test -s docs/index.html
+          test -s docs/guide.html
+          test -s docs/assets/reader/app.mjs
+          test -s docs/assets/reader/catalog.mjs
+          test -s docs/assets/reader.css
+          test -s docs/assets/shared/base.css
+          test -s docs/assets/shared/dom.mjs
+          test -s docs/assets/review/candidates.mjs
+          test -s docs/assets/review/transfers.mjs
           test -s docs/assets/review.js
           test -s docs/assets/review/app.mjs
           test -s build/notification.html

@@ -1,4 +1,5 @@
-* [嘎!RSS](README)
+* <a href="./" target="_self">阅读首页</a>
+* [文字目录](README)
 * <a href="./review.html" target="_self">候选审核</a>
 * [静态 API](API.md)
 * [外部订阅源目录](SOURCES.md)
