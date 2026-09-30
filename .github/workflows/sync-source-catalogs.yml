@@ -17,6 +17,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - uses: actions/setup-python@v7
         with:
@@ -42,6 +44,7 @@ jobs:
 
       - name: Commit catalog changes
         run: |
+          python scripts/check_publish_base.py
           git config user.email "1120873075@qq.com"
           git config user.name "garss-bot"
           git add docs/api/v1/feed-candidates.json docs/api/v1/rsshub-routes.json
