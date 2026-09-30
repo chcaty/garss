@@ -1,13 +1,8 @@
+import { createElement } from "../shared/dom.mjs";
 import { safeExternalUrl } from "./urls.mjs";
 
 export function createView(document) {
-  function element(tag, options = {}) {
-    const node = document.createElement(tag);
-    if (options.className) node.className = options.className;
-    if (options.text !== undefined) node.textContent = options.text;
-    if (options.title) node.title = options.title;
-    return node;
-  }
+  const element = (tag, options) => createElement(document, tag, options);
 
   function appendBadge(container, text, className = "") {
     const badge = element("span", {

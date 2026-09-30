@@ -1,4 +1,7 @@
-import { validTimestamp, validateReviewPayload } from "./validation.mjs";
+import { createCandidates } from "./candidates.mjs";
+import { createTransfers } from "./transfers.mjs";
+import { normalize, debounce as createDebounce } from "../shared/dom.mjs";
+import { validTimestamp } from "./validation.mjs";
 import { loadDecisions, saveDecisions } from "./storage.mjs";
 import { createView } from "./view.mjs";
 import { createRoutes } from "./routes.mjs";
@@ -32,6 +35,7 @@ export function createReviewer(environment = globalThis) {
     deferredInstallPrompt: null,
   };
 
+  const debounce = (callback, wait) => createDebounce(callback, window, wait);
   const byId = (id) => document.getElementById(id);
   const { element, appendBadge, appendBadges, externalLink } = createView(document);
   const { loadRoutes, wireRouteControls } = createRoutes({
@@ -43,6 +47,14 @@ export function createReviewer(environment = globalThis) {
     state, byId, navigator, window, document, fetch, showToast,
     CANDIDATE_ENDPOINT, ROUTE_ENDPOINT,
   });
+  const { exportReviews, exportApprovedOpml, importReviews } = createTransfers({
+    state, document, window, byId, showToast, persistDecisions, renderMetrics, applyCandidateFilters, decisionStatus, REVIEW_SCHEMA_ENDPOINT,
+  });
+
+  const { candidateRow } = createCandidates({
+    document, state, element, appendBadge, appendBadges, externalLink, decisionStatus, setDecision, updateSelectionControls,
+  });
+
   function persistDecisions() {
     if (!saveDecisions(localStorage, state.decisions)) {
       showToast("浏览器拒绝保存本地记录，请及时导出审核结果");
@@ -52,10 +64,6 @@ export function createReviewer(environment = globalThis) {
   function decisionStatus(id) {
     const status = state.decisions[id]?.status;
     return status === "approved" || status === "rejected" ? status : "pending";
-  }
-
-  function normalize(value) {
-    return String(value || "").trim().toLocaleLowerCase("zh-CN");
   }
 
   function showToast(message) {
@@ -124,105 +132,6 @@ export function createReviewer(environment = globalThis) {
     applyCandidateFilters(false);
   }
 
-  function statusNode(status) {
-    const labels = { pending: "待审核", approved: "已通过", rejected: "已拒绝" };
-    return element("span", {
-      className: `status status-${status}`,
-      text: labels[status],
-    });
-  }
-
-  function candidateActions(candidate) {
-    const actions = element("div", { className: "row-actions" });
-    const approve = element("button", {
-      className: "button button-approve",
-      text: "通过",
-    });
-    approve.type = "button";
-    approve.addEventListener("click", () => setDecision([candidate.id], "approved"));
-    const reject = element("button", {
-      className: "button button-reject",
-      text: "拒绝",
-    });
-    reject.type = "button";
-    reject.addEventListener("click", () => setDecision([candidate.id], "rejected"));
-    const reset = element("button", {
-      className: "button button-quiet",
-      text: "撤销",
-    });
-    reset.type = "button";
-    reset.disabled = decisionStatus(candidate.id) === "pending";
-    reset.addEventListener("click", () => setDecision([candidate.id], "pending"));
-    actions.append(approve, reject, reset);
-    return actions;
-  }
-
-  function candidateRow(candidate) {
-    const row = document.createElement("tr");
-    row.setAttribute("role", "row");
-    row.setAttribute("data-status", decisionStatus(candidate.id));
-    row.setAttribute("data-selected", String(state.selectedIds.has(candidate.id)));
-
-    const checkCell = document.createElement("td");
-    const checkbox = element("input", { className: "row-checkbox" });
-    checkbox.type = "checkbox";
-    checkbox.checked = state.selectedIds.has(candidate.id);
-    checkbox.setAttribute("aria-label", `选择 ${candidate.title}`);
-    checkbox.addEventListener("change", () => {
-      if (checkbox.checked) state.selectedIds.add(candidate.id);
-      else state.selectedIds.delete(candidate.id);
-      row.setAttribute("data-selected", String(checkbox.checked));
-      updateSelectionControls();
-    });
-    const checkboxTarget = element("label", { className: "checkbox-target" });
-    checkboxTarget.append(checkbox);
-    checkCell.append(checkboxTarget);
-
-    const feedCell = document.createElement("td");
-    const feed = element("div", { className: "feed-cell" });
-    feed.append(element("span", { className: "feed-title", text: candidate.title }));
-    if (candidate.description) {
-      feed.append(
-        element("span", {
-          className: "feed-description",
-          text: candidate.description,
-          title: candidate.description,
-        }),
-      );
-    }
-    const links = element("div", { className: "feed-links" });
-    const siteLink = externalLink("访问网站 ↗", candidate.site_url);
-    const feedLink = externalLink("打开 Feed ↗", candidate.feed_url);
-    if (siteLink) links.append(siteLink);
-    if (feedLink) links.append(feedLink);
-    feed.append(links);
-    feedCell.append(feed);
-
-    const sourceCell = document.createElement("td");
-    const sources = element("div", { className: "badges" });
-    appendBadges(sources, candidate.sources, 4);
-    if (candidate.generated) appendBadge(sources, "RSSHub 生成", "badge-generated");
-    sourceCell.append(sources);
-
-    const categoryCell = document.createElement("td");
-    const categories = element("div", { className: "badges" });
-    appendBadges(categories, candidate.categories, 3);
-    if (candidate.language) appendBadge(categories, candidate.language);
-    categoryCell.append(categories);
-
-    const statusCell = document.createElement("td");
-    statusCell.append(statusNode(decisionStatus(candidate.id)));
-    const actionCell = document.createElement("td");
-    actionCell.append(candidateActions(candidate));
-    [checkCell, feedCell, sourceCell, categoryCell, statusCell, actionCell].forEach((cell, index) => {
-      cell.className = ["cell-check", "cell-feed", "cell-source", "cell-category", "cell-status", "cell-actions"][index];
-      cell.setAttribute("role", "cell");
-      cell.setAttribute("data-label", ["选择", "订阅源", "目录来源", "分类 / 语言", "审核状态", "操作"][index]);
-    });
-    row.append(checkCell, feedCell, sourceCell, categoryCell, statusCell, actionCell);
-    return row;
-  }
-
   function renderCandidates() {
     const rowContainer = byId("candidate-rows");
     rowContainer.replaceChildren();
@@ -255,131 +164,6 @@ export function createReviewer(environment = globalThis) {
     });
     if (resetPage) state.candidatePage = 1;
     renderCandidates();
-  }
-
-  function download(filename, content, type) {
-    const url = URL.createObjectURL(new Blob([content], { type }));
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = filename;
-    document.body.append(link);
-    link.click();
-    link.remove();
-    window.setTimeout(() => URL.revokeObjectURL(url), 0);
-  }
-
-  function exportReviews() {
-    const candidateById = new Map(state.candidates.map((candidate) => [candidate.id, candidate]));
-    const decisions = Object.entries(state.decisions)
-      .filter(([id, decision]) => candidateById.has(id) && ["approved", "rejected"].includes(decision.status))
-      .map(([id, decision]) => {
-        const candidate = candidateById.get(id);
-        const { _search, ...candidateSnapshot } = candidate;
-        return {
-          id,
-          status: decision.status,
-          reviewed_at: decision.updated_at,
-          candidate: candidateSnapshot,
-        };
-      })
-      .sort((left, right) => left.id.localeCompare(right.id));
-    const payload = {
-      schema_url: new URL(REVIEW_SCHEMA_ENDPOINT, window.location.href).href,
-      schema_version: "1.0",
-      catalog_generated_at: state.candidateGeneratedAt,
-      exported_at: new Date().toISOString(),
-      decision_count: decisions.length,
-      decisions,
-    };
-    download(
-      `garss-reviews-${new Date().toISOString().slice(0, 10)}.json`,
-      `${JSON.stringify(payload, null, 2)}\n`,
-      "application/json;charset=utf-8",
-    );
-    showToast(`已导出 ${decisions.length} 条审核决定`);
-  }
-
-  function xmlEscape(value) {
-    return String(value || "")
-      .replaceAll("&", "&amp;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;");
-  }
-
-  function exportApprovedOpml() {
-    const approved = state.candidates.filter(
-      (candidate) => decisionStatus(candidate.id) === "approved",
-    );
-    const outlines = approved.map(
-      (candidate) =>
-        `    <outline type="rss" text="${xmlEscape(candidate.title)}" title="${xmlEscape(
-          candidate.title,
-        )}" xmlUrl="${xmlEscape(candidate.feed_url)}" htmlUrl="${xmlEscape(
-          candidate.site_url || candidate.feed_url,
-        )}" />`,
-    );
-    const opml = [
-      '<?xml version="1.0" encoding="UTF-8"?>',
-      '<opml version="2.0">',
-      "  <head>",
-      "    <title>GARSS 审核通过的订阅源</title>",
-      `    <dateCreated>${xmlEscape(new Date().toUTCString())}</dateCreated>`,
-      "  </head>",
-      "  <body>",
-      ...outlines,
-      "  </body>",
-      "</opml>",
-      "",
-    ].join("\n");
-    download(
-      `garss-approved-${new Date().toISOString().slice(0, 10)}.opml`,
-      opml,
-      "text/x-opml;charset=utf-8",
-    );
-    showToast(`已导出 ${approved.length} 个通过的订阅源`);
-  }
-
-  async function importReviews(file) {
-    if (!file) return;
-    if (file.size > 10 * 1024 * 1024) {
-      showToast("文件超过 10 MB，已拒绝导入");
-      return;
-    }
-    let decisions;
-    try {
-      const payload = JSON.parse(await file.text());
-      decisions = validateReviewPayload(payload);
-    } catch {
-      showToast("审核结果格式无效，未导入任何记录");
-      return;
-    } finally {
-      byId("import-reviews").value = "";
-    }
-    const currentIds = new Set(state.candidates.map((candidate) => candidate.id));
-    const nextDecisions = { ...state.decisions };
-    let imported = 0;
-    decisions.forEach((decision) => {
-      if (!currentIds.has(decision.id)) return;
-      nextDecisions[decision.id] = {
-        status: decision.status,
-        updated_at: decision.reviewed_at,
-      };
-      imported += 1;
-    });
-    state.decisions = nextDecisions;
-    persistDecisions();
-    renderMetrics();
-    applyCandidateFilters();
-    showToast(`成功导入 ${imported} 条审核决定`);
-  }
-
-  function debounce(callback, wait = 180) {
-    let timer;
-    return (...args) => {
-      window.clearTimeout(timer);
-      timer = window.setTimeout(() => callback(...args), wait);
-    };
   }
 
   function wireCandidateControls() {
