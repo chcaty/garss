@@ -32,9 +32,9 @@ jobs:
       - run: dart format --output=none --set-exit-if-changed lib test
       - run: flutter analyze
       - run: flutter test --coverage
-      - run: flutter build apk --release
+      - run: flutter build apk --release --split-per-abi
       - uses: actions/upload-artifact@v7
         with:
           name: garss-android-preview
-          path: app/build/app/outputs/flutter-apk/app-release.apk
+          path: app/build/app/outputs/flutter-apk/app-*-release.apk
           retention-days: 30

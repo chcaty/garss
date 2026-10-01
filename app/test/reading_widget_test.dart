@@ -103,4 +103,62 @@ void main() {
     );
     expect(tester.takeException(), isNull);
   });
+  testWidgets('reading and bookmarks keep independent filters', (tester) async {
+    await setup(tester);
+    await tester.enterText(find.byType(TextField), '没有这个关键词');
+    await tester.pumpAndSettle();
+    expect(find.text('没有匹配的文章'), findsOneWidget);
+    await tester.tap(find.text('收藏').last);
+    await tester.pumpAndSettle();
+    expect(find.text('这里留给想再读的文章'), findsOneWidget);
+    expect(
+      tester.widget<TextField>(find.byType(TextField)).controller!.text,
+      isEmpty,
+    );
+    await tester.tap(find.text('阅读').last);
+    await tester.pumpAndSettle();
+    expect(
+      tester.widget<TextField>(find.byType(TextField)).controller!.text,
+      '没有这个关键词',
+    );
+    await tester.tap(find.text('重置筛选').first);
+    await tester.pumpAndSettle();
+    expect(
+      tester.widget<TextField>(find.byType(TextField)).controller!.text,
+      isEmpty,
+    );
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('current results can be marked read and undone', (tester) async {
+    await setup(tester);
+    await tester.tap(find.text('当前结果全部已读'));
+    await tester.pumpAndSettle();
+    expect(find.text('已将 1 篇文章标为已读'), findsOneWidget);
+    await tester.tap(find.text('撤销'));
+    await tester.pumpAndSettle();
+    expect(find.text('当前结果全部已读'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+  testWidgets(
+    'source and settings pages support enlarged text and wide layouts',
+    (tester) async {
+      await setup(tester, scale: 2);
+      for (final size in [
+        const Size(360, 720),
+        const Size(1024, 768),
+        const Size(720, 360),
+      ]) {
+        tester.view.physicalSize = size;
+        await tester.pumpAndSettle();
+        await tester.tap(find.text('来源').last);
+        await tester.pumpAndSettle();
+        expect(tester.takeException(), isNull);
+        await tester.tap(find.text('设置').last);
+        await tester.pumpAndSettle();
+        expect(find.text('当前字号 100%'), findsOneWidget);
+        expect(tester.takeException(), isNull);
+      }
+    },
+  );
 }

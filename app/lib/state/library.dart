@@ -204,6 +204,21 @@ class LibraryController extends AsyncNotifier<LibraryState> {
   void markUnread(String id) => saveMutation(
     state.requireValue.copyWith(read: {...state.requireValue.read}..remove(id)),
   );
+  Set<String> markManyRead(Iterable<String> ids) {
+    final changed = ids.toSet().difference(state.requireValue.read);
+    if (changed.isNotEmpty) {
+      saveMutation(
+        state.requireValue.copyWith(
+          read: {...state.requireValue.read, ...changed},
+        ),
+      );
+    }
+    return changed;
+  }
+
+  void markManyUnread(Set<String> ids) => saveMutation(
+    state.requireValue.copyWith(read: state.requireValue.read.difference(ids)),
+  );
   void follow(String id, bool enabled) => saveMutation(
     state.requireValue.copyWith(
       hidden: {...state.requireValue.hidden}

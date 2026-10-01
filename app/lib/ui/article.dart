@@ -112,9 +112,13 @@ class ArticleScreen extends ConsumerWidget {
             label: const Text('用浏览器打开'),
           ),
           TextButton(
-            onPressed: () =>
-                ref.read(libraryProvider.notifier).markUnread(article.id),
-            child: const Text('标记为未读'),
+            onPressed: () {
+              final controller = ref.read(libraryProvider.notifier);
+              library.read.contains(article.id)
+                  ? controller.markUnread(article.id)
+                  : controller.markRead(article.id);
+            },
+            child: Text(library.read.contains(article.id) ? '标记为未读' : '标记为已读'),
           ),
           const SizedBox(height: 20),
           const Text(

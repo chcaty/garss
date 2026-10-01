@@ -115,4 +115,26 @@ void main() {
       'second',
     ]);
   });
+  test('bulk read undo preserves earlier read records and persists', () async {
+    SharedPreferences.setMockInitialValues({
+      'catalog-v1': jsonEncode(catalog.toJson()),
+      'read-v1': ['earlier'],
+    });
+    final container = ProviderContainer();
+    await container.read(libraryProvider.future);
+    final controller = container.read(libraryProvider.notifier);
+    final changed = controller.markManyRead(['earlier', article.id]);
+    expect(changed, {article.id});
+    expect(container.read(libraryProvider).requireValue.read, {
+      'earlier',
+      article.id,
+    });
+    controller.markManyUnread(changed);
+    expect(container.read(libraryProvider).requireValue.read, {'earlier'});
+    await Future<void>.delayed(const Duration(milliseconds: 100));
+    container.dispose();
+    final restarted = ProviderContainer();
+    addTearDown(restarted.dispose);
+    expect((await restarted.read(libraryProvider.future)).read, {'earlier'});
+  });
 }

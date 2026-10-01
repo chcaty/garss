@@ -21,6 +21,12 @@ final appTheme = ThemeData(
     elevation: 0,
   ),
   dividerTheme: const DividerThemeData(color: rule, thickness: 1),
+  filledButtonTheme: FilledButtonThemeData(
+    style: FilledButton.styleFrom(minimumSize: const Size(48, 48)),
+  ),
+  textButtonTheme: TextButtonThemeData(
+    style: TextButton.styleFrom(minimumSize: const Size(48, 48)),
+  ),
   navigationBarTheme: const NavigationBarThemeData(
     backgroundColor: panel,
     indicatorColor: Color(0xffecf0e3),
@@ -37,6 +43,10 @@ final appTheme = ThemeData(
     enabledBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(12),
       borderSide: const BorderSide(color: rule),
+    ),
+    focusedBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(12),
+      borderSide: const BorderSide(color: olive, width: 2),
     ),
   ),
 );

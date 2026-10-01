@@ -18,6 +18,18 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   String query = '', source = '';
   bool unread = false, balanced = true, started = false;
   final search = TextEditingController();
+  final queries = <int, String>{};
+  final unreadFilters = <int, bool>{};
+
+  void resetFilters() {
+    search.clear();
+    setState(() {
+      query = '';
+      unread = false;
+      source = '';
+    });
+  }
+
   @override
   void dispose() {
     search.dispose();
@@ -25,11 +37,15 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   void chooseTab(int index) {
+    if (tab == index) return;
+    FocusManager.instance.primaryFocus?.unfocus();
     setState(() {
+      queries[tab] = query;
+      unreadFilters[tab] = unread;
       tab = index;
-      query = '';
-      search.clear();
-      source = '';
+      query = queries[index] ?? '';
+      search.text = query;
+      unread = unreadFilters[index] ?? false;
     });
   }
 
@@ -111,28 +127,39 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             ),
           ),
         ),
-        data: (data) => tab == 2
-            ? SourcesPage(library: data)
-            : tab == 3
-            ? SettingsPage(library: data)
-            : reading(data),
+        data: (data) => SafeArea(
+          top: false,
+          child: Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 760),
+              child: tab == 2
+                  ? SourcesPage(library: data)
+                  : tab == 3
+                  ? SettingsPage(library: data)
+                  : reading(data),
+            ),
+          ),
+        ),
       ),
     );
   }
 
   Widget reading(LibraryState library) {
+    final activeFeeds = library.catalog.feeds
+        .where((feed) => !library.hidden.contains(feed.id))
+        .toList();
+    if (!activeFeeds.any((feed) => feed.id == source)) source = '';
+    final hasFilters =
+        query.isNotEmpty || unread || (tab == 0 && source.isNotEmpty);
     final filtered = library.visible(
       query: query,
       savedOnly: tab == 1,
       unreadOnly: unread,
-      source: source,
+      source: tab == 0 ? source : '',
     );
     final articles = balanced && tab == 0 && source.isEmpty
         ? diversify(filtered)
         : filtered;
-    final activeFeeds = library.catalog.feeds
-        .where((feed) => !library.hidden.contains(feed.id))
-        .toList();
     final selectedSource = activeFeeds.any((feed) => feed.id == source)
         ? source
         : '';
@@ -163,9 +190,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               ),
               const SizedBox(height: 14),
               TextField(
+                key: ValueKey('search-$tab'),
                 controller: search,
                 onChanged: (value) => setState(() => query = value),
                 decoration: InputDecoration(
+                  labelText: tab == 1 ? '搜索收藏' : '搜索文章',
                   hintText: tab == 1 ? '搜索收藏' : '搜索文章、摘要或来源',
                   prefixIcon: const Icon(Icons.search),
                   suffixIcon: query.isEmpty
@@ -217,10 +246,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                         ),
                       ),
                     ),
+                  if (hasFilters)
+                    TextButton.icon(
+                      onPressed: resetFilters,
+                      icon: const Icon(Icons.filter_alt_off_outlined, size: 18),
+                      label: const Text('重置筛选'),
+                    ),
                 ],
               ),
               if (tab == 0)
                 DropdownButtonFormField<String>(
+                  key: ValueKey(selectedSource),
                   initialValue: selectedSource,
                   isExpanded: true,
                   decoration: const InputDecoration(
@@ -239,6 +275,32 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       ),
                   ],
                   onChanged: (value) => setState(() => source = value ?? ''),
+                ),
+              if (articles.any((article) => !library.read.contains(article.id)))
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton.icon(
+                    icon: const Icon(Icons.done_all, size: 18),
+                    label: const Text('当前结果全部已读'),
+                    onPressed: () {
+                      final controller = ref.read(libraryProvider.notifier);
+                      final changed = controller.markManyRead(
+                        articles.map((article) => article.id),
+                      );
+                      ScaffoldMessenger.of(context)
+                        ..hideCurrentSnackBar()
+                        ..showSnackBar(
+                          SnackBar(
+                            content: Text('已将 ${changed.length} 篇文章标为已读'),
+                            action: SnackBarAction(
+                              label: '撤销',
+                              onPressed: () =>
+                                  controller.markManyUnread(changed),
+                            ),
+                          ),
+                        );
+                    },
+                  ),
                 ),
             ],
           ),
@@ -270,7 +332,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      tab == 1 ? '这里留给想再读的文章' : '没有匹配的文章',
+                      hasFilters
+                          ? '没有匹配的文章'
+                          : tab == 1
+                          ? '这里留给想再读的文章'
+                          : activeFeeds.isEmpty
+                          ? '先选择想阅读的来源'
+                          : '暂时没有文章',
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         fontSize: 20,
@@ -279,9 +347,28 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      tab == 1 ? '在文章右侧点击收藏，稍后回到这里阅读。' : '调整关键词、未读筛选或到来源页选择订阅。',
+                      hasFilters
+                          ? '试试其他关键词，或重置筛选查看全部文章。'
+                          : tab == 1
+                          ? '在文章右侧点击收藏，稍后回到这里阅读。'
+                          : activeFeeds.isEmpty
+                          ? '开启来源后，文章会显示在这里。'
+                          : '下拉刷新，获取最新文章。',
                       textAlign: TextAlign.center,
                       style: const TextStyle(color: muted, height: 1.7),
+                    ),
+                    const SizedBox(height: 20),
+                    FilledButton.tonal(
+                      onPressed: hasFilters
+                          ? resetFilters
+                          : () => chooseTab(tab == 1 ? 0 : 2),
+                      child: Text(
+                        hasFilters
+                            ? '重置筛选'
+                            : tab == 1
+                            ? '去阅读文章'
+                            : '选择来源',
+                      ),
                     ),
                   ],
                 ),
@@ -413,12 +500,19 @@ class SourcesPage extends ConsumerStatefulWidget {
 
 class _SourcesPageState extends ConsumerState<SourcesPage> {
   String query = '';
+  final search = TextEditingController();
+  @override
+  void dispose() {
+    search.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final feeds = widget.library.catalog.feeds
         .where(
           (feed) => '${feed.title} ${feed.description}'.toLowerCase().contains(
-            query.toLowerCase(),
+            query.trim().toLowerCase(),
           ),
         )
         .toList();
@@ -426,38 +520,71 @@ class _SourcesPageState extends ConsumerState<SourcesPage> {
     for (final article in widget.library.catalog.articles) {
       counts.update(article.sourceId, (value) => value + 1, ifAbsent: () => 1);
     }
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('选择你想阅读的来源', style: Theme.of(context).textTheme.titleLarge),
-              const SizedBox(height: 8),
-              const Text(
-                '关闭的来源会从阅读信息流隐藏，收藏仍然保留。',
-                style: TextStyle(color: muted, height: 1.6),
-              ),
-              const SizedBox(height: 16),
-              TextField(
-                onChanged: (value) => setState(() => query = value),
-                decoration: const InputDecoration(
-                  hintText: '查找来源',
-                  prefixIcon: Icon(Icons.search),
+    return CustomScrollView(
+      slivers: [
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '选择你想阅读的来源',
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
-              ),
-            ],
+                const SizedBox(height: 8),
+                const Text(
+                  '关闭的来源会从阅读信息流隐藏，收藏仍然保留。',
+                  style: TextStyle(color: muted, height: 1.6),
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  '已关注 ${widget.library.catalog.feeds.where((feed) => !widget.library.hidden.contains(feed.id)).length} / ${widget.library.catalog.feeds.length} 个来源',
+                  style: const TextStyle(
+                    color: olive,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: search,
+                  onChanged: (value) => setState(() => query = value),
+                  decoration: InputDecoration(
+                    labelText: '搜索来源',
+                    hintText: '查找来源',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: query.isEmpty
+                        ? null
+                        : IconButton(
+                            tooltip: '清除来源搜索',
+                            icon: const Icon(Icons.close),
+                            onPressed: () {
+                              search.clear();
+                              setState(() => query = '');
+                            },
+                          ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
-        Expanded(
-          child: ListView.separated(
-            itemCount: feeds.length,
-            separatorBuilder: (context, index) =>
-                const Divider(height: 1, indent: 20),
-            itemBuilder: (context, index) {
-              final feed = feeds[index];
+        if (feeds.isEmpty)
+          const SliverToBoxAdapter(
+            child: Center(
+              child: Padding(
+                padding: EdgeInsets.all(24),
+                child: Text('没有找到来源，试试其他关键词。', textAlign: TextAlign.center),
+              ),
+            ),
+          )
+        else
+          SliverList(
+            delegate: SliverChildBuilderDelegate((context, index) {
+              if (index.isOdd) return const Divider(height: 1, indent: 20);
+              final feed = feeds[index ~/ 2];
               return SwitchListTile(
+                key: ValueKey(feed.id),
                 title: Text(feed.title),
                 subtitle: Text(
                   '${counts[feed.id] ?? 0} 篇文章${feed.status == 'error' ? ' · 最近抓取失败' : ''}',
@@ -466,9 +593,8 @@ class _SourcesPageState extends ConsumerState<SourcesPage> {
                 onChanged: (enabled) =>
                     ref.read(libraryProvider.notifier).follow(feed.id, enabled),
               );
-            },
+            }, childCount: feeds.length * 2 - 1),
           ),
-        ),
       ],
     );
   }
@@ -490,6 +616,11 @@ class SettingsPage extends ConsumerWidget {
         '文章字号',
         style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
       ),
+      const SizedBox(height: 8),
+      Text(
+        '当前字号 ${(library.fontScale * 100).round()}%',
+        style: const TextStyle(color: muted),
+      ),
       Slider(
         value: library.fontScale,
         min: 1,
@@ -499,6 +630,34 @@ class SettingsPage extends ConsumerWidget {
         onChanged: (value) =>
             ref.read(libraryProvider.notifier).setFontScale(value),
       ),
+      Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(20),
+        color: panel,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              '阅读，从一篇好文章开始',
+              style: TextStyle(
+                fontSize: 18 * library.fontScale,
+                fontWeight: FontWeight.w700,
+                height: 1.55,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              '这是字号预览。调整到适合自己的大小，让每一次阅读都更轻松。',
+              style: TextStyle(
+                fontSize: 14 * library.fontScale,
+                height: 1.7,
+                color: muted,
+              ),
+            ),
+          ],
+        ),
+      ),
+      const SizedBox(height: 16),
       SwitchListTile(
         contentPadding: EdgeInsets.zero,
         title: const Text('显示文章图片'),
