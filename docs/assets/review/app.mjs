@@ -30,6 +30,7 @@ export function createReviewer(environment = globalThis) {
     selectedIds: new Set(),
     decisions: loadDecisions(localStorage),
     publishedDecisions: {},
+    linkHealth: {},
     routes: [],
     routesLoaded: false,
     routesLoading: false,
@@ -163,11 +164,17 @@ export function createReviewer(environment = globalThis) {
     const category = byId("category-filter").value;
     const language = byId("language-filter").value;
     const status = byId("status-filter").value;
+    const linkStatus = byId("link-filter").value;
     state.filteredCandidates = state.candidates.filter((candidate) => {
       if (query && !candidate._search.includes(query)) return false;
       if (source && !candidate.sources.includes(source)) return false;
       if (category && !candidate.categories.includes(category)) return false;
       if (language && candidate.language !== language) return false;
+      const observation = state.linkHealth[candidate.feed_url];
+      const checked = observation && Number.isFinite(Date.parse(observation.checked_at));
+      const expired = checked && Date.now() - Date.parse(observation.checked_at) > 7 * 86400000;
+      const observedStatus = !checked ? "untested" : expired ? "expired" : observation.status;
+      if (linkStatus && observedStatus !== linkStatus) return false;
       return !status || decisionStatus(candidate.id) === status;
     });
     if (resetPage) state.candidatePage = 1;
@@ -176,7 +183,7 @@ export function createReviewer(environment = globalThis) {
 
   function wireCandidateControls() {
     byId("candidate-search").addEventListener("input", debounce(() => applyCandidateFilters()));
-    ["source-filter", "category-filter", "language-filter", "status-filter"].forEach(
+    ["source-filter", "category-filter", "language-filter", "status-filter", "link-filter"].forEach(
       (id) => byId(id).addEventListener("change", () => applyCandidateFilters()),
     );
     byId("previous-page").addEventListener("click", () => {
@@ -329,6 +336,16 @@ export function createReviewer(environment = globalThis) {
     try {
       await loadCandidates();
       await loadPublishedDecisions();
+      try {
+        const response = await fetch("./api/v1/feed-health.json", { cache: "no-cache", signal: AbortSignal.timeout(8000) });
+        if (response.ok) {
+          const health = await response.json();
+          if (health.schema_version === "1.0" && health.checks && typeof health.checks === "object") {
+            state.linkHealth = health.checks;
+            applyCandidateFilters(false);
+          }
+        }
+      } catch { /* Link observations are optional; reviewing remains available offline. */ }
     } catch {
       byId("snapshot-status").textContent = "候选目录加载失败";
       byId("snapshot-time").textContent = "请确认目录同步任务已成功运行";

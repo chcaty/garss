@@ -72,6 +72,17 @@ export function createCandidates(context) {
     if (siteLink) links.append(siteLink);
     if (feedLink) links.append(feedLink);
     feed.append(links);
+    const health = state.linkHealth?.[candidate.feed_url];
+    const labels = { valid: "RSS 链接有效", invalid: "RSS 链接失效", unknown: "RSS 暂无法确认" };
+    const checked = health && Number.isFinite(Date.parse(health.checked_at));
+    const age = checked ? Date.now() - Date.parse(health.checked_at) : Infinity;
+    const healthLabel = checked && labels[health.status] ? `${labels[health.status]}${age > 7 * 86400000 ? " · 结果已过期" : ""}` : "RSS 尚未检测";
+    const observation = element("span", { className: "feed-health", text: healthLabel });
+    if (checked) {
+      observation.title = `检测时间：${new Date(health.checked_at).toLocaleString("zh-CN")}；${health.reason || ""}`;
+      observation.textContent += ` · ${new Date(health.checked_at).toLocaleDateString("zh-CN")}`;
+    }
+    feed.append(observation);
     feedCell.append(feed);
 
     const sourceCell = document.createElement("td");

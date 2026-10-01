@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
   <title>订阅源审核台 · 嘎!RSS</title>
-  <link rel="icon" href="./_media/favicon.ico">
+  <link rel="icon" type="image/png" href="./_media/review-icon-192.png">
   <link rel="apple-touch-icon" href="./_media/review-icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./assets/shared/base.css">
@@ -21,7 +21,7 @@
   <a class="skip-link" href="#workspace">跳到审核内容</a>
   <header class="site-header">
     <a class="brand" href="./" aria-label="返回嘎 RSS 首页">
-      <span class="brand-mark" aria-hidden="true">嘎</span>
+      <img class="brand-mark" src="./_media/review-icon-192.png" alt="" width="40" height="40">
       <span>嘎!RSS</span>
       <span class="brand-note">订阅源审核台</span>
     </a>
@@ -101,6 +101,17 @@
           </select>
         </label>
       </div>
+
+      <label class="link-health-filter">RSS 链接检测
+        <select id="link-filter">
+          <option value="">全部检测状态</option>
+          <option value="valid">有效</option>
+          <option value="invalid">失效</option>
+          <option value="unknown">暂无法确认</option>
+          <option value="untested">尚未检测</option>
+          <option value="expired">结果已过期</option>
+        </select>
+      </label>
 
       <div class="action-bar">
         <div class="selection-actions">

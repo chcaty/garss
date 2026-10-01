@@ -23,7 +23,7 @@ input { caret-color: var(--green); }
 html { scrollbar-color: #babdac var(--paper); scroll-padding-top: 5rem; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 80px; padding: 1rem max(1.5rem, calc((100% - 1280px) / 2)); border-bottom: 1px solid var(--line); background: var(--paper); }
 .brand { display: inline-flex; align-items: center; gap: .75rem; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
-.brand-mark { font-family: var(--reading); font-size: 1.6rem; border: 1px solid var(--ink); width: 40px; height: 40px; display: grid; place-items: center; }
+.brand-mark { width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; }
 .brand-note { font-size: .7rem; color: var(--muted); font-weight: 400; margin-left: .5rem; }
 .header-links { display: flex; align-items: center; gap: 1.5rem; }
 .header-links a { font-size: .82rem; text-decoration: none; color: var(--muted); min-height: 44px; display: flex; align-items: center; }

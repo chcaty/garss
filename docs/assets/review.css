@@ -27,7 +27,7 @@ body.is-offline .pulse { background: var(--amber); }
 .panel { min-width: 0; }
 .filters { display: grid; grid-template-columns: minmax(14rem, 2fr) repeat(4, minmax(0, 1fr)); gap: .8rem; padding: 1.15rem; border: 1px solid var(--line); border-radius: 4px 4px 0 0; background: var(--panel); }
 .filters label { display: grid; min-width: 0; gap: .45rem; color: var(--muted); font-size: .72rem; font-weight: 600; }
-.filters input, .filters select { width: 100%; min-width: 0; height: 44px; padding: 0 .8rem; color: var(--ink); font-size: .85rem; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
+.filters input, .filters select, .link-health-filter select { width: 100%; min-width: 0; height: 44px; padding: 0 .8rem; color: var(--ink); font-size: .85rem; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
 .filters input:focus, .filters select:focus { border-color: var(--green); background: var(--panel); }
 .route-filters { grid-template-columns: minmax(14rem, 2fr) repeat(2, minmax(0, 1fr)); border-radius: 4px; }
 .action-bar { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: .85rem 1.15rem; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 4px 4px; background: var(--panel); }
@@ -109,7 +109,7 @@ tbody tr[data-selected="true"] { background: var(--green-soft); }
   .tabs { display: flex; margin: 1.1rem 0 .85rem; }
   .tab { flex: 1; padding: .6rem .5rem; }
   .filters, .route-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; padding: .9rem; }
-  .filters input, .filters select { font-size: 16px; }
+  .filters input, .filters select, .link-health-filter select { font-size: 16px; }
   .action-bar { padding: .7rem .9rem; }
   .selection-actions { display: grid; width: 100%; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .45rem; }
   #select-page { grid-column: 1; }
@@ -143,3 +143,6 @@ tbody tr[data-selected="true"] { background: var(--green-soft); }
   .toast { left: 1rem; right: 1rem; max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.feed-health { display: block; color: var(--muted); font-size: .85rem; margin-top: .5rem; }
+.link-health-filter { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem; color: var(--muted); font-size: .85rem; padding: 1rem 1.15rem; background: var(--panel); border: 1px solid var(--line); border-top: 0; }
+.link-health-filter select { width: min(100%, 16rem); }

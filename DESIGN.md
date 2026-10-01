@@ -154,6 +154,8 @@ Controls and workbench containers have lightly curved corners using the control 
 
 ## Do's and Don'ts
 
+The masthead and browser tab use the existing repository RSS icon (`docs/_media/review-icon-192.png`); its 512px variant remains the installed PWA icon. The old landscape favicon and boxed text placeholder are not part of the current identity. Candidate rows show dated link observations, explicitly distinguishing valid, invalid, uncertain, untested and expired results.
+
 ### Do:
 
 - **Do** preserve warm paper, restrained olive and serif reading hierarchy.

@@ -2,7 +2,7 @@
 
 const SCOPE_PATH = new URL(self.registration.scope).pathname;
 const CACHE_PREFIX = `garss-review-${encodeURIComponent(SCOPE_PATH)}-`;
-const CACHE_NAME = `${CACHE_PREFIX}v8-20261001`;
+const CACHE_NAME = `${CACHE_PREFIX}v9-20261001`;
 const NETWORK_TIMEOUT_MS = 8000;
 const APP_SHELL = [
   "./review.html",
@@ -33,6 +33,7 @@ const CATALOG_PATHS = new Set([
   "api/v1/rsshub-routes.json",
   "api/v1/review-schema.json",
   "api/v1/review-decisions.json",
+  "api/v1/feed-health.json",
 ]);
 
 async function installShell() {
