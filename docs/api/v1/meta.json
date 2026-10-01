@@ -1,12 +1,12 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-09-30T22:05:44.907625Z",
+  "generated_at": "2026-10-01T01:37:44.797603Z",
   "retention_days": 30,
   "feeds_endpoint": "./feeds.json",
   "articles_endpoint": "./articles.json",
   "feed_candidates_endpoint": "./feed-candidates.json",
   "rsshub_routes_endpoint": "./rsshub-routes.json",
   "review_schema_endpoint": "./review-schema.json",
-  "snapshot_id": "fd3279fab6935b718b92",
-  "snapshot_endpoint": "./snapshots/fd3279fab6935b718b92/manifest.json"
+  "snapshot_id": "f38f388d85468269f8dc",
+  "snapshot_endpoint": "./snapshots/f38f388d85468269f8dc/manifest.json"
 }
