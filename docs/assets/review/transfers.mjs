@@ -1,4 +1,5 @@
 import { validateReviewPayload } from "./validation.mjs";
+import { buildReviewPayload } from "./payload.mjs";
 
 export function createTransfers(context) {
   const { state, document, window, byId, showToast, persistDecisions, renderMetrics, applyCandidateFilters, decisionStatus, REVIEW_SCHEMA_ENDPOINT } = context;
@@ -14,34 +15,13 @@ export function createTransfers(context) {
   }
 
   function exportReviews() {
-    const candidateById = new Map(state.candidates.map((candidate) => [candidate.id, candidate]));
-    const decisions = Object.entries(state.decisions)
-      .filter(([id, decision]) => candidateById.has(id) && ["approved", "rejected"].includes(decision.status))
-      .map(([id, decision]) => {
-        const candidate = candidateById.get(id);
-        const { _search, ...candidateSnapshot } = candidate;
-        return {
-          id,
-          status: decision.status,
-          reviewed_at: decision.updated_at,
-          candidate: candidateSnapshot,
-        };
-      })
-      .sort((left, right) => left.id.localeCompare(right.id));
-    const payload = {
-      schema_url: new URL(REVIEW_SCHEMA_ENDPOINT, window.location.href).href,
-      schema_version: "1.0",
-      catalog_generated_at: state.candidateGeneratedAt,
-      exported_at: new Date().toISOString(),
-      decision_count: decisions.length,
-      decisions,
-    };
+    const payload = buildReviewPayload({ state, schemaUrl: new URL(REVIEW_SCHEMA_ENDPOINT, window.location.href).href });
     download(
       `garss-reviews-${new Date().toISOString().slice(0, 10)}.json`,
       `${JSON.stringify(payload, null, 2)}\n`,
       "application/json;charset=utf-8",
     );
-    showToast(`已导出 ${decisions.length} 条审核决定`);
+    showToast(`已导出 ${payload.decision_count} 条审核决定`);
   }
 
   function xmlEscape(value) {
@@ -120,5 +100,5 @@ export function createTransfers(context) {
   }
 
 
-  return { exportReviews, exportApprovedOpml, importReviews };
+  return { exportReviews, exportApprovedOpml, importReviews, download };
 }

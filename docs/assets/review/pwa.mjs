@@ -39,7 +39,7 @@ export function createPwa(context) {
     ) {
       navigator.serviceWorker.addEventListener("controllerchange", () => {
         // Cache already-loaded catalogs when the first visit gains a controller.
-        const endpoints = [CANDIDATE_ENDPOINT];
+        const endpoints = [CANDIDATE_ENDPOINT, "./api/v1/review-decisions.json"];
         if (state.routesLoaded || state.routesLoading) endpoints.push(ROUTE_ENDPOINT);
         Promise.allSettled(endpoints.map((url) => fetch(url, { cache: "no-cache" })));
       });

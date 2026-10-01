@@ -33,3 +33,9 @@ GitHub Pages 会随 RSS 页面一起发布版本化 JSON 数据，供网页、�
 仓库附带的 [`review.html`](./review.html) 会读取上述两个接口，提供纯静态审核和检索界面。审核决定使用浏览器本地存储，并可导出为 JSON 或 OPML。JSON 导出带有 `schema_version` 和 `schema_url`，移动端或后端应先校验版本，再读取 `decisions`。
 
 审核台也是一个渐进式 Web App（PWA）。通过 GitHub Pages 的 HTTPS 地址打开后，可从支持 PWA 的浏览器安装到桌面或手机；首次成功加载目录后，页面外壳及最近一次候选、路由数据可在离线时继续使用。
+
+## 公共审核状态与提交
+
+`api/v1/review-decisions.json` 返回 `schema_version: "1.0"` 和按候选 ID 索引的 `decisions`。每项包含 `status`、`updated_at`、`feed_url`、`submission`、`source_id`，表示已经合并到仓库并由构建应用的决定。它属于独立审核目录，不属于文章快照。
+
+读取 API 仍为静态只读。写入通过审核台跳转到 GitHub，由用户登录、新分支提交 `reviews/*.json` 并创建 PR；PR 校验后，合并触发构建完成收录。参见 [提交说明](SOURCES.md) 和 [GitHub 创建文件说明](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files)。

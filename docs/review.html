@@ -39,8 +39,8 @@
     <section class="hero" aria-labelledby="page-title">
       <div>
         <h1 id="page-title">把好源留下来。</h1>
-        <p class="hero-copy">发现、筛选、留下值得订阅的内容。审核记录保存在本机，导出后再加入正式源。</p>
-        <span class="privacy-note">本机保存 · 离线可用 · 不自动上传</span>
+        <p class="hero-copy">发现、筛选、留下值得订阅的内容。决定先存本机，提交到 GitHub 后，经 PR 校验与合并加入正式源。</p>
+        <span class="privacy-note">本机暂存 · GitHub PR 收录 · 离线可审核</span>
       </div>
       <div class="snapshot" aria-live="polite">
         <span class="pulse" aria-hidden="true"></span>
@@ -50,6 +50,15 @@
           <span id="connection-status">正在检查网络状态</span>
         </div>
       </div>
+    </section>
+
+    <section class="online-review-tools" aria-label="在线提交审核">
+      <div class="selection-actions">
+        <button id="submit-online" class="button button-primary" type="button" disabled>提交到 GitHub</button>
+        <span id="online-review-count">0 条本机决定待提交</span>
+        <span id="published-review-status" aria-live="polite">正在读取仓库审核状态…</span>
+      </div>
+      <p>登录 GitHub 后，请选择<strong>新分支并创建 PR</strong>。校验通过、PR 合并后自动收录。已选择条目时仅提交已选决定；未选择时提交全部待提交决定。提交会下载备份，登录跳转后若未预填内容，可从备份粘贴。</p>
     </section>
 
     <section class="metrics" aria-label="审核统计">
@@ -197,7 +206,7 @@
 
   <footer>
     <span>GARSS · 本地优先的订阅源审核工具</span>
-    <span>审核决定不会自动上传</span>
+    <span>主动提交到 GitHub 后，经 PR 合并收录</span>
   </footer>
 
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>

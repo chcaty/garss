@@ -1,4 +1,6 @@
 import { createCandidates } from "./candidates.mjs";
+import { createOnlineReview } from "./online.mjs";
+import { effectiveDecision } from "./payload.mjs";
 import { createTransfers } from "./transfers.mjs";
 import { normalize, debounce as createDebounce } from "../shared/dom.mjs";
 import { validTimestamp } from "./validation.mjs";
@@ -27,6 +29,7 @@ export function createReviewer(environment = globalThis) {
     candidatePage: 1,
     selectedIds: new Set(),
     decisions: loadDecisions(localStorage),
+    publishedDecisions: {},
     routes: [],
     routesLoaded: false,
     routesLoading: false,
@@ -48,8 +51,11 @@ export function createReviewer(environment = globalThis) {
     state, byId, navigator, window, document, fetch, showToast,
     CANDIDATE_ENDPOINT, ROUTE_ENDPOINT,
   });
-  const { exportReviews, exportApprovedOpml, importReviews } = createTransfers({
+  const { exportReviews, exportApprovedOpml, importReviews, download } = createTransfers({
     state, document, window, byId, showToast, persistDecisions, renderMetrics, applyCandidateFilters, decisionStatus, REVIEW_SCHEMA_ENDPOINT,
+  });
+  const { updateOnlineControls, wireOnlineControls } = createOnlineReview({
+    state, byId, window, download, showToast, REVIEW_SCHEMA_ENDPOINT,
   });
 
   const { candidateRow } = createCandidates({
@@ -63,7 +69,7 @@ export function createReviewer(environment = globalThis) {
   }
 
   function decisionStatus(id) {
-    const status = state.decisions[id]?.status;
+    const status = effectiveDecision(state, id)?.status;
     return status === "approved" || status === "rejected" ? status : "pending";
   }
 
@@ -109,6 +115,7 @@ export function createReviewer(environment = globalThis) {
   }
 
   function updateSelectionControls() {
+    updateOnlineControls();
     const count = state.selectedIds.size;
     byId("selection-count").textContent = `已选择 ${numberFormat.format(count)} 项`;
     ["approve-selected", "reject-selected", "reset-selected"].forEach((id) => {
@@ -262,6 +269,21 @@ export function createReviewer(environment = globalThis) {
     byId("import-label").setAttribute("aria-disabled", "false");
   }
 
+  async function loadPublishedDecisions() {
+    try {
+      const response = await fetch("./api/v1/review-decisions.json", { cache: "no-cache", signal: AbortSignal.timeout(8000) });
+      if (!response.ok) throw new Error("Review status unavailable");
+      const payload = await response.json();
+      if (payload.schema_version !== "1.0" || !payload.decisions || typeof payload.decisions !== "object" || Array.isArray(payload.decisions)) throw new TypeError("Invalid review status");
+      state.publishedDecisions = Object.fromEntries(Object.entries(payload.decisions).filter(([id, decision]) =>
+        /^[0-9a-f]{20}$/.test(id) && decision && ["approved", "rejected"].includes(decision.status) && validTimestamp(decision.updated_at)));
+      byId("published-review-status").textContent = `仓库已保存 ${numberFormat.format(Object.keys(state.publishedDecisions).length)} 条审核决定`;
+      renderMetrics(); applyCandidateFilters(false);
+    } catch {
+      byId("published-review-status").textContent = "暂未读取仓库审核状态；本机审核仍可使用";
+    }
+  }
+
   function activateTab(tabName, updateHash = true) {
     const candidateActive = tabName === "candidates";
     byId("candidate-tab").classList.toggle("is-active", candidateActive);
@@ -300,11 +322,13 @@ export function createReviewer(environment = globalThis) {
   async function start() {
     wireTabs();
     wireCandidateControls();
+    wireOnlineControls();
     wireRouteControls();
     wirePwa();
     activateTab(window.location.hash === "#routes" ? "routes" : "candidates", false);
     try {
       await loadCandidates();
+      await loadPublishedDecisions();
     } catch {
       byId("snapshot-status").textContent = "候选目录加载失败";
       byId("snapshot-time").textContent = "请确认目录同步任务已成功运行";

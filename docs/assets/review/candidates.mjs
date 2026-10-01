@@ -24,10 +24,10 @@ export function createCandidates(context) {
     reject.addEventListener("click", () => setDecision([candidate.id], "rejected"));
     const reset = element("button", {
       className: "button button-quiet",
-      text: "撤销",
+      text: "撤销本机决定",
     });
     reset.type = "button";
-    reset.disabled = decisionStatus(candidate.id) === "pending";
+    reset.disabled = !state.decisions[candidate.id];
     reset.addEventListener("click", () => setDecision([candidate.id], "pending"));
     actions.append(approve, reject, reset);
     return actions;

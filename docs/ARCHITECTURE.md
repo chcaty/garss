@@ -14,6 +14,8 @@
 - `review.html` 与 `assets/review/`：审核协调器、候选条目、RSSHub 路由、导入导出、存储、结构校验和 PWA。
 - `assets/shared/`：两页共用的设计变量、基础控件和安全 DOM 构造。
 - `guide.html`：保留 Docsify 文档入口。
+- `reviews/*.json` 与 `scripts/lib/reviews.mjs`：版本化审核提交、候选身份校验和幂等收录计划。PR 预检后，由构建任务应用已合并结果。
+- `assets/review/online.mjs`、`payload.mjs`：GitHub 提交入口、公共状态与本机决定的时间优先级，以及统一的导出契约。
 - `service-worker.js`：仅处理审核台及其明确列出的资源和目录，更新依赖时同步更新缓存版本和资源清单。
 
 阅读页先读取 `meta.json`，再读取其快照 manifest，并行加载该快照中的来源与文章；校验时间一致性。渲染使用 `textContent`，外链只接受 HTTP/HTTPS。审核记录仍保存在本机；API 契约和 OPML 导出格式保留。

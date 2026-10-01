@@ -1,0 +1,31 @@
+name: Validate review submissions
+
+on:
+  pull_request:
+    paths:
+      - 'reviews/**'
+      - 'sources.json'
+      - 'scripts/apply-reviews.mjs'
+      - 'scripts/lib/reviews.mjs'
+      - 'docs/api/v1/review-schema.json'
+      - 'docs/api/v1/review-decisions.json'
+      - 'docs/assets/review/validation.mjs'
+      - 'docs/assets/review/contract.mjs'
+      - '.github/workflows/review-submissions.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - run: npm run check:review-schema
+      - run: npm test
+      - name: Validate candidates and preview inclusion
+        run: npm run review:check

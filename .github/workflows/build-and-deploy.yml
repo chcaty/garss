@@ -57,6 +57,9 @@ jobs:
           restore-keys: |
             rss-http-v1-${{ runner.os }}-
 
+      - name: Apply merged review submissions
+        run: npm run review:apply
+
       - name: Build feeds and API
         run: pipenv run build --no-email
 
@@ -69,6 +72,7 @@ jobs:
           test -s docs/api/v1/feed-candidates.json
           test -s docs/api/v1/rsshub-routes.json
           test -s docs/api/v1/review-schema.json
+          test -s docs/api/v1/review-decisions.json
           test -s docs/review.html
           test -s docs/index.html
           test -s docs/guide.html
@@ -80,6 +84,8 @@ jobs:
           test -s docs/assets/fonts/editorial-heading.ttf
           test -s docs/assets/review/candidates.mjs
           test -s docs/assets/review/transfers.mjs
+          test -s docs/assets/review/online.mjs
+          test -s docs/assets/review/payload.mjs
           test -s docs/assets/review.js
           test -s docs/assets/review/app.mjs
           test -s build/notification.html
@@ -94,7 +100,7 @@ jobs:
           python scripts/check_publish_base.py
           git config user.email "1120873075@qq.com"
           git config user.name "garss-bot"
-          git add README.md docs garssInfo.json zhaoolee_github_garss_subscription_list_v1.opml zhaoolee_github_garss_subscription_list_v2.opml
+          git add README.md docs sources.json garssInfo.json zhaoolee_github_garss_subscription_list_v1.opml zhaoolee_github_garss_subscription_list_v2.opml
           if git diff --cached --quiet; then
             echo "No generated changes"
           else

@@ -17,6 +17,10 @@ body.is-offline .pulse { background: var(--amber); }
 .metrics strong { font-size: 1.2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
 .metric-approved strong { color: var(--green); }
 .metric-rejected strong { color: var(--red); }
+.online-review-tools { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.online-review-tools .selection-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.online-review-tools p { max-width: 75ch; margin: .65rem 0 0; color: var(--muted); font-size: .75rem; line-height: 1.8; }
+#online-review-count, #published-review-status { font-size: .75rem; color: var(--muted); }
 .tabs { display: inline-flex; gap: .3rem; padding: .3rem; margin: 1.6rem 0 1rem; background: transparent; border: 1px solid var(--line); border-radius: 4px; }
 .tab { border: 0; border-radius: 4px; background: transparent; padding: .7rem 1.25rem; color: var(--muted); cursor: pointer; font-size: .85rem; font-weight: 650; min-height: 44px; }
 .tab.is-active { color: var(--green); background: var(--panel); box-shadow: none; }
