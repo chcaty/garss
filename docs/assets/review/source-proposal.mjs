@@ -7,7 +7,6 @@ export function validateSourceProposal(value) {
   if (typeof value.submitted_at !== "string" || !Number.isFinite(Date.parse(value.submitted_at))) throw new TypeError("Invalid submission date");
   const url = new URL(value.feed_url);
   if (!["https:", "http:"].includes(url.protocol) || url.username || url.password || /[\u0000-\u001f\u007f]/.test(value.feed_url)) throw new TypeError("Only HTTP(S) feed URLs without credentials are supported");
-  if (url.hostname === "access.xtlmrmig.cc") throw new TypeError("This source is not supported for inclusion");
   return value;
 }
 
