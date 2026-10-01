@@ -64,6 +64,7 @@ class HistoryTests(unittest.TestCase):
             cached_articles,
             today=date(2026, 9, 30),
             retention_days=30,
+            minimum_articles=0,
         )
 
         self.assertEqual(

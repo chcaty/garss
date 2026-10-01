@@ -9,6 +9,7 @@ from pathlib import Path
 from hashlib import sha256
 
 from garss import API_VERSION
+from garss.article_retention import MIN_ARTICLES_PER_SOURCE
 from garss.models import FeedResult, FeedSource
 
 
@@ -93,6 +94,7 @@ def write_static_api(
             "api_version": API_VERSION,
             "generated_at": generated,
             "retention_days": retention_days,
+            "minimum_articles_per_source": MIN_ARTICLES_PER_SOURCE,
             "feeds_endpoint": "./feeds.json",
             "articles_endpoint": "./articles.json",
             "feed_candidates_endpoint": "./feed-candidates.json",

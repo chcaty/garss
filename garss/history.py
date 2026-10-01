@@ -6,8 +6,7 @@ from pathlib import Path
 
 from garss.catalog import safe_http_url
 from garss.models import Article, FeedResult
-from garss.timezones import app_date
-from retention import retention_cutoff
+from garss.article_retention import MIN_ARTICLES_PER_SOURCE, retain_articles
 
 LOGGER = logging.getLogger(__name__)
 
@@ -83,22 +82,20 @@ def merge_recent_history(
     cached_articles: list[Article],
     today,
     retention_days: int,
+    minimum_articles: int = MIN_ARTICLES_PER_SOURCE,
 ) -> list[FeedResult]:
-    """Merge today's fetch with cached history and enforce the rolling window."""
-    cutoff = retention_cutoff(today=today, retention_days=retention_days)
+    """Merge the feed and cache, keeping the window plus each source's latest posts."""
     articles_by_source = {
         result.source.id: {article.id: article for article in result.articles}
         for result in results
     }
     for article in cached_articles:
-        published_date = app_date(article.published_at)
-        if article.source_id in articles_by_source and cutoff <= published_date <= today:
+        if article.source_id in articles_by_source:
             articles_by_source[article.source_id].setdefault(article.id, article)
 
     for result in results:
-        result.articles = sorted(
+        result.articles = retain_articles(
             articles_by_source[result.source.id].values(),
-            key=lambda article: article.published_at,
-            reverse=True,
+            today, retention_days, minimum_articles,
         )
     return results

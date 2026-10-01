@@ -96,7 +96,7 @@ class FetchTests(unittest.TestCase):
             self.assertEqual(result.status, "ok")
             self.assertNotIn("If-None-Match", get.call_args.kwargs["headers"])
 
-    def test_304_reparses_body_for_current_day_instead_of_reusing_old_articles(self):
+    def test_304_reparses_body_and_keeps_latest_posts_on_the_next_day(self):
         payload = b'<rss version="2.0"><channel><title>Feed</title><item><title>Old</title><link>https://example.com/item</link><pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate></item></channel></rss>'
         with tempfile.TemporaryDirectory() as directory:
             cache = FeedCache(Path(directory))
@@ -110,7 +110,7 @@ class FetchTests(unittest.TestCase):
             get.return_value = second
             result = fetch_feed(self.source, today=date(2026, 10, 1), only_date=date(2026, 10, 1), cache=cache, request_get=get)
             self.assertEqual(result.status, "ok")
-            self.assertEqual(result.articles, [])
+            self.assertEqual([article.title for article in result.articles], ["Old"])
             self.assertEqual(get.call_args.kwargs["headers"]["If-None-Match"], '"revision1"')
             self.assertIn("If-Modified-Since", get.call_args.kwargs["headers"])
             self.assertEqual(cache.get(self.source.feed_url).etag, '"revision1"')
@@ -191,6 +191,7 @@ class FetchTests(unittest.TestCase):
             today=date(2026, 9, 30),
             retention_days=30,
             only_date=date(2026, 9, 30),
+            minimum_articles=0,
         )
 
         self.assertEqual(

@@ -11,7 +11,8 @@ from garss.feed_cache import CachedFeed, MAX_PAYLOAD_BYTES, safe_validator
 from garss.models import Article, FeedResult, FeedSource
 from garss.timezones import app_date
 from garss.text import plain_summary, entry_image
-from retention import entry_published_datetime, retention_cutoff
+from retention import entry_published_datetime
+from garss.article_retention import MIN_ARTICLES_PER_SOURCE, retain_articles
 
 LOGGER = logging.getLogger(__name__)
 MAX_FEED_BYTES = MAX_PAYLOAD_BYTES
@@ -84,6 +85,7 @@ def _parse_articles(
     today=None,
     retention_days: int = 30,
     only_date=None,
+    minimum_articles: int = MIN_ARTICLES_PER_SOURCE,
 ) -> list[Article]:
     feed = feedparser.parse(payload)
     entries = feed.get("entries", [])
@@ -94,7 +96,6 @@ def _parse_articles(
 
     if today is None:
         today = datetime.now(timezone.utc).date()
-    cutoff = retention_cutoff(today=today, retention_days=retention_days)
     articles = []
     seen_urls = set()
     for entry in entries:
@@ -102,9 +103,7 @@ def _parse_articles(
         if published_at is None:
             continue
         published_date = app_date(published_at)
-        if only_date is not None and published_date != only_date:
-            continue
-        if only_date is None and (published_date < cutoff or published_date > today):
+        if published_date > today:
             continue
         title = (
             str(entry.get("title", "")).replace("\r", " ").replace("\n", " ").strip()
@@ -126,8 +125,7 @@ def _parse_articles(
                 image_url=entry_image(entry, url),
             )
         )
-    articles.sort(key=lambda article: article.published_at, reverse=True)
-    return articles
+    return retain_articles(articles, today, retention_days, minimum_articles, only_date)
 
 
 def fetch_feed(
