@@ -31,7 +31,6 @@ def main():
         # Oldest observations first: each scheduled build advances through the catalog.
         candidates.sort(key=lambda item: previous["checks"].get(item["feed_url"], {}).get("checked_at", ""))
         urls = [item["feed_url"] for item in sources + candidates[:max(0, args.candidate_limit)]]
-    urls = list(dict.fromkeys(url for url in urls if urlsplit(url).hostname not in EXCLUDED_FEED_HOSTS))
     with ThreadPoolExecutor(max_workers=max(1, min(args.workers, 24))) as executor:
         results = list(executor.map(check_link, urls))
     print(json.dumps(dict(Counter(item["status"] for item in results)), ensure_ascii=False))
