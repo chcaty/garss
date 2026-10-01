@@ -9,7 +9,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from garss.link_health import check_link
-from garss.catalog import EXCLUDED_FEED_HOSTS
 from urllib.parse import urlsplit
 
 
