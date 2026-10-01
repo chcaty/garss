@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T09:07:22.938852Z",
+  "generated_at": "2026-10-01T14:07:53.661723Z",
   "feeds": [
     {
       "id": "S001",
@@ -40,7 +40,7 @@
       "description": "分享免费、小巧、实用、有趣、绿色的软件",
       "feed_url": "https://www.appinn.com/feed/",
       "status": "ok",
-      "article_count": 13
+      "article_count": 14
     },
     {
       "id": "S006",
@@ -56,7 +56,7 @@
       "description": "反斗软件旗下软件限免资讯网站",
       "feed_url": "https://free.apprcn.com/feed/",
       "status": "ok",
-      "article_count": 5
+      "article_count": 8
     },
     {
       "id": "S008",
@@ -128,7 +128,7 @@
       "description": "修改器大神风灵月影",
       "feed_url": "https://flingtrainer.com/feed/",
       "status": "ok",
-      "article_count": 8
+      "article_count": 9
     },
     {
       "id": "B009",
@@ -504,7 +504,7 @@
       "description": "This blog is rated  R, viewer discretion is advised",
       "feed_url": "https://blog.est.im/rss",
       "status": "ok",
-      "article_count": 5
+      "article_count": 6
     },
     {
       "id": "B056",
@@ -1240,7 +1240,7 @@
       "description": "聪明的投资者都在这里,雪球每日精华",
       "feed_url": "https://xueqiu.com/hots/topic/rss",
       "status": "ok",
-      "article_count": 7
+      "article_count": 11
     },
     {
       "id": "T001",
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 64
+      "article_count": 73
     },
     {
       "id": "T002",
@@ -1424,7 +1424,7 @@
       "description": "Design Milk 是一个分享现代设计与生活方式灵感的网站",
       "feed_url": "https://design-milk.com/feed/",
       "status": "ok",
-      "article_count": 15
+      "article_count": 17
     },
     {
       "id": "D009",
@@ -1464,7 +1464,7 @@
       "description": "小众软件RSS",
       "feed_url": "https://www.appinn.com/feed/",
       "status": "ok",
-      "article_count": 13
+      "article_count": 14
     },
     {
       "id": "C005",
@@ -1472,7 +1472,7 @@
       "description": "互联网数据资讯网",
       "feed_url": "https://www.199it.com/feed",
       "status": "ok",
-      "article_count": 50
+      "article_count": 69
     },
     {
       "id": "C006",
@@ -1480,7 +1480,7 @@
       "description": "IT之家 - 软媒旗下网站",
       "feed_url": "https://www.ithome.com/rss",
       "status": "ok",
-      "article_count": 304
+      "article_count": 335
     },
     {
       "id": "C007",
@@ -1520,14 +1520,14 @@
       "description": "创意工作者的社区",
       "feed_url": "https://www.v2ex.com/index.xml",
       "status": "ok",
-      "article_count": 314
+      "article_count": 356
     },
     {
       "id": "C012",
       "title": "酷壳(左耳朵耗子)",
       "description": "酷 壳RSS",
       "feed_url": "https://coolshell.cn/feed",
-      "status": "error",
+      "status": "ok",
       "article_count": 0
     },
     {
@@ -1536,7 +1536,7 @@
       "description": "豆瓣最受欢迎的影评",
       "feed_url": "https://www.douban.com/feed/review/movie",
       "status": "ok",
-      "article_count": 29
+      "article_count": 33
     },
     {
       "id": "C014",
@@ -1552,7 +1552,7 @@
       "description": "豆瓣最受欢迎的乐评",
       "feed_url": "https://www.douban.com/feed/review/music",
       "status": "ok",
-      "article_count": 33
+      "article_count": 37
     },
     {
       "id": "C016",
@@ -1576,7 +1576,7 @@
       "description": "博客园首页",
       "feed_url": "http://feed.cnblogs.com/blog/sitehome/rss",
       "status": "ok",
-      "article_count": 41
+      "article_count": 44
     },
     {
       "id": "C019",
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 220
+      "article_count": 240
     },
     {
       "id": "M001",
@@ -1768,7 +1768,7 @@
       "description": "不止是游戏",
       "feed_url": "https://www.gcores.com/rss",
       "status": "ok",
-      "article_count": 40
+      "article_count": 43
     },
     {
       "id": "G002",
