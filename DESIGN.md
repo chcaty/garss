@@ -43,10 +43,33 @@ typography:
     fontFamily: "ui-monospace, Consolas, monospace"
     fontSize: ".75rem"
     lineHeight: 1.6
+  android-heading:
+    fontFamily: "Editorial, serif"
+    fontSize: "24px"
+    lineHeight: 1.5
+  android-title:
+    fontFamily: "sans-serif"
+    fontSize: "18px"
+    fontWeight: 700
+    lineHeight: 1.55
+  android-summary:
+    fontFamily: "sans-serif"
+    fontSize: "14px"
+    lineHeight: 1.7
+  android-detail-title:
+    fontFamily: "sans-serif"
+    fontSize: "26px"
+    fontWeight: 700
+    lineHeight: 1.5
+  android-detail-body:
+    fontFamily: "sans-serif"
+    fontSize: "18px"
+    lineHeight: 1.9
 rounded:
   control: "4px"
   badge: ".35rem"
   status: ".4rem"
+  android-field: "12px"
 spacing:
   compact: ".4rem"
   small: ".75rem"
@@ -54,6 +77,8 @@ spacing:
   section: "1.5rem"
   large: "2rem"
   column: "3rem"
+  android-gutter: "20px"
+  android-detail-gutter: "24px"
 components:
   button-primary:
     backgroundColor: "{colors.green}"
@@ -88,6 +113,19 @@ components:
     textColor: "{colors.green}"
     rounded: "{rounded.status}"
     padding: ".35rem .5rem"
+  manual-source-field:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.control}"
+    padding: ".7rem"
+  android-search:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.android-field}"
+    padding: "12px 16px"
+  android-bottom-navigation:
+    backgroundColor: "{colors.panel}"
+    height: "72px"
 ---
 
 # Design System: 嘎!RSS
@@ -97,6 +135,8 @@ components:
 **Creative North Star: "A daily reading desk"**
 
 Warm paper, restrained olive and Chinese serif headings establish a simple editorial world. Headlines carry the reading surface; compact sans controls support browsing and local curation. Rules and spacing provide structure without a decorative card grid.
+
+Android extends the same reading desk with native Material 3 controls, platform back navigation and four bottom destinations. Its editorial introduction retains the serif identity; article text uses the platform sans for accessible native reading.
 
 **Key Characteristics:**
 
@@ -126,6 +166,8 @@ Article titles use device Chinese serif fonts; controls and supporting copy use 
 
 Reading titles have generous leading; metadata remains compact. At mobile width the reading heading becomes (2.75rem), article titles become (1.12rem), and search/filter fields use (16px). Counts use tabular numerals.
 
+Android bundles the same heading subset as `Editorial`; its license is `app/assets/OFL.txt`. Android values in the frontmatter describe Flutter logical pixels at base text scale. List titles use the native title role, summaries stop at three lines, and metadata is (12px). Read titles soften to muted ink at weight (500); unread titles use weight (700) and a small olive dot. Article title and summary sizes multiply by the user's reading scale (1.0–1.4), in addition to platform text scaling. The detail summary is selectable text with generous leading.
+
 ## Layout
 
 Content is centered within (1280px). The desktop reader pairs a publisher index (220px) with a flexible headline column and a (3rem) gutter. At (950px) the index narrows to (175px) with a (1.75rem) gutter. Below (1350px), reader margins are (2rem).
@@ -134,13 +176,21 @@ At (720px) and below, margins become (1rem), headings stack, search spans the co
 
 The review filters become two columns at (1050px), with search spanning both and transfer controls below selection actions. At (720px), the desktop table becomes labeled mobile rows: feed and checkbox first, source/category/status below, then a separated action row. Candidate actions use three columns and route actions two. Long titles and paths wrap within available width.
 
+Pages manual source entry is an expandable, ruled section with two field columns and (1rem) gaps. At (640px) it becomes one column with (16px) field text. Fetch controls wrap with (.75rem) gaps; explanatory and result text spans the section.
+
+Android uses one scrolling column: editorial heading and sync status, search, wrapping unread/count/order controls, source dropdown, then ruled article rows. The list uses the native gutter, with row padding (20px 18px 20px 20px). Detail content uses the wider native detail gutter. The bottom bar stays available on the four main destinations: reading, favorites, sources and settings. Article detail and original-page views use the native app bar and back stack. Sources are searchable switch rows; settings use a text-size slider and image switch.
+
 ## Elevation & Depth
 
 Reading and review surfaces are flat. Borders, rules and pale selected backgrounds establish grouping; ordinary lists and controls have no shadows. Only the fixed notification uses a shadow, recorded in the sidecar. Reduced-motion preference disables transitions and animation.
 
+Android app bars have zero elevation and transparent surface tint; article rows remain flat. Native controls retain Material interaction feedback and platform motion rather than inheriting web hover behavior. A thin progress strip and textual sync result keep loading visible.
+
 ## Shapes
 
 Controls and workbench containers have lightly curved corners using the control radius. Badges and status labels use their small dedicated radii. The masthead mark is square; tiny status dots are circular. Reading headlines remain ruled rows, without enclosing cards.
+
+Android fields and publisher-image clips use the native field radius. Publisher images crop to full row width at (180px) high in the stream and (220px) in detail; failed images collapse away. The logo reuses `docs/_media/review-icon-192.png`, bundled as `app/assets/logo.png` and displayed at (32px) in the native app bar.
 
 ## Components
 
@@ -151,6 +201,11 @@ Controls and workbench containers have lightly curved corners using the control 
 - **Article rows:** serif linked title below publisher/date metadata, thin bottom rule and trailing arrow. Hover underlines the title and turns it olive.
 - **Review rows:** structured table on desktop; labeled flat containers on mobile. Selection, approval and rejection remain visible alongside textual status. Badges communicate source capabilities; status combines a colored dot with text.
 - **Notifications:** ink surface with white text, fixed near the safe bottom/right edges; mobile width spans between the page margins.
+- **Manual source proposal:** native HTML details with a plus/minus marker, labeled name/address/category/optional-description fields, and an olive submit action. The live status makes the GitHub branch/PR handoff and backup explicit; submission is a proposal, with inclusion after validation and merge.
+- **Manual fetch:** quiet actions for opening GitHub, refreshing the published result and maintaining the source directory. The result line identifies the latest publication and explains that the previous valid snapshot remains visible during a run.
+- **Android reading:** search with clear action, unread chip, source dropdown and order menu above a flat list. Bookmark icons have action tooltips; tapping a row marks it read and opens detail. Pull-to-refresh and the app-bar sync action share visible loading state; retry and empty states provide explanatory text.
+- **Android article detail:** title, date, optional publisher image, selectable summary, primary original-page action, browser alternative and mark-unread action. Original pages use a WebView with progress, reload, browser fallback and a visible main-page load error.
+- **Android navigation:** native four-destination bottom bar with pale olive selection indicator on panel, plus platform switches and slider for preferences. Material seed-derived interaction colors are platform defaults; the shared explicit palette remains normative for custom surfaces.
 
 ## Do's and Don'ts
 
@@ -162,6 +217,8 @@ The masthead and browser tab use the existing repository RSS icon (`docs/_media/
 - **Do** retain visible keyboard focus and (44px) primary touch targets.
 - **Do** adapt source navigation and review rows to narrow screens.
 - **Do** extend the licensed heading subset when heading copy changes.
+- **Do** preserve native text scaling, back navigation and labeled Android controls.
+- **Do** explain GitHub handoffs and show the published result beside manual fetch controls.
 
 ### Don't:
 

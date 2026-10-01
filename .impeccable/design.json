@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-30T19:35:00+00:00",
+  "generatedAt": "2026-10-02T00:00:00+08:00",
   "title": "Design System: 嘎!RSS",
   "extensions": {
     "colorMeta": {
@@ -197,6 +197,26 @@
       "mono": {
         "displayName": "Route Path",
         "purpose": "Wrapping RSSHub route paths."
+      },
+      "android-heading": {
+        "displayName": "Android Editorial Introduction",
+        "purpose": "Bundled Editorial subset; Flutter logical pixels at base scale."
+      },
+      "android-title": {
+        "displayName": "Android List Title",
+        "purpose": "Native sans title; 700 unread, 500 and muted ink when read; reading scale 1.0–1.4."
+      },
+      "android-summary": {
+        "displayName": "Android List Summary",
+        "purpose": "Native sans summary; three-line truncation and reading scale."
+      },
+      "android-detail-title": {
+        "displayName": "Android Detail Title",
+        "purpose": "Native sans detail title with reading scale and platform text scaling."
+      },
+      "android-detail-body": {
+        "displayName": "Android Detail Summary",
+        "purpose": "Selectable summary with generous leading and reading scale."
       }
     },
     "shadows": [
@@ -223,6 +243,10 @@
       {
         "name": "mobile",
         "value": "720px"
+      },
+      {
+        "name": "manual-source-form",
+        "value": "640px"
       }
     ],
     "focus": [
@@ -238,7 +262,47 @@
       }
     ],
     "reducedMotion": "At prefers-reduced-motion: reduce, animations and transitions are disabled.",
-    "tonalRampNote": "Ramps are synthesized OKLCH previews, not additional implementation tokens."
+    "tonalRampNote": "Ramps are synthesized OKLCH previews, not additional implementation tokens.",
+    "native": {
+      "platform": "Android / Flutter Material 3",
+      "unitNote": "Android px tokens represent Flutter logical pixels at base text scale; native text also respects platform scaling.",
+      "sourceFiles": [
+        "app/lib/ui/theme.dart",
+        "app/lib/ui/home.dart",
+        "app/lib/ui/article.dart"
+      ],
+      "colorScheme": "ColorScheme.fromSeed uses shared olive, explicit paper surface and ink onSurface; generated Material interaction colors are platform defaults, not additional shared primitives.",
+      "elevation": "App bars: elevation 0, transparent surface tint. Article rows: flat with one-pixel rules.",
+      "navigation": "Four main destinations: 阅读, 收藏, 来源, 设置. Detail/original views use native app bars and back navigation.",
+      "readingScale": "1.0–1.4 in four slider divisions; multiplied into list title, list summary, detail title and detail summary sizes.",
+      "readingStates": "Unread olive dot with ink 700 title; read muted 500 title; bookmark tooltips; sync progress, textual result, retry and empty states.",
+      "imagery": "Publisher images: full-width cover crop, 180 logical pixels in stream and 220 in detail, radius 12; loading indicator, collapsed image on failure, user image switch.",
+      "assets": {
+        "logoSource": "docs/_media/review-icon-192.png",
+        "logoBundle": "app/assets/logo.png",
+        "logoDisplay": "32 logical pixels",
+        "fontFamily": "Editorial",
+        "fontAsset": "app/assets/editorial-heading.ttf",
+        "fontLicense": "app/assets/OFL.txt"
+      },
+      "evidence": [
+        ".impeccable/review/android-final-reading.png",
+        ".impeccable/review/android-article.png"
+      ]
+    },
+    "sourceManagement": {
+      "sourceFiles": [
+        "docs/review.html",
+        "docs/assets/review.css",
+        "docs/assets/review/source-proposal.mjs"
+      ],
+      "proposal": "Expandable section, two field columns at desktop and one below 640px, live preparation/error status, GitHub branch/PR handoff plus downloadable JSON backup.",
+      "fetch": "Wraps GitHub manual-fetch, published-result refresh and source-directory maintenance actions; status explains last publication and previous valid snapshot during a run.",
+      "evidence": [
+        ".impeccable/review/manual-desktop.png",
+        ".impeccable/review/manual-mobile.png"
+      ]
+    }
   },
   "components": [
     {
@@ -309,11 +373,19 @@
       "description": "Serif title with compact source/date and quiet horizontal rule.",
       "html": "<article class=\"ds-article\"><div class=\"ds-meta\"><span>少数派</span><time>10 月 1 日</time></div><h3><a href=\"#article\">从日常阅读开始，发现更大的世界</a></h3></article>",
       "css": ".ds-article{padding:1.4rem 0;border-bottom:1px solid var(--line)}.ds-meta{display:flex;flex-wrap:wrap;gap:.75rem;color:var(--muted);font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif;font-size:.72rem;margin-bottom:.65rem}.ds-meta span{color:var(--green);font-weight:500}.ds-article h3{margin:0;font-family:var(--reading);font-size:1.25rem;line-height:1.65;font-weight:600;overflow-wrap:anywhere}.ds-article a{color:var(--ink);text-decoration:none;text-underline-offset:.25em}.ds-article a:hover{color:var(--green);text-decoration:underline}.ds-article a:focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:720px){.ds-article{padding:1.2rem 0}.ds-article h3{font-size:1.12rem}}"
+    },
+    {
+      "name": "Manual Source / Fetch Controls",
+      "kind": "custom",
+      "refersTo": "manual-source-field",
+      "description": "Responsive web source-entry and fetch strip. Preview shows styling; application supplies proposal preparation and result refresh.",
+      "html": "<section class=\"ds-management\"><details open><summary>手动新增订阅源</summary><form class=\"ds-manual\"><label>订阅名称<input required placeholder=\"例如：一位作者的博客\"></label><label>RSS / Atom 地址<input required type=\"url\" placeholder=\"https://example.com/feed\"></label><label>分类<input required value=\"博客\"></label><label>说明（选填）<input placeholder=\"这个来源主要写什么\"></label><button class=\"ds-submit\" type=\"button\">提交新增提案到 GitHub</button><p role=\"status\">请在 GitHub 选择新分支创建 PR；在线检测通过并合并后才会收录和抓取。</p></form></details><div class=\"ds-fetch\"><button type=\"button\">手动抓取 · 前往 GitHub</button><button class=\"ds-fetch-quiet\" type=\"button\">刷新抓取结果</button><p role=\"status\">抓取任务运行期间仍显示上一份有效快照。</p></div></section>",
+      "css": ".ds-management{border-bottom:1px solid var(--line);padding:1rem 0;color:var(--ink);font-family:\"PingFang SC\",\"Microsoft YaHei\",system-ui,sans-serif}.ds-management summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:600}.ds-management summary::before{content:\"+\";margin-right:.75rem}.ds-management details[open] summary::before{content:\"−\"}.ds-manual{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;padding:1rem 0}.ds-manual label{display:grid;gap:.5rem;color:var(--muted);font-size:.85rem}.ds-manual input{min-width:0;width:100%;min-height:44px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:.7rem;font:inherit}.ds-manual p,.ds-fetch p{flex-basis:100%;grid-column:1/-1;color:var(--muted);font-size:.85rem;line-height:1.8;margin:.5rem 0}.ds-submit,.ds-fetch button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem .8rem;border:1px solid transparent;border-radius:4px;font:600 .75rem sans-serif;cursor:pointer;background:transparent;color:var(--ink)}.ds-submit{background:var(--green);color:white}.ds-submit:hover{background:#414e2f}.ds-fetch{display:flex;flex-wrap:wrap;gap:.75rem;padding-top:.5rem}.ds-fetch .ds-fetch-quiet{border-color:var(--line);background:var(--panel)}.ds-fetch button:hover{background:var(--green-soft);filter:brightness(.96)}.ds-management :focus-visible{outline:2px solid var(--green);outline-offset:4px}@media(max-width:640px){.ds-manual{grid-template-columns:1fr}.ds-manual input{font-size:16px}}"
     }
   ],
   "narrative": {
     "northStar": "A daily reading desk",
-    "overview": "Warm paper, restrained olive and Chinese serif headings establish a simple editorial world. Headlines carry the reading surface; compact sans controls support browsing and local curation. Rules and spacing provide structure without a decorative card grid.",
+    "overview": "Warm paper, restrained olive and Chinese serif headings establish a simple editorial world. Headlines carry the reading surface; compact sans controls support browsing and local curation. Rules and spacing provide structure without a decorative card grid.\n\nAndroid extends the same reading desk with native Material 3 controls, platform back navigation and four bottom destinations. Its editorial introduction retains the serif identity; article text uses the platform sans for accessible native reading.",
     "keyCharacteristics": [
       "Warm paper with quiet panel surfaces.",
       "Serif reading hierarchy and compact sans controls.",
@@ -330,7 +402,9 @@
       "Do preserve warm paper, restrained olive and serif reading hierarchy.",
       "Do retain visible keyboard focus and (44px) primary touch targets.",
       "Do adapt source navigation and review rows to narrow screens.",
-      "Do extend the licensed heading subset when heading copy changes."
+      "Do extend the licensed heading subset when heading copy changes.",
+      "Do preserve native text scaling, back navigation and labeled Android controls.",
+      "Do explain GitHub handoffs and show the published result beside manual fetch controls."
     ],
     "donts": [
       "Don't turn the reading list into a decorative card grid.",
