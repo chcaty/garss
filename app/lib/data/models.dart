@@ -91,7 +91,6 @@ class Catalog {
   factory Catalog.fromJson(Map<String, dynamic> json) {
     final feeds = (json['feeds'] as List<dynamic>)
         .map((value) => Feed.fromJson(value as Map<String, dynamic>))
-        .where((feed) => Uri.tryParse(feed.url)?.host != 'access.xtlmrmig.cc')
         .toList();
     final byId = {for (final feed in feeds) feed.id: feed};
     final articles =
