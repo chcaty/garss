@@ -2142,6 +2142,15 @@
       "display_id": "TG011",
       "category": "Telegram优质频道RSS订阅",
       "icon": ""
+    },
+    {
+      "id": "YE001",
+      "title": "黑料不打烊",
+      "description": "不定期推送黑料",
+      "feed_url": "https://access.xtlmrmig.cc/feed",
+      "display_id": "YE001",
+      "category": "优质",
+      "icon": ""
     }
   ]
 }
