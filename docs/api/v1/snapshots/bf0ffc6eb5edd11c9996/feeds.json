@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T14:35:55.716537Z",
+  "generated_at": "2026-10-01T16:07:55.241550Z",
   "feeds": [
     {
       "id": "S001",
@@ -176,7 +176,7 @@
       "description": "多歧为贵 不取苟同",
       "feed_url": "http://weiwuhui.com/feed",
       "status": "ok",
-      "article_count": 4
+      "article_count": 3
     },
     {
       "id": "B015",
@@ -215,7 +215,7 @@
       "title": "Phodal",
       "description": "Phodal - A Growth Engineer",
       "feed_url": "https://www.phodal.com/blog/feeds/rss/",
-      "status": "error",
+      "status": "ok",
       "article_count": 0
     },
     {
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 73
+      "article_count": 74
     },
     {
       "id": "T002",
@@ -1303,7 +1303,7 @@
       "title": "蓝卡",
       "description": "美好科技生活方式",
       "feed_url": "https://www.lanka.cn/feed",
-      "status": "error",
+      "status": "ok",
       "article_count": 0
     },
     {
@@ -1535,7 +1535,7 @@
       "title": "豆瓣",
       "description": "豆瓣最受欢迎的影评",
       "feed_url": "https://www.douban.com/feed/review/movie",
-      "status": "error",
+      "status": "ok",
       "article_count": 33
     },
     {
@@ -1543,7 +1543,7 @@
       "title": "豆瓣",
       "description": "豆瓣最受欢迎的书评",
       "feed_url": "https://www.douban.com/feed/review/book",
-      "status": "error",
+      "status": "ok",
       "article_count": 20
     },
     {
@@ -1551,7 +1551,7 @@
       "title": "豆瓣",
       "description": "豆瓣最受欢迎的乐评",
       "feed_url": "https://www.douban.com/feed/review/music",
-      "status": "error",
+      "status": "ok",
       "article_count": 37
     },
     {
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 260
+      "article_count": 280
     },
     {
       "id": "M001",
@@ -1904,6 +1904,14 @@
       "description": "不定期推送 IT 相关资讯",
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel",
       "status": "error",
+      "article_count": 0
+    },
+    {
+      "id": "YE001",
+      "title": "黑料不打烊",
+      "description": "不定期推送黑料",
+      "feed_url": "https://access.xtlmrmig.cc/feed",
+      "status": "ok",
       "article_count": 0
     }
   ]
