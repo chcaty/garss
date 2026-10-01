@@ -1,7 +1,833 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T05:05:47.237124Z",
+  "generated_at": "2026-10-01T09:07:22.938852Z",
   "articles": [
+    {
+      "id": "aaffafa825d32e318cad",
+      "source_id": "C011",
+      "title": "[分享创造] 庆祝国庆节网站：天安门的一天",
+      "url": "https://www.v2ex.com/t/1246026#reply0",
+      "published_at": "2026-10-01T09:06:23Z"
+    },
+    {
+      "id": "c994e9c8631fd6269854",
+      "source_id": "C011",
+      "title": "[Claude Code] 国内 Visa 卡里的余额取不出来，干脆拿去开了个 Claude Pro，看看能撑多久）",
+      "url": "https://www.v2ex.com/t/1246025#reply0",
+      "published_at": "2026-10-01T09:05:49Z"
+    },
+    {
+      "id": "ffdf059b1dd48771de5a",
+      "source_id": "C035",
+      "title": "绿云JP2222 又挂了",
+      "url": "https://www.nodeseek.com/post-958908-1",
+      "published_at": "2026-10-01T09:05:09Z"
+    },
+    {
+      "id": "61e55d26d8c03e9edcdc",
+      "source_id": "C035",
+      "title": "求助！谷歌反重力一直提示这个地区不可用！我之前是没问题的，也换ip了，其他账户就没问题！有人知道咋回事吗？",
+      "url": "https://www.nodeseek.com/post-958907-1",
+      "published_at": "2026-10-01T09:04:42Z"
+    },
+    {
+      "id": "b6fbe677876d55b0c806",
+      "source_id": "C035",
+      "title": "注册Muse 用gemini pro spark 有几率跳过信用验证",
+      "url": "https://www.nodeseek.com/post-958906-1",
+      "published_at": "2026-10-01T09:03:41Z"
+    },
+    {
+      "id": "9a68fbf4b87a1f38b1ae",
+      "source_id": "C011",
+      "title": "[分享创造] ClipSeek 成功上架 Microsoft Store 啦 ｜ 送码",
+      "url": "https://www.v2ex.com/t/1246024#reply0",
+      "published_at": "2026-10-01T09:03:25Z"
+    },
+    {
+      "id": "b9cf1a965d4b32d5dbcc",
+      "source_id": "C035",
+      "title": "tmd淘宝网页现在是不是会探测ip",
+      "url": "https://www.nodeseek.com/post-958905-1",
+      "published_at": "2026-10-01T09:02:51Z"
+    },
+    {
+      "id": "19fda27cb33c77a42042",
+      "source_id": "C035",
+      "title": "vmiss和大妈和瓦工",
+      "url": "https://www.nodeseek.com/post-958904-1",
+      "published_at": "2026-10-01T09:02:26Z"
+    },
+    {
+      "id": "f2c6c934f6f487aa5cdb",
+      "source_id": "C035",
+      "title": "【NQ】 gpt dots",
+      "url": "https://www.nodeseek.com/post-958903-1",
+      "published_at": "2026-10-01T09:02:18Z"
+    },
+    {
+      "id": "af7af3448e534b172ff3",
+      "source_id": "C006",
+      "title": "谷歌 Pixel 10a 手机在日本涨价：起售价升至 92800 日元，最高涨幅 16.15%",
+      "url": "https://www.ithome.com/1/009/106.htm",
+      "published_at": "2026-10-01T09:01:58Z"
+    },
+    {
+      "id": "59b6c56318a9e61630df",
+      "source_id": "C035",
+      "title": "我把Study With Me做成了一个交互式的网站，一个不一样的番茄钟帮你专注",
+      "url": "https://www.nodeseek.com/post-958901-1",
+      "published_at": "2026-10-01T09:00:56Z"
+    },
+    {
+      "id": "2367daa6a0bacef99fdd",
+      "source_id": "C035",
+      "title": "国模Api便宜卖",
+      "url": "https://www.nodeseek.com/post-958900-1",
+      "published_at": "2026-10-01T09:00:08Z"
+    },
+    {
+      "id": "b804b632641c493cab17",
+      "source_id": "C035",
+      "title": "摆摊出鸡 光锥云HK",
+      "url": "https://www.nodeseek.com/post-958899-1",
+      "published_at": "2026-10-01T08:59:55Z"
+    },
+    {
+      "id": "d91514ecdcfb9fb0c3fa",
+      "source_id": "C035",
+      "title": "反重力用不了gemini是为啥",
+      "url": "https://www.nodeseek.com/post-958898-1",
+      "published_at": "2026-10-01T08:59:35Z"
+    },
+    {
+      "id": "35f426aaf38e0324606c",
+      "source_id": "C035",
+      "title": "[快闪]【国庆快乐，送VOXI优惠码】每10楼送一个",
+      "url": "https://www.nodeseek.com/post-958897-1",
+      "published_at": "2026-10-01T08:59:22Z"
+    },
+    {
+      "id": "db9600a0441badc1b401",
+      "source_id": "C006",
+      "title": "华为、东航达成首个系统级机上联网合作：鸿蒙 7.0 手机支持空中 Wi-Fi 一键联网，Mate 90 系列及 XT2 非凡大师可享一年高级权益",
+      "url": "https://www.ithome.com/1/009/104.htm",
+      "published_at": "2026-10-01T08:58:59Z"
+    },
+    {
+      "id": "3f6fed3c6281612299b6",
+      "source_id": "C006",
+      "title": "欧盟出手整治游戏内氪金乱象，拳头、动视暴雪等 9 家大厂被点名",
+      "url": "https://www.ithome.com/1/009/103.htm",
+      "published_at": "2026-10-01T08:57:58Z"
+    },
+    {
+      "id": "ea231337560368236eb9",
+      "source_id": "C035",
+      "title": "收酷网五折C，你出价，我砍一刀",
+      "url": "https://www.nodeseek.com/post-958895-1",
+      "published_at": "2026-10-01T08:55:34Z"
+    },
+    {
+      "id": "199c1ea701e294736c6d",
+      "source_id": "C035",
+      "title": "【NQ】Halo 国际站 香港 Standard",
+      "url": "https://www.nodeseek.com/post-958894-1",
+      "published_at": "2026-10-01T08:53:35Z"
+    },
+    {
+      "id": "2ce11c5223c307415303",
+      "source_id": "C015",
+      "title": "感情里可以义无反顾但切忌赔上自己 (评论: 甲乙丙丁)",
+      "url": "https://music.douban.com/review/17837434/",
+      "published_at": "2026-10-01T08:52:52Z"
+    },
+    {
+      "id": "9dc668c3b8b8b0c7453e",
+      "source_id": "C035",
+      "title": "有啥可以折腾的吗",
+      "url": "https://www.nodeseek.com/post-958893-1",
+      "published_at": "2026-10-01T08:52:49Z"
+    },
+    {
+      "id": "d21acd6819fb57715fa6",
+      "source_id": "C035",
+      "title": "【询问】语音输入错乱是不是gpt降智的体现？",
+      "url": "https://www.nodeseek.com/post-958892-1",
+      "published_at": "2026-10-01T08:49:54Z"
+    },
+    {
+      "id": "8efe682e4af65d5f49ff",
+      "source_id": "C035",
+      "title": "移动快乐HK的有推荐的吗？",
+      "url": "https://www.nodeseek.com/post-958891-1",
+      "published_at": "2026-10-01T08:49:36Z"
+    },
+    {
+      "id": "636e00da4903639e946b",
+      "source_id": "C035",
+      "title": "出个英区减金额48team优惠码",
+      "url": "https://www.nodeseek.com/post-958890-1",
+      "published_at": "2026-10-01T08:49:34Z"
+    },
+    {
+      "id": "e52fd18a802129660f3d",
+      "source_id": "C006",
+      "title": "曝三星 Galaxy Glasses 智能眼镜通过美国 FCC 认证，有望 11 月上市",
+      "url": "https://www.ithome.com/1/009/102.htm",
+      "published_at": "2026-10-01T08:49:08Z"
+    },
+    {
+      "id": "47712a2e035f5ac69bf9",
+      "source_id": "C035",
+      "title": "hk快乐没了，移动怎么办",
+      "url": "https://www.nodeseek.com/post-958889-1",
+      "published_at": "2026-10-01T08:49:03Z"
+    },
+    {
+      "id": "d0e26c92c1ed904882de",
+      "source_id": "C035",
+      "title": "经测试naranja与hostsailor都不抗投诉DMCA",
+      "url": "https://www.nodeseek.com/post-958888-1",
+      "published_at": "2026-10-01T08:47:52Z"
+    },
+    {
+      "id": "1517854ea200c05681d1",
+      "source_id": "C035",
+      "title": "4K都能看，怎么访问GitHub那么卡？",
+      "url": "https://www.nodeseek.com/post-958887-1",
+      "published_at": "2026-10-01T08:47:29Z"
+    },
+    {
+      "id": "b06107b32f1579887382",
+      "source_id": "C006",
+      "title": "华为 Mate 90 系列及全场景新品发布会一文汇总：史上最强 Mate，四款麒麟芯片，手表耳机智慧屏上新",
+      "url": "https://www.ithome.com/1/009/101.htm",
+      "published_at": "2026-10-01T08:45:26Z"
+    },
+    {
+      "id": "ee580b3fce6696881713",
+      "source_id": "C006",
+      "title": "曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元",
+      "url": "https://www.ithome.com/1/009/100.htm",
+      "published_at": "2026-10-01T08:45:11Z"
+    },
+    {
+      "id": "f46695133df2eda1b06b",
+      "source_id": "S007",
+      "title": "限时免费获取音频插件 Drum Spice[Windows、macOS][$59.99→0]",
+      "url": "https://free.apprcn.com/limited-time-get-drum-spice-for-free/",
+      "published_at": "2026-10-01T08:41:42Z"
+    },
+    {
+      "id": "e8516d18a9c373f61b52",
+      "source_id": "C011",
+      "title": "[分享发现] DS One 融合怪 Windows 版本来啦~",
+      "url": "https://www.v2ex.com/t/1246021#reply0",
+      "published_at": "2026-10-01T08:40:01Z"
+    },
+    {
+      "id": "b3756feb32e85e41bc2a",
+      "source_id": "C006",
+      "title": "万灵竞记推出花兽 V2 鼠标：镁锂合金外壳，TheShy 联名",
+      "url": "https://www.ithome.com/1/009/099.htm",
+      "published_at": "2026-10-01T08:38:11Z"
+    },
+    {
+      "id": "bdca9222a037707ee32a",
+      "source_id": "C006",
+      "title": "运动相机品牌 GoPro 正式加入 M43 联盟",
+      "url": "https://www.ithome.com/1/009/097.htm",
+      "published_at": "2026-10-01T08:37:54Z"
+    },
+    {
+      "id": "00c07e902747156e9d91",
+      "source_id": "C011",
+      "title": "[推广] 上海联通 3000 兆高速宽带正式上线",
+      "url": "https://www.v2ex.com/t/1246019#reply1",
+      "published_at": "2026-10-01T08:34:49Z"
+    },
+    {
+      "id": "c12b04abededa9d1b91d",
+      "source_id": "C006",
+      "title": "AI 拉动半导体需求暴涨，韩国 9 月出口创历史新高",
+      "url": "https://www.ithome.com/1/009/096.htm",
+      "published_at": "2026-10-01T08:28:58Z"
+    },
+    {
+      "id": "3c77eb427d4c62572493",
+      "source_id": "C011",
+      "title": "[iPhone] iPhone18 充电头选择",
+      "url": "https://www.v2ex.com/t/1246018#reply2",
+      "published_at": "2026-10-01T08:28:11Z"
+    },
+    {
+      "id": "b7da319f77f55a321c93",
+      "source_id": "T006",
+      "title": "AI 时代产品经理的竞争力迭代：从方法论执行到经营判断力升维",
+      "url": "https://www.woshipm.com/pmd/6471544.html",
+      "published_at": "2026-10-01T08:20:12Z"
+    },
+    {
+      "id": "d29a614f78d8c588086d",
+      "source_id": "C006",
+      "title": "岚图汽车 9 月交付 13025 辆，今年累计交付同比增长 19%",
+      "url": "https://www.ithome.com/1/009/095.htm",
+      "published_at": "2026-10-01T08:16:50Z"
+    },
+    {
+      "id": "1fadc57dcc05d7f67376",
+      "source_id": "C011",
+      "title": "[推广] 🎉ChinaPlay 祝所有用户国庆节快乐并提供 466 款折扣的游戏！",
+      "url": "https://www.v2ex.com/t/1246017#reply0",
+      "published_at": "2026-10-01T08:15:30Z"
+    },
+    {
+      "id": "9fcd5fbfb9b5d4a61676",
+      "source_id": "H002",
+      "title": "印度无视股市低迷 9月份IPO创下历史纪录",
+      "url": "https://36kr.com/newsflashes/4006930331701384?f=rss",
+      "published_at": "2026-10-01T08:15:10Z"
+    },
+    {
+      "id": "b315e26139be73821498",
+      "source_id": "C006",
+      "title": "全靠平时爱看《空中浩劫》：迪拜航空 FZ1073 一乘客通过节目学会拉杆，协助救回机上 174 人",
+      "url": "https://www.ithome.com/1/009/094.htm",
+      "published_at": "2026-10-01T08:13:25Z"
+    },
+    {
+      "id": "f1c492034b2424a2355b",
+      "source_id": "C006",
+      "title": "越野摩托竞速游戏《MXGP 26》发售，Steam 国区 170 元起",
+      "url": "https://www.ithome.com/1/009/093.htm",
+      "published_at": "2026-10-01T08:12:47Z"
+    },
+    {
+      "id": "a1bec4b2855620ae0f40",
+      "source_id": "C006",
+      "title": "长安启源 9 月全球交付 46507 辆，累计销量突破 100 万辆",
+      "url": "https://www.ithome.com/1/009/091.htm",
+      "published_at": "2026-10-01T08:09:07Z"
+    },
+    {
+      "id": "12a10dd63e04221aee75",
+      "source_id": "C011",
+      "title": "[分享创造] 给工作咩闹钟 Linux 写了两个好玩的功能，当电脑音箱和当电脑显示器",
+      "url": "https://www.v2ex.com/t/1246016#reply0",
+      "published_at": "2026-10-01T08:08:20Z"
+    },
+    {
+      "id": "c2ebf0d720747950cdf5",
+      "source_id": "C006",
+      "title": "vivo X Fold6 折叠屏手机登陆全球市场，电池相比国行版缩减 100mAh",
+      "url": "https://www.ithome.com/1/009/090.htm",
+      "published_at": "2026-10-01T08:08:05Z"
+    },
+    {
+      "id": "41f178f1b1ec464bb8d6",
+      "source_id": "C006",
+      "title": "“全球最小”：村田推出 3 端子多层陶瓷电容器，实装面积较此前产品减少约 64%",
+      "url": "https://www.ithome.com/1/009/088.htm",
+      "published_at": "2026-10-01T08:02:28Z"
+    },
+    {
+      "id": "c10268ac0a8943702fcb",
+      "source_id": "C006",
+      "title": "CHERRY XTRFY 推出磁轴键盘 PIXIU68：16kHz 回报率，799 元",
+      "url": "https://www.ithome.com/1/009/087.htm",
+      "published_at": "2026-10-01T08:02:18Z"
+    },
+    {
+      "id": "4fdba05e36d1a95365e3",
+      "source_id": "H002",
+      "title": "季风疲软致印度9月电力缺口创近十年新高",
+      "url": "https://36kr.com/newsflashes/4006929422766217?f=rss",
+      "published_at": "2026-10-01T08:00:16Z"
+    },
+    {
+      "id": "c6256c95372d8dd8b66f",
+      "source_id": "C011",
+      "title": "[Android] k20pro 有没有办法秒解 bl？",
+      "url": "https://www.v2ex.com/t/1246014#reply0",
+      "published_at": "2026-10-01T07:56:56Z"
+    },
+    {
+      "id": "bc33ce48d7f3165b08ec",
+      "source_id": "C011",
+      "title": "[分享创造] GPT 降级实况： Plus 智商离线， Free 降级（站长手记）",
+      "url": "https://www.v2ex.com/t/1246013#reply1",
+      "published_at": "2026-10-01T07:56:05Z"
+    },
+    {
+      "id": "fa37f695b4037cf6940a",
+      "source_id": "L002-c24629da",
+      "title": "SAINT LAURENT 2027 春夏女装秀：一场黄金十年的庆典，也可能是一场告别",
+      "url": "http://www.toodaylab.com/84230",
+      "published_at": "2026-10-01T07:50:49Z"
+    },
+    {
+      "id": "1162c7d5c47a0668aa1f",
+      "source_id": "C006",
+      "title": "一字不改：加州州长纽森反击特朗普将“人工智能”改为“超级智能”，州政府范围内继续叫“AI”",
+      "url": "https://www.ithome.com/1/009/086.htm",
+      "published_at": "2026-10-01T07:50:38Z"
+    },
+    {
+      "id": "ffe49ae1991526d2b234",
+      "source_id": "H002",
+      "title": "国庆假期第一天铁路迎客流最高峰",
+      "url": "https://36kr.com/newsflashes/4006928924200834?f=rss",
+      "published_at": "2026-10-01T07:45:43Z"
+    },
+    {
+      "id": "9c5d4c05d17ff5a408d2",
+      "source_id": "C006",
+      "title": "软银完成对 OpenAI 最后一笔投资，300 亿美元承诺全部到位",
+      "url": "https://www.ithome.com/1/009/085.htm",
+      "published_at": "2026-10-01T07:43:13Z"
+    },
+    {
+      "id": "6abdf11ad7c4460bc09b",
+      "source_id": "C011",
+      "title": "[问与答] 如何将自己变得不那么矫情和事儿？",
+      "url": "https://www.v2ex.com/t/1246012#reply0",
+      "published_at": "2026-10-01T07:38:07Z"
+    },
+    {
+      "id": "54dae1d89d83d89405f3",
+      "source_id": "C011",
+      "title": "[推广] 祝各位 V 友国庆快乐！需要代充 GPT 的可以联系我！国庆不休息！",
+      "url": "https://www.v2ex.com/t/1246011#reply0",
+      "published_at": "2026-10-01T07:37:56Z"
+    },
+    {
+      "id": "9ae9c655c470ba50c944",
+      "source_id": "C006",
+      "title": "调研显示：超 85% 的日本游戏开发者正使用生成式 AI",
+      "url": "https://www.ithome.com/1/009/083.htm",
+      "published_at": "2026-10-01T07:37:01Z"
+    },
+    {
+      "id": "3bc563603b1d1e5053b4",
+      "source_id": "C006",
+      "title": "数据中心催生庞大用工需求，谷歌高管称全美存在数十万个技术工种缺口",
+      "url": "https://www.ithome.com/1/009/082.htm",
+      "published_at": "2026-10-01T07:36:55Z"
+    },
+    {
+      "id": "8854e724c64de9c1324b",
+      "source_id": "C011",
+      "title": "[分享创造] 做了一个 AI 视频、图片和音频 API 比价站 Vidily，把参数和计费条件一起看",
+      "url": "https://www.v2ex.com/t/1246010#reply0",
+      "published_at": "2026-10-01T07:35:10Z"
+    },
+    {
+      "id": "c6f4c6c7e2a27e1c00ef",
+      "source_id": "C006",
+      "title": "经典端游《跑跑卡丁车》本月末升级 64 位客户端，不再支持 32 位 Windows 系统",
+      "url": "https://www.ithome.com/1/009/081.htm",
+      "published_at": "2026-10-01T07:30:33Z"
+    },
+    {
+      "id": "4bde07f6943df8279717",
+      "source_id": "H002",
+      "title": "苹果智能家居中枢或借鉴iPhone Duo待机模式，支持照片墙等多种界面",
+      "url": "https://36kr.com/newsflashes/4006928419410056?f=rss",
+      "published_at": "2026-10-01T07:30:11Z"
+    },
+    {
+      "id": "0123c13a497c2fc081ed",
+      "source_id": "C006",
+      "title": "三星 Galaxy S27 Ultra 手机保护膜曝光，基本和 S26 Ultra 通用",
+      "url": "https://www.ithome.com/1/009/080.htm",
+      "published_at": "2026-10-01T07:28:45Z"
+    },
+    {
+      "id": "f76cde25f6e8bf203875",
+      "source_id": "C006",
+      "title": "美光科技 CEO 梅赫罗特拉：目前已锁定约 1500 亿美元长期订单，AI 存储需求紧张",
+      "url": "https://www.ithome.com/1/009/079.htm",
+      "published_at": "2026-10-01T07:25:05Z"
+    },
+    {
+      "id": "a447ffa0d2faf8a05a36",
+      "source_id": "C011",
+      "title": "[Windows] Win11 小任务栏终于回归了",
+      "url": "https://www.v2ex.com/t/1246009#reply0",
+      "published_at": "2026-10-01T07:25:02Z"
+    },
+    {
+      "id": "b984650f8d89fda0d8bf",
+      "source_id": "C006",
+      "title": "鸿蒙智行 9 月交付 37490 台，全系累计交付突破 156 万台",
+      "url": "https://www.ithome.com/1/009/077.htm",
+      "published_at": "2026-10-01T07:24:08Z"
+    },
+    {
+      "id": "95fa44499d1079731e65",
+      "source_id": "C006",
+      "title": "WSBK 2027 官宣首次落地中国：10 月 29 日上海站成赛季收官战，张雪祝贺",
+      "url": "https://www.ithome.com/1/009/076.htm",
+      "published_at": "2026-10-01T07:21:49Z"
+    },
+    {
+      "id": "dd05904fccb872ef8d4c",
+      "source_id": "C006",
+      "title": "iPhone 18 标准版首秀：苹果 A20 芯片焊点图曝光，推测 5 核 GPU",
+      "url": "https://www.ithome.com/1/009/075.htm",
+      "published_at": "2026-10-01T07:18:56Z"
+    },
+    {
+      "id": "5e2a6e80ef1b0a78985d",
+      "source_id": "T005",
+      "title": "独立开发者的推广困局：别把获客留到上线那天",
+      "url": "https://www.woshipm.com/operate/6472900.html",
+      "published_at": "2026-10-01T07:15:38Z"
+    },
+    {
+      "id": "136ec6f2edba89d720a0",
+      "source_id": "H002",
+      "title": "实现海上发电就地制氢，中国团队首提交流电直接电解海水制氢新策略",
+      "url": "https://36kr.com/newsflashes/4006927692828548?f=rss",
+      "published_at": "2026-10-01T07:15:30Z"
+    },
+    {
+      "id": "4e902d8b0af787a62bc4",
+      "source_id": "C006",
+      "title": "我国首个三塔光热基地正式亮相，每年至多节省 69 万吨标准煤",
+      "url": "https://www.ithome.com/1/009/074.htm",
+      "published_at": "2026-10-01T07:12:51Z"
+    },
+    {
+      "id": "5fd0307ece20570f7a7c",
+      "source_id": "C006",
+      "title": "福特 CEO 法利：AI 将成为蓝领工人的“搭档”，帮其更快掌握技能",
+      "url": "https://www.ithome.com/1/009/073.htm",
+      "published_at": "2026-10-01T07:11:31Z"
+    },
+    {
+      "id": "d1281cacd7a1cd901801",
+      "source_id": "C006",
+      "title": "诺基亚联合 ICEYE 推出欧洲主权卫星服务，首批计划 2028 年发射",
+      "url": "https://www.ithome.com/1/009/072.htm",
+      "published_at": "2026-10-01T07:08:47Z"
+    },
+    {
+      "id": "d8d576c5739b2bdeca9f",
+      "source_id": "C006",
+      "title": "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片",
+      "url": "https://www.ithome.com/1/009/070.htm",
+      "published_at": "2026-10-01T07:04:30Z"
+    },
+    {
+      "id": "0df5cd746b1acd5b14a7",
+      "source_id": "C011",
+      "title": "[App推荐] [送码] 无广告极简的轻量记账软件",
+      "url": "https://www.v2ex.com/t/1246008#reply0",
+      "published_at": "2026-10-01T07:03:10Z"
+    },
+    {
+      "id": "2921aaf61e1c06e3acfd",
+      "source_id": "H002",
+      "title": "我国首个三塔光热基地正式亮相",
+      "url": "https://36kr.com/newsflashes/4006927198195841?f=rss",
+      "published_at": "2026-10-01T07:00:00Z"
+    },
+    {
+      "id": "b056172cbdc5d741a1c6",
+      "source_id": "C006",
+      "title": "Anthropic 向 Claude 用户免费发放毛绒玩具与贴纸，每人限领一份",
+      "url": "https://www.ithome.com/1/009/069.htm",
+      "published_at": "2026-10-01T06:56:14Z"
+    },
+    {
+      "id": "500fd61191d9c3d5edce",
+      "source_id": "C006",
+      "title": "把键盘做成传送带，谷歌 Gboard 日本团队一年一度的整活来了",
+      "url": "https://www.ithome.com/1/009/068.htm",
+      "published_at": "2026-10-01T06:53:48Z"
+    },
+    {
+      "id": "aa25bf6623e2f8df5931",
+      "source_id": "C006",
+      "title": "华为 Mate 90 系列发布会再奏《Dream It Possible》，麒麟 9000 5G 处理器时隔多年再次登台",
+      "url": "https://www.ithome.com/1/009/067.htm",
+      "published_at": "2026-10-01T06:52:54Z"
+    },
+    {
+      "id": "5d7fff70d72b884506ee",
+      "source_id": "C011",
+      "title": "[问与答] gpt6.1 sol 和 5.6 sol 相同思考等级 哪个强",
+      "url": "https://www.v2ex.com/t/1246006#reply4",
+      "published_at": "2026-10-01T06:49:50Z"
+    },
+    {
+      "id": "e37d6ab4d32e02a4f119",
+      "source_id": "C006",
+      "title": "《F1 25》领衔，索尼公布本月 PS Plus 欧美区三款会员免费游戏",
+      "url": "https://www.ithome.com/1/009/066.htm",
+      "published_at": "2026-10-01T06:47:44Z"
+    },
+    {
+      "id": "eb7d0a9df3b7691d60d0",
+      "source_id": "C006",
+      "title": "微软更新 1.140 版 VS Code：多文件夹会话、远程 AI Agent 任务委派等",
+      "url": "https://www.ithome.com/1/009/065.htm",
+      "published_at": "2026-10-01T06:47:33Z"
+    },
+    {
+      "id": "36fd969f0747b05f6532",
+      "source_id": "C011",
+      "title": "[分享创造] [送码] 给养猫狗的朋友们做了一个可以模拟宠物视角的 App 小狗相机，欢迎大家体验",
+      "url": "https://www.v2ex.com/t/1246005#reply1",
+      "published_at": "2026-10-01T06:47:13Z"
+    },
+    {
+      "id": "e49e8e6b87fbef2aeb43",
+      "source_id": "H002",
+      "title": "沙特交易所将允许市价单在多个价格档位成交",
+      "url": "https://36kr.com/newsflashes/4006926555107463?f=rss",
+      "published_at": "2026-10-01T06:45:19Z"
+    },
+    {
+      "id": "aaad743f0dee6c40f7a8",
+      "source_id": "C011",
+      "title": "[上海] 自己写太慢、AI 写又一眼假，有没有稳定降\"AI 味\"的办法？（附朱雀检测困扰）",
+      "url": "https://www.v2ex.com/t/1246003#reply6",
+      "published_at": "2026-10-01T06:41:31Z"
+    },
+    {
+      "id": "da2f23686f26f0f6fb32",
+      "source_id": "C011",
+      "title": "[推广] 节假日不休， 6.1sol,6astra， onnet 5-5h,Opus 5-5 保持稳定不降智，不降智倍率低至 0.19，欢迎天才程序员来蹬，回复送测试额度。",
+      "url": "https://www.v2ex.com/t/1246002#reply3",
+      "published_at": "2026-10-01T06:39:05Z"
+    },
+    {
+      "id": "36a13461e58b5070bea3",
+      "source_id": "C006",
+      "title": "前 / 现任微软员工对苹果首款折叠 iPhone Duo 讨论汇总：“Surface Duo 开发者只能捶胸顿足”",
+      "url": "https://www.ithome.com/1/009/063.htm",
+      "published_at": "2026-10-01T06:35:30Z"
+    },
+    {
+      "id": "06f21965d828a761a073",
+      "source_id": "C006",
+      "title": "苹果 HomeHub 家庭中枢显示照片界面曝光，设计类似 iPhone Duo 折叠手机的待机模式",
+      "url": "https://www.ithome.com/1/009/062.htm",
+      "published_at": "2026-10-01T06:35:10Z"
+    },
+    {
+      "id": "d0be63812ec0a2af4711",
+      "source_id": "C006",
+      "title": "昔日美国爆款电动汽车遇冷：通用雪佛兰 Bolt 复产后卖不动，将于明年停产",
+      "url": "https://www.ithome.com/1/009/061.htm",
+      "published_at": "2026-10-01T06:34:59Z"
+    },
+    {
+      "id": "4f3c8e9a41edc1dfdf6f",
+      "source_id": "H002",
+      "title": "我国秋粮开始大面积收获 进度已过三成",
+      "url": "https://36kr.com/newsflashes/4006924365959042?f=rss",
+      "published_at": "2026-10-01T06:30:07Z"
+    },
+    {
+      "id": "74743fa0c6a8f85c92fd",
+      "source_id": "C011",
+      "title": "[Claude] Anthropic 开始给 Claude 用户送实体周边了",
+      "url": "https://www.v2ex.com/t/1246001#reply9",
+      "published_at": "2026-10-01T06:28:24Z"
+    },
+    {
+      "id": "35a5d33ab1eb0412703d",
+      "source_id": "C018",
+      "title": "第二章：Details 重点数据细读 ⭐教你读懂 Nsight Compute 报告 系列合集⭐ - _nibel",
+      "url": "https://www.cnblogs.com/nibel/p/23179607",
+      "published_at": "2026-10-01T06:25:00Z"
+    },
+    {
+      "id": "07c6060103a372131aee",
+      "source_id": "C003",
+      "title": "华为 Mate 90 系列发布：最强 Mate来了，5999 起即日开售",
+      "url": "https://www.ifanr.com/1682801?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "published_at": "2026-10-01T06:17:57Z"
+    },
+    {
+      "id": "d87e3b65f15bccaa5b14",
+      "source_id": "C013",
+      "title": "不出所料的发挥 (评论: 神探之痕迹‎)",
+      "url": "https://movie.douban.com/review/17837179/",
+      "published_at": "2026-10-01T06:15:35Z"
+    },
+    {
+      "id": "ebc068737ffe4c1cd3e4",
+      "source_id": "H002",
+      "title": "同程旅行：国庆假期首日全国知名山岳预订热度环比增长超200%",
+      "url": "https://36kr.com/newsflashes/4006923750232192?f=rss",
+      "published_at": "2026-10-01T06:13:37Z"
+    },
+    {
+      "id": "43ac939752a99a0efc1f",
+      "source_id": "C006",
+      "title": "超 Ai.com 成史上最大域名交易：消息称 Shopify 豪掷 1 亿美元收购 Shop.com",
+      "url": "https://www.ithome.com/1/009/059.htm",
+      "published_at": "2026-10-01T06:10:42Z"
+    },
+    {
+      "id": "219a727ba0c1b85f5f4b",
+      "source_id": "C006",
+      "title": "广汽昊铂埃安 BU 宣布 9 月销量 35494 辆同比增长 21.91%，连续 7 个月逆势正增长",
+      "url": "https://www.ithome.com/1/009/058.htm",
+      "published_at": "2026-10-01T06:06:27Z"
+    },
+    {
+      "id": "bfce1ffdb9e718692a84",
+      "source_id": "C015",
+      "title": "那么蓝的月亮 (评论: 青春无悔)",
+      "url": "https://music.douban.com/review/17837164/",
+      "published_at": "2026-10-01T06:06:12Z"
+    },
+    {
+      "id": "776f456efb0b77efeedc",
+      "source_id": "C006",
+      "title": "【一图知】华为 Mate 90 系列及全场景新品发布会：麒麟 τ 芯片旗舰登场，外挂“巨炮”相机",
+      "url": "https://www.ithome.com/1/009/057.htm",
+      "published_at": "2026-10-01T06:01:23Z"
+    },
+    {
+      "id": "27bf315d67df749369d4",
+      "source_id": "H002",
+      "title": "《国铁集团铁路货物运输规程》今起实施",
+      "url": "https://36kr.com/newsflashes/4006841754390400?f=rss",
+      "published_at": "2026-10-01T06:00:05Z"
+    },
+    {
+      "id": "d6c24488076ff0560e0e",
+      "source_id": "C011",
+      "title": "[分享创造] 表情厨房更新： AI 做整套微信表情包之外，加了动态表情和三个免费 GIF 工具",
+      "url": "https://www.v2ex.com/t/1245999#reply1",
+      "published_at": "2026-10-01T05:53:49Z"
+    },
+    {
+      "id": "c529f1bba066080c5cda",
+      "source_id": "H002",
+      "title": "飞猪：国庆假期首日门票张数增长30%，“原生旅游”热度攀升",
+      "url": "https://36kr.com/newsflashes/4006839583854467?f=rss",
+      "published_at": "2026-10-01T05:45:52Z"
+    },
+    {
+      "id": "dc0c5262aa9d40080015",
+      "source_id": "C011",
+      "title": "[分享创造] 没公网 IP 还会关机？把 Muse 虚拟机变成自己的 VPS",
+      "url": "https://www.v2ex.com/t/1245998#reply4",
+      "published_at": "2026-10-01T05:43:08Z"
+    },
+    {
+      "id": "6ba1e90189c3fda854ed",
+      "source_id": "C006",
+      "title": "“大空头”伯里：为了人类的利益，市场应该狠跌一次，别让 OpenAI 和 Anthropic 上市",
+      "url": "https://www.ithome.com/1/009/055.htm",
+      "published_at": "2026-10-01T05:38:59Z"
+    },
+    {
+      "id": "1ec58e0fd42aee1a4006",
+      "source_id": "C013",
+      "title": "《活色生香》：打着“中女”旗号，拍了一场男人中心的尴尬闹剧（ 删掉 我继续发 ） (评论: 活色生香)",
+      "url": "https://movie.douban.com/review/17837124/",
+      "published_at": "2026-10-01T05:36:45Z"
+    },
+    {
+      "id": "fd2aca8d5515a5dada53",
+      "source_id": "C011",
+      "title": "[AI Agent 智能体] muse.ai 通过 Cloudflare 免费版 Turnstile 人机验证",
+      "url": "https://www.v2ex.com/t/1245997#reply0",
+      "published_at": "2026-10-01T05:34:01Z"
+    },
+    {
+      "id": "f274279478a23dd6fb7f",
+      "source_id": "C015",
+      "title": "因缘有声，万象归果 (评论: 要去什么地方)",
+      "url": "https://music.douban.com/review/17837119/",
+      "published_at": "2026-10-01T05:33:35Z"
+    },
+    {
+      "id": "67b9ea327fae1ddbdbba",
+      "source_id": "H002",
+      "title": "因质量问题，日本麦当劳暂停北海道地区汉堡销售",
+      "url": "https://36kr.com/newsflashes/4006837777682561?f=rss",
+      "published_at": "2026-10-01T05:30:00Z"
+    },
+    {
+      "id": "70b958c04e1c3488a476",
+      "source_id": "C006",
+      "title": "Omdia 报告 2026Q2 印度平板出货量：三星同比增 2.6%、苹果增 34.5%，联想增 89.9%",
+      "url": "https://www.ithome.com/1/009/054.htm",
+      "published_at": "2026-10-01T05:29:16Z"
+    },
+    {
+      "id": "31aeab03d02d6aed25c5",
+      "source_id": "C011",
+      "title": "[程序员] 提醒一下 codex 有两个重置 10/4、10/5",
+      "url": "https://www.v2ex.com/t/1245995#reply0",
+      "published_at": "2026-10-01T05:24:14Z"
+    },
+    {
+      "id": "e4dd70f4b062f6922d17",
+      "source_id": "C006",
+      "title": "英飞凌推出 USB-C 20Gbps PCIe 扩展卡参考设计，助力该接口工业应用",
+      "url": "https://www.ithome.com/1/009/053.htm",
+      "published_at": "2026-10-01T05:22:07Z"
+    },
+    {
+      "id": "777070cf0ba382abe2f7",
+      "source_id": "C006",
+      "title": "华为鸿蒙星河互联 App 升级 2.0.0 版本：液态玻璃上线、新增双机互联，Mate 90 系列首发支持",
+      "url": "https://www.ithome.com/1/009/052.htm",
+      "published_at": "2026-10-01T05:21:54Z"
+    },
+    {
+      "id": "06d3160a2110c44d2f10",
+      "source_id": "C006",
+      "title": "消息称赛力斯、华为合作模式再调整：有望基于问界“专属专营”新模式进一步升级",
+      "url": "https://www.ithome.com/1/009/051.htm",
+      "published_at": "2026-10-01T05:16:29Z"
+    },
+    {
+      "id": "55541d49a9fba4aa29b6",
+      "source_id": "H002",
+      "title": "蔚来9月交付新车37408台，同比增长7.7%",
+      "url": "https://36kr.com/newsflashes/4006837097762946?f=rss",
+      "published_at": "2026-10-01T05:15:17Z"
+    },
+    {
+      "id": "b05f4d559eaff0dc902c",
+      "source_id": "C006",
+      "title": "Crew-13 载人任务今天发射，有望刷新美国从发射到对接最快太空旅行纪录",
+      "url": "https://www.ithome.com/1/009/050.htm",
+      "published_at": "2026-10-01T05:13:48Z"
+    },
+    {
+      "id": "57107bd5eeee2efd602f",
+      "source_id": "C011",
+      "title": "[职场话题] 国庆节来公司值班了，发现人很少",
+      "url": "https://www.v2ex.com/t/1245994#reply6",
+      "published_at": "2026-10-01T05:13:44Z"
+    },
+    {
+      "id": "33edd1d394776cc06c37",
+      "source_id": "C011",
+      "title": "[Apple] [分享送码] Forma Drive 在 Mac 上读写 NTFS 和 ext4 移动硬盘，顺带看线缆速度、清理磁盘",
+      "url": "https://www.v2ex.com/t/1245993#reply11",
+      "published_at": "2026-10-01T05:11:33Z"
+    },
+    {
+      "id": "16994c7993ff07e34fde",
+      "source_id": "C006",
+      "title": "SK 海力士重申：尚未决定 Solidigm 未来资本利用规划",
+      "url": "https://www.ithome.com/1/009/048.htm",
+      "published_at": "2026-10-01T05:10:18Z"
+    },
     {
       "id": "17189e9393ff931c5f31",
       "source_id": "C035",
@@ -164,6 +990,20 @@
       "published_at": "2026-10-01T04:56:02Z"
     },
     {
+      "id": "2b43d037d4d5195e02b3",
+      "source_id": "T006",
+      "title": "产品经理是做什么的？详解产品经理的5个主要职责",
+      "url": "https://www.woshipm.com/pmd/6472679.html",
+      "published_at": "2026-10-01T04:55:47Z"
+    },
+    {
+      "id": "8bf43d2f013ab0b506bf",
+      "source_id": "C011",
+      "title": "[问与答] AI 接入 VPS/NAS",
+      "url": "https://www.v2ex.com/t/1245992#reply4",
+      "published_at": "2026-10-01T04:55:27Z"
+    },
+    {
       "id": "263922b6ac720eb9b45f",
       "source_id": "C011",
       "title": "[问与答] AI 接入 VPS/NAS",
@@ -234,6 +1074,13 @@
       "published_at": "2026-10-01T04:28:18Z"
     },
     {
+      "id": "0b619e98eecaf169a1df",
+      "source_id": "C011",
+      "title": "[问与答] 关于家用净水器,有能满足我这种情况的吗?",
+      "url": "https://www.v2ex.com/t/1245988#reply7",
+      "published_at": "2026-10-01T04:26:24Z"
+    },
+    {
       "id": "4ab3aa331953237c7ca7",
       "source_id": "C011",
       "title": "[问与答] 关于家用净水器,有能满足我这种情况的吗?",
@@ -246,6 +1093,13 @@
       "title": "蔚来公司 9 月交付新车 37408 辆，同比增长 7.7%",
       "url": "https://www.ithome.com/1/009/037.htm",
       "published_at": "2026-10-01T04:25:59Z"
+    },
+    {
+      "id": "6c26b50cb1827869dcee",
+      "source_id": "C011",
+      "title": "[分享发现] 通过 firefox 注册 muse",
+      "url": "https://www.v2ex.com/t/1245987#reply9",
+      "published_at": "2026-10-01T04:23:34Z"
     },
     {
       "id": "4c12a81c8af64138fdd7",
@@ -395,6 +1249,13 @@
       "published_at": "2026-10-01T03:40:42Z"
     },
     {
+      "id": "123512237c1000a850b0",
+      "source_id": "C011",
+      "title": "[分享创造] 让 Opus 5.5 从零做了一支「为什么时间是第四维」的 3D 科普短片：零素材，画面和音效全是代码生成的",
+      "url": "https://www.v2ex.com/t/1245982#reply3",
+      "published_at": "2026-10-01T03:39:45Z"
+    },
+    {
       "id": "70af6e94abdba71ce4e8",
       "source_id": "C011",
       "title": "[分享创造] 让 Opus 5.5 从零做了一支「为什么时间是第四维」的 3D 科普短片：零素材，画面和音效全是代码生成的",
@@ -514,6 +1375,13 @@
       "published_at": "2026-10-01T03:04:43Z"
     },
     {
+      "id": "2d150ee7a48df0a8c635",
+      "source_id": "C011",
+      "title": "[程序员] 看到一个网很有意思，输入一个网址就能把它变成一个网站拆迁游戏，直接让 opus 5.5 直接 copy 一个，效果还不错",
+      "url": "https://www.v2ex.com/t/1245979#reply5",
+      "published_at": "2026-10-01T03:03:37Z"
+    },
+    {
       "id": "1da4e3f3a9c603d983af",
       "source_id": "C011",
       "title": "[程序员] 看到一个网很有意思，输入一个网址就能把它变成一个网站拆迁游戏，直接让 opus 5.5 直接 copy 一个，效果还不错",
@@ -533,6 +1401,13 @@
       "title": "华为 Mate90 系列手机引入广电级直播能力、带来专属直播模式",
       "url": "https://www.ithome.com/1/009/011.htm",
       "published_at": "2026-10-01T03:00:23Z"
+    },
+    {
+      "id": "a3936011985a6c090eee",
+      "source_id": "C011",
+      "title": "[NAS] Jellyfin 怎样按照拼音顺序排列歌曲",
+      "url": "https://www.v2ex.com/t/1245978#reply5",
+      "published_at": "2026-10-01T02:54:20Z"
     },
     {
       "id": "74f0f4f48d39ea90eb18",
@@ -568,6 +1443,13 @@
       "title": "武汉：完善商品住房销售制度 推行“拿地即开工”、“交房即交证”",
       "url": "https://36kr.com/newsflashes/4006677584466055?f=rss",
       "published_at": "2026-10-01T02:45:04Z"
+    },
+    {
+      "id": "5f3c4cba82e7b4b1335d",
+      "source_id": "C011",
+      "title": "[Claude] 号被封了……",
+      "url": "https://www.v2ex.com/t/1245975#reply23",
+      "published_at": "2026-10-01T02:44:47Z"
     },
     {
       "id": "077704d7951394ce64da",
@@ -668,6 +1550,13 @@
       "published_at": "2026-10-01T02:19:56Z"
     },
     {
+      "id": "972a4a62c3da4aa8bf20",
+      "source_id": "C011",
+      "title": "[Apple] pdd 首发的 mac mini m6 降价了，最低 4899， 5299 买的可以去找客服申请 300 价补",
+      "url": "https://www.v2ex.com/t/1245972#reply5",
+      "published_at": "2026-10-01T02:19:05Z"
+    },
+    {
       "id": "6426ec669714cc75e964",
       "source_id": "C011",
       "title": "[Apple] pdd 首发的 mac mini m6 降价了，最低 4899， 5299 买的可以去找客服申请 300 价补",
@@ -717,6 +1606,13 @@
       "published_at": "2026-10-01T02:13:52Z"
     },
     {
+      "id": "94ec92cc4c890f71e246",
+      "source_id": "C011",
+      "title": "[程序员] 产品形态来说，好多咱们的程序员以为 APP > WEB",
+      "url": "https://www.v2ex.com/t/1245970#reply36",
+      "published_at": "2026-10-01T02:13:03Z"
+    },
+    {
       "id": "cc8e3d2f1fc74a795fba",
       "source_id": "C011",
       "title": "[程序员] 产品形态来说，好多咱们的程序员以为 APP > WEB",
@@ -731,11 +1627,25 @@
       "published_at": "2026-10-01T02:12:38Z"
     },
     {
+      "id": "73446fb886a7971b67d8",
+      "source_id": "C011",
+      "title": "[问与答] 各位谁有稳定可靠的 Claude Pro/Max 成品号或代充渠道啊",
+      "url": "https://www.v2ex.com/t/1245968#reply6",
+      "published_at": "2026-10-01T02:09:23Z"
+    },
+    {
       "id": "469d8ac0ae480f77e1f8",
       "source_id": "C011",
       "title": "[问与答] 各位谁有稳定可靠的 Claude Pro/Max 成品号或代充渠道啊",
       "url": "https://www.v2ex.com/t/1245968#reply4",
       "published_at": "2026-10-01T02:09:23Z"
+    },
+    {
+      "id": "e2ec39f4989dd7b6b307",
+      "source_id": "C011",
+      "title": "[程序员] 最近在玩 Muse，然后突然想买一个 Meta 智能眼镜。",
+      "url": "https://www.v2ex.com/t/1245966#reply4",
+      "published_at": "2026-10-01T02:02:53Z"
     },
     {
       "id": "5c92a5edc03d0f7b4305",
@@ -773,6 +1683,13 @@
       "published_at": "2026-10-01T01:50:49Z"
     },
     {
+      "id": "a9906d1abc79bacd87aa",
+      "source_id": "C011",
+      "title": "[酷工作] 有人在上海乐天创研工作过吗？工作体验怎么样？",
+      "url": "https://www.v2ex.com/t/1245965#reply3",
+      "published_at": "2026-10-01T01:48:52Z"
+    },
+    {
       "id": "51cf9f0bcc105d309774",
       "source_id": "C011",
       "title": "[酷工作] 有人在上海乐天创研工作过吗？工作体验怎么样？",
@@ -796,7 +1713,7 @@
     {
       "id": "0924ecff4befed8fa8f8",
       "source_id": "C006",
-      "title": "2026 年 9 月汽车销量 / 交付汇总（持续更新）：小鹏汽车 41256 辆，蔚来公司 37408 辆",
+      "title": "2026 年 9 月汽车销量 / 交付汇总（持续更新）：岚图汽车 13,025 辆",
       "url": "https://www.ithome.com/1/008/990.htm",
       "published_at": "2026-10-01T01:36:55Z"
     },

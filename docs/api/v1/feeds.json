@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T05:05:47.237124Z",
+  "generated_at": "2026-10-01T09:07:22.938852Z",
   "feeds": [
     {
       "id": "S001",
@@ -56,7 +56,7 @@
       "description": "反斗软件旗下软件限免资讯网站",
       "feed_url": "https://free.apprcn.com/feed/",
       "status": "ok",
-      "article_count": 4
+      "article_count": 5
     },
     {
       "id": "S008",
@@ -1216,7 +1216,7 @@
       "description": "36氪",
       "feed_url": "https://www.36kr.com/feed",
       "status": "ok",
-      "article_count": 114
+      "article_count": 127
     },
     {
       "id": "H003",
@@ -1280,7 +1280,7 @@
       "description": "产品运营 - 人人都是产品经理",
       "feed_url": "http://www.woshipm.com/category/operate/feed",
       "status": "ok",
-      "article_count": 15
+      "article_count": 16
     },
     {
       "id": "T006",
@@ -1288,7 +1288,7 @@
       "description": "产品经理 – 人人都是产品经理",
       "feed_url": "http://www.woshipm.com/category/pmd/feed",
       "status": "ok",
-      "article_count": 4
+      "article_count": 6
     },
     {
       "id": "T007",
@@ -1352,7 +1352,7 @@
       "description": "为更理想的生活",
       "feed_url": "https://www.toodaylab.com/rss",
       "status": "ok",
-      "article_count": 21
+      "article_count": 22
     },
     {
       "id": "L003",
@@ -1456,7 +1456,7 @@
       "description": "让未来触手可及",
       "feed_url": "https://www.ifanr.com/feed",
       "status": "ok",
-      "article_count": 25
+      "article_count": 26
     },
     {
       "id": "C004",
@@ -1480,7 +1480,7 @@
       "description": "IT之家 - 软媒旗下网站",
       "feed_url": "https://www.ithome.com/rss",
       "status": "ok",
-      "article_count": 256
+      "article_count": 304
     },
     {
       "id": "C007",
@@ -1520,14 +1520,14 @@
       "description": "创意工作者的社区",
       "feed_url": "https://www.v2ex.com/index.xml",
       "status": "ok",
-      "article_count": 276
+      "article_count": 314
     },
     {
       "id": "C012",
       "title": "酷壳(左耳朵耗子)",
       "description": "酷 壳RSS",
       "feed_url": "https://coolshell.cn/feed",
-      "status": "ok",
+      "status": "error",
       "article_count": 0
     },
     {
@@ -1536,7 +1536,7 @@
       "description": "豆瓣最受欢迎的影评",
       "feed_url": "https://www.douban.com/feed/review/movie",
       "status": "ok",
-      "article_count": 27
+      "article_count": 29
     },
     {
       "id": "C014",
@@ -1552,7 +1552,7 @@
       "description": "豆瓣最受欢迎的乐评",
       "feed_url": "https://www.douban.com/feed/review/music",
       "status": "ok",
-      "article_count": 30
+      "article_count": 33
     },
     {
       "id": "C016",
@@ -1576,7 +1576,7 @@
       "description": "博客园首页",
       "feed_url": "http://feed.cnblogs.com/blog/sitehome/rss",
       "status": "ok",
-      "article_count": 40
+      "article_count": 41
     },
     {
       "id": "C019",
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 200
+      "article_count": 220
     },
     {
       "id": "M001",
