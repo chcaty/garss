@@ -8,6 +8,8 @@ GitHub Pages 会随 RSS 页面一起发布版本化 JSON 数据，供网页、�
 - `api/v1/meta.json`：生成时间、保留期和端点信息
 - `api/v1/feeds.json`：订阅源目录及最近一次抓取状态
 - `api/v1/articles.json`：最近 30 天文章，按发布时间倒序排列
+
+文章向后兼容增加可选 `summary`（最多 600 字符的纯文本摘要）和 `image_url`（RSS 图片字段或正文首图的 HTTP(S) URL）。旧快照或未提供内容的订阅源可能没有这些字段或返回空字符串。客户端应显示占位阅读提示，图片失败不能阻断文章；图片来自原站，不保证离线可用，不在 Pages 镜像图片。完整文章仍通过 `url` 访问。
 - `api/v1/feed-candidates.json`：Tidings、SaveWeb、Plenary 和 RSSHub 汇总的待审核订阅候选
 - `api/v1/rsshub-routes.json`：RSSHub 路由能力、示例及配置要求
 - `api/v1/review-schema.json`：网页与后续 App 共用的审核结果 JSON Schema

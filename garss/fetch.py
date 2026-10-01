@@ -10,6 +10,7 @@ from garss.catalog import safe_http_url
 from garss.feed_cache import CachedFeed, MAX_PAYLOAD_BYTES, safe_validator
 from garss.models import Article, FeedResult, FeedSource
 from garss.timezones import app_date
+from garss.text import plain_summary, entry_image
 from retention import entry_published_datetime, retention_cutoff
 
 LOGGER = logging.getLogger(__name__)
@@ -121,6 +122,8 @@ def _parse_articles(
                 title=title,
                 url=url,
                 published_at=published_at,
+                summary=plain_summary(entry.get("summary") or next((item.get("value", "") for item in entry.get("content", []) if isinstance(item, dict)), "")),
+                image_url=entry_image(entry, url),
             )
         )
     articles.sort(key=lambda article: article.published_at, reverse=True)

@@ -1,6 +1,7 @@
 import json
 import logging
 from datetime import datetime
+from dataclasses import replace
 from pathlib import Path
 
 from garss.catalog import safe_http_url
@@ -41,11 +42,40 @@ def load_cached_articles(path: Path, source_ids: set[str]) -> list[Article]:
                     title=str(item["title"]),
                     url=safe_http_url(str(item["url"])),
                     published_at=published_at,
+                    summary=str(item.get("summary", ""))[:600],
+                    image_url=_cached_image(item.get("image_url")),
                 )
             )
         except (KeyError, TypeError, ValueError):
             continue
     return articles
+
+
+def _cached_image(value):
+    try:
+        return safe_http_url(str(value)) if value else ""
+    except ValueError:
+        return ""
+
+
+def enrich_cached_articles(articles, sources, response_cache, today, retention_days):
+    """Backfill only existing article IDs from cached RSS, without new requests."""
+    from garss.fetch import _parse_articles
+    media_by_source = {}
+    parsed_by_url = {}
+    for source in sources:
+        if source.feed_url not in parsed_by_url:
+            cached = response_cache.get(source.feed_url)
+            try:
+                parsed_by_url[source.feed_url] = {article.url: article for article in _parse_articles(source, cached.payload, today=today, retention_days=retention_days)} if cached else {}
+            except (ValueError, TypeError):
+                parsed_by_url[source.feed_url] = {}
+        media_by_source[source.id] = parsed_by_url[source.feed_url]
+    result = []
+    for article in articles:
+        metadata = media_by_source.get(article.source_id, {}).get(article.url)
+        result.append(replace(article, summary=article.summary or metadata.summary, image_url=article.image_url or metadata.image_url) if metadata else article)
+    return result
 
 
 def merge_recent_history(

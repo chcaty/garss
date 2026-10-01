@@ -6,7 +6,7 @@ from pathlib import Path
 
 from garss.catalog import load_source_templates
 from garss.feed_cache import FeedCache
-from garss.history import load_cached_articles, merge_recent_history
+from garss.history import load_cached_articles, merge_recent_history, enrich_cached_articles
 from garss.output import (
     atomic_write_text,
     sync_media,
@@ -47,6 +47,7 @@ def build(
         project_root / "docs/api/v1/articles.json",
         {source.id for source in sources},
     )
+    cached_articles = enrich_cached_articles(cached_articles, sources, response_cache, fetch_date, retention_days)
     results = merge_recent_history(
         results,
         cached_articles,

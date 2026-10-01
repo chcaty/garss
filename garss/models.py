@@ -34,6 +34,8 @@ class Article:
     title: str
     url: str
     published_at: datetime
+    summary: str = ""
+    image_url: str = ""
 
     @property
     def id(self):
@@ -47,6 +49,8 @@ class Article:
             "title": self.title,
             "url": self.url,
             "published_at": self.published_at.isoformat().replace("+00:00", "Z"),
+            "summary": self.summary,
+            "image_url": self.image_url,
         }
 
 
