@@ -1189,11 +1189,6 @@
       "description": "不定期推送 IT 相关资讯",
       "title": "Newlearnerの自留地",
       "xmlUrl": "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel"
-    },
-    {
-      "description": "不定期推送黑料",
-      "title": "黑料不打烊",
-      "xmlUrl": "https://access.xtlmrmig.cc/feed"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T16:07:55.241550Z",
+  "generated_at": "2026-10-01T16:44:51.275823Z",
   "feeds": [
     {
       "id": "S001",
@@ -16,7 +16,7 @@
       "description": "精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务",
       "feed_url": "https://xclient.info/feed",
       "status": "ok",
-      "article_count": 20
+      "article_count": 26
     },
     {
       "id": "S003",
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 74
+      "article_count": 77
     },
     {
       "id": "T002",
@@ -1520,14 +1520,14 @@
       "description": "创意工作者的社区",
       "feed_url": "https://www.v2ex.com/index.xml",
       "status": "ok",
-      "article_count": 363
+      "article_count": 366
     },
     {
       "id": "C012",
       "title": "酷壳(左耳朵耗子)",
       "description": "酷 壳RSS",
       "feed_url": "https://coolshell.cn/feed",
-      "status": "ok",
+      "status": "error",
       "article_count": 0
     },
     {
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 280
+      "article_count": 300
     },
     {
       "id": "M001",
@@ -1904,14 +1904,6 @@
       "description": "不定期推送 IT 相关资讯",
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel",
       "status": "error",
-      "article_count": 0
-    },
-    {
-      "id": "YE001",
-      "title": "黑料不打烊",
-      "description": "不定期推送黑料",
-      "feed_url": "https://access.xtlmrmig.cc/feed",
-      "status": "ok",
       "article_count": 0
     }
   ]
