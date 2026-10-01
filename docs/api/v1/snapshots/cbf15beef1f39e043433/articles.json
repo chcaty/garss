@@ -1,7 +1,331 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T17:30:46.099112Z",
+  "generated_at": "2026-10-01T22:06:56.023658Z",
   "articles": [
+    {
+      "id": "6a19eb36f164722b99f1",
+      "source_id": "C035",
+      "title": "15R收 支付宝活动优惠境外消费8.8*3 来就秒 阿里ali羊毛",
+      "url": "https://www.nodeseek.com/post-959894-1",
+      "published_at": "2026-10-01T22:02:42Z",
+      "summary": "国庆羊毛来就秒活动截止前都接对交易有信用疑虑的mjj可以拆成三次交付付一次给一次",
+      "image_url": ""
+    },
+    {
+      "id": "37496e4c08c885f80704",
+      "source_id": "C035",
+      "title": "🍗 求按量计费的GPU推荐",
+      "url": "https://www.nodeseek.com/post-959893-1",
+      "published_at": "2026-10-01T22:02:32Z",
+      "summary": "rt跑图像识别，使用频率不高，但是偶尔并发要求高，需要90显卡这样有按量付费的吗？买计时的成本有点高。以及大概的价格",
+      "image_url": ""
+    },
+    {
+      "id": "28101134245df92a497e",
+      "source_id": "C035",
+      "title": "蟑螂药有推荐的吗",
+      "url": "https://www.nodeseek.com/post-959892-1",
+      "published_at": "2026-10-01T22:00:25Z",
+      "summary": "刚才去厨房喝水，看到天花板上的蟑螂触须，其实昨天我就在地上看到了，刚想拿拖鞋拍死的时候一个没注意让它跑掉了。记得有句话说看到一个蟑螂就代表有一群蟑螂，想想怪可怕的，所以蟑螂药大家推荐哪个牌子?还是有什么其它更有效灭蟑螂的手段?",
+      "image_url": ""
+    },
+    {
+      "id": "4aba7cd51c02e60cebc8",
+      "source_id": "C035",
+      "title": "Cloudflare 征集面向 AI Agent 的下一代 Git 平台",
+      "url": "https://www.nodeseek.com/post-959891-1",
+      "published_at": "2026-10-01T21:59:24Z",
+      "summary": "Cloudflare邀请开发者基于Workers和处于公开Beta阶段的Artifacts，构建适合AIAgent协作的Git平台。Artifacts提供可编程、支持Git操作的版本化仓库；开发者可进一步设计多Agent并行开发、代码审查、变更合并与上下文管理等功能。参赛项目须提交5–10分钟演示视频、以MIT、A",
+      "image_url": ""
+    },
+    {
+      "id": "e4b9416fe84149c93b61",
+      "source_id": "C035",
+      "title": "18 收点 6CAD",
+      "url": "https://www.nodeseek.com/post-959890-1",
+      "published_at": "2026-10-01T21:50:34Z",
+      "summary": "跟风收点支付宝，18收6CAD",
+      "image_url": ""
+    },
+    {
+      "id": "fe89afa78861838c24b4",
+      "source_id": "C035",
+      "title": "bocchi达拉斯Pulse1 Performance晚高峰测试NQ+TQ",
+      "url": "https://www.nodeseek.com/post-959889-1",
+      "published_at": "2026-10-01T21:43:20Z",
+      "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m198.34.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[",
+      "image_url": ""
+    },
+    {
+      "id": "e4ca80eabd6f2c901a54",
+      "source_id": "T001",
+      "title": "OpenRadioss is not open anymore",
+      "url": "https://www.siemens.com/en-us/products/simcenter/mechanical-simulation/radioss/rd/",
+      "published_at": "2026-10-01T21:41:36Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "419171f4a087fd5c490c",
+      "source_id": "C035",
+      "title": "Gemini 4 Argon 有用上的没，好像没人能用到······",
+      "url": "https://www.nodeseek.com/post-959888-1",
+      "published_at": "2026-10-01T21:31:47Z",
+      "summary": "https://x.com/Google/status/2105388143902175529",
+      "image_url": ""
+    },
+    {
+      "id": "b20671bc5355ed2b2c86",
+      "source_id": "C035",
+      "title": "赌狗惩罚",
+      "url": "https://www.nodeseek.com/post-959887-1",
+      "published_at": "2026-10-01T21:29:15Z",
+      "summary": "我超威，抽奖抽到1鸡腿了，感觉真不如每天稳定5个领的鸡腿多，不知道有没有大佬统计过这个概率。",
+      "image_url": ""
+    },
+    {
+      "id": "2ee0c1894df3553ebe1f",
+      "source_id": "C035",
+      "title": "vmiss老板赚疯了，你们弄了多少钱了",
+      "url": "https://www.nodeseek.com/post-959886-1",
+      "published_at": "2026-10-01T21:26:09Z",
+      "summary": "rt",
+      "image_url": ""
+    },
+    {
+      "id": "b7fdfc1966ce1d448791",
+      "source_id": "T001",
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "url": "https://www.cssbed.com",
+      "published_at": "2026-10-01T21:21:32Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "129134bf9e2926257e43",
+      "source_id": "C035",
+      "title": "我想问下买服务器搭建协议合租开车拼车的mjj",
+      "url": "https://www.nodeseek.com/post-959885-1",
+      "published_at": "2026-10-01T21:20:31Z",
+      "summary": "你们都用啥面板管理的啊？比如流量用满就暂停服务等一些操作？？",
+      "image_url": ""
+    },
+    {
+      "id": "95988e6181bf3a08298f",
+      "source_id": "C035",
+      "title": "问下 支付宝境外8.8红包领了 但是卡包 没有 这是黑号么",
+      "url": "https://www.nodeseek.com/post-959884-1",
+      "published_at": "2026-10-01T21:19:03Z",
+      "summary": "问下支付宝境外8.8红包领了但是卡包没有这是黑号么",
+      "image_url": ""
+    },
+    {
+      "id": "4519c34d48bf959b99df",
+      "source_id": "C035",
+      "title": "IOS 微信美化聚集地",
+      "url": "https://www.nodeseek.com/post-959883-1",
+      "published_at": "2026-10-01T21:17:14Z",
+      "summary": "秀一下你们的微信",
+      "image_url": ""
+    },
+    {
+      "id": "f1ea2e63c6448291537f",
+      "source_id": "T001",
+      "title": "The death of web development education",
+      "url": "https://molily.de/web-dev-education/",
+      "published_at": "2026-10-01T21:07:37Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "55f23c2c2a4ac043ceca",
+      "source_id": "C035",
+      "title": "手机上看探针，有没有什么 app啊 iOS 的",
+      "url": "https://www.nodeseek.com/post-959882-1",
+      "published_at": "2026-10-01T21:06:56Z",
+      "summary": "手机上看探针，有没有什么app啊iOS的",
+      "image_url": ""
+    },
+    {
+      "id": "4e3414d2fecd25b00f12",
+      "source_id": "C035",
+      "title": "15rmb收支付宝8.88*3 无限收",
+      "url": "https://www.nodeseek.com/post-959881-1",
+      "published_at": "2026-10-01T21:06:36Z",
+      "summary": "15rmb收支付宝8.88*3无限收",
+      "image_url": ""
+    },
+    {
+      "id": "9181b0b1b5dbd19991bb",
+      "source_id": "C035",
+      "title": "muse摆摊出货",
+      "url": "https://www.nodeseek.com/post-959880-1",
+      "published_at": "2026-10-01T21:03:30Z",
+      "summary": "成品号（未使用邀请码）10r成品号（已使用邀请码）8r代注册10r走你的邀请码5r有个310亿号量大有优惠",
+      "image_url": ""
+    },
+    {
+      "id": "f52cb244eb84d77dd19c",
+      "source_id": "C035",
+      "title": "「溢价收」nube家DE中国优化",
+      "url": "https://www.nodeseek.com/post-959879-1",
+      "published_at": "2026-10-01T21:01:49Z",
+      "summary": "要老款的，流量越便宜越好，在评论区/私信报价都行",
+      "image_url": ""
+    },
+    {
+      "id": "57fb8e47b0f86f066353",
+      "source_id": "C035",
+      "title": "14rmb收支付宝8.88*3     6CAD",
+      "url": "https://www.nodeseek.com/post-959878-1",
+      "published_at": "2026-10-01T20:56:59Z",
+      "summary": "Vmiss2CAD余额充值付三次，口令14R睡不着来收收，凑凑热闹",
+      "image_url": ""
+    },
+    {
+      "id": "7379afa63c055acd4c86",
+      "source_id": "C035",
+      "title": "【求助贴】第一次买小鸡请大佬指教",
+      "url": "https://www.nodeseek.com/post-959877-1",
+      "published_at": "2026-10-01T20:49:40Z",
+      "summary": "第一次买小鸡20/月看不懂图中的这些是否好坏，恳请佬们指点，徒儿叩谢如果不好可以申请退吗，我是在https://yunyoo.cc/购买的CPU：2核心内存：1GB存储：30GB流量：600GB带宽：100Mb",
+      "image_url": ""
+    },
+    {
+      "id": "60f6460474be83207e3e",
+      "source_id": "C035",
+      "title": "支付宝和 vmiss 是有什么活动吗？",
+      "url": "https://www.nodeseek.com/post-959876-1",
+      "published_at": "2026-10-01T20:48:32Z",
+      "summary": "支付宝和vmiss是有什么活动吗？",
+      "image_url": ""
+    },
+    {
+      "id": "9b252bf442935d58a265",
+      "source_id": "C035",
+      "title": "出个软件车位",
+      "url": "https://www.nodeseek.com/post-959875-1",
+      "published_at": "2026-10-01T20:48:23Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "5619c3ec3cc60eb1d936",
+      "source_id": "T001",
+      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+      "url": "https://github.com/Vibra-Ingenn/Janus",
+      "published_at": "2026-10-01T20:36:47Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "897c768b081605ea93bf",
+      "source_id": "T001",
+      "title": "Show HN: Rhun, an open-source code editor written in assembly",
+      "url": "https://rhun.app/",
+      "published_at": "2026-10-01T20:32:18Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "b07bf98f02f7c1605079",
+      "source_id": "T001",
+      "title": "Car Is a Smartphone on Wheels. Here's Who's Listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+      "published_at": "2026-10-01T20:23:27Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "b11ff121fa5fd756f7d6",
+      "source_id": "T001",
+      "title": "SvelteKit 3 Is Here",
+      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+      "published_at": "2026-10-01T20:14:23Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "137e654add14ac296311",
+      "source_id": "T001",
+      "title": "ArXiv's Updated Rate Limit Policy",
+      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+      "published_at": "2026-10-01T20:12:15Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "f04eafc5ed3a176bf9b4",
+      "source_id": "T001",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "published_at": "2026-10-01T19:33:05Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "c9d7a9cdc1cd8693571b",
+      "source_id": "D008",
+      "title": "Laila Gohar Turns Whisky Tasting Into a Visual Experience",
+      "url": "https://design-milk.com/laila-gohar-highland-park/",
+      "published_at": "2026-10-01T19:31:20Z",
+      "summary": "The artist translates the flavors and memories sparked by Highland Park’s 17-year-old single malt into surreal illustrated packaging",
+      "image_url": "https://design-milk.com/images/2026/10/HPK-2026-BYI-2-Still-BTS-Laila-Global-Unbranded-16x9-RGB-e1790882757568-1500x998.jpg"
+    },
+    {
+      "id": "e982cbfaab236385ccf7",
+      "source_id": "T001",
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "published_at": "2026-10-01T19:24:08Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "faa7a090db15761f27c0",
+      "source_id": "C011",
+      "title": "[分享创造] Herduck 迭代：在 Herdr 上面补「这项活做到哪了」（自动归类 / 闲着就睡 / herduck 命令）— 求 Herdr 用户拍砖",
+      "url": "https://www.v2ex.com/t/1246075#reply0",
+      "published_at": "2026-10-01T19:21:58Z",
+      "summary": "一句话分工： Herdr = 让 Agent 一直跑着、并排管理 Herduck = 记住一项活的目标 / 做到哪了 / 卡在哪 / 下一步，以及能翻回去的记录 互补，不替代。 官网 https://www.herduck.com 仓库 https://github.com/wenhanweime/herduck 上一帖 https://www.v2ex.com/t/1243952 GitHub Discussion （求反馈） https://github.com/wenhanweime/herduck/discussions/2 也在 Herdr Show and tell 发了一帖： https://github.com/herdrdev/herdr/discussions/4822 已有能力（还很早期）： 工作 / Agents / 项目 / 会话 四个入口 相关对话尽量自动收拢到同一项活（可配置；也有偏本地关键词的路径） Agent 会话自动起名；闲置一段时间可睡眠，释放内存 herduck 命令让 Agent 读 / 更新工作计划 兼容 Claude Code / Codex / OpenCode / Pi / Gemini CLI / Cursor ；快捷键尽量跟 Herdr 对齐 本轮对外动作： 仓库 homepage 指向 herduck.com README 首",
+      "image_url": ""
+    },
+    {
+      "id": "f430aa51fcbc31fd9ef1",
+      "source_id": "T001",
+      "title": "Effect 4.0",
+      "url": "https://effect.website/blog/releases/effect/40",
+      "published_at": "2026-10-01T19:10:07Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "de39e498b1f92cf9978b",
+      "source_id": "T001",
+      "title": "Oxygen-deprived underwater zones may not be \"dead zones\" but clue to early life",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570",
+      "published_at": "2026-10-01T19:03:42Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "86ef95fcc74aa9b0bf7e",
+      "source_id": "C011",
+      "title": "[分享创造] 单词消消乐",
+      "url": "https://www.v2ex.com/t/1246074#reply1",
+      "published_at": "2026-10-01T18:56:33Z",
+      "summary": "简介：结合背单词和消消乐玩法的学习小游戏，背单词再也不枯燥啦，哈哈哈，欢迎来玩 游戏地址： https://m1besyalsgeo.meoo.pub/",
+      "image_url": ""
+    },
+    {
+      "id": "dfbba41053e8552887a3",
+      "source_id": "T001",
+      "title": "Bez: Generating a browser engine from specs and tests",
+      "url": "https://tangled.org/burrito.space/bez",
+      "published_at": "2026-10-01T18:08:03Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
     {
       "id": "01b8753abf39cbbdf6b8",
       "source_id": "C035",
@@ -552,6 +876,15 @@
       "image_url": ""
     },
     {
+      "id": "d1f39c63966aa0b639c6",
+      "source_id": "C011",
+      "title": "[分享创造] 最近真的被 Opus 5.5 惊艳到了，特别是做视频，异常勇猛。",
+      "url": "https://www.v2ex.com/t/1246071#reply2",
+      "published_at": "2026-10-01T16:39:51Z",
+      "summary": "一句话丢给它，动效、排版、转场全是它自己写代码画出来的，效果经常比我想的还好。 弄了个站，无需 Claude 账号就能直接玩 👉 opus6.video",
+      "image_url": ""
+    },
+    {
       "id": "7a7d9927a17e0ea28835",
       "source_id": "C011",
       "title": "[分享创造] 最近真的被 Opus 5.5 惊艳到了，特别是做视频，异常勇猛。",
@@ -705,6 +1038,15 @@
       "image_url": "http://files.toodaylab.com/2026/10/CRC_2new_20261002001915_01.jpg"
     },
     {
+      "id": "75e0a565b2d09c4d1789",
+      "source_id": "C011",
+      "title": "[推广] Azalea Photo：把手机照片原图备份到你自己的硬盘、NAS 或对象存储",
+      "url": "https://www.v2ex.com/t/1246069#reply3",
+      "published_at": "2026-10-01T16:22:59Z",
+      "summary": "做了一个照片备份工具 Azalea Photo，想分享给有类似痛点的人。 它解决什么问题 手机相册越来越大，但\"照片放哪\"一直很别扭： iCloud 开了「优化 iPhone 储存空间」后，本地原图会被替换成占位图，想拿回原图得联网下载； Google Photos 有压缩，而且数据在别人手里； Immich / Nextcloud 这类自托管方案不错，但需要一直养一台服务器。 Azalea 的思路很简单：备份介质由你自己选，原图直接写进去，我们的服务器不存任何一张照片。 支持的后端 腾讯云 COS / 阿里云 OSS / Amazon S3 （访问密钥只存在设备钥匙串里，不上传给我们） USB / 移动硬盘 / SSD （ macOS 走安全域书签，Android 走 SAF + OTG ） Samba NAS （局域网） 几个比较在意的细节 写入的是原始文件，不是\"优化\"后的替身；增量备份，重跑不会重复传 iPhone ↔ Android 可以互相认领同一个 bucket 或同一块盘，换机不用经过 iCloud / Google Photos 断点续传：拔线、锁屏、后台被杀，下次启动接着传 exFAT 不允许冒号、星号、问号这类字符，遇到会做可逆转义，不会中断整个任务 一次实测（ 2026 年 3 月的 lab log ）：iPhone 15 ，18432 项 / 86.4 G",
+      "image_url": ""
+    },
+    {
       "id": "0f0472627c220ac27ad1",
       "source_id": "C011",
       "title": "[推广] Azalea Photo：把手机照片原图备份到你自己的硬盘、NAS 或对象存储",
@@ -725,7 +1067,7 @@
     {
       "id": "4c8c20023ae53973b940",
       "source_id": "T001",
-      "title": "Clef: our open-source decision models",
+      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "published_at": "2026-10-01T16:18:57Z",
       "summary": "Comments",
@@ -954,6 +1296,15 @@
       "url": "https://www.nodeseek.com/post-959650-1",
       "published_at": "2026-10-01T16:00:10Z",
       "summary": "这一天不带到账10w",
+      "image_url": ""
+    },
+    {
+      "id": "9325937786a7bc7b8189",
+      "source_id": "C018",
+      "title": "内外网Web信息系统技术栈与学习部署路线 - Murmure-08",
+      "url": "https://www.cnblogs.com/panghu-is-Ultraman/p/23181620",
+      "published_at": "2026-10-01T15:55:00Z",
+      "summary": "内外网 Web 信息系统技术栈与学习部署路线 1. 文档目的 本文用于指导一个已有 Vue 前端的网页系统，从本机开发开始，依次完成： Vue 与 FastAPI 联调； 表单数据保存与查询； 部署到公司内网服务器； 使用 Django 替换 FastAPI 测试后端； 支持多个页面或多个网站； 在",
       "image_url": ""
     },
     {
@@ -1686,6 +2037,15 @@
       "image_url": ""
     },
     {
+      "id": "8aa48e906e5a67302fd9",
+      "source_id": "C014",
+      "title": "纯恶意评价 (评论: 要有光)",
+      "url": "https://book.douban.com/review/17837847/",
+      "published_at": "2026-10-01T12:53:59Z",
+      "summary": "Bryophyta评论: 要有光 (https://book.douban.com/subject/37407380/) 评价: 很差 {\"blocks\":[{\"key\":\"1\",\"text\":\"“有心理疾病而休学的未成年人”这个题材，说是我最有发言权的一集不为过吧？（叠甲我高中休学两年半，明年高考，书里的大部分人物我都能在认识的人里找到处境十分近似的。其实如果你好奇休学青少年的心理状态可以直接看我主页...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35251042.jpg"
+    },
+    {
       "id": "87e41904da885094f083",
       "source_id": "C006",
       "title": "消息称苹果智能家居产品宣传物料已送往全球各大 Apple Store，预计 10 月 8 日解禁？",
@@ -1765,6 +2125,15 @@
       "published_at": "2026-10-01T12:33:00Z",
       "summary": "想让 <link rel=\"preconnect\"> 强制走 HTTP/3，能做到吗？ preconnect 是什么 <link rel=\"preconnect\" href=\"https://example.com\"> 浏览器看到这个标签，会立刻去做这几件事： 解析 example.com 域名 建立一个连接 完成 TLS 握手（如必要） 保持连接并等着，不发送任何请求正文 等真正要请求资源时，这个连接已经热好了。这就是 提前连接 preconnect HTTP/3 跑在 UDP 上（QUIC 协议），HTTP/1.1 和 HTTP/2 跑在 TCP 上。 HTML 层面没有任何办法声明\"这个 preconnect 要走 h3\"。 这个连接最终用什么协议，HTTP/1.1、HTTP/2、HTTP/3，浏览器有一系列决定流程 触发 h3 preconnect 的三个条件 网络层有两条实现路径（Chromium 正在迁移，两条并存） 条件 ①：浏览器缓存了这个站点的 Alt-Svc 服务端某次响应头带上： Alt-Svc: h3=\":443\"; ma=86400 浏览器把它记下来（存进 profile 磁盘缓存），之后所有对该站点的 preconnect 都会走 QUIC。 传统路径：http_stream_factory_job_controller.cc:915-919, 950-",
       "image_url": ""
+    },
+    {
+      "id": "00517d91270ff4efd0c9",
+      "source_id": "C014",
+      "title": "对波兰尼的一个马克思主义评价 (评论: 大转型)",
+      "url": "https://book.douban.com/review/17837804/",
+      "published_at": "2026-10-01T12:28:55Z",
+      "summary": "紅葉泡紅茶评论: 大转型 (https://book.douban.com/subject/37380173/) 评价: 推荐 {\"blocks\":[{\"key\":\"1jkp4\",\"text\":\"当年第一次翻看名声很大的波兰尼的这本著作，因为翻译佶屈聱牙（翻译其实很用心很准确，但是正和马克思的著作一样，不好读）和前两章复杂的政治历史的缘故没有读下去。现在终于一口气读完了，发现这本书确实值得它获得的好名声，为批判资本主义提供了一种浪漫的（称其为浪漫的，是因为一方面它没...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35181240.jpg"
     },
     {
       "id": "4be321665d920882cdb2",
@@ -2298,6 +2667,15 @@
       "image_url": "https://img3.doubanio.com/view/subject/s/public/s2888487.jpg"
     },
     {
+      "id": "1e2e7518552b44dc9996",
+      "source_id": "YE001",
+      "title": "国庆第一瓜海南陵水渣男吕大洲被前女友实名曝光 出轨欠债不还聊天记录与不雅视频流出",
+      "url": "https://ssl.rqyiuylh.cc/archives/222680.html",
+      "published_at": "2026-10-01T10:08:00Z",
+      "summary": "国庆第一瓜直接砸向海南陵水！渣男吕大洲被前女友实名曝光，恋爱近两年，女方称在他负债最困难时一直陪着从负债熬到清债，结果发现他同时与另一女子交往近一年。曝光内容包括调解协议书和多段聊天记录：被催债...",
+      "image_url": ""
+    },
+    {
       "id": "8c3f61c0a6627a86d59f",
       "source_id": "YE001",
       "title": "国庆第一瓜海南陵水渣男吕大洲被前女友实名曝光 出轨欠债不还聊天记录与不雅视频流出",
@@ -2323,6 +2701,15 @@
       "published_at": "2026-10-01T10:07:33Z",
       "summary": "午牛评论: 野兽之心 (https://movie.douban.com/subject/36828393/) 评价: 还行 {\"blocks\":[{\"key\":\"8j6dm\",\"text\":\"《狂野雄心》（Heart of the Beast）其實不算是什麼大片，只是有brad pitt這樣的大牌出演而已，但這中文片名翻譯硬是加上了大片感。\",\"type\":\"unstyled\",\"depth\":...",
       "image_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2935475988.jpg"
+    },
+    {
+      "id": "cb412a65b99994378b28",
+      "source_id": "C014",
+      "title": "香港是问题，迷影是方法，全球才是答案 (评论: 娱乐映城)",
+      "url": "https://book.douban.com/review/17837570/",
+      "published_at": "2026-10-01T10:06:45Z",
+      "summary": "胤祥评论: 娱乐映城 (https://book.douban.com/subject/38584273/) 评价: 力荐 {\"blocks\":[{\"key\":\"sant\",\"text\":\"文章亦发表于《中国电影报》\",\"type\":\"blockquote\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{\"align\":\"\",\"page\":0}},{\"key\":\"e55gp\",\"te...",
+      "image_url": "https://img9.doubanio.com/view/subject/m/public/s35627586.jpg"
     },
     {
       "id": "fe04f8de59e9d96098fc",
@@ -3477,6 +3864,15 @@
       "image_url": ""
     },
     {
+      "id": "0d243bcbca8da9a7c979",
+      "source_id": "C015",
+      "title": "linernotes (评论: Songs I Like To Sing!)",
+      "url": "https://music.douban.com/review/17837192/",
+      "published_at": "2026-10-01T06:21:26Z",
+      "summary": "cow-boy评论: Songs I Like To Sing! (https://music.douban.com/subject/3063406/) 评价: {\"entityMap\": {}, \"blocks\": [{\"key\": \"1\", \"text\": \"\\n\\u5728\\u7ecf\\u5386\\...",
+      "image_url": "https://img9.doubanio.com/view/subject/s/public/s3311524.jpg"
+    },
+    {
       "id": "07c6060103a372131aee",
       "source_id": "C003",
       "title": "华为 Mate 90 系列发布：最强 Mate来了，5999 起即日开售",
@@ -4032,6 +4428,15 @@
       "url": "https://www.ithome.com/1/009/038.htm",
       "published_at": "2026-10-01T04:38:40Z",
       "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "1bde36997001940c6a66",
+      "source_id": "YE001",
+      "title": "康奈尔大学兄弟会轮奸案反转 留学生群P淫趴细节曝光 牢A三通一达再度翻红",
+      "url": "https://ssl.rqyiuylh.cc/archives/222651.html",
+      "published_at": "2026-10-01T04:35:00Z",
+      "summary": "更多聊天记录被曝光后，康奈尔大学兄弟会轮奸案持续发酵。七名涉事者被指都是惯犯，平时爱邀请中国女留学生参加party，随后嗑药进行群交。受害女生疑似国人，过程看似自愿而非强迫。事情曝光后女子无法继...",
       "image_url": ""
     },
     {
@@ -6740,7 +7145,7 @@
       "title": "間違えてお酒入りチョコを食べてしまったカフェ",
       "url": "https://www.pixiv.net/artworks/150299089",
       "published_at": "2026-09-30T13:56:41Z",
-      "summary": "第 6 位 画师：シノ - 上传于：2026-09-30 22:56:41 - 阅览数：29243 - 收藏数：1734",
+      "summary": "第 6 位 画师：シノ - 上传于：2026-09-30 22:56:41 - 阅览数：29772 - 收藏数：1753",
       "image_url": "https://pixiv.cat/150299089-1.jpg"
     },
     {
@@ -6875,7 +7280,7 @@
       "title": "安土&ライオン",
       "url": "https://www.pixiv.net/artworks/150297801",
       "published_at": "2026-09-30T13:29:34Z",
-      "summary": "第 16 位 画师：ギザン - 上传于：2026-09-30 22:29:34 - 阅览数：6260 - 收藏数：2147",
+      "summary": "第 16 位 画师：ギザン - 上传于：2026-09-30 22:29:34 - 阅览数：6518 - 收藏数：2206",
       "image_url": "https://pixiv.cat/150297801.jpg"
     },
     {
@@ -6947,7 +7352,7 @@
       "title": "9月中のブルアカらくがき詰め合わせ。‐4th season‐",
       "url": "https://www.pixiv.net/artworks/150296785",
       "published_at": "2026-09-30T13:08:20Z",
-      "summary": "第 11 位 画师：咲嶋まだら - 上传于：2026-09-30 22:08:20 - 阅览数：12697 - 收藏数：1384",
+      "summary": "第 11 位 画师：咲嶋まだら - 上传于：2026-09-30 22:08:20 - 阅览数：12956 - 收藏数：1400",
       "image_url": "https://pixiv.cat/150296785-1.jpg"
     },
     {
@@ -6965,7 +7370,7 @@
       "title": "イメージ",
       "url": "https://www.pixiv.net/artworks/150296660",
       "published_at": "2026-09-30T13:05:21Z",
-      "summary": "第 2 位 画师：イマッゾ - 上传于：2026-09-30 22:05:21 - 阅览数：25065 - 收藏数：1459",
+      "summary": "第 2 位 画师：イマッゾ - 上传于：2026-09-30 22:05:21 - 阅览数：25572 - 收藏数：1476",
       "image_url": "https://pixiv.cat/150296660.jpg"
     },
     {
@@ -6992,7 +7397,7 @@
       "title": "そこそこの頻度で行く",
       "url": "https://www.pixiv.net/artworks/150296426",
       "published_at": "2026-09-30T13:01:51Z",
-      "summary": "第 13 位 画师：バニラ芭蕉 - 上传于：2026-09-30 22:01:51 - 阅览数：11848 - 收藏数：808",
+      "summary": "第 13 位 画师：バニラ芭蕉 - 上传于：2026-09-30 22:01:51 - 阅览数：12149 - 收藏数：823",
       "image_url": "https://pixiv.cat/150296426.jpg"
     },
     {
@@ -7038,6 +7443,15 @@
       "url": "https://36kr.com/newsflashes/4005899591028866?f=rss",
       "published_at": "2026-09-30T12:51:47Z",
       "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "4ce7a77da57e1da11f40",
+      "source_id": "YE001",
+      "title": "AI短剧《繁花：绝色交易员》第1-3集 萌小栖用肉体入局 宝总十亿巨亏",
+      "url": "https://ssl.rqyiuylh.cc/archives/222618.html",
+      "published_at": "2026-09-30T12:51:00Z",
+      "summary": "萌小栖，一个长着甜妹脸的天才交易员。她频繁出现在世界各地，看似热爱旅行，实际上每一次更换IP，都在寻找资本圈里的下一个猎物。她自称是“能听懂K线图心跳的人”，却没有真正坐上资本牌桌的筹码。现实告...",
       "image_url": ""
     },
     {
@@ -7424,7 +7838,7 @@
       "title": "りんご飴",
       "url": "https://www.pixiv.net/artworks/150291934",
       "published_at": "2026-09-30T11:30:16Z",
-      "summary": "第 10 位 画师：チャイ - 上传于：2026-09-30 20:30:16 - 阅览数：10940 - 收藏数：1603",
+      "summary": "第 10 位 画师：チャイ - 上传于：2026-09-30 20:30:16 - 阅览数：11392 - 收藏数：1631",
       "image_url": "https://pixiv.cat/150291934.jpg"
     },
     {
@@ -7433,7 +7847,7 @@
       "title": "りんご飴",
       "url": "https://www.pixiv.net/artworks/150291934",
       "published_at": "2026-09-30T11:30:16Z",
-      "summary": "第 6 位 画师：チャイ - 上传于：2026-09-30 20:30:16 - 阅览数：10871 - 收藏数：1598",
+      "summary": "第 6 位 画师：チャイ - 上传于：2026-09-30 20:30:16 - 阅览数：11364 - 收藏数：1631",
       "image_url": "https://pixiv.cat/150291934.jpg"
     },
     {
@@ -7586,7 +8000,7 @@
       "title": "別れた二人はいつまでも",
       "url": "https://www.pixiv.net/artworks/150289957",
       "published_at": "2026-09-30T10:44:15Z",
-      "summary": "第 9 位 画师：あゆ河 - 上传于：2026-09-30 19:44:15 - 阅览数：16876 - 收藏数：1829",
+      "summary": "第 9 位 画师：あゆ河 - 上传于：2026-09-30 19:44:15 - 阅览数：17522 - 收藏数：1877",
       "image_url": "https://pixiv.cat/150289957-1.jpg"
     },
     {
@@ -7919,7 +8333,7 @@
       "title": "君に決めた！",
       "url": "https://www.pixiv.net/artworks/150287400",
       "published_at": "2026-09-30T09:34:42Z",
-      "summary": "第 17 位 画师：右道をん（元 うどん） - 上传于：2026-09-30 18:34:42 - 阅览数：4154 - 收藏数：283",
+      "summary": "第 17 位 画师：右道をん（元 うどん） - 上传于：2026-09-30 18:34:42 - 阅览数：4306 - 收藏数：290",
       "image_url": "https://pixiv.cat/150287400-1.jpg"
     },
     {
@@ -9098,7 +9512,7 @@
       "title": "那谷蜘蛛山～柱合会議までのぎゆしの",
       "url": "https://www.pixiv.net/artworks/150285205",
       "published_at": "2026-09-30T08:30:19Z",
-      "summary": "第 19 位 画师：avy - 上传于：2026-09-30 17:30:19 - 阅览数：11872 - 收藏数：840",
+      "summary": "第 19 位 画师：avy - 上传于：2026-09-30 17:30:19 - 阅览数：12279 - 收藏数：867",
       "image_url": "https://pixiv.cat/150285205-1.jpg"
     },
     {
@@ -9422,7 +9836,7 @@
       "title": "召使いとの距離🌹",
       "url": "https://www.pixiv.net/artworks/150284734",
       "published_at": "2026-09-30T08:10:39Z",
-      "summary": "第 16 位 画师：かんさび - 上传于：2026-09-30 17:10:39 - 阅览数：7031 - 收藏数：420",
+      "summary": "第 16 位 画师：かんさび - 上传于：2026-09-30 17:10:39 - 阅览数：7217 - 收藏数：428",
       "image_url": "https://pixiv.cat/150284734-1.jpg"
     },
     {
@@ -10745,7 +11159,7 @@
       "title": "vtuberまとめ㉜",
       "url": "https://www.pixiv.net/artworks/150281567",
       "published_at": "2026-09-30T05:34:48Z",
-      "summary": "第 17 位 画师：えびぽ - 上传于：2026-09-30 14:34:48 - 阅览数：11485 - 收藏数：1112",
+      "summary": "第 17 位 画师：えびぽ - 上传于：2026-09-30 14:34:48 - 阅览数：11964 - 收藏数：1133",
       "image_url": "https://pixiv.cat/150281567-1.jpg"
     },
     {
@@ -13562,7 +13976,7 @@
       "title": "くたばれ！ パンプキンファーム･スローター",
       "url": "https://www.pixiv.net/artworks/150271313",
       "published_at": "2026-09-29T19:06:12Z",
-      "summary": "第 5 位 画师：ポテトルス - 上传于：2026-09-30 04:06:12 - 阅览数：31783 - 收藏数：2748",
+      "summary": "第 5 位 画师：ポテトルス - 上传于：2026-09-30 04:06:12 - 阅览数：32508 - 收藏数：2800",
       "image_url": "https://pixiv.cat/150271313.jpg"
     },
     {
@@ -13854,6 +14268,15 @@
       "image_url": ""
     },
     {
+      "id": "5bc1db9465191a8531fd",
+      "source_id": "YE001",
+      "title": "原创短剧《有五个姐姐的我》2-3集  三姐赵露思本人 四姐青春版陈好 家里与学校畅玩二位姐姐",
+      "url": "https://ssl.rqyiuylh.cc/archives/222582.html",
+      "published_at": "2026-09-29T15:38:00Z",
+      "summary": "五个姐姐的我。大姐包揽他的起居饮食，二姐一眼看透他藏在眼底的情绪，三姐把家里监控掌握得死死的，四姐既是亲姐又是学校主任，五姐每天亲手做便当，连别人送的零食都不准他碰。五个姐姐异口同声地说：我们只...",
+      "image_url": ""
+    },
+    {
       "id": "218c9225bb421bda6783",
       "source_id": "YE001",
       "title": "原创短剧《有五个姐姐的我》2-3集  三姐赵露思本人 四姐青春版陈好 家里与学校畅玩二位姐姐",
@@ -13879,6 +14302,15 @@
       "published_at": "2026-09-29T15:37:00Z",
       "summary": "",
       "image_url": ""
+    },
+    {
+      "id": "da6f83f4c92950edaf6a",
+      "source_id": "C014",
+      "title": "乐园给我气乐了 (评论: 楽園)",
+      "url": "https://book.douban.com/review/17835191/",
+      "published_at": "2026-09-29T15:27:15Z",
+      "summary": "efgu评论: 楽園 (https://book.douban.com/subject/38490753/) 评价: 很差 {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \"\\u9996\\u5148\\u6211\\u4e...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35533410.jpg"
     },
     {
       "id": "5274934f479c64b70db2",
@@ -14021,7 +14453,7 @@
       "title": "ぼざろの山田リョウ",
       "url": "https://www.pixiv.net/artworks/150265256",
       "published_at": "2026-09-29T15:02:33Z",
-      "summary": "第 12 位 画师：CORE - 上传于：2026-09-30 00:02:33 - 阅览数：4969 - 收藏数：919",
+      "summary": "第 12 位 画师：CORE - 上传于：2026-09-30 00:02:33 - 阅览数：5211 - 收藏数：942",
       "image_url": "https://pixiv.cat/150265256.jpg"
     },
     {
@@ -14030,7 +14462,7 @@
       "title": "私の魔法の先生は魔法が使えない（続）その73",
       "url": "https://www.pixiv.net/artworks/150265143",
       "published_at": "2026-09-29T15:01:29Z",
-      "summary": "第 9 位 画师：あれっくす - 上传于：2026-09-30 00:01:29 - 阅览数：37441 - 收藏数：1497",
+      "summary": "第 9 位 画师：あれっくす - 上传于：2026-09-30 00:01:29 - 阅览数：38358 - 收藏数：1510",
       "image_url": "https://pixiv.cat/150265143-1.jpg"
     },
     {
@@ -15183,6 +15615,15 @@
       "url": "https://www.ptt.cc/bbs/Beauty/M.1790646760.A.C61.html",
       "published_at": "2026-09-29T01:52:40Z",
       "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "9a2770edbcba9b142c4a",
+      "source_id": "YE001",
+      "title": "疯求佳木斯新玛特迪桑特女导购刘佳当小三 被原配裸照贴试衣间 骚样引爆全网",
+      "url": "https://ssl.rqyiuylh.cc/archives/222565.html",
+      "published_at": "2026-09-29T01:42:00Z",
+      "summary": "佳木斯新玛特迪桑特女导购事件，9月29日搜索栏已经顶上来。搜出来的词是女销售事件、刘佳、原视频、雯雯、气质女郎。一条帖子底下64个赞、292条评论、604次转发，评论区清一色在打求，IP多落在黑...",
       "image_url": ""
     },
     {
