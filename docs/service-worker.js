@@ -2,7 +2,7 @@
 
 const SCOPE_PATH = new URL(self.registration.scope).pathname;
 const CACHE_PREFIX = `garss-review-${encodeURIComponent(SCOPE_PATH)}-`;
-const CACHE_NAME = `${CACHE_PREFIX}v9-20261001`;
+const CACHE_NAME = `${CACHE_PREFIX}v10-20261002`;
 const NETWORK_TIMEOUT_MS = 8000;
 const APP_SHELL = [
   "./review.html",
@@ -13,6 +13,8 @@ const APP_SHELL = [
   "./assets/review/transfers.mjs",
   "./assets/review/payload.mjs",
   "./assets/review/online.mjs",
+  "./assets/review/source-proposal.mjs",
+  "./assets/review/fetch-controls.mjs",
   "./assets/shared/dom.mjs",
   "./assets/shared/base.css",
   "./assets/fonts/editorial-heading.ttf",

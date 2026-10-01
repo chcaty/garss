@@ -49,3 +49,12 @@ class FetchPoolTests(unittest.TestCase):
         self.assertEqual(main.fetch_all([], date.today(), 1), [])
         with self.assertRaises(ValueError):
             main.fetch_all([], date.today(), 0)
+
+    def test_new_sources_bootstrap_recent_posts_and_duplicates_share_bootstrap(self):
+        sources = [FeedSource('existing', 'Existing', '', 'https://example.com/feed'), FeedSource('new', 'New', '', 'https://example.com/feed'), FeedSource('other', 'Other', '', 'https://example.com/other')]
+        with patch('garss.fetch_pool.requests.Session'), patch('garss.fetch_pool.fetch_feed', side_effect=lambda source, **kwargs: FeedResult(source)) as fetch:
+            main.fetch_all(sources, date(2026, 10, 2), 1, bootstrap_ids={'new'}, retention_days=14)
+        calls = {call.args[0].feed_url: call.kwargs for call in fetch.call_args_list}
+        self.assertIsNone(calls['https://example.com/feed']['only_date'])
+        self.assertEqual(calls['https://example.com/other']['only_date'], date(2026, 10, 2))
+        self.assertEqual(calls['https://example.com/feed']['retention_days'], 14)

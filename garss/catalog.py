@@ -6,6 +6,9 @@ from hashlib import sha256
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit
 
+# This publisher distributes non-consensual intimate media and is not collected.
+EXCLUDED_FEED_HOSTS = {"access.xtlmrmig.cc"}
+
 from garss.models import FeedSource, SourceTemplate
 
 SUBSCRIPTION_RE = re.compile(r"\[订阅地址\]\(([^)]+)\)")
@@ -70,6 +73,8 @@ def parse_source_templates(content: str) -> list[SourceTemplate]:
             description=description,
             feed_url=feed_url,
         )
+        if urlsplit(source.feed_url).hostname in EXCLUDED_FEED_HOSTS:
+            continue
         templates.append(SourceTemplate(source=source, row=line))
     return templates
 
@@ -103,6 +108,8 @@ def load_source_templates(path: Path) -> list[SourceTemplate]:
             id=source_id, title=item["title"], description=item["description"],
             feed_url=safe_http_url(item["feed_url"]),
         )
+        if urlsplit(source.feed_url).hostname in EXCLUDED_FEED_HOSTS:
+            continue
         templates.append(SourceTemplate(
             source=source, row="", display_id=item["display_id"],
             category=item["category"], icon=item["icon"],

@@ -1,5 +1,6 @@
 """Feed collection, atomic publication and optional notifications."""
 import logging
+import json
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +32,7 @@ def build(
     retention_days: int = DEFAULT_RETENTION_DAYS,
     workers: int = 16,
     send_email: bool = True,
+    refresh_recent: bool = False,
 ):
     generated_at = datetime.now(timezone.utc)
     fetch_date = generated_at.astimezone(APP_TIMEZONE).date()
@@ -41,7 +43,18 @@ def build(
     LOGGER.info("Loaded %d feed source(s)", len(sources))
 
     response_cache = FeedCache(project_root / ".cache/feed-responses")
-    results = fetch_all(sources, fetch_date=fetch_date, workers=workers, cache=response_cache)
+    previous_ids = set()
+    try:
+        previous = json.loads((project_root / "docs/api/v1/feeds.json").read_text(encoding="utf-8"))
+        # A never-successful first fetch must retry its bootstrap on the next build.
+        previous_ids = {item["id"] for item in previous["feeds"] if item.get("status") == "ok"}
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+    bootstrap_ids = {source.id for source in sources} - previous_ids
+    if refresh_recent:
+        bootstrap_ids = {source.id for source in sources}
+    results = fetch_all(sources, fetch_date=fetch_date, workers=workers, cache=response_cache,
+                        bootstrap_ids=bootstrap_ids, retention_days=retention_days)
     response_cache.prune(source.feed_url for source in sources)
     cached_articles = load_cached_articles(
         project_root / "docs/api/v1/articles.json",

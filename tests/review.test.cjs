@@ -85,7 +85,7 @@ function pageHarness(serviceWorker, stored = "{}") {
 test("catalog loads even when service worker registration never resolves", async () => {
   const page = pageHarness({ register: () => new Promise(() => {}), addEventListener() {} });
   await page.review.start();
-  assert.deepEqual(page.requests, ["./api/v1/feed-candidates.json", "./api/v1/review-decisions.json", "./api/v1/feed-health.json"]);
+  assert.deepEqual(page.requests, ["./api/v1/meta.json", "./api/v1/feed-candidates.json", "./api/v1/review-decisions.json", "./api/v1/feed-health.json"]);
   assert.equal(page.byId("import-reviews").disabled, false);
   assert.equal(page.byId("export-reviews").disabled, false);
 });

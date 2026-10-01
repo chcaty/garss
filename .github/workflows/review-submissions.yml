@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - 'reviews/**'
+      - 'source-proposals/**'
+      - 'scripts/lib/manual-sources.mjs'
+      - 'docs/assets/review/source-proposal.mjs'
+      - 'docs/api/v1/source-proposals.json'
       - 'sources.json'
       - 'scripts/apply-reviews.mjs'
       - 'scripts/lib/reviews.mjs'

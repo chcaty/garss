@@ -4,7 +4,7 @@
   "scripts": {
     "build:review-schema": "node scripts/generate-review-validator.mjs",
     "check:review-schema": "node scripts/generate-review-validator.mjs --check",
-    "test": "node --test --test-isolation=none tests/review.test.cjs tests/reader.test.cjs tests/review-inclusion.test.cjs",
+    "test": "node --test --test-isolation=none tests/review.test.cjs tests/reader.test.cjs tests/review-inclusion.test.cjs tests/manual-sources.test.cjs",
     "review:check": "node scripts/apply-reviews.mjs --check",
     "review:apply": "node scripts/apply-reviews.mjs --apply",
     "preview": "python scripts/preview.py"

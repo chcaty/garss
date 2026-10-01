@@ -61,6 +61,26 @@
       <p>登录 GitHub 后，请选择<strong>新分支并创建 PR</strong>。校验通过、PR 合并后自动收录。已选择条目时仅提交已选决定；未选择时提交全部待提交决定。提交会下载备份，登录跳转后若未预填内容，可从备份粘贴。</p>
     </section>
 
+    <section class="source-management" aria-label="订阅源管理">
+      <details>
+        <summary>手动新增订阅源</summary>
+        <form id="manual-source-form" class="manual-source-form">
+          <label>订阅名称<input id="manual-title" required maxlength="120" placeholder="例如：一位作者的博客"></label>
+          <label>RSS / Atom 地址<input id="manual-url" required type="url" maxlength="2048" placeholder="https://example.com/feed"></label>
+          <label>分类<input id="manual-category" required maxlength="80" value="博客"></label>
+          <label>说明（选填）<input id="manual-description" maxlength="600" placeholder="这个来源主要写什么"></label>
+          <button class="button button-primary" type="submit">提交新增提案到 GitHub</button>
+          <p id="manual-source-status" role="status">登录 GitHub 后选择新分支创建 PR。链接检测通过、内容审核并合并后，自动收录和首次抓取最近 30 天。</p>
+        </form>
+      </details>
+      <div class="fetch-tools">
+        <button id="trigger-fetch" class="button" type="button">手动抓取 · 前往 GitHub</button>
+        <button id="refresh-fetch-status" class="button button-quiet" type="button">刷新抓取结果</button>
+        <a class="button button-quiet" href="https://github.com/chcaty/garss/edit/main/sources.json" target="_blank" rel="noopener noreferrer">维护正式源目录</a>
+        <p id="fetch-status" role="status">正在读取最近更新时间…</p>
+      </div>
+    </section>
+
     <section class="metrics" aria-label="审核统计">
       <article><span>候选总数</span><strong id="metric-total">—</strong></article>
       <article><span>待审核</span><strong id="metric-pending">—</strong></article>

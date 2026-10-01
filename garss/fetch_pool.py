@@ -12,7 +12,7 @@ from .models import FeedResult
 LOGGER = logging.getLogger(__name__)
 
 
-def fetch_all(sources, fetch_date, workers: int, cache=None) -> list[FeedResult]:
+def fetch_all(sources, fetch_date, workers: int, cache=None, bootstrap_ids=(), retention_days=30) -> list[FeedResult]:
     if workers < 1:
         raise ValueError("workers must be at least 1")
     if not sources:
@@ -20,6 +20,7 @@ def fetch_all(sources, fetch_date, workers: int, cache=None) -> list[FeedResult]
     local = threading.local()
     sessions = []
     session_lock = threading.Lock()
+    bootstrap_urls = {source.feed_url for source in sources if source.id in bootstrap_ids}
 
     def fetch_one(source):
         if not hasattr(local, "session"):
@@ -28,7 +29,8 @@ def fetch_all(sources, fetch_date, workers: int, cache=None) -> list[FeedResult]
                 sessions.append(local.session)
         # Reuse connections, not cookies received from unrelated feeds.
         local.session.cookies.clear()
-        return fetch_feed(source, today=fetch_date, only_date=fetch_date,
+        return fetch_feed(source, today=fetch_date, only_date=None if source.feed_url in bootstrap_urls else fetch_date,
+                          retention_days=retention_days,
                           request_get=local.session.get, cache=cache)
 
     try:

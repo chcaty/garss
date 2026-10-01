@@ -11,6 +11,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Build GARSS pages and static API")
     parser.add_argument("--retention-days", type=int, default=DEFAULT_RETENTION_DAYS)
     parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--refresh-recent", action="store_true", help="Fetch the full retention window, including earlier posts")
     email_options = parser.add_mutually_exclusive_group()
     email_options.add_argument("--no-email", action="store_true")
     email_options.add_argument(
@@ -39,6 +40,7 @@ def main():
         retention_days=args.retention_days,
         workers=args.workers,
         send_email=not args.no_email,
+        refresh_recent=args.refresh_recent,
     )
 
 

@@ -2,6 +2,12 @@ name: Build feeds and deploy Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_recent:
+        description: '补抓最近 30 天（用于手动更新或修复漏抓）'
+        required: true
+        default: true
+        type: boolean
   schedule:
     # 06:00, 13:00, 17:00 and 22:00 Asia/Shanghai (UTC+8)
     - cron: "0 22,5,9,14 * * *"
@@ -67,7 +73,14 @@ jobs:
         run: pipenv run python scripts/check_feed_links.py --candidate-limit 200
 
       - name: Build feeds and API
-        run: pipenv run build --no-email
+        env:
+          REFRESH_RECENT: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_recent }}
+        run: |
+          if [ "$REFRESH_RECENT" = "true" ]; then
+            pipenv run build --no-email --refresh-recent
+          else
+            pipenv run build --no-email
+          fi
 
       - name: Verify generated files
         run: |
@@ -79,6 +92,7 @@ jobs:
           test -s docs/api/v1/rsshub-routes.json
           test -s docs/api/v1/review-schema.json
           test -s docs/api/v1/review-decisions.json
+          test -s docs/api/v1/source-proposals.json
           test -s docs/api/v1/feed-health.json
           test -s docs/review.html
           test -s docs/index.html
@@ -93,6 +107,8 @@ jobs:
           test -s docs/assets/review/transfers.mjs
           test -s docs/assets/review/online.mjs
           test -s docs/assets/review/payload.mjs
+          test -s docs/assets/review/source-proposal.mjs
+          test -s docs/assets/review/fetch-controls.mjs
           test -s docs/assets/review.js
           test -s docs/assets/review/app.mjs
           test -s build/notification.html

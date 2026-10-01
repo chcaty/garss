@@ -1,5 +1,7 @@
 import { createCandidates } from "./candidates.mjs";
 import { createOnlineReview } from "./online.mjs";
+import { wireSourceProposal } from "./source-proposal.mjs";
+import { wireFetchControls } from "./fetch-controls.mjs";
 import { effectiveDecision } from "./payload.mjs";
 import { createTransfers } from "./transfers.mjs";
 import { normalize, debounce as createDebounce } from "../shared/dom.mjs";
@@ -327,6 +329,8 @@ export function createReviewer(environment = globalThis) {
   }
 
   async function start() {
+    wireSourceProposal({ byId, window, download, showToast });
+    wireFetchControls({ byId, fetch, window });
     wireTabs();
     wireCandidateControls();
     wireOnlineControls();
