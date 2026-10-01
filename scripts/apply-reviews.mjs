@@ -13,6 +13,14 @@ const [sources, catalog, published] = await Promise.all([
 const plan = planReviews({ sources, catalog, published, submissions });
 const summary = `Review submissions: ${names.length}; decisions to record: ${plan.recorded}; feeds to add: ${plan.added}`;
 console.log(summary);
+const targetsIndex = process.argv.indexOf("--targets");
+if (targetsIndex !== -1) {
+  const existingIds = new Set(sources.sources.map((source) => source.id));
+  const targets = plan.sources.sources.filter((source) => !existingIds.has(source.id)).map((source) => source.feed_url);
+  const destination = path.resolve(root, process.argv[targetsIndex + 1]);
+  await fs.mkdir(path.dirname(destination), { recursive: true });
+  await fs.writeFile(destination, `${JSON.stringify(targets, null, 2)}\n`);
+}
 if (process.env.GITHUB_STEP_SUMMARY) await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, `${summary}\n`);
 if (process.argv.includes("--apply")) {
   const updates = [["sources.json", plan.sources], ["docs/api/v1/feed-candidates.json", plan.catalog], ["docs/api/v1/review-decisions.json", plan.published]];

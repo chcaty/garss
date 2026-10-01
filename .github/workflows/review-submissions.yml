@@ -7,6 +7,8 @@ on:
       - 'sources.json'
       - 'scripts/apply-reviews.mjs'
       - 'scripts/lib/reviews.mjs'
+      - 'garss/link_health.py'
+      - 'scripts/check_feed_links.py'
       - 'docs/api/v1/review-schema.json'
       - 'docs/api/v1/review-decisions.json'
       - 'docs/assets/review/validation.mjs'
@@ -28,4 +30,11 @@ jobs:
       - run: npm run check:review-schema
       - run: npm test
       - name: Validate candidates and preview inclusion
-        run: npm run review:check
+        run: npm run review:check -- --targets build/review-targets.json
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: python -m pip install pipenv==2026.8.0
+      - run: pipenv sync
+      - name: Require live RSS or Atom for new inclusions
+        run: pipenv run python scripts/check_feed_links.py --input build/review-targets.json --require-valid

@@ -58,7 +58,13 @@ jobs:
             rss-http-v1-${{ runner.os }}-
 
       - name: Apply merged review submissions
-        run: npm run review:apply
+        run: |
+          npm run review:check -- --targets build/review-targets.json
+          pipenv run python scripts/check_feed_links.py --input build/review-targets.json --require-valid
+          npm run review:apply
+
+      - name: Check formal feeds and rotate through candidate links
+        run: pipenv run python scripts/check_feed_links.py --candidate-limit 200
 
       - name: Build feeds and API
         run: pipenv run build --no-email
@@ -73,6 +79,7 @@ jobs:
           test -s docs/api/v1/rsshub-routes.json
           test -s docs/api/v1/review-schema.json
           test -s docs/api/v1/review-decisions.json
+          test -s docs/api/v1/feed-health.json
           test -s docs/review.html
           test -s docs/index.html
           test -s docs/guide.html

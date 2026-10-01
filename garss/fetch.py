@@ -86,6 +86,8 @@ def _parse_articles(
 ) -> list[Article]:
     feed = feedparser.parse(payload)
     entries = feed.get("entries", [])
+    if not feed.get("version"):
+        raise ValueError("response is not RSS or Atom")
     if feed.get("bozo") and not entries:
         raise ValueError(f"invalid feed: {feed.get('bozo_exception')}")
 
