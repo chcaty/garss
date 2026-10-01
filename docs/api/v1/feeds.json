@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-01T17:14:40.383070Z",
+  "generated_at": "2026-10-01T17:30:46.099112Z",
   "feeds": [
     {
       "id": "S001",
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 79
+      "article_count": 81
     },
     {
       "id": "T002",
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 320
+      "article_count": 335
     },
     {
       "id": "M001",
@@ -1912,7 +1912,7 @@
       "description": "不定期推送黑料",
       "feed_url": "https://access.xtlmrmig.cc/feed",
       "status": "ok",
-      "article_count": 10
+      "article_count": 15
     }
   ]
 }
