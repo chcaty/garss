@@ -3,7 +3,7 @@
   "checks": {
     "https://iao.su/feed": {
       "feed_url": "https://iao.su/feed",
-      "checked_at": "2026-10-01T22:06:02.601193+00:00",
+      "checked_at": "2026-10-02T05:05:54.331773+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://oe.do/",
@@ -11,7 +11,7 @@
     },
     "https://xclient.info/feed": {
       "feed_url": "https://xclient.info/feed",
-      "checked_at": "2026-10-01T22:06:02.601519+00:00",
+      "checked_at": "2026-10-02T05:05:54.332086+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://xclient.info/feed",
@@ -20,7 +20,7 @@
     },
     "https://www.mpyit.com/feed": {
       "feed_url": "https://www.mpyit.com/feed",
-      "checked_at": "2026-10-01T22:06:02.601741+00:00",
+      "checked_at": "2026-10-02T05:05:54.332310+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://www.mpyit.com/feed",
@@ -28,7 +28,7 @@
     },
     "https://www.jokerps.com/feed": {
       "feed_url": "https://www.jokerps.com/feed",
-      "checked_at": "2026-10-01T22:06:02.601974+00:00",
+      "checked_at": "2026-10-02T05:05:54.332555+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://www.jokerps.com/feed",
@@ -36,7 +36,7 @@
     },
     "https://www.appinn.com/feed/": {
       "feed_url": "https://www.appinn.com/feed/",
-      "checked_at": "2026-10-01T22:06:29.031935+00:00",
+      "checked_at": "2026-10-02T05:06:19.382861+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.appinn.com/feed/",
@@ -45,7 +45,7 @@
     },
     "https://masuit.com/rss": {
       "feed_url": "https://masuit.com/rss",
-      "checked_at": "2026-10-01T22:06:02.602453+00:00",
+      "checked_at": "2026-10-02T05:05:54.332963+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://masuit.net/rss",
@@ -53,7 +53,7 @@
     },
     "https://free.apprcn.com/feed/": {
       "feed_url": "https://free.apprcn.com/feed/",
-      "checked_at": "2026-10-01T22:06:02.602693+00:00",
+      "checked_at": "2026-10-02T05:05:54.333143+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://free.apprcn.com/feed/",
@@ -62,7 +62,7 @@
     },
     "https://rsshub.v2fy.com/iplay/home": {
       "feed_url": "https://rsshub.v2fy.com/iplay/home",
-      "checked_at": "2026-10-01T22:06:02.602926+00:00",
+      "checked_at": "2026-10-02T05:05:54.333365+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/iplay/home",
@@ -70,7 +70,7 @@
     },
     "http://www.ruanyifeng.com/blog/atom.xml": {
       "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "checked_at": "2026-10-01T22:06:02.603195+00:00",
+      "checked_at": "2026-10-02T05:05:54.333615+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://www.ruanyifeng.com/blog/atom.xml",
@@ -79,7 +79,7 @@
     },
     "https://yinwang1.wordpress.com/feed/": {
       "feed_url": "https://yinwang1.wordpress.com/feed/",
-      "checked_at": "2026-10-01T22:06:02.603441+00:00",
+      "checked_at": "2026-10-02T05:05:54.333812+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://yinwang1.wordpress.com/feed/",
@@ -88,7 +88,7 @@
     },
     "https://blog.daliansky.net/atom.xml": {
       "feed_url": "https://blog.daliansky.net/atom.xml",
-      "checked_at": "2026-10-01T22:06:02.603679+00:00",
+      "checked_at": "2026-10-02T05:05:54.334021+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.daliansky.net/atom.xml",
@@ -97,7 +97,7 @@
     },
     "https://www.zhangxinxu.com/wordpress/feed/": {
       "feed_url": "https://www.zhangxinxu.com/wordpress/feed/",
-      "checked_at": "2026-10-01T22:06:02.603919+00:00",
+      "checked_at": "2026-10-02T05:05:54.334234+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.zhangxinxu.com/wordpress/feed/",
@@ -106,7 +106,7 @@
     },
     "https://fangyuanxiaozhan.com/feed/": {
       "feed_url": "https://fangyuanxiaozhan.com/feed/",
-      "checked_at": "2026-10-01T22:06:02.735290+00:00",
+      "checked_at": "2026-10-02T05:05:54.508046+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://fangyuanxiaozhan.com/feed/",
@@ -115,7 +115,7 @@
     },
     "https://v2fy.com/feed/": {
       "feed_url": "https://v2fy.com/feed/",
-      "checked_at": "2026-10-01T22:06:02.744656+00:00",
+      "checked_at": "2026-10-02T05:05:54.550966+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://v2fy.com/feed/",
@@ -124,7 +124,7 @@
     },
     "https://www.laozuo.org/feed": {
       "feed_url": "https://www.laozuo.org/feed",
-      "checked_at": "2026-10-01T22:06:02.850301+00:00",
+      "checked_at": "2026-10-02T05:05:54.765191+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.laozuo.org/feed/",
@@ -133,7 +133,7 @@
     },
     "https://flingtrainer.com/feed/": {
       "feed_url": "https://flingtrainer.com/feed/",
-      "checked_at": "2026-10-01T22:06:03.361756+00:00",
+      "checked_at": "2026-10-02T05:05:55.093579+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://flingtrainer.com/feed/",
@@ -142,7 +142,7 @@
     },
     "https://www.runningcheese.com/feed": {
       "feed_url": "https://www.runningcheese.com/feed",
-      "checked_at": "2026-10-01T22:06:03.450073+00:00",
+      "checked_at": "2026-10-02T05:05:55.116473+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.runningcheese.com/feed",
@@ -151,7 +151,7 @@
     },
     "https://blog.devtang.com/atom.xml": {
       "feed_url": "https://blog.devtang.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:03.481677+00:00",
+      "checked_at": "2026-10-02T05:05:55.197752+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.devtang.com/atom.xml",
@@ -160,7 +160,7 @@
     },
     "https://imtx.me/feed/latest/": {
       "feed_url": "https://imtx.me/feed/latest/",
-      "checked_at": "2026-10-01T22:06:03.622334+00:00",
+      "checked_at": "2026-10-02T05:05:55.391213+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://imtx.me/feed/latest/",
@@ -169,7 +169,7 @@
     },
     "https://blog.codingnow.com/atom.xml": {
       "feed_url": "https://blog.codingnow.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:03.668326+00:00",
+      "checked_at": "2026-10-02T05:05:55.501634+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.codingnow.com/atom.xml",
@@ -178,7 +178,7 @@
     },
     "https://blog.t9t.io/atom.xml": {
       "feed_url": "https://blog.t9t.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:03.750276+00:00",
+      "checked_at": "2026-10-02T05:05:55.513208+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.t9t.io/atom.xml",
@@ -187,7 +187,7 @@
     },
     "http://weiwuhui.com/feed": {
       "feed_url": "http://weiwuhui.com/feed",
-      "checked_at": "2026-10-01T22:06:03.888504+00:00",
+      "checked_at": "2026-10-02T05:05:55.526929+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://weiwuhui.com/feed",
@@ -196,13 +196,13 @@
     },
     "https://www.xiabingbao.com/atom.xml": {
       "feed_url": "https://www.xiabingbao.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:03.907501+00:00",
+      "checked_at": "2026-10-02T05:05:55.650525+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='www.xiabingbao.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.xiabingbao.com', port=443) at 0x7f9af11ab750>, 'Connection to www.xiabingbao.com timed out. ("
+      "reason": "HTTPSConnectionPool(host='www.xiabingbao.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.xiabingbao.com', port=443) at 0x7f51956bbc50>, 'Connection to www.xiabingbao.com timed out. ("
     },
     "https://diygod.me/atom.xml": {
       "feed_url": "https://diygod.me/atom.xml",
-      "checked_at": "2026-10-01T22:06:04.089383+00:00",
+      "checked_at": "2026-10-02T05:05:55.749240+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://diygod.cc/atom.xml",
@@ -210,7 +210,7 @@
     },
     "http://macshuo.com/?feed=rss2": {
       "feed_url": "http://macshuo.com/?feed=rss2",
-      "checked_at": "2026-10-01T22:06:04.161766+00:00",
+      "checked_at": "2026-10-02T05:05:55.870529+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://macshuo.com/?feed=rss2",
@@ -219,7 +219,7 @@
     },
     "http://shrekshao.github.io/feed.xml": {
       "feed_url": "http://shrekshao.github.io/feed.xml",
-      "checked_at": "2026-10-01T22:06:04.375199+00:00",
+      "checked_at": "2026-10-02T05:05:56.045222+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://shrekshao.github.io/feed.xml",
@@ -228,7 +228,7 @@
     },
     "https://www.phodal.com/blog/feeds/rss/": {
       "feed_url": "https://www.phodal.com/blog/feeds/rss/",
-      "checked_at": "2026-10-01T22:06:04.428423+00:00",
+      "checked_at": "2026-10-02T05:05:56.137035+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.phodal.com/blog/feeds/rss/",
@@ -237,7 +237,7 @@
     },
     "https://www.zmrenwu.com/all/rss/": {
       "feed_url": "https://www.zmrenwu.com/all/rss/",
-      "checked_at": "2026-10-01T22:06:04.429442+00:00",
+      "checked_at": "2026-10-02T05:05:56.214746+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://www.zmrenwu.com/all/rss/",
@@ -245,7 +245,7 @@
     },
     "https://www.dongwm.com/atom.xml": {
       "feed_url": "https://www.dongwm.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:04.447647+00:00",
+      "checked_at": "2026-10-02T05:05:56.259890+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.dongwm.com/atom.xml",
@@ -254,7 +254,7 @@
     },
     "https://windard.com/feed.xml": {
       "feed_url": "https://windard.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:04.716006+00:00",
+      "checked_at": "2026-10-02T05:05:56.305457+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://windard.com/feed.xml",
@@ -262,7 +262,7 @@
     },
     "https://luolei.org/feed/": {
       "feed_url": "https://luolei.org/feed/",
-      "checked_at": "2026-10-01T22:06:04.752586+00:00",
+      "checked_at": "2026-10-02T05:05:56.392521+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://luolei.org/feed",
@@ -271,19 +271,19 @@
     },
     "https://newdee.cf/atom.xml": {
       "feed_url": "https://newdee.cf/atom.xml",
-      "checked_at": "2026-10-01T22:06:04.847033+00:00",
+      "checked_at": "2026-10-02T05:05:56.427572+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://ridiqulous.com/feed/": {
       "feed_url": "https://ridiqulous.com/feed/",
-      "checked_at": "2026-10-01T22:06:05.132219+00:00",
+      "checked_at": "2026-10-02T05:05:56.634737+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='ridiqulous.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ridiqulous.com', port=443) at 0x7f9af11aa990>, 'Connection to ridiqulous.com timed out. (connect timeout"
+      "reason": "HTTPSConnectionPool(host='ridiqulous.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='ridiqulous.com', port=443) at 0x7f51956ba5d0>, 'Connection to ridiqulous.com timed out. (connect timeout"
     },
     "https://daimajia.com/feed": {
       "feed_url": "https://daimajia.com/feed",
-      "checked_at": "2026-10-01T22:06:05.228648+00:00",
+      "checked_at": "2026-10-02T05:05:56.671691+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://daimajia.com/feed/",
@@ -292,13 +292,13 @@
     },
     "https://www.kymjs.com/feed.xml": {
       "feed_url": "https://www.kymjs.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:05.270112+00:00",
+      "checked_at": "2026-10-02T05:05:56.889128+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='www.kymjs.com', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for"
     },
     "https://droidyue.com/atom.xml": {
       "feed_url": "https://droidyue.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:05.450813+00:00",
+      "checked_at": "2026-10-02T05:05:57.229290+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://droidyue.com/atom.xml",
@@ -306,7 +306,7 @@
     },
     "https://blog.lilydjwg.me/posts.rss": {
       "feed_url": "https://blog.lilydjwg.me/posts.rss",
-      "checked_at": "2026-10-01T22:06:05.606977+00:00",
+      "checked_at": "2026-10-02T05:05:57.285262+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.lilydjwg.me/feed",
@@ -315,7 +315,7 @@
     },
     "https://arminli.com/feed/": {
       "feed_url": "https://arminli.com/feed/",
-      "checked_at": "2026-10-01T22:06:05.744098+00:00",
+      "checked_at": "2026-10-02T05:05:57.380457+00:00",
       "status": "unknown",
       "http_status": 402,
       "final_url": "https://arminli.com/feed/",
@@ -323,7 +323,7 @@
     },
     "https://hintsnet.com/pimgeek/feed/": {
       "feed_url": "https://hintsnet.com/pimgeek/feed/",
-      "checked_at": "2026-10-01T22:06:05.808129+00:00",
+      "checked_at": "2026-10-02T05:05:57.545481+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://hintsnet.com/pimgeek/feed/",
@@ -331,13 +331,13 @@
     },
     "https://zxx.im/feed": {
       "feed_url": "https://zxx.im/feed",
-      "checked_at": "2026-10-01T22:06:05.955570+00:00",
+      "checked_at": "2026-10-02T05:05:57.662840+00:00",
       "status": "unknown",
       "reason": "[Errno -5] No address associated with hostname"
     },
     "https://ghost.mout.me/rss/": {
       "feed_url": "https://ghost.mout.me/rss/",
-      "checked_at": "2026-10-01T22:06:06.045684+00:00",
+      "checked_at": "2026-10-02T05:05:57.750385+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://ghost.mout.me/rss/",
@@ -346,7 +346,7 @@
     },
     "https://dumplingbao.github.io/atom.xml": {
       "feed_url": "https://dumplingbao.github.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:06.114929+00:00",
+      "checked_at": "2026-10-02T05:05:57.803165+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://dumplingbao.github.io/atom.xml",
@@ -355,7 +355,7 @@
     },
     "https://greatdk.com/feed": {
       "feed_url": "https://greatdk.com/feed",
-      "checked_at": "2026-10-01T22:06:06.362197+00:00",
+      "checked_at": "2026-10-02T05:05:57.820009+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://greatdk.com/feed",
@@ -364,7 +364,7 @@
     },
     "https://www.cnfeat.com/feed.xml": {
       "feed_url": "https://www.cnfeat.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:06.449430+00:00",
+      "checked_at": "2026-10-02T05:05:57.836801+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.cnfeat.com/feed.xml",
@@ -373,7 +373,7 @@
     },
     "https://www.laruence.com/feed": {
       "feed_url": "https://www.laruence.com/feed",
-      "checked_at": "2026-10-01T22:06:06.652621+00:00",
+      "checked_at": "2026-10-02T05:05:58.006542+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.laruence.com/feed",
@@ -382,7 +382,7 @@
     },
     "https://hawstein.com/feed.xml": {
       "feed_url": "https://hawstein.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:06.874103+00:00",
+      "checked_at": "2026-10-02T05:05:58.138923+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://hawstein.com/feed.xml",
@@ -391,7 +391,7 @@
     },
     "https://devework.com/feed": {
       "feed_url": "https://devework.com/feed",
-      "checked_at": "2026-10-01T22:06:06.984676+00:00",
+      "checked_at": "2026-10-02T05:05:58.194756+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://devework.com/feed",
@@ -400,7 +400,7 @@
     },
     "https://www.haijiaoshi.com/feed": {
       "feed_url": "https://www.haijiaoshi.com/feed",
-      "checked_at": "2026-10-01T22:06:07.078429+00:00",
+      "checked_at": "2026-10-02T05:05:58.228414+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.haijiaoshi.com/feed",
@@ -409,13 +409,13 @@
     },
     "http://www.4sbooks.com/feed": {
       "feed_url": "http://www.4sbooks.com/feed",
-      "checked_at": "2026-10-01T22:06:07.106546+00:00",
+      "checked_at": "2026-10-02T05:05:58.310086+00:00",
       "status": "unknown",
-      "reason": "HTTPConnectionPool(host='www.4sbooks.com', port=80): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPConnection(host='www.4sbooks.com', port=80) at 0x7f9af165ae00>, 'Connection to www.4sbooks.com timed out. (connect timeout=4"
+      "reason": "HTTPConnectionPool(host='www.4sbooks.com', port=80): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPConnection(host='www.4sbooks.com', port=80) at 0x7f5195d8a8b0>, 'Connection to www.4sbooks.com timed out. (connect timeout=4"
     },
     "https://wentommy.wordpress.com/feed/": {
       "feed_url": "https://wentommy.wordpress.com/feed/",
-      "checked_at": "2026-10-01T22:06:07.141761+00:00",
+      "checked_at": "2026-10-02T05:05:58.354780+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://wentommy.wordpress.com/feed/",
@@ -424,7 +424,7 @@
     },
     "http://micheer.net/?feed=rss2": {
       "feed_url": "http://micheer.net/?feed=rss2",
-      "checked_at": "2026-10-01T22:06:07.252069+00:00",
+      "checked_at": "2026-10-02T05:05:58.412270+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://micheer.net/feed",
@@ -433,7 +433,7 @@
     },
     "http://blog.farmostwood.net/feed": {
       "feed_url": "http://blog.farmostwood.net/feed",
-      "checked_at": "2026-10-01T22:06:07.830644+00:00",
+      "checked_at": "2026-10-02T05:05:58.692098+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.farmostwood.net/feed",
@@ -442,7 +442,7 @@
     },
     "https://limboy.me/index.xml": {
       "feed_url": "https://limboy.me/index.xml",
-      "checked_at": "2026-10-01T22:06:08.230664+00:00",
+      "checked_at": "2026-10-02T05:05:59.192060+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://limboy.me/index.xml",
@@ -451,15 +451,15 @@
     },
     "http://iamsujie.com/feed/": {
       "feed_url": "http://iamsujie.com/feed/",
-      "checked_at": "2026-10-01T22:06:08.543621+00:00",
+      "checked_at": "2026-10-02T05:05:59.467526+00:00",
       "status": "unknown",
-      "http_status": 301,
-      "final_url": "http://iamsujie.com/feed/",
-      "reason": "HTTPSConnectionPool(host='blog.csdn.net', port=443): Read timed out. (read timeout=4)"
+      "http_status": 521,
+      "final_url": "https://blog.csdn.net/iamsujie/feed/",
+      "reason": "HTTP 521; availability unconfirmed"
     },
     "https://tumutanzi.com/feed": {
       "feed_url": "https://tumutanzi.com/feed",
-      "checked_at": "2026-10-01T22:06:08.783171+00:00",
+      "checked_at": "2026-10-02T05:05:59.698231+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://tumutanzi.com/feed",
@@ -468,13 +468,13 @@
     },
     "https://blog.huoding.com/feed": {
       "feed_url": "https://blog.huoding.com/feed",
-      "checked_at": "2026-10-01T22:06:08.835328+00:00",
+      "checked_at": "2026-10-02T05:05:59.769977+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "http://mrpm.cc/?feed=rss2": {
       "feed_url": "http://mrpm.cc/?feed=rss2",
-      "checked_at": "2026-10-01T22:06:08.836295+00:00",
+      "checked_at": "2026-10-02T05:05:59.897391+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://mrpm.cc/?feed=rss2",
@@ -482,7 +482,7 @@
     },
     "http://www.matrix67.com/blog/feed": {
       "feed_url": "http://www.matrix67.com/blog/feed",
-      "checked_at": "2026-10-01T22:06:08.942023+00:00",
+      "checked_at": "2026-10-02T05:06:00.010203+00:00",
       "status": "unknown",
       "http_status": 301,
       "final_url": "http://www.matrix67.com/blog/feed",
@@ -490,13 +490,13 @@
     },
     "https://www.52nlp.cn/feed": {
       "feed_url": "https://www.52nlp.cn/feed",
-      "checked_at": "2026-10-01T22:06:08.942106+00:00",
+      "checked_at": "2026-10-02T05:06:00.030984+00:00",
       "status": "unknown",
       "reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "http://blog.sunnyxx.com/atom.xml": {
       "feed_url": "http://blog.sunnyxx.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:09.139725+00:00",
+      "checked_at": "2026-10-02T05:06:00.108274+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://blog.sunnyxx.com/atom.xml",
@@ -505,7 +505,7 @@
     },
     "http://teddy-chen-tw.blogspot.com/feeds/posts/default": {
       "feed_url": "http://teddy-chen-tw.blogspot.com/feeds/posts/default",
-      "checked_at": "2026-10-01T22:06:09.165815+00:00",
+      "checked_at": "2026-10-02T05:06:00.122165+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://teddy-chen-tw.blogspot.com/feeds/posts/default",
@@ -514,7 +514,7 @@
     },
     "https://byvoid.com/zht/feed.xml": {
       "feed_url": "https://byvoid.com/zht/feed.xml",
-      "checked_at": "2026-10-01T22:06:09.231321+00:00",
+      "checked_at": "2026-10-02T05:06:00.233075+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://byvoid.com/zht/feed.xml",
@@ -523,7 +523,7 @@
     },
     "https://blog.est.im/rss": {
       "feed_url": "https://blog.est.im/rss",
-      "checked_at": "2026-10-01T22:06:09.566099+00:00",
+      "checked_at": "2026-10-02T05:06:00.662715+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.est.im/rss",
@@ -532,7 +532,7 @@
     },
     "https://www.changhai.org//feed.xml": {
       "feed_url": "https://www.changhai.org//feed.xml",
-      "checked_at": "2026-10-01T22:06:09.703440+00:00",
+      "checked_at": "2026-10-02T05:06:00.694853+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.changhai.org//feed.xml",
@@ -541,7 +541,7 @@
     },
     "https://www.techug.com/feed": {
       "feed_url": "https://www.techug.com/feed",
-      "checked_at": "2026-10-01T22:06:09.919529+00:00",
+      "checked_at": "2026-10-02T05:06:01.378362+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.techug.com/feed/",
@@ -550,7 +550,7 @@
     },
     "http://blog.cnbang.net/feed/": {
       "feed_url": "http://blog.cnbang.net/feed/",
-      "checked_at": "2026-10-01T22:06:10.381486+00:00",
+      "checked_at": "2026-10-02T05:06:01.427992+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "http://blog.cnbang.net/cgi-sys/suspendedpage.cgi",
@@ -558,7 +558,7 @@
     },
     "https://www.ixiqin.com/feed/": {
       "feed_url": "https://www.ixiqin.com/feed/",
-      "checked_at": "2026-10-01T22:06:10.468486+00:00",
+      "checked_at": "2026-10-02T05:06:01.538985+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.ixiqin.com/feed/",
@@ -567,7 +567,7 @@
     },
     "https://atjason.com/atom.xml/": {
       "feed_url": "https://atjason.com/atom.xml/",
-      "checked_at": "2026-10-01T22:06:10.599249+00:00",
+      "checked_at": "2026-10-02T05:06:01.549187+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://atjason.com/atom.xml",
@@ -576,7 +576,7 @@
     },
     "https://lutaonan.com/rss.xml": {
       "feed_url": "https://lutaonan.com/rss.xml",
-      "checked_at": "2026-10-01T22:06:10.615313+00:00",
+      "checked_at": "2026-10-02T05:06:01.714977+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://lutaonan.com/rss.xml",
@@ -585,7 +585,7 @@
     },
     "https://immmmm.com/atom.xml": {
       "feed_url": "https://immmmm.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:10.750680+00:00",
+      "checked_at": "2026-10-02T05:06:01.871167+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://immmmm.com/atom.xml",
@@ -593,7 +593,7 @@
     },
     "http://www.skywind.me/blog/feed": {
       "feed_url": "http://www.skywind.me/blog/feed",
-      "checked_at": "2026-10-01T22:06:10.784405+00:00",
+      "checked_at": "2026-10-02T05:06:02.131454+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://skywind.me/blog/feed",
@@ -602,7 +602,7 @@
     },
     "https://blog.turn.tw/?feed=rss2": {
       "feed_url": "https://blog.turn.tw/?feed=rss2",
-      "checked_at": "2026-10-01T22:06:10.921536+00:00",
+      "checked_at": "2026-10-02T05:06:02.278535+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.turn.tw/?feed=rss2",
@@ -611,7 +611,7 @@
     },
     "https://yuguo.us/feed.xml": {
       "feed_url": "https://yuguo.us/feed.xml",
-      "checked_at": "2026-10-01T22:06:11.213032+00:00",
+      "checked_at": "2026-10-02T05:06:02.890003+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://yuguo.us/feed.xml",
@@ -619,7 +619,7 @@
     },
     "http://www.chenshake.com/feed/": {
       "feed_url": "http://www.chenshake.com/feed/",
-      "checked_at": "2026-10-01T22:06:11.631068+00:00",
+      "checked_at": "2026-10-02T05:06:03.012972+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://chenshake.com/feed/",
@@ -627,13 +627,13 @@
     },
     "http://gigix.thoughtworkers.org/atom.xml": {
       "feed_url": "http://gigix.thoughtworkers.org/atom.xml",
-      "checked_at": "2026-10-01T22:06:11.637365+00:00",
+      "checked_at": "2026-10-02T05:06:03.022010+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://blog.lilydjwg.me/feed": {
       "feed_url": "https://blog.lilydjwg.me/feed",
-      "checked_at": "2026-10-01T22:06:11.781169+00:00",
+      "checked_at": "2026-10-02T05:06:03.215159+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.lilydjwg.me/feed",
@@ -642,7 +642,7 @@
     },
     "https://jysperm.me/atom.xml": {
       "feed_url": "https://jysperm.me/atom.xml",
-      "checked_at": "2026-10-01T22:06:11.784089+00:00",
+      "checked_at": "2026-10-02T05:06:03.332975+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://jysperm.me/atom.xml",
@@ -651,7 +651,7 @@
     },
     "https://yihui.org/cn/index.xml": {
       "feed_url": "https://yihui.org/cn/index.xml",
-      "checked_at": "2026-10-01T22:06:11.790183+00:00",
+      "checked_at": "2026-10-02T05:06:03.400117+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://yihui.org/cn/index.xml",
@@ -660,7 +660,7 @@
     },
     "https://www.mifengtd.cn/feed.xml": {
       "feed_url": "https://www.mifengtd.cn/feed.xml",
-      "checked_at": "2026-10-01T22:06:11.854993+00:00",
+      "checked_at": "2026-10-02T05:06:03.465253+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.mifengtd.cn/feed.xml",
@@ -669,7 +669,7 @@
     },
     "https://blog.shuziyimin.org/feed": {
       "feed_url": "https://blog.shuziyimin.org/feed",
-      "checked_at": "2026-10-01T22:06:11.954814+00:00",
+      "checked_at": "2026-10-02T05:06:03.543371+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.shuziyimin.org/feed",
@@ -678,7 +678,7 @@
     },
     "https://lepture.com/feed.xml": {
       "feed_url": "https://lepture.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:12.004126+00:00",
+      "checked_at": "2026-10-02T05:06:03.575446+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://lepture.com/feed.xml",
@@ -687,7 +687,7 @@
     },
     "https://1byte.io/rss.xml": {
       "feed_url": "https://1byte.io/rss.xml",
-      "checked_at": "2026-10-01T22:06:12.109727+00:00",
+      "checked_at": "2026-10-02T05:06:03.662605+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://1byte.io/articles/index.xml",
@@ -696,7 +696,7 @@
     },
     "https://tingtalk.me/atom.xml": {
       "feed_url": "https://tingtalk.me/atom.xml",
-      "checked_at": "2026-10-01T22:06:12.148767+00:00",
+      "checked_at": "2026-10-02T05:06:03.747901+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.tingtalk.me/atom.xml",
@@ -705,7 +705,7 @@
     },
     "https://kaix.in/feed/": {
       "feed_url": "https://kaix.in/feed/",
-      "checked_at": "2026-10-01T22:06:12.170960+00:00",
+      "checked_at": "2026-10-02T05:06:03.852199+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://kaix.in/feed/",
@@ -714,7 +714,7 @@
     },
     "http://lukefan.com/?feed=rss2": {
       "feed_url": "http://lukefan.com/?feed=rss2",
-      "checked_at": "2026-10-01T22:06:12.426780+00:00",
+      "checked_at": "2026-10-02T05:06:03.893126+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://lukefan.com/feed/",
@@ -723,7 +723,7 @@
     },
     "https://www.bmpi.dev/index.xml": {
       "feed_url": "https://www.bmpi.dev/index.xml",
-      "checked_at": "2026-10-01T22:06:12.442485+00:00",
+      "checked_at": "2026-10-02T05:06:03.961990+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.bmpi.dev/index.xml",
@@ -732,7 +732,7 @@
     },
     "https://livid.v2ex.com/feed.xml": {
       "feed_url": "https://livid.v2ex.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:12.519500+00:00",
+      "checked_at": "2026-10-02T05:06:04.042569+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://livid.v2ex.com/feed.xml",
@@ -741,7 +741,7 @@
     },
     "https://hutusi.com/feed.xml": {
       "feed_url": "https://hutusi.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:12.635646+00:00",
+      "checked_at": "2026-10-02T05:06:04.339056+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://hutusi.com/feed.xml",
@@ -750,7 +750,7 @@
     },
     "https://colobu.com/atom.xml": {
       "feed_url": "https://colobu.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:12.795569+00:00",
+      "checked_at": "2026-10-02T05:06:04.369518+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://colobu.com/atom.xml",
@@ -759,7 +759,7 @@
     },
     "https://www.kawabangga.com/feed": {
       "feed_url": "https://www.kawabangga.com/feed",
-      "checked_at": "2026-10-01T22:06:13.027252+00:00",
+      "checked_at": "2026-10-02T05:06:04.399929+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.kawabangga.com/feed",
@@ -768,25 +768,28 @@
     },
     "https://fangyuanstu.com/feed/": {
       "feed_url": "https://fangyuanstu.com/feed/",
-      "checked_at": "2026-10-01T22:06:13.164046+00:00",
+      "checked_at": "2026-10-02T05:06:04.462995+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://nexmoe.com/atom.xml": {
       "feed_url": "https://nexmoe.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:13.240391+00:00",
-      "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='nexmoe.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='nexmoe.com', port=443) at 0x7f9aeccf0050>, 'Connection to nexmoe.com timed out. (connect timeout=4)'))"
+      "checked_at": "2026-10-02T05:06:04.516915+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://nexmoe.com/atom.xml",
+      "entry_count": 126,
+      "reason": "RSS/Atom parsed successfully"
     },
     "https://bujige.net/atom.xml": {
       "feed_url": "https://bujige.net/atom.xml",
-      "checked_at": "2026-10-01T22:06:13.260195+00:00",
+      "checked_at": "2026-10-02T05:06:04.662879+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='bujige.net', port=443): Read timed out. (read timeout=4)"
+      "reason": "HTTPSConnectionPool(host='bujige.net', port=443): Read timed out. (read timeout=2.7724476829999958)"
     },
     "https://calpaterson.com/calpaterson.rss": {
       "feed_url": "https://calpaterson.com/calpaterson.rss",
-      "checked_at": "2026-10-01T22:06:13.266566+00:00",
+      "checked_at": "2026-10-02T05:06:04.685416+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://calpaterson.com/calpaterson.rss",
@@ -795,7 +798,7 @@
     },
     "https://www.labno3.com/feed/": {
       "feed_url": "https://www.labno3.com/feed/",
-      "checked_at": "2026-10-01T22:06:13.564459+00:00",
+      "checked_at": "2026-10-02T05:06:04.819597+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://www.labno3.com/feed/",
@@ -803,7 +806,7 @@
     },
     "https://www.zmonster.me/atom.xml": {
       "feed_url": "https://www.zmonster.me/atom.xml",
-      "checked_at": "2026-10-01T22:06:13.615236+00:00",
+      "checked_at": "2026-10-02T05:06:04.830780+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.zmonster.me/atom.xml",
@@ -812,7 +815,7 @@
     },
     "http://snlcw.com/feed": {
       "feed_url": "http://snlcw.com/feed",
-      "checked_at": "2026-10-01T22:06:14.094301+00:00",
+      "checked_at": "2026-10-02T05:06:05.231946+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://www.snlcw.com/feed",
@@ -820,7 +823,7 @@
     },
     "https://www.lfhacks.com/rss/": {
       "feed_url": "https://www.lfhacks.com/rss/",
-      "checked_at": "2026-10-01T22:06:14.660026+00:00",
+      "checked_at": "2026-10-02T05:06:05.427537+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://www.lfhacks.com/rss/",
@@ -828,7 +831,7 @@
     },
     "https://blog.guowenfh.com/atom.xml": {
       "feed_url": "https://blog.guowenfh.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:14.802232+00:00",
+      "checked_at": "2026-10-02T05:06:06.039990+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.guowenfh.com/atom.xml",
@@ -837,7 +840,7 @@
     },
     "https://huiweishijie.com/feed.xml": {
       "feed_url": "https://huiweishijie.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:15.324877+00:00",
+      "checked_at": "2026-10-02T05:06:06.079200+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://huiweishijie.com/feed.xml",
@@ -845,13 +848,13 @@
     },
     "https://www.itrhx.com/atom.xml": {
       "feed_url": "https://www.itrhx.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:15.336367+00:00",
+      "checked_at": "2026-10-02T05:06:06.080292+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='www.itrhx.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.itrhx.com', port=443) at 0x7f9af11a9a90>, 'Connection to www.itrhx.com timed out. (connect timeout"
+      "reason": "HTTPSConnectionPool(host='www.itrhx.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.itrhx.com', port=443) at 0x7f51956bbd90>, 'Connection to www.itrhx.com timed out. (connect timeout"
     },
     "https://callmesoul.cn/rss.xml": {
       "feed_url": "https://callmesoul.cn/rss.xml",
-      "checked_at": "2026-10-01T22:06:15.676947+00:00",
+      "checked_at": "2026-10-02T05:06:06.138717+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://callmesoul.cn/rss.xml",
@@ -859,7 +862,7 @@
     },
     "https://laogongshuo.com/feed": {
       "feed_url": "https://laogongshuo.com/feed",
-      "checked_at": "2026-10-01T22:06:15.809180+00:00",
+      "checked_at": "2026-10-02T05:06:06.621965+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://laogongshuo.com/feed",
@@ -868,7 +871,7 @@
     },
     "https://blog.diqigan.cn/atom.xml": {
       "feed_url": "https://blog.diqigan.cn/atom.xml",
-      "checked_at": "2026-10-01T22:06:15.867991+00:00",
+      "checked_at": "2026-10-02T05:06:06.807703+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.diqigan.cn/atom.xml",
@@ -877,7 +880,7 @@
     },
     "https://www.codewoody.com/atom.xml": {
       "feed_url": "https://www.codewoody.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:15.951788+00:00",
+      "checked_at": "2026-10-02T05:06:06.854885+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.codewoody.com/atom.xml",
@@ -886,7 +889,7 @@
     },
     "https://blog.crimx.com/rss.xml": {
       "feed_url": "https://blog.crimx.com/rss.xml",
-      "checked_at": "2026-10-01T22:06:15.985321+00:00",
+      "checked_at": "2026-10-02T05:06:07.159131+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.crimx.com/rss.xml",
@@ -895,7 +898,7 @@
     },
     "https://xiaophy.com/feed.xml": {
       "feed_url": "https://xiaophy.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:17.008243+00:00",
+      "checked_at": "2026-10-02T05:06:07.160552+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://xiaophy.com/feed.xml",
@@ -904,7 +907,7 @@
     },
     "https://michael728.github.io/atom.xml": {
       "feed_url": "https://michael728.github.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:17.494278+00:00",
+      "checked_at": "2026-10-02T05:06:07.169295+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://michael728.github.io/atom.xml",
@@ -912,13 +915,13 @@
     },
     "https://www.dosk.win/feed.xml": {
       "feed_url": "https://www.dosk.win/feed.xml",
-      "checked_at": "2026-10-01T22:06:17.661791+00:00",
+      "checked_at": "2026-10-02T05:06:07.309606+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://blog.lushuyu.site/about-me/feed": {
       "feed_url": "https://blog.lushuyu.site/about-me/feed",
-      "checked_at": "2026-10-01T22:06:17.796980+00:00",
+      "checked_at": "2026-10-02T05:06:07.524038+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.lushuyu.site/about-me/feed",
@@ -927,7 +930,7 @@
     },
     "https://www.xiejingyang.com/feed/": {
       "feed_url": "https://www.xiejingyang.com/feed/",
-      "checked_at": "2026-10-01T22:06:17.844390+00:00",
+      "checked_at": "2026-10-02T05:06:07.770248+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.xiejingyang.com/feed/",
@@ -936,7 +939,7 @@
     },
     "https://zhengzexin.com/feed/index.xml": {
       "feed_url": "https://zhengzexin.com/feed/index.xml",
-      "checked_at": "2026-10-01T22:06:18.096492+00:00",
+      "checked_at": "2026-10-02T05:06:07.776937+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://zhengzexin.com/feed/index.xml",
@@ -945,13 +948,13 @@
     },
     "https://www.wyr.me/rss.xml": {
       "feed_url": "https://www.wyr.me/rss.xml",
-      "checked_at": "2026-10-01T22:06:18.279076+00:00",
+      "checked_at": "2026-10-02T05:06:08.056233+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='www.wyr.me', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)')))"
     },
     "https://blog.vadxq.com/atom.xml": {
       "feed_url": "https://blog.vadxq.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:18.423525+00:00",
+      "checked_at": "2026-10-02T05:06:08.408830+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.vadxq.com/atom.xml",
@@ -960,15 +963,15 @@
     },
     "https://fengxu.ink/atom.xml": {
       "feed_url": "https://fengxu.ink/atom.xml",
-      "checked_at": "2026-10-01T22:06:18.458578+00:00",
-      "status": "unknown",
-      "http_status": 503,
+      "checked_at": "2026-10-02T05:06:08.409072+00:00",
+      "status": "invalid",
+      "http_status": 404,
       "final_url": "https://fengxu.ink/atom.xml",
-      "reason": "HTTP 503; availability unconfirmed"
+      "reason": "HTTP 404"
     },
     "https://www.wikimoe.com/rss.php": {
       "feed_url": "https://www.wikimoe.com/rss.php",
-      "checked_at": "2026-10-01T22:06:18.662591+00:00",
+      "checked_at": "2026-10-02T05:06:08.586562+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.wikimoe.com/rss",
@@ -977,7 +980,7 @@
     },
     "https://blog.strongwong.top/atom.xml": {
       "feed_url": "https://blog.strongwong.top/atom.xml",
-      "checked_at": "2026-10-01T22:06:18.848828+00:00",
+      "checked_at": "2026-10-02T05:06:08.633886+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://blog.strongwong.top/atom.xml",
@@ -985,7 +988,7 @@
     },
     "https://paugram.com/feed/": {
       "feed_url": "https://paugram.com/feed/",
-      "checked_at": "2026-10-01T22:06:18.862339+00:00",
+      "checked_at": "2026-10-02T05:06:08.735626+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://paugram.com/feed/",
@@ -994,7 +997,7 @@
     },
     "https://lichuanyang.top/atom.xml": {
       "feed_url": "https://lichuanyang.top/atom.xml",
-      "checked_at": "2026-10-01T22:06:18.973596+00:00",
+      "checked_at": "2026-10-02T05:06:08.760180+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://lichuanyang.top/atom.xml",
@@ -1003,7 +1006,7 @@
     },
     "https://notlsd.github.io/atom.xml": {
       "feed_url": "https://notlsd.github.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:19.170853+00:00",
+      "checked_at": "2026-10-02T05:06:08.918926+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://notlsd.github.io/atom.xml",
@@ -1012,7 +1015,7 @@
     },
     "https://blog.mikeoperfect.com/atom.xml": {
       "feed_url": "https://blog.mikeoperfect.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:19.220717+00:00",
+      "checked_at": "2026-10-02T05:06:09.040726+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.mikeoperfect.com/atom.xml",
@@ -1021,13 +1024,13 @@
     },
     "https://www.javatang.com/feed": {
       "feed_url": "https://www.javatang.com/feed",
-      "checked_at": "2026-10-01T22:06:19.365439+00:00",
+      "checked_at": "2026-10-02T05:06:09.525799+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='www.javatang.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.javatang.com', port=443) at 0x7f9af11a9e50>, 'Connection to www.javatang.com timed out. (connect ti"
+      "reason": "HTTPSConnectionPool(host='www.javatang.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.javatang.com', port=443) at 0x7f51956bae90>, 'Connection to www.javatang.com timed out. (connect ti"
     },
     "https://www.lujun9972.win/rss.xml": {
       "feed_url": "https://www.lujun9972.win/rss.xml",
-      "checked_at": "2026-10-01T22:06:19.566672+00:00",
+      "checked_at": "2026-10-02T05:06:09.598389+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.lujun9972.win/rss.xml",
@@ -1036,13 +1039,13 @@
     },
     "http://blog.grayson.org.cn/feed.xml": {
       "feed_url": "http://blog.grayson.org.cn/feed.xml",
-      "checked_at": "2026-10-01T22:06:19.864760+00:00",
+      "checked_at": "2026-10-02T05:06:09.768580+00:00",
       "status": "unknown",
       "reason": "[Errno -3] Temporary failure in name resolution"
     },
     "https://liqiang.io/atom.xml": {
       "feed_url": "https://liqiang.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:19.877475+00:00",
+      "checked_at": "2026-10-02T05:06:10.038611+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://tongwd.org/",
@@ -1050,7 +1053,7 @@
     },
     "https://knightyun.github.io/feed.xml": {
       "feed_url": "https://knightyun.github.io/feed.xml",
-      "checked_at": "2026-10-01T22:06:19.893241+00:00",
+      "checked_at": "2026-10-02T05:06:10.069783+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://knightyun.github.io/feed.xml",
@@ -1059,7 +1062,7 @@
     },
     "https://www.yangzhiping.com/feed.xml": {
       "feed_url": "https://www.yangzhiping.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:20.026254+00:00",
+      "checked_at": "2026-10-02T05:06:10.090426+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://yangzhiping.com/feed.xml",
@@ -1067,7 +1070,7 @@
     },
     "https://www.loyhome.com/feed/": {
       "feed_url": "https://www.loyhome.com/feed/",
-      "checked_at": "2026-10-01T22:06:20.045222+00:00",
+      "checked_at": "2026-10-02T05:06:10.140982+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://loyhome.com/feed/",
@@ -1076,7 +1079,7 @@
     },
     "https://her.blue/rss/": {
       "feed_url": "https://her.blue/rss/",
-      "checked_at": "2026-10-01T22:06:20.059667+00:00",
+      "checked_at": "2026-10-02T05:06:10.167735+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://her.blue/rss/",
@@ -1085,13 +1088,13 @@
     },
     "https://chidd.net/feed": {
       "feed_url": "https://chidd.net/feed",
-      "checked_at": "2026-10-01T22:06:20.138830+00:00",
+      "checked_at": "2026-10-02T05:06:10.417985+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='chidd.net', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='chidd.net', port=443) at 0x7f9aeccf0690>, 'Connection to chidd.net timed out. (connect timeout=4)'))"
+      "reason": "HTTPSConnectionPool(host='chidd.net', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='chidd.net', port=443) at 0x7f51956bb9d0>, 'Connection to chidd.net timed out. (connect timeout=4)'))"
     },
     "https://zww.me/feed": {
       "feed_url": "https://zww.me/feed",
-      "checked_at": "2026-10-01T22:06:20.383976+00:00",
+      "checked_at": "2026-10-02T05:06:10.701277+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://zww.me/feed",
@@ -1100,7 +1103,7 @@
     },
     "https://blog.shuiba.co/feed": {
       "feed_url": "https://blog.shuiba.co/feed",
-      "checked_at": "2026-10-01T22:06:20.536384+00:00",
+      "checked_at": "2026-10-02T05:06:10.768012+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://blog.shuiba.co/feed",
@@ -1108,7 +1111,7 @@
     },
     "https://blog.imalan.cn/feed/index.xml": {
       "feed_url": "https://blog.imalan.cn/feed/index.xml",
-      "checked_at": "2026-10-01T22:06:20.676675+00:00",
+      "checked_at": "2026-10-02T05:06:10.940606+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://blog.imalan.cn/feed/index.xml",
@@ -1117,13 +1120,13 @@
     },
     "https://qianguyihao.com/atom.xml": {
       "feed_url": "https://qianguyihao.com/atom.xml",
-      "checked_at": "2026-10-01T22:06:20.707164+00:00",
+      "checked_at": "2026-10-02T05:06:11.005287+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='qianguyihao.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='qianguyihao.com', port=443) at 0x7f9af11aa350>, 'Connection to qianguyihao.com timed out. (connect t"
+      "reason": "HTTPSConnectionPool(host='qianguyihao.com', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='qianguyihao.com', port=443) at 0x7f51956ba850>, 'Connection to qianguyihao.com timed out. (connect t"
     },
     "https://taoshu.in/feed.xml": {
       "feed_url": "https://taoshu.in/feed.xml",
-      "checked_at": "2026-10-01T22:06:21.278814+00:00",
+      "checked_at": "2026-10-02T05:06:11.043830+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://tao.zz.ac/feed.xml",
@@ -1132,7 +1135,7 @@
     },
     "https://feeds.feedburner.com/kenengbarss": {
       "feed_url": "https://feeds.feedburner.com/kenengbarss",
-      "checked_at": "2026-10-01T22:06:21.287366+00:00",
+      "checked_at": "2026-10-02T05:06:11.061500+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://feeds.feedburner.com/kenengbarss",
@@ -1141,7 +1144,7 @@
     },
     "https://sspai.com/feed": {
       "feed_url": "https://sspai.com/feed",
-      "checked_at": "2026-10-01T22:06:21.718985+00:00",
+      "checked_at": "2026-10-02T05:06:11.596472+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://sspai.com/feed",
@@ -1150,7 +1153,7 @@
     },
     "https://www.dgtle.com/rss/dgtle.xml": {
       "feed_url": "https://www.dgtle.com/rss/dgtle.xml",
-      "checked_at": "2026-10-01T22:06:21.719193+00:00",
+      "checked_at": "2026-10-02T05:06:11.645214+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.dgtle.com/rss/dgtle.xml",
@@ -1159,7 +1162,7 @@
     },
     "https://www.chiphell.com/portal.php?mod=rss": {
       "feed_url": "https://www.chiphell.com/portal.php?mod=rss",
-      "checked_at": "2026-10-01T22:06:21.827312+00:00",
+      "checked_at": "2026-10-02T05:06:11.892145+00:00",
       "status": "unknown",
       "http_status": 567,
       "final_url": "https://www.chiphell.com/portal.php?mod=rss",
@@ -1167,19 +1170,19 @@
     },
     "http://www.alloyteam.com/feed/": {
       "feed_url": "http://www.alloyteam.com/feed/",
-      "checked_at": "2026-10-01T22:06:22.126677+00:00",
+      "checked_at": "2026-10-02T05:06:12.070211+00:00",
       "status": "unknown",
       "reason": "HTTPConnectionPool(host='www.alloyteam.com', port=80): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPConnection(host='www.alloyteam.com', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
     "https://weekly.75.team/rss": {
       "feed_url": "https://weekly.75.team/rss",
-      "checked_at": "2026-10-01T22:06:22.291799+00:00",
+      "checked_at": "2026-10-02T05:06:12.442175+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://fed.taobao.org/atom.xml": {
       "feed_url": "https://fed.taobao.org/atom.xml",
-      "checked_at": "2026-10-01T22:06:22.343537+00:00",
+      "checked_at": "2026-10-02T05:06:12.483298+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://error.taobao.com/tbpc/error.html",
@@ -1187,7 +1190,7 @@
     },
     "https://blog.csdn.net/ByteDanceTech/rss/list": {
       "feed_url": "https://blog.csdn.net/ByteDanceTech/rss/list",
-      "checked_at": "2026-10-01T22:06:22.402320+00:00",
+      "checked_at": "2026-10-02T05:06:12.508019+00:00",
       "status": "unknown",
       "http_status": 521,
       "final_url": "https://blog.csdn.net/ByteDanceTech/rss/list",
@@ -1195,7 +1198,7 @@
     },
     "https://tech.meituan.com/feed/": {
       "feed_url": "https://tech.meituan.com/feed/",
-      "checked_at": "2026-10-01T22:06:22.558756+00:00",
+      "checked_at": "2026-10-02T05:06:12.590719+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://tech.meituan.com/rss.xml",
@@ -1204,13 +1207,13 @@
     },
     "https://musicfe.dev/rss": {
       "feed_url": "https://musicfe.dev/rss",
-      "checked_at": "2026-10-01T22:06:22.763273+00:00",
+      "checked_at": "2026-10-02T05:06:12.861275+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://fex.baidu.com/feed.xml": {
       "feed_url": "https://fex.baidu.com/feed.xml",
-      "checked_at": "2026-10-01T22:06:22.811819+00:00",
+      "checked_at": "2026-10-02T05:06:12.912826+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://fex-team.github.io",
@@ -1218,13 +1221,13 @@
     },
     "https://jdc.jd.com/feed": {
       "feed_url": "https://jdc.jd.com/feed",
-      "checked_at": "2026-10-01T22:06:22.857234+00:00",
+      "checked_at": "2026-10-02T05:06:13.033989+00:00",
       "status": "unknown",
       "reason": "URL resolves to a non-public address"
     },
     "https://aotu.io/atom.xml": {
       "feed_url": "https://aotu.io/atom.xml",
-      "checked_at": "2026-10-01T22:06:23.188780+00:00",
+      "checked_at": "2026-10-02T05:06:13.040093+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://aotu.io/atom.xml",
@@ -1232,7 +1235,7 @@
     },
     "https://www.apple.com/newsroom/rss-feed.rss": {
       "feed_url": "https://www.apple.com/newsroom/rss-feed.rss",
-      "checked_at": "2026-10-01T22:06:23.293943+00:00",
+      "checked_at": "2026-10-02T05:06:13.281098+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.apple.com/newsroom/rss-feed.rss",
@@ -1241,13 +1244,13 @@
     },
     "https://www.huxiu.com/rss/0.xml": {
       "feed_url": "https://www.huxiu.com/rss/0.xml",
-      "checked_at": "2026-10-01T22:06:23.352695+00:00",
+      "checked_at": "2026-10-02T05:06:13.430670+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='www.huxiu.com', port=443): Read timed out. (read timeout=8)"
     },
     "https://www.36kr.com/feed": {
       "feed_url": "https://www.36kr.com/feed",
-      "checked_at": "2026-10-01T22:06:23.526089+00:00",
+      "checked_at": "2026-10-02T05:06:13.841298+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.36kr.com/feed",
@@ -1256,13 +1259,13 @@
     },
     "https://www.msra.cn/feed": {
       "feed_url": "https://www.msra.cn/feed",
-      "checked_at": "2026-10-01T22:06:23.747362+00:00",
+      "checked_at": "2026-10-02T05:06:14.094758+00:00",
       "status": "unknown",
-      "reason": "HTTPSConnectionPool(host='www.msra.cn', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.msra.cn', port=443) at 0x7f9af11aa710>, 'Connection to www.msra.cn timed out. (connect timeout=4)'))"
+      "reason": "HTTPSConnectionPool(host='www.msra.cn', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.msra.cn', port=443) at 0x7f51956ba210>, 'Connection to www.msra.cn timed out. (connect timeout=4)'))"
     },
     "https://www.geekpark.net/rss": {
       "feed_url": "https://www.geekpark.net/rss",
-      "checked_at": "2026-10-01T22:06:24.293524+00:00",
+      "checked_at": "2026-10-02T05:06:14.470852+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.geekpark.net/rss",
@@ -1271,16 +1274,16 @@
     },
     "https://xueqiu.com/hots/topic/rss": {
       "feed_url": "https://xueqiu.com/hots/topic/rss",
-      "checked_at": "2026-10-01T22:06:24.353422+00:00",
+      "checked_at": "2026-10-02T05:06:14.756626+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.xueqiu.com/hots/topic/rss",
-      "entry_count": 5,
+      "entry_count": 8,
       "reason": "RSS/Atom parsed successfully"
     },
     "https://news.ycombinator.com/rss": {
       "feed_url": "https://news.ycombinator.com/rss",
-      "checked_at": "2026-10-01T22:06:24.491603+00:00",
+      "checked_at": "2026-10-02T05:06:14.825384+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://news.ycombinator.com/rss",
@@ -1289,7 +1292,7 @@
     },
     "https://www.solidot.org/index.rss": {
       "feed_url": "https://www.solidot.org/index.rss",
-      "checked_at": "2026-10-01T22:06:24.800742+00:00",
+      "checked_at": "2026-10-02T05:06:15.101532+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.solidot.org/index.rss",
@@ -1298,7 +1301,7 @@
     },
     "https://feedx.net/rss/huanqiukexue.xml": {
       "feed_url": "https://feedx.net/rss/huanqiukexue.xml",
-      "checked_at": "2026-10-01T22:06:25.394992+00:00",
+      "checked_at": "2026-10-02T05:06:15.489044+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://feedx.net/rss/huanqiukexue.xml",
@@ -1306,7 +1309,7 @@
     },
     "https://rsshub.v2fy.com/mittrchina/hot": {
       "feed_url": "https://rsshub.v2fy.com/mittrchina/hot",
-      "checked_at": "2026-10-01T22:06:25.478038+00:00",
+      "checked_at": "2026-10-02T05:06:15.700894+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/mittrchina/hot",
@@ -1314,7 +1317,7 @@
     },
     "http://www.woshipm.com/category/operate/feed": {
       "feed_url": "http://www.woshipm.com/category/operate/feed",
-      "checked_at": "2026-10-01T22:06:25.531975+00:00",
+      "checked_at": "2026-10-02T05:06:15.720171+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://www.woshipm.com/category/operate/feed",
@@ -1323,7 +1326,7 @@
     },
     "http://www.woshipm.com/category/pmd/feed": {
       "feed_url": "http://www.woshipm.com/category/pmd/feed",
-      "checked_at": "2026-10-01T22:06:25.772657+00:00",
+      "checked_at": "2026-10-02T05:06:16.000355+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://www.woshipm.com/category/pmd/feed",
@@ -1332,13 +1335,13 @@
     },
     "http://www.chanpin100.com/feed": {
       "feed_url": "http://www.chanpin100.com/feed",
-      "checked_at": "2026-10-01T22:06:26.446752+00:00",
+      "checked_at": "2026-10-02T05:06:16.442934+00:00",
       "status": "unknown",
       "reason": "HTTPConnectionPool(host='www.chanpin100.com', port=80): Max retries exceeded with url: /feed (Caused by NewConnectionError(\"HTTPConnection(host='www.chanpin100.com', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
     "https://www.lanka.cn/feed": {
       "feed_url": "https://www.lanka.cn/feed",
-      "checked_at": "2026-10-01T22:06:26.904163+00:00",
+      "checked_at": "2026-10-02T05:06:16.745128+00:00",
       "status": "unknown",
       "http_status": 503,
       "final_url": "https://www.lanka.cn/feed",
@@ -1346,13 +1349,13 @@
     },
     "https://simonword.com/feed": {
       "feed_url": "https://simonword.com/feed",
-      "checked_at": "2026-10-01T22:06:26.958004+00:00",
+      "checked_at": "2026-10-02T05:06:17.254306+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='simonword.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'si"
     },
     "https://rengwuxian.com/feed": {
       "feed_url": "https://rengwuxian.com/feed",
-      "checked_at": "2026-10-01T22:06:27.134825+00:00",
+      "checked_at": "2026-10-02T05:06:17.526315+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rengwuxian.com/rss/",
@@ -1361,13 +1364,13 @@
     },
     "https://www.mooc.cn/feed": {
       "feed_url": "https://www.mooc.cn/feed",
-      "checked_at": "2026-10-01T22:06:27.399525+00:00",
+      "checked_at": "2026-10-02T05:06:17.585817+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='www.mooc.cn', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)')))"
     },
     "https://iseex.github.io/feed": {
       "feed_url": "https://iseex.github.io/feed",
-      "checked_at": "2026-10-01T22:06:27.505154+00:00",
+      "checked_at": "2026-10-02T05:06:17.668255+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://iseex.github.io/feed",
@@ -1375,7 +1378,7 @@
     },
     "https://rsshub.v2fy.com/weibo/user/2970452952": {
       "feed_url": "https://rsshub.v2fy.com/weibo/user/2970452952",
-      "checked_at": "2026-10-01T22:06:27.554604+00:00",
+      "checked_at": "2026-10-02T05:06:17.818286+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/weibo/user/2970452952",
@@ -1383,7 +1386,7 @@
     },
     "https://www.toodaylab.com/rss": {
       "feed_url": "https://www.toodaylab.com/rss",
-      "checked_at": "2026-10-01T22:06:27.575997+00:00",
+      "checked_at": "2026-10-02T05:06:17.879275+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.toodaylab.com/rss",
@@ -1392,7 +1395,7 @@
     },
     "https://rsshub.v2fy.com/yidoutang/index": {
       "feed_url": "https://rsshub.v2fy.com/yidoutang/index",
-      "checked_at": "2026-10-01T22:06:28.037170+00:00",
+      "checked_at": "2026-10-02T05:06:17.911670+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/yidoutang/index",
@@ -1400,7 +1403,7 @@
     },
     "https://www.behance.net/feeds/projects": {
       "feed_url": "https://www.behance.net/feeds/projects",
-      "checked_at": "2026-10-01T22:06:28.044265+00:00",
+      "checked_at": "2026-10-02T05:06:18.091425+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://www.behance.net/feeds/projects",
@@ -1408,7 +1411,7 @@
     },
     "https://medium.com/feed/@behance": {
       "feed_url": "https://medium.com/feed/@behance",
-      "checked_at": "2026-10-01T22:06:28.100521+00:00",
+      "checked_at": "2026-10-02T05:06:18.097665+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://medium.com/feed/@behance",
@@ -1417,7 +1420,7 @@
     },
     "https://newsroom.pinterest.com/en/feed/posts.xml": {
       "feed_url": "https://newsroom.pinterest.com/en/feed/posts.xml",
-      "checked_at": "2026-10-01T22:06:28.116073+00:00",
+      "checked_at": "2026-10-02T05:06:18.131668+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://newsroom.pinterest.com/en/feed/posts.xml",
@@ -1426,15 +1429,15 @@
     },
     "https://www.uisdc.com/feed": {
       "feed_url": "https://www.uisdc.com/feed",
-      "checked_at": "2026-10-01T22:06:28.235721+00:00",
+      "checked_at": "2026-10-02T05:06:18.246502+00:00",
       "status": "invalid",
       "http_status": 200,
-      "final_url": "https://www.uisdc.com/feed-2",
+      "final_url": "https://www.uisdc.com/feed",
       "reason": "Response is not RSS or Atom"
     },
     "https://cdc.tencent.com/feed/": {
       "feed_url": "https://cdc.tencent.com/feed/",
-      "checked_at": "2026-10-01T22:06:28.239478+00:00",
+      "checked_at": "2026-10-02T05:06:18.250201+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://cdc.tencent.com/feed/",
@@ -1443,7 +1446,7 @@
     },
     "http://feeds.feedburner.com/ID": {
       "feed_url": "http://feeds.feedburner.com/ID",
-      "checked_at": "2026-10-01T22:06:28.346280+00:00",
+      "checked_at": "2026-10-02T05:06:18.291606+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "http://feeds.feedburner.com/ID",
@@ -1452,7 +1455,7 @@
     },
     "https://feedx.net/rss/photoworld.xml": {
       "feed_url": "https://feedx.net/rss/photoworld.xml",
-      "checked_at": "2026-10-01T22:06:28.457717+00:00",
+      "checked_at": "2026-10-02T05:06:18.492847+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://feedx.net/rss/photoworld.xml",
@@ -1461,7 +1464,7 @@
     },
     "https://design-milk.com/feed/": {
       "feed_url": "https://design-milk.com/feed/",
-      "checked_at": "2026-10-01T22:06:28.459911+00:00",
+      "checked_at": "2026-10-02T05:06:18.589436+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://design-milk.com/feed/",
@@ -1470,7 +1473,7 @@
     },
     "https://www.smashingmagazine.com/feed/": {
       "feed_url": "https://www.smashingmagazine.com/feed/",
-      "checked_at": "2026-10-01T22:06:28.484668+00:00",
+      "checked_at": "2026-10-02T05:06:18.609559+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.smashingmagazine.com/feed/",
@@ -1479,7 +1482,7 @@
     },
     "https://www.zhihu.com/rss": {
       "feed_url": "https://www.zhihu.com/rss",
-      "checked_at": "2026-10-01T22:06:28.544737+00:00",
+      "checked_at": "2026-10-02T05:06:18.667761+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://www.zhihu.com/rss",
@@ -1487,7 +1490,7 @@
     },
     "https://wanqu.co/feed/": {
       "feed_url": "https://wanqu.co/feed/",
-      "checked_at": "2026-10-01T22:06:28.629227+00:00",
+      "checked_at": "2026-10-02T05:06:18.828461+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://www.wanqu.co/feed/",
@@ -1495,7 +1498,7 @@
     },
     "https://www.ifanr.com/feed": {
       "feed_url": "https://www.ifanr.com/feed",
-      "checked_at": "2026-10-01T22:06:28.831968+00:00",
+      "checked_at": "2026-10-02T05:06:19.307195+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.ifanr.com/feed",
@@ -1504,7 +1507,7 @@
     },
     "https://www.199it.com/feed": {
       "feed_url": "https://www.199it.com/feed",
-      "checked_at": "2026-10-01T22:06:29.105939+00:00",
+      "checked_at": "2026-10-02T05:06:19.389945+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.199it.com/feed",
@@ -1513,7 +1516,7 @@
     },
     "https://www.ithome.com/rss": {
       "feed_url": "https://www.ithome.com/rss",
-      "checked_at": "2026-10-01T22:06:29.389086+00:00",
+      "checked_at": "2026-10-02T05:06:19.510856+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.ithome.com/rss",
@@ -1522,7 +1525,7 @@
     },
     "https://hellogithub.com/rss": {
       "feed_url": "https://hellogithub.com/rss",
-      "checked_at": "2026-10-01T22:06:29.392421+00:00",
+      "checked_at": "2026-10-02T05:06:19.512816+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://hellogithub.com/rss",
@@ -1531,7 +1534,7 @@
     },
     "https://weekly.pychina.org/feeds/all.atom.xml": {
       "feed_url": "https://weekly.pychina.org/feeds/all.atom.xml",
-      "checked_at": "2026-10-01T22:06:29.877978+00:00",
+      "checked_at": "2026-10-02T05:06:19.786132+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://weekly.pychina.org/feeds/all.atom.xml",
@@ -1540,7 +1543,7 @@
     },
     "https://www.wpdaxue.com/feed": {
       "feed_url": "https://www.wpdaxue.com/feed",
-      "checked_at": "2026-10-01T22:06:30.444956+00:00",
+      "checked_at": "2026-10-02T05:06:20.350023+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.wpdaxue.com/feed",
@@ -1549,13 +1552,13 @@
     },
     "https://linux.cn/rss.xml": {
       "feed_url": "https://linux.cn/rss.xml",
-      "checked_at": "2026-10-01T22:06:31.101502+00:00",
+      "checked_at": "2026-10-02T05:06:20.610205+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://www.v2ex.com/index.xml": {
       "feed_url": "https://www.v2ex.com/index.xml",
-      "checked_at": "2026-10-01T22:06:31.241932+00:00",
+      "checked_at": "2026-10-02T05:06:20.630885+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.v2ex.com/index.xml",
@@ -1564,16 +1567,15 @@
     },
     "https://coolshell.cn/feed": {
       "feed_url": "https://coolshell.cn/feed",
-      "checked_at": "2026-10-01T22:06:31.373035+00:00",
-      "status": "valid",
-      "http_status": 200,
+      "checked_at": "2026-10-02T05:06:21.060112+00:00",
+      "status": "unknown",
+      "http_status": 500,
       "final_url": "https://coolshell.cn/feed",
-      "entry_count": 15,
-      "reason": "RSS/Atom parsed successfully"
+      "reason": "HTTP 500; availability unconfirmed"
     },
     "https://www.douban.com/feed/review/movie": {
       "feed_url": "https://www.douban.com/feed/review/movie",
-      "checked_at": "2026-10-01T22:06:31.401945+00:00",
+      "checked_at": "2026-10-02T05:06:21.215383+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.douban.com/feed/review/movie",
@@ -1582,7 +1584,7 @@
     },
     "https://www.douban.com/feed/review/book": {
       "feed_url": "https://www.douban.com/feed/review/book",
-      "checked_at": "2026-10-01T22:06:31.417739+00:00",
+      "checked_at": "2026-10-02T05:06:21.273881+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.douban.com/feed/review/book",
@@ -1591,16 +1593,16 @@
     },
     "https://www.douban.com/feed/review/music": {
       "feed_url": "https://www.douban.com/feed/review/music",
-      "checked_at": "2026-10-01T22:06:31.817508+00:00",
+      "checked_at": "2026-10-02T05:06:21.427272+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.douban.com/feed/review/music",
-      "entry_count": 20,
+      "entry_count": 18,
       "reason": "RSS/Atom parsed successfully"
     },
     "https://www.oschina.net/blog/rss": {
       "feed_url": "https://www.oschina.net/blog/rss",
-      "checked_at": "2026-10-01T22:06:31.873207+00:00",
+      "checked_at": "2026-10-02T05:06:21.598543+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "https://www.oschina.net/blog/rss",
@@ -1608,7 +1610,7 @@
     },
     "http://feed.cnblogs.com/blog/picked/rss": {
       "feed_url": "http://feed.cnblogs.com/blog/picked/rss",
-      "checked_at": "2026-10-01T22:06:31.950963+00:00",
+      "checked_at": "2026-10-02T05:06:21.974147+00:00",
       "status": "unknown",
       "http_status": 500,
       "final_url": "https://feed.cnblogs.com/blog/picked/rss",
@@ -1616,7 +1618,7 @@
     },
     "http://feed.cnblogs.com/blog/sitehome/rss": {
       "feed_url": "http://feed.cnblogs.com/blog/sitehome/rss",
-      "checked_at": "2026-10-01T22:06:32.258129+00:00",
+      "checked_at": "2026-10-02T05:06:22.023216+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://feed.cnblogs.com/blog/sitehome/rss",
@@ -1625,7 +1627,7 @@
     },
     "https://www.ptt.cc/atom/movie.xml": {
       "feed_url": "https://www.ptt.cc/atom/movie.xml",
-      "checked_at": "2026-10-01T22:06:32.314692+00:00",
+      "checked_at": "2026-10-02T05:06:22.180021+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://www.ptt.cc/atom/movie.xml",
@@ -1633,7 +1635,7 @@
     },
     "https://www.ptt.cc/atom/beauty.xml": {
       "feed_url": "https://www.ptt.cc/atom/beauty.xml",
-      "checked_at": "2026-10-01T22:06:32.415010+00:00",
+      "checked_at": "2026-10-02T05:06:22.477400+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://www.ptt.cc/atom/beauty.xml",
@@ -1641,7 +1643,7 @@
     },
     "https://rsshub.v2fy.com/discuz/x/https%3a%2f%2fwww.52pojie.cn%2fforum-16-1.html": {
       "feed_url": "https://rsshub.v2fy.com/discuz/x/https%3a%2f%2fwww.52pojie.cn%2fforum-16-1.html",
-      "checked_at": "2026-10-01T22:06:32.588731+00:00",
+      "checked_at": "2026-10-02T05:06:22.607676+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/discuz/x/https%3a%2f%2fwww.52pojie.cn%2fforum-16-1.html",
@@ -1649,13 +1651,13 @@
     },
     "https://www.cnbeta.com/commentrss.php": {
       "feed_url": "https://www.cnbeta.com/commentrss.php",
-      "checked_at": "2026-10-01T22:06:32.820940+00:00",
+      "checked_at": "2026-10-02T05:06:22.665017+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://bitinn.net/feed/": {
       "feed_url": "https://bitinn.net/feed/",
-      "checked_at": "2026-10-01T22:06:32.831475+00:00",
+      "checked_at": "2026-10-02T05:06:22.720637+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://bitinn.net/feed/",
@@ -1664,7 +1666,7 @@
     },
     "https://rakuen.thec.me/PixivRss/male-20": {
       "feed_url": "https://rakuen.thec.me/PixivRss/male-20",
-      "checked_at": "2026-10-01T22:06:33.170485+00:00",
+      "checked_at": "2026-10-02T05:06:22.879754+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rakuen.thec.me/PixivRss/male-20",
@@ -1673,7 +1675,7 @@
     },
     "https://rakuen.thec.me/PixivRss/female-20": {
       "feed_url": "https://rakuen.thec.me/PixivRss/female-20",
-      "checked_at": "2026-10-01T22:06:33.461646+00:00",
+      "checked_at": "2026-10-02T05:06:22.927154+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rakuen.thec.me/PixivRss/female-20",
@@ -1682,7 +1684,7 @@
     },
     "http://rakuen.thec.me/PixivRss/daily-20": {
       "feed_url": "http://rakuen.thec.me/PixivRss/daily-20",
-      "checked_at": "2026-10-01T22:06:33.559214+00:00",
+      "checked_at": "2026-10-02T05:06:23.160471+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rakuen.thec.me/PixivRss/daily-20",
@@ -1691,7 +1693,7 @@
     },
     "http://rakuen.thec.me/PixivRss/monthly-20": {
       "feed_url": "http://rakuen.thec.me/PixivRss/monthly-20",
-      "checked_at": "2026-10-01T22:06:33.670010+00:00",
+      "checked_at": "2026-10-02T05:06:23.233230+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rakuen.thec.me/PixivRss/monthly-20",
@@ -1700,7 +1702,7 @@
     },
     "https://feedx.net/rss/cnbetatop.xml": {
       "feed_url": "https://feedx.net/rss/cnbetatop.xml",
-      "checked_at": "2026-10-01T22:06:33.670818+00:00",
+      "checked_at": "2026-10-02T05:06:23.279051+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://feedx.net/rss/cnbetatop.xml",
@@ -1709,7 +1711,7 @@
     },
     "http://www.chinadaily.com.cn/rss/cndy_rss.xml": {
       "feed_url": "http://www.chinadaily.com.cn/rss/cndy_rss.xml",
-      "checked_at": "2026-10-01T22:06:33.714016+00:00",
+      "checked_at": "2026-10-02T05:06:23.459708+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "http://www.chinadaily.com.cn/rss/cndy_rss.xml",
@@ -1717,7 +1719,7 @@
     },
     "https://rsshub.v2fy.com/95mm/tab/热门": {
       "feed_url": "https://rsshub.v2fy.com/95mm/tab/热门",
-      "checked_at": "2026-10-01T22:06:33.892065+00:00",
+      "checked_at": "2026-10-02T05:06:23.813669+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/95mm/tab/热门",
@@ -1725,7 +1727,7 @@
     },
     "https://rsshub.v2fy.com/cnu/selected": {
       "feed_url": "https://rsshub.v2fy.com/cnu/selected",
-      "checked_at": "2026-10-01T22:06:33.951953+00:00",
+      "checked_at": "2026-10-02T05:06:23.817491+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/cnu/selected",
@@ -1733,7 +1735,7 @@
     },
     "https://rsshub.v2fy.com/nosetime/home": {
       "feed_url": "https://rsshub.v2fy.com/nosetime/home",
-      "checked_at": "2026-10-01T22:06:34.013919+00:00",
+      "checked_at": "2026-10-02T05:06:23.859251+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/nosetime/home",
@@ -1741,7 +1743,7 @@
     },
     "https://rsshub.v2fy.com/right/forum/31": {
       "feed_url": "https://rsshub.v2fy.com/right/forum/31",
-      "checked_at": "2026-10-01T22:06:34.047290+00:00",
+      "checked_at": "2026-10-02T05:06:23.894859+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/right/forum/31",
@@ -1749,7 +1751,7 @@
     },
     "https://www.ahhhhfs.com/feed": {
       "feed_url": "https://www.ahhhhfs.com/feed",
-      "checked_at": "2026-10-01T22:06:34.258548+00:00",
+      "checked_at": "2026-10-02T05:06:23.917079+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.ahhhhfs.com/feed/",
@@ -1758,7 +1760,7 @@
     },
     "https://xlog.app/feed/hottest?interval=1": {
       "feed_url": "https://xlog.app/feed/hottest?interval=1",
-      "checked_at": "2026-10-01T22:06:34.323696+00:00",
+      "checked_at": "2026-10-02T05:06:23.934508+00:00",
       "status": "unknown",
       "http_status": 530,
       "final_url": "https://xlog.app/feed/hottest?interval=1",
@@ -1766,7 +1768,7 @@
     },
     "https://rss.nodeseek.com/": {
       "feed_url": "https://rss.nodeseek.com/",
-      "checked_at": "2026-10-01T22:06:34.351224+00:00",
+      "checked_at": "2026-10-02T05:06:24.095095+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://rss.nodeseek.com/",
@@ -1775,15 +1777,15 @@
     },
     "https://bukaivip.com/rss": {
       "feed_url": "https://bukaivip.com/rss",
-      "checked_at": "2026-10-01T22:06:34.406194+00:00",
+      "checked_at": "2026-10-02T05:06:24.118846+00:00",
       "status": "invalid",
       "http_status": 200,
-      "final_url": "http://ww547.bukaivip.com/?tkn=19vnMT3S",
+      "final_url": "https://bukaivip.com/rss",
       "reason": "Response is not RSS or Atom"
     },
     "https://www.limetorrents.pro/rss/": {
       "feed_url": "https://www.limetorrents.pro/rss/",
-      "checked_at": "2026-10-01T22:06:34.464240+00:00",
+      "checked_at": "2026-10-02T05:06:24.131647+00:00",
       "status": "invalid",
       "http_status": 200,
       "final_url": "http://ww1.limetorrents.pro",
@@ -1791,7 +1793,7 @@
     },
     "https://www.torlock.com/rss.xml": {
       "feed_url": "https://www.torlock.com/rss.xml",
-      "checked_at": "2026-10-01T22:06:34.494304+00:00",
+      "checked_at": "2026-10-02T05:06:24.134225+00:00",
       "status": "unknown",
       "http_status": 403,
       "final_url": "https://www.torlock.com/rss.xml",
@@ -1799,19 +1801,19 @@
     },
     "https://yts.mx/rss": {
       "feed_url": "https://yts.mx/rss",
-      "checked_at": "2026-10-01T22:06:34.531687+00:00",
+      "checked_at": "2026-10-02T05:06:24.175453+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://rarbg.to/rss.php": {
       "feed_url": "https://rarbg.to/rss.php",
-      "checked_at": "2026-10-01T22:06:34.602200+00:00",
+      "checked_at": "2026-10-02T05:06:24.209226+00:00",
       "status": "unknown",
       "reason": "HTTPSConnectionPool(host='rarbg.to', port=443): Max retries exceeded with url: /rss.php (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rarb"
     },
     "https://www.gcores.com/rss": {
       "feed_url": "https://www.gcores.com/rss",
-      "checked_at": "2026-10-01T22:06:34.603115+00:00",
+      "checked_at": "2026-10-02T05:06:24.215411+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.gcores.com/rss",
@@ -1820,7 +1822,7 @@
     },
     "https://www.yystv.cn/rss/feed": {
       "feed_url": "https://www.yystv.cn/rss/feed",
-      "checked_at": "2026-10-01T22:06:34.646529+00:00",
+      "checked_at": "2026-10-02T05:06:24.311245+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.yystv.cn/rss/feed",
@@ -1829,7 +1831,7 @@
     },
     "https://rsshub.v2fy.com/gamegrape/13": {
       "feed_url": "https://rsshub.v2fy.com/gamegrape/13",
-      "checked_at": "2026-10-01T22:06:34.741581+00:00",
+      "checked_at": "2026-10-02T05:06:24.320015+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/gamegrape/13",
@@ -1837,7 +1839,7 @@
     },
     "https://www.shuge.org/feed/": {
       "feed_url": "https://www.shuge.org/feed/",
-      "checked_at": "2026-10-01T22:06:34.750615+00:00",
+      "checked_at": "2026-10-02T05:06:24.449600+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://www.shuge.org/feed/",
@@ -1846,7 +1848,7 @@
     },
     "https://feeds.feedburner.com/bookfere": {
       "feed_url": "https://feeds.feedburner.com/bookfere",
-      "checked_at": "2026-10-01T22:06:34.806705+00:00",
+      "checked_at": "2026-10-02T05:06:24.459413+00:00",
       "status": "valid",
       "http_status": 200,
       "final_url": "https://feeds.feedburner.com/bookfere",
@@ -1855,13 +1857,13 @@
     },
     "https://www.kindle8.cc/feed": {
       "feed_url": "https://www.kindle8.cc/feed",
-      "checked_at": "2026-10-01T22:06:34.916603+00:00",
+      "checked_at": "2026-10-02T05:06:24.470495+00:00",
       "status": "unknown",
       "reason": "[Errno -2] Name or service not known"
     },
     "https://rsshub.v2fy.com/qidian/free": {
       "feed_url": "https://rsshub.v2fy.com/qidian/free",
-      "checked_at": "2026-10-01T22:06:34.930204+00:00",
+      "checked_at": "2026-10-02T05:06:24.618148+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/qidian/free",
@@ -1869,7 +1871,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/dianying4K": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/dianying4K",
-      "checked_at": "2026-10-01T22:06:34.955830+00:00",
+      "checked_at": "2026-10-02T05:06:24.619539+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/dianying4K",
@@ -1877,7 +1879,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/programmerjokes": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/programmerjokes",
-      "checked_at": "2026-10-01T22:06:35.092761+00:00",
+      "checked_at": "2026-10-02T05:06:24.629587+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/programmerjokes",
@@ -1885,7 +1887,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/yangmaoshare": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/yangmaoshare",
-      "checked_at": "2026-10-01T22:06:35.104852+00:00",
+      "checked_at": "2026-10-02T05:06:24.703103+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/yangmaoshare",
@@ -1893,7 +1895,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/tnews365": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/tnews365",
-      "checked_at": "2026-10-01T22:06:35.251611+00:00",
+      "checked_at": "2026-10-02T05:06:24.804912+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/tnews365",
@@ -1901,7 +1903,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/GoReading": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/GoReading",
-      "checked_at": "2026-10-01T22:06:35.522783+00:00",
+      "checked_at": "2026-10-02T05:06:24.915831+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/GoReading",
@@ -1909,7 +1911,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/YunPanPan": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/YunPanPan",
-      "checked_at": "2026-10-01T22:06:35.552059+00:00",
+      "checked_at": "2026-10-02T05:06:24.934109+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/YunPanPan",
@@ -1917,7 +1919,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/lover_links": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/lover_links",
-      "checked_at": "2026-10-01T22:06:35.703103+00:00",
+      "checked_at": "2026-10-02T05:06:25.210713+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/lover_links",
@@ -1925,7 +1927,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi",
-      "checked_at": "2026-10-01T22:06:35.847413+00:00",
+      "checked_at": "2026-10-02T05:06:25.238549+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi",
@@ -1933,7 +1935,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/botmzt": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/botmzt",
-      "checked_at": "2026-10-01T22:06:35.856887+00:00",
+      "checked_at": "2026-10-02T05:06:25.251567+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/botmzt",
@@ -1941,7 +1943,7 @@
     },
     "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel": {
       "feed_url": "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel",
-      "checked_at": "2026-10-01T22:06:35.904092+00:00",
+      "checked_at": "2026-10-02T05:06:25.323267+00:00",
       "status": "invalid",
       "http_status": 404,
       "final_url": "https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel",
@@ -3613,10 +3615,10 @@
     },
     "https://access.xtlmrmig.cc/feed": {
       "feed_url": "https://access.xtlmrmig.cc/feed",
-      "checked_at": "2026-10-01T22:06:35.918973+00:00",
+      "checked_at": "2026-10-02T05:06:25.431933+00:00",
       "status": "valid",
       "http_status": 200,
-      "final_url": "https://access.rqyiuylh.cc/feed",
+      "final_url": "https://access.yghftaps.cc/feed",
       "entry_count": 10,
       "reason": "RSS/Atom parsed successfully"
     },
@@ -11993,6 +11995,1667 @@
       "http_status": 404,
       "final_url": "https://robin4han.github.io/atom.xml",
       "reason": "HTTP 404"
+    },
+    "https://rsshub.app/163/music/playlist/508862123": {
+      "feed_url": "https://rsshub.app/163/music/playlist/508862123",
+      "checked_at": "2026-10-02T05:06:25.522513+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/163/music/playlist/508862123",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://nekohuan.cyou/atom.xml": {
+      "feed_url": "https://nekohuan.cyou/atom.xml",
+      "checked_at": "2026-10-02T05:06:25.540402+00:00",
+      "status": "unknown",
+      "http_status": 503,
+      "final_url": "https://nekohuan.cyou/atom.xml",
+      "reason": "HTTP 503; availability unconfirmed"
+    },
+    "https://www.khlfyy.top/atom.xml": {
+      "feed_url": "https://www.khlfyy.top/atom.xml",
+      "checked_at": "2026-10-02T05:06:25.550520+00:00",
+      "status": "unknown",
+      "reason": "[Errno -2] Name or service not known"
+    },
+    "https://rsshub.app/amazon/kindle/software-updates": {
+      "feed_url": "https://rsshub.app/amazon/kindle/software-updates",
+      "checked_at": "2026-10-02T05:06:25.558580+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/amazon/kindle/software-updates",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/themoviedb/tv/70593/seasons": {
+      "feed_url": "https://rsshub.app/themoviedb/tv/70593/seasons",
+      "checked_at": "2026-10-02T05:06:25.597396+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/themoviedb/tv/70593/seasons",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.kirimasharo.com/feed/": {
+      "feed_url": "https://www.kirimasharo.com/feed/",
+      "checked_at": "2026-10-02T05:06:25.603582+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.kirimasharo.com/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.kirito.info/index.xml": {
+      "feed_url": "https://www.kirito.info/index.xml",
+      "checked_at": "2026-10-02T05:06:25.608619+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.kirito.info/index.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.kirkusreviews.com/feeds/rss/": {
+      "feed_url": "https://www.kirkusreviews.com/feeds/rss/",
+      "checked_at": "2026-10-02T05:06:25.635712+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.kirkusreviews.com/feeds/rss/",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.thekitchn.com/main.rss": {
+      "feed_url": "https://www.thekitchn.com/main.rss",
+      "checked_at": "2026-10-02T05:06:25.651584+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.thekitchn.com/main.rss",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.kivinsae.com/atom.xml": {
+      "feed_url": "https://www.kivinsae.com/atom.xml",
+      "checked_at": "2026-10-02T05:06:25.663917+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.kivinsae.com/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.dotvast.cc/index.xml": {
+      "feed_url": "https://blog.dotvast.cc/index.xml",
+      "checked_at": "2026-10-02T05:06:25.902044+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.dotvast.cc/index.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://kn007.net/feed/": {
+      "feed_url": "https://kn007.net/feed/",
+      "checked_at": "2026-10-02T05:06:25.942701+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://kn007.net/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://knowyourmeme.com/newsfeed.rss": {
+      "feed_url": "https://knowyourmeme.com/newsfeed.rss",
+      "checked_at": "2026-10-02T05:06:25.956205+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://knowyourmeme.com/newsfeed.rss",
+      "entry_count": 2,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://kohaku.icu/atom.xml": {
+      "feed_url": "https://kohaku.icu/atom.xml",
+      "checked_at": "2026-10-02T05:06:26.018944+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://kohaku.icu/atom.xml",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://wocai.de/index.xml/": {
+      "feed_url": "https://wocai.de/index.xml/",
+      "checked_at": "2026-10-02T05:06:26.043445+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://wocai.de/index.xml/",
+      "entry_count": 82,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/komiic/comic/217": {
+      "feed_url": "https://rsshub.app/komiic/comic/217",
+      "checked_at": "2026-10-02T05:06:26.204318+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/komiic/comic/217",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/komiic/comic/294": {
+      "feed_url": "https://rsshub.app/komiic/comic/294",
+      "checked_at": "2026-10-02T05:06:26.333250+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/komiic/comic/294",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/konghq/blog-posts": {
+      "feed_url": "https://rsshub.app/konghq/blog-posts",
+      "checked_at": "2026-10-02T05:06:26.334890+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/konghq/blog-posts",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://kotaku.com/rss": {
+      "feed_url": "https://kotaku.com/rss",
+      "checked_at": "2026-10-02T05:06:26.364647+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://kotaku.com/feed",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.youtube.com/feeds/videos.xml?playlist_id=PLQ176FUIyIUa6SChjajjVc-LMzxWiz6dy": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLQ176FUIyIUa6SChjajjVc-LMzxWiz6dy",
+      "checked_at": "2026-10-02T05:06:26.365986+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLQ176FUIyIUa6SChjajjVc-LMzxWiz6dy",
+      "reason": "HTTP 404"
+    },
+    "https://blog.jetbrains.com/kotlin/feed/": {
+      "feed_url": "https://blog.jetbrains.com/kotlin/feed/",
+      "checked_at": "2026-10-02T05:06:26.393928+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.jetbrains.com/kotlin/feed/",
+      "entry_count": 12,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/juejin/column/7251113487316353081": {
+      "feed_url": "https://rsshub.app/juejin/column/7251113487316353081",
+      "checked_at": "2026-10-02T05:06:26.460045+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/juejin/column/7251113487316353081",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://zkpeace.com/blog-cn/atom.xml": {
+      "feed_url": "https://zkpeace.com/blog-cn/atom.xml",
+      "checked_at": "2026-10-02T05:06:26.467300+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://zkpeace.com/blog-cn/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/kpmg/insights/zh": {
+      "feed_url": "https://rsshub.app/kpmg/insights/zh",
+      "checked_at": "2026-10-02T05:06:26.532640+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/kpmg/insights/zh",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.kraken.com/feed/": {
+      "feed_url": "https://blog.kraken.com/feed/",
+      "checked_at": "2026-10-02T05:06:26.568750+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.kraken.com/feed",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://krebsonsecurity.com/feed/": {
+      "feed_url": "https://krebsonsecurity.com/feed/",
+      "checked_at": "2026-10-02T05:06:26.721270+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://krebsonsecurity.com/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.2333332.xyz/atom.xml": {
+      "feed_url": "https://blog.2333332.xyz/atom.xml",
+      "checked_at": "2026-10-02T05:06:26.829358+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.2333332.xyz/atom.xml",
+      "entry_count": 19,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://ksmeow.moe/feed/": {
+      "feed_url": "https://ksmeow.moe/feed/",
+      "checked_at": "2026-10-02T05:06:26.882556+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://ksmeow.moe/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/ktown4u/artistBrandlist/234590": {
+      "feed_url": "https://rsshub.app/ktown4u/artistBrandlist/234590",
+      "checked_at": "2026-10-02T05:06:26.922436+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/ktown4u/artistBrandlist/234590",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/ktown4u/artistBrandlist/4987595": {
+      "feed_url": "https://rsshub.app/ktown4u/artistBrandlist/4987595",
+      "checked_at": "2026-10-02T05:06:26.936920+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/ktown4u/artistBrandlist/4987595",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "http://blog.kuangjux.top/atom.xml": {
+      "feed_url": "http://blog.kuangjux.top/atom.xml",
+      "checked_at": "2026-10-02T05:06:26.959232+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "http://blog.kuangjux.top/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created": {
+      "feed_url": "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created",
+      "checked_at": "2026-10-02T05:06:27.108688+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created",
+      "entry_count": 25,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://kuricat.com/index.xml": {
+      "feed_url": "https://kuricat.com/index.xml",
+      "checked_at": "2026-10-02T05:06:27.113725+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://kuricat.com/index.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.lkurococ.top/feed/": {
+      "feed_url": "https://blog.lkurococ.top/feed/",
+      "checked_at": "2026-10-02T05:06:27.126039+00:00",
+      "status": "unknown",
+      "reason": "HTTPSConnectionPool(host='blog.lkurococ.top', port=443): Read timed out. (read timeout=4)"
+    },
+    "https://www.blogger.com/feeds/1855488157359298648/posts/default": {
+      "feed_url": "https://www.blogger.com/feeds/1855488157359298648/posts/default",
+      "checked_at": "2026-10-02T05:06:27.127040+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.blogger.com/feeds/1855488157359298648/posts/default",
+      "entry_count": 25,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.kxxt.dev/rss.xml": {
+      "feed_url": "https://www.kxxt.dev/rss.xml",
+      "checked_at": "2026-10-02T05:06:27.148846+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.kxxt.dev/rss.xml",
+      "entry_count": 26,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://kyle.ai/blog/feed": {
+      "feed_url": "https://kyle.ai/blog/feed",
+      "checked_at": "2026-10-02T05:06:27.330650+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://kyle.ai/blog/feed",
+      "entry_count": 15,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/lorientlejour": {
+      "feed_url": "https://rsshub.app/lorientlejour",
+      "checked_at": "2026-10-02T05:06:27.547712+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lorientlejour",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/lorientlejour/977-lebanon": {
+      "feed_url": "https://rsshub.app/lorientlejour/977-lebanon",
+      "checked_at": "2026-10-02T05:06:27.624075+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lorientlejour/977-lebanon",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.linsnow.cn/index.xml": {
+      "feed_url": "https://blog.linsnow.cn/index.xml",
+      "checked_at": "2026-10-02T05:06:27.634384+00:00",
+      "status": "invalid",
+      "http_status": 200,
+      "final_url": "https://blog.linsnow.cn/index.xml",
+      "reason": "Response is not RSS or Atom"
+    },
+    "https://www.l1yu.com/rss.xml": {
+      "feed_url": "https://www.l1yu.com/rss.xml",
+      "checked_at": "2026-10-02T05:06:27.643668+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://www.l1yu.com/rss.xml",
+      "reason": "HTTP 404"
+    },
+    "https://rsshub.app/loongarch/post": {
+      "feed_url": "https://rsshub.app/loongarch/post",
+      "checked_at": "2026-10-02T05:06:27.681517+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/loongarch/post",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/loongarch/post/newest": {
+      "feed_url": "https://rsshub.app/loongarch/post/newest",
+      "checked_at": "2026-10-02T05:06:27.855456+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/loongarch/post/newest",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://laike9m.com/blog/rss/": {
+      "feed_url": "https://laike9m.com/blog/rss/",
+      "checked_at": "2026-10-02T05:06:27.863663+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://laike9m.com/blog/rss/",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://s3.laisky.com/public/rss.xml": {
+      "feed_url": "https://s3.laisky.com/public/rss.xml",
+      "checked_at": "2026-10-02T05:06:27.910312+00:00",
+      "status": "unknown",
+      "http_status": 200,
+      "final_url": "https://s3.laisky.com/public/rss.xml",
+      "reason": "Feed exceeds 5 MiB"
+    },
+    "https://lantian.pub/feed.xml": {
+      "feed_url": "https://lantian.pub/feed.xml",
+      "checked_at": "2026-10-02T05:06:27.938746+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lantian.pub/feed.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/luma/langchain": {
+      "feed_url": "https://rsshub.app/luma/langchain",
+      "checked_at": "2026-10-02T05:06:28.001980+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/luma/langchain",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/ehentai/tag/language:chinese/0": {
+      "feed_url": "https://rsshub.app/ehentai/tag/language:chinese/0",
+      "checked_at": "2026-10-02T05:06:28.028022+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/ehentai/tag/language:chinese/0",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/ehentai/tag/language:chinese/0/bittorrent=true&embed_thumb=false": {
+      "feed_url": "https://rsshub.app/ehentai/tag/language:chinese/0/bittorrent=true&embed_thumb=false",
+      "checked_at": "2026-10-02T05:06:28.030921+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/ehentai/tag/language:chinese/0/bittorrent=true&embed_thumb=false",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.udon.eu.org/atom.xml": {
+      "feed_url": "https://blog.udon.eu.org/atom.xml",
+      "checked_at": "2026-10-02T05:06:28.093822+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://blog.udon.eu.org/atom.xml",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://largesse.netlify.app/atom.xml": {
+      "feed_url": "https://largesse.netlify.app/atom.xml",
+      "checked_at": "2026-10-02T05:06:28.176108+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://largesse.netlify.app/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.larscheng.com/atom.xml": {
+      "feed_url": "https://www.larscheng.com/atom.xml",
+      "checked_at": "2026-10-02T05:06:28.182766+00:00",
+      "status": "unknown",
+      "reason": "HTTPSConnectionPool(host='www.larscheng.com', port=443): Max retries exceeded with url: /atom.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.larscheng.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"
+    },
+    "https://rsshub.app/konachan/post/popular_recent/1d": {
+      "feed_url": "https://rsshub.app/konachan/post/popular_recent/1d",
+      "checked_at": "2026-10-02T05:06:28.183683+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/konachan/post/popular_recent/1d",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/yande/post/popular_recent/1d": {
+      "feed_url": "https://rsshub.app/yande/post/popular_recent/1d",
+      "checked_at": "2026-10-02T05:06:28.194419+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/yande/post/popular_recent/1d",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/konachan/post/popular_recent/1w": {
+      "feed_url": "https://rsshub.app/konachan/post/popular_recent/1w",
+      "checked_at": "2026-10-02T05:06:28.230364+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/konachan/post/popular_recent/1w",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/yande/post/popular_recent/1w": {
+      "feed_url": "https://rsshub.app/yande/post/popular_recent/1w",
+      "checked_at": "2026-10-02T05:06:28.298875+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/yande/post/popular_recent/1w",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://lastweekin.ai/feed": {
+      "feed_url": "https://lastweekin.ai/feed",
+      "checked_at": "2026-10-02T05:06:28.300318+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lastweekin.ai/feed",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/yoasobi-music/info/biography": {
+      "feed_url": "https://rsshub.app/yoasobi-music/info/biography",
+      "checked_at": "2026-10-02T05:06:28.321697+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/yoasobi-music/info/biography",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.caranddriver.com/rss/all.xml/": {
+      "feed_url": "https://www.caranddriver.com/rss/all.xml/",
+      "checked_at": "2026-10-02T05:06:28.322975+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.caranddriver.com/rss/all.xml/",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/lxixsxa/disco": {
+      "feed_url": "https://rsshub.app/lxixsxa/disco",
+      "checked_at": "2026-10-02T05:06:28.360569+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lxixsxa/disco",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "http://feeds.androidcentral.com/androidcentral": {
+      "feed_url": "http://feeds.androidcentral.com/androidcentral",
+      "checked_at": "2026-10-02T05:06:28.394212+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "http://feeds.androidcentral.com/androidcentral",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.idealhome.co.uk/feed": {
+      "feed_url": "https://www.idealhome.co.uk/feed",
+      "checked_at": "2026-10-02T05:06:28.395194+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.idealhome.co.uk/feed",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.space.com/feeds/all": {
+      "feed_url": "https://www.space.com/feeds/all",
+      "checked_at": "2026-10-02T05:06:28.396672+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.space.com/feeds.xml",
+      "entry_count": 0,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.whowhatwear.com/rss": {
+      "feed_url": "https://www.whowhatwear.com/rss",
+      "checked_at": "2026-10-02T05:06:28.402174+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.whowhatwear.com/feeds.xml",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/yoasobi-music/live": {
+      "feed_url": "https://rsshub.app/yoasobi-music/live",
+      "checked_at": "2026-10-02T05:06:28.426200+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/yoasobi-music/live",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/yoasobi-music/info/news": {
+      "feed_url": "https://rsshub.app/yoasobi-music/info/news",
+      "checked_at": "2026-10-02T05:06:28.434386+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/yoasobi-music/info/news",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://developer.apple.com/news/rss/news.rss": {
+      "feed_url": "https://developer.apple.com/news/rss/news.rss",
+      "checked_at": "2026-10-02T05:06:28.509638+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://developer.apple.com/news/rss/news.rss",
+      "entry_count": 146,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/kbs/today": {
+      "feed_url": "https://rsshub.app/kbs/today",
+      "checked_at": "2026-10-02T05:06:28.524730+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/kbs/today",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/kbs/today/c": {
+      "feed_url": "https://rsshub.app/kbs/today/c",
+      "checked_at": "2026-10-02T05:06:28.561207+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/kbs/today/c",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/thehindu/topic/Right_to_Privacy": {
+      "feed_url": "https://rsshub.app/thehindu/topic/Right_to_Privacy",
+      "checked_at": "2026-10-02T05:06:28.597499+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/thehindu/topic/Right_to_Privacy",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.sciencedaily.com/rss/all.xml": {
+      "feed_url": "https://www.sciencedaily.com/rss/all.xml",
+      "checked_at": "2026-10-02T05:06:28.680595+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.sciencedaily.com/rss/all.xml",
+      "entry_count": 60,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/nationalgeographic/latest-stories": {
+      "feed_url": "https://rsshub.app/nationalgeographic/latest-stories",
+      "checked_at": "2026-10-02T05:06:28.704035+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/nationalgeographic/latest-stories",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/wallhaven/search": {
+      "feed_url": "https://rsshub.app/wallhaven/search",
+      "checked_at": "2026-10-02T05:06:28.705086+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/wallhaven/search",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/focustaiwan": {
+      "feed_url": "https://rsshub.app/focustaiwan",
+      "checked_at": "2026-10-02T05:06:28.745270+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/focustaiwan",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/latexstudio/home": {
+      "feed_url": "https://rsshub.app/latexstudio/home",
+      "checked_at": "2026-10-02T05:06:28.865405+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/latexstudio/home",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.youtube.com/feeds/videos.xml?user=LauraVitalesKitchen": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?user=LauraVitalesKitchen",
+      "checked_at": "2026-10-02T05:06:28.866272+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?user=LauraVitalesKitchen",
+      "reason": "HTTP 404"
+    },
+    "https://lawrenceli.me/atom.xml": {
+      "feed_url": "https://lawrenceli.me/atom.xml",
+      "checked_at": "2026-10-02T05:06:28.891992+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lawrenceli.me/atom.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.licaoz.com/feed/": {
+      "feed_url": "https://blog.licaoz.com/feed/",
+      "checked_at": "2026-10-02T05:06:29.026011+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.licaoz.com/feed",
+      "entry_count": 11,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://licaoz.com/feed/": {
+      "feed_url": "https://licaoz.com/feed/",
+      "checked_at": "2026-10-02T05:06:29.032667+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "https://rsshub.app/lemonde/en": {
+      "feed_url": "https://rsshub.app/lemonde/en",
+      "checked_at": "2026-10-02T05:06:29.160767+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lemonde/en",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/leagueoflegends/patch-notes": {
+      "feed_url": "https://rsshub.app/leagueoflegends/patch-notes",
+      "checked_at": "2026-10-02T05:06:29.222306+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/leagueoflegends/patch-notes",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.ascn.site/atom.xml": {
+      "feed_url": "https://blog.ascn.site/atom.xml",
+      "checked_at": "2026-10-02T05:06:29.234425+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "https://www.learntotradethemarket.com/feed": {
+      "feed_url": "https://www.learntotradethemarket.com/feed",
+      "checked_at": "2026-10-02T05:06:29.329949+00:00",
+      "status": "unknown",
+      "http_status": 200,
+      "final_url": "https://www.learntotradethemarket.com/feed",
+      "reason": "Feed exceeds 5 MiB"
+    },
+    "https://newzone.top/rss.xml": {
+      "feed_url": "https://newzone.top/rss.xml",
+      "checked_at": "2026-10-02T05:06:29.412746+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://newzone.top/rss.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/bbc/learningenglish/authentic-real-english": {
+      "feed_url": "https://rsshub.app/bbc/learningenglish/authentic-real-english",
+      "checked_at": "2026-10-02T05:06:29.450613+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/bbc/learningenglish/authentic-real-english",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/bbc/learningenglish/take-away-english": {
+      "feed_url": "https://rsshub.app/bbc/learningenglish/take-away-english",
+      "checked_at": "2026-10-02T05:06:29.611248+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/bbc/learningenglish/take-away-english",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/leetcode/dailyquestion/en": {
+      "feed_url": "https://rsshub.app/leetcode/dailyquestion/en",
+      "checked_at": "2026-10-02T05:06:29.640644+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/leetcode/dailyquestion/en",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/leetcode/dailyquestion/solution/en": {
+      "feed_url": "https://rsshub.app/leetcode/dailyquestion/solution/en",
+      "checked_at": "2026-10-02T05:06:29.734494+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/leetcode/dailyquestion/solution/en",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/leetcode/dailyquestion/cn": {
+      "feed_url": "https://rsshub.app/leetcode/dailyquestion/cn",
+      "checked_at": "2026-10-02T05:06:29.864380+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/leetcode/dailyquestion/cn",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/leetcode/dailyquestion/solution/cn": {
+      "feed_url": "https://rsshub.app/leetcode/dailyquestion/solution/cn",
+      "checked_at": "2026-10-02T05:06:29.871915+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/leetcode/dailyquestion/solution/cn",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://leimao.github.io/atom.xml": {
+      "feed_url": "https://leimao.github.io/atom.xml",
+      "checked_at": "2026-10-02T05:06:29.907255+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://leimao.github.io/atom.xml",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://spookerv5.github.io/atom.xml": {
+      "feed_url": "https://spookerv5.github.io/atom.xml",
+      "checked_at": "2026-10-02T05:06:29.918377+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://spookerv5.github.io/atom.xml",
+      "reason": "HTTP 404"
+    },
+    "https://blog.p2hp.com/feed": {
+      "feed_url": "https://blog.p2hp.com/feed",
+      "checked_at": "2026-10-02T05:06:29.928755+00:00",
+      "status": "unknown",
+      "reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    "https://rsshub.app/lenovo/drive/PF3WRD2G": {
+      "feed_url": "https://rsshub.app/lenovo/drive/PF3WRD2G",
+      "checked_at": "2026-10-02T05:06:29.954083+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lenovo/drive/PF3WRD2G",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://xy77.live/feed/": {
+      "feed_url": "https://xy77.live/feed/",
+      "checked_at": "2026-10-02T05:06:30.020045+00:00",
+      "status": "unknown",
+      "reason": "[Errno -3] Temporary failure in name resolution"
+    },
+    "https://rsshub.app/deeplearning/the-batch/letters": {
+      "feed_url": "https://rsshub.app/deeplearning/the-batch/letters",
+      "checked_at": "2026-10-02T05:06:30.041140+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/deeplearning/the-batch/letters",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://dreams.plus/rss.xml": {
+      "feed_url": "https://dreams.plus/rss.xml",
+      "checked_at": "2026-10-02T05:06:30.104850+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://dreams.plus/rss.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/youtube/c/lexfridman": {
+      "feed_url": "https://rsshub.app/youtube/c/lexfridman",
+      "checked_at": "2026-10-02T05:06:30.166816+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/youtube/c/lexfridman",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.lfhacks.com/index.xml": {
+      "feed_url": "https://www.lfhacks.com/index.xml",
+      "checked_at": "2026-10-02T05:06:30.167910+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.lfhacks.com/index.xml",
+      "entry_count": 380,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lgiki.net/index.xml": {
+      "feed_url": "https://lgiki.net/index.xml",
+      "checked_at": "2026-10-02T05:06:30.241811+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://lgiki.net/index.xml",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://lihui.net/feed/": {
+      "feed_url": "https://lihui.net/feed/",
+      "checked_at": "2026-10-02T05:06:30.250476+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lihui.net/feed/",
+      "entry_count": 45,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://bye-lemon.github.io/atom.xml": {
+      "feed_url": "https://bye-lemon.github.io/atom.xml",
+      "checked_at": "2026-10-02T05:06:30.332942+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://bye-lemon.github.io/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.liao-ke.com/rss.xml": {
+      "feed_url": "https://blog.liao-ke.com/rss.xml",
+      "checked_at": "2026-10-02T05:06:30.485003+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.liao-ke.com/rss.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://feihu.me/blog/feed.atom": {
+      "feed_url": "https://feihu.me/blog/feed.atom",
+      "checked_at": "2026-10-02T05:06:30.562201+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://feihu.me/blog/feed.atom",
+      "entry_count": 19,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.librehat.com/feed/": {
+      "feed_url": "https://www.librehat.com/feed/",
+      "checked_at": "2026-10-02T05:06:31.045954+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.librehat.com/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lichess.org/blog.atom": {
+      "feed_url": "https://lichess.org/blog.atom",
+      "checked_at": "2026-10-02T05:06:31.330141+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lichess.org/@/Lichess/blog.atom",
+      "entry_count": 24,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.liesauer.net/blog/feed/": {
+      "feed_url": "https://www.liesauer.net/blog/feed/",
+      "checked_at": "2026-10-02T05:06:31.597815+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.liesauer.net/blog/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.hannahwu.com/feed/": {
+      "feed_url": "https://www.hannahwu.com/feed/",
+      "checked_at": "2026-10-02T05:06:31.597961+00:00",
+      "status": "invalid",
+      "http_status": 200,
+      "final_url": "https://www.hannahwu.com/",
+      "reason": "Response is not RSS or Atom"
+    },
+    "https://www.lifesailor.me/feed": {
+      "feed_url": "https://www.lifesailor.me/feed",
+      "checked_at": "2026-10-02T05:06:31.650562+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.lifesailor.me/feed",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lifehacker.com/rss": {
+      "feed_url": "https://lifehacker.com/rss",
+      "checked_at": "2026-10-02T05:06:32.317936+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lifehacker.com/feed/rss",
+      "entry_count": 100,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.ligengxin.me/feed.xml": {
+      "feed_url": "https://blog.ligengxin.me/feed.xml",
+      "checked_at": "2026-10-02T05:06:32.411828+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.ligengxin.me/feed.xml",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://github.red/feed/": {
+      "feed_url": "https://github.red/feed/",
+      "checked_at": "2026-10-02T05:06:32.511987+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://github.red/feed/",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.lightstalking.com/feed/": {
+      "feed_url": "https://www.lightstalking.com/feed/",
+      "checked_at": "2026-10-02T05:06:32.579509+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.lightstalking.com/feed/",
+      "entry_count": 6,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.lihaoya.com/feed/": {
+      "feed_url": "https://blog.lihaoya.com/feed/",
+      "checked_at": "2026-10-02T05:06:32.913044+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "https://blog.lijiakaijun.cyou/atom.xml": {
+      "feed_url": "https://blog.lijiakaijun.cyou/atom.xml",
+      "checked_at": "2026-10-02T05:06:32.913998+00:00",
+      "status": "unknown",
+      "reason": "[Errno -2] Name or service not known"
+    },
+    "https://rsshub.app/cara/likes/fengz": {
+      "feed_url": "https://rsshub.app/cara/likes/fengz",
+      "checked_at": "2026-10-02T05:06:33.042347+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/cara/likes/fengz",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/cara/likes/kotartist": {
+      "feed_url": "https://rsshub.app/cara/likes/kotartist",
+      "checked_at": "2026-10-02T05:06:33.054596+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/cara/likes/kotartist",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "http://feeds.feedburner.com/lzyy": {
+      "feed_url": "http://feeds.feedburner.com/lzyy",
+      "checked_at": "2026-10-02T05:06:33.055791+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "http://feeds.feedburner.com/lzyy",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/lineageos/changes": {
+      "feed_url": "https://rsshub.app/lineageos/changes",
+      "checked_at": "2026-10-02T05:06:33.061957+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lineageos/changes",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://linghao.io/feed.xml": {
+      "feed_url": "https://linghao.io/feed.xml",
+      "checked_at": "2026-10-02T05:06:33.178570+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://linghao.io/feed.xml",
+      "entry_count": 45,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/linkedin/company/cellmark/posts": {
+      "feed_url": "https://rsshub.app/linkedin/company/cellmark/posts",
+      "checked_at": "2026-10-02T05:06:33.197705+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/linkedin/company/cellmark/posts",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/linkedin/company/greatfrontend/posts": {
+      "feed_url": "https://rsshub.app/linkedin/company/greatfrontend/posts",
+      "checked_at": "2026-10-02T05:06:33.216521+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/linkedin/company/greatfrontend/posts",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/linkedin/jobs/all/all": {
+      "feed_url": "https://rsshub.app/linkedin/jobs/all/all",
+      "checked_at": "2026-10-02T05:06:33.233021+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/linkedin/jobs/all/all",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://linmi.cc/feed": {
+      "feed_url": "https://linmi.cc/feed",
+      "checked_at": "2026-10-02T05:06:33.233590+00:00",
+      "status": "invalid",
+      "http_status": 200,
+      "final_url": "https://linmi.cc/feed",
+      "reason": "Response is not RSS or Atom"
+    },
+    "https://www.youtube.com/feeds/videos.xml?user=LinusTechTips": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?user=LinusTechTips",
+      "checked_at": "2026-10-02T05:06:33.236212+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?user=LinusTechTips",
+      "reason": "HTTP 404"
+    },
+    "https://linuxdorss.longpink.com/wiki.xml": {
+      "feed_url": "https://linuxdorss.longpink.com/wiki.xml",
+      "checked_at": "2026-10-02T05:06:33.367864+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://linuxdorss.longpink.com/wiki.xml",
+      "entry_count": 0,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://linuxtoy.org/feeds/all.atom.xml": {
+      "feed_url": "https://linuxtoy.org/feeds/all.atom.xml",
+      "checked_at": "2026-10-02T05:06:33.393163+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://linuxtoy.org/feeds/all.atom.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.bdyz.xyz/feed/": {
+      "feed_url": "https://blog.bdyz.xyz/feed/",
+      "checked_at": "2026-10-02T05:06:33.399746+00:00",
+      "status": "unknown",
+      "reason": "HTTPSConnectionPool(host='blog.bdyz.xyz', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1032)')))"
+    },
+    "http://iotsec.top/feed.xml": {
+      "feed_url": "http://iotsec.top/feed.xml",
+      "checked_at": "2026-10-02T05:06:33.406203+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "http://iotsec.top/feed.xml",
+      "entry_count": 3,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://feeds.megaphone.fm/listen-money-matters": {
+      "feed_url": "https://feeds.megaphone.fm/listen-money-matters",
+      "checked_at": "2026-10-02T05:06:33.436552+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://feeds.megaphone.fm/listen-money-matters",
+      "entry_count": 505,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/inspirehep/literature/a%20H.Ooguri.1": {
+      "feed_url": "https://rsshub.app/inspirehep/literature/a%20H.Ooguri.1",
+      "checked_at": "2026-10-02T05:06:33.626253+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/inspirehep/literature/a%20H.Ooguri.1",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/inspirehep/literature/a%20R.C.Myers.1": {
+      "feed_url": "https://rsshub.app/inspirehep/literature/a%20R.C.Myers.1",
+      "checked_at": "2026-10-02T05:06:33.675290+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/inspirehep/literature/a%20R.C.Myers.1",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://lithcore.cn/feed/": {
+      "feed_url": "https://lithcore.cn/feed/",
+      "checked_at": "2026-10-02T05:06:33.774402+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "http://fetchrss.com/rss/60e1767cf877a4023a2caee260e176387504cf483957bf43.xml": {
+      "feed_url": "http://fetchrss.com/rss/60e1767cf877a4023a2caee260e176387504cf483957bf43.xml",
+      "checked_at": "2026-10-02T05:06:33.792392+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://fetchrss.com/feed/1lzxqGAvCBe61lzxpADnsCjj.rss",
+      "entry_count": 0,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.liushen.fun/atom.xml": {
+      "feed_url": "https://blog.liushen.fun/atom.xml",
+      "checked_at": "2026-10-02T05:06:33.907445+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.liushen.fun/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.livelifetravel.world/feed/": {
+      "feed_url": "https://www.livelifetravel.world/feed/",
+      "checked_at": "2026-10-02T05:06:34.174383+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.livelifetravel.world/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/liveuamap/china": {
+      "feed_url": "https://rsshub.app/liveuamap/china",
+      "checked_at": "2026-10-02T05:06:34.282884+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/liveuamap/china",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/liveuamap": {
+      "feed_url": "https://rsshub.app/liveuamap",
+      "checked_at": "2026-10-02T05:06:34.310150+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/liveuamap",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.youtube.com/feeds/videos.xml?user=livingbigtinyhouse": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?user=livingbigtinyhouse",
+      "checked_at": "2026-10-02T05:06:34.378170+00:00",
+      "status": "unknown",
+      "http_status": 500,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?user=livingbigtinyhouse",
+      "reason": "HTTP 500; availability unconfirmed"
+    },
+    "https://rsshub.app/eventernote/actors/Liyuu(%E9%BB%8E%E7%8D%84)/34637": {
+      "feed_url": "https://rsshub.app/eventernote/actors/Liyuu(%E9%BB%8E%E7%8D%84)/34637",
+      "checked_at": "2026-10-02T05:06:34.442855+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/eventernote/actors/Liyuu(%E9%BB%8E%E7%8D%84)/34637",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.lizmarieblog.com/feed/": {
+      "feed_url": "https://www.lizmarieblog.com/feed/",
+      "checked_at": "2026-10-02T05:06:34.498755+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.lizmarieblog.com/feed/",
+      "entry_count": 7,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.ljcbaby.top/atom.xml": {
+      "feed_url": "https://blog.ljcbaby.top/atom.xml",
+      "checked_at": "2026-10-02T05:06:34.547464+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.ljcbaby.top/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://ljf.com/feed/": {
+      "feed_url": "https://ljf.com/feed/",
+      "checked_at": "2026-10-02T05:06:34.590634+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://ljf.com/feed/",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lllgoyour.com/feed/": {
+      "feed_url": "https://lllgoyour.com/feed/",
+      "checked_at": "2026-10-02T05:06:34.617295+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://lllgoyour.com/feed/",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/papers/query/LLMs%20for%20Scientific%20Discovery": {
+      "feed_url": "https://rsshub.app/papers/query/LLMs%20for%20Scientific%20Discovery",
+      "checked_at": "2026-10-02T05:06:34.640171+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/papers/query/LLMs%20for%20Scientific%20Discovery",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://lobste.rs/rss": {
+      "feed_url": "https://lobste.rs/rss",
+      "checked_at": "2026-10-02T05:06:34.688691+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lobste.rs/rss",
+      "entry_count": 25,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/mastodon/timeline/pawoo.net/true": {
+      "feed_url": "https://rsshub.app/mastodon/timeline/pawoo.net/true",
+      "checked_at": "2026-10-02T05:06:34.692267+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/mastodon/timeline/pawoo.net/true",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/lofter/user": {
+      "feed_url": "https://rsshub.app/lofter/user",
+      "checked_at": "2026-10-02T05:06:34.737166+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lofter/user",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.alswl.com/atom.xml": {
+      "feed_url": "https://blog.alswl.com/atom.xml",
+      "checked_at": "2026-10-02T05:06:34.760365+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.alswl.com/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/logrocket/dev": {
+      "feed_url": "https://rsshub.app/logrocket/dev",
+      "checked_at": "2026-10-02T05:06:34.775653+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/logrocket/dev",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.longluo.me/atom.xml": {
+      "feed_url": "https://www.longluo.me/atom.xml",
+      "checked_at": "2026-10-02T05:06:34.793709+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.longluo.me/atom.xml",
+      "entry_count": 50,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.longlin.tech/index.xml": {
+      "feed_url": "https://www.longlin.tech/index.xml",
+      "checked_at": "2026-10-02T05:06:34.873529+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.longlin.tech/index.xml",
+      "entry_count": 8,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.xlonglong.cn/feed/": {
+      "feed_url": "https://blog.xlonglong.cn/feed/",
+      "checked_at": "2026-10-02T05:06:34.896950+00:00",
+      "status": "unknown",
+      "http_status": 200,
+      "final_url": "https://blog.xlonglong.cn/feed/",
+      "reason": "Feed exceeds 5 MiB"
+    },
+    "https://www.lookcos.cn/feed": {
+      "feed_url": "https://www.lookcos.cn/feed",
+      "checked_at": "2026-10-02T05:06:35.059209+00:00",
+      "status": "unknown",
+      "reason": "[Errno -2] Name or service not known"
+    },
+    "https://lorexxar.cn/atom.xml": {
+      "feed_url": "https://lorexxar.cn/atom.xml",
+      "checked_at": "2026-10-02T05:06:35.158414+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lorexxar.cn/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.aeilot.top/index.xml": {
+      "feed_url": "https://blog.aeilot.top/index.xml",
+      "checked_at": "2026-10-02T05:06:35.205073+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.aeilot.top/index.xml",
+      "entry_count": 89,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "http://www.loveandlemons.com/feed/": {
+      "feed_url": "http://www.loveandlemons.com/feed/",
+      "checked_at": "2026-10-02T05:06:35.215350+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.loveandlemons.com/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.loveandoliveoil.com/feed": {
+      "feed_url": "https://www.loveandoliveoil.com/feed",
+      "checked_at": "2026-10-02T05:06:35.234165+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.loveandoliveoil.com/feed",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCRZPkuHwaoKwTP3CYPdVldg": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRZPkuHwaoKwTP3CYPdVldg",
+      "checked_at": "2026-10-02T05:06:35.354215+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRZPkuHwaoKwTP3CYPdVldg",
+      "reason": "HTTP 404"
+    },
+    "https://rsshub.app/lovelive-anime/news": {
+      "feed_url": "https://rsshub.app/lovelive-anime/news",
+      "checked_at": "2026-10-02T05:06:35.615757+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lovelive-anime/news",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://hex.moe/atom.xml": {
+      "feed_url": "https://hex.moe/atom.xml",
+      "checked_at": "2026-10-02T05:06:35.685852+00:00",
+      "status": "invalid",
+      "http_status": 404,
+      "final_url": "https://hex.moe/atom.xml",
+      "reason": "HTTP 404"
+    },
+    "https://lowin.li/atom.xml": {
+      "feed_url": "https://lowin.li/atom.xml",
+      "checked_at": "2026-10-02T05:06:35.824991+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lowin.li/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/chinamoney/3686": {
+      "feed_url": "https://rsshub.app/chinamoney/3686",
+      "checked_at": "2026-10-02T05:06:35.849481+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/chinamoney/3686",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.lss233.com/rss/": {
+      "feed_url": "https://blog.lss233.com/rss/",
+      "checked_at": "2026-10-02T05:06:35.932646+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.lss233.com/rss/",
+      "entry_count": 15,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/inspirehep/authors/1692520": {
+      "feed_url": "https://rsshub.app/inspirehep/authors/1692520",
+      "checked_at": "2026-10-02T05:06:36.094303+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/inspirehep/authors/1692520",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://blog.lushuyu.site/feed": {
+      "feed_url": "https://blog.lushuyu.site/feed",
+      "checked_at": "2026-10-02T05:06:36.120724+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.lushuyu.site/feed",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://kevinnan.org.cn/index.php/feed/": {
+      "feed_url": "https://kevinnan.org.cn/index.php/feed/",
+      "checked_at": "2026-10-02T05:06:36.213451+00:00",
+      "status": "unknown",
+      "reason": "[Errno -2] Name or service not known"
+    },
+    "https://blog.lucien.ink/feed/": {
+      "feed_url": "https://blog.lucien.ink/feed/",
+      "checked_at": "2026-10-02T05:06:36.251983+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.lucien.ink/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lucifer.ren/blog/atom.xml": {
+      "feed_url": "https://lucifer.ren/blog/atom.xml",
+      "checked_at": "2026-10-02T05:06:36.252979+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lucifer.ren/blog/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lucifr.com/rss/": {
+      "feed_url": "https://lucifr.com/rss/",
+      "checked_at": "2026-10-02T05:06:36.287765+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lucifr.com/rss/",
+      "entry_count": 15,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.luckydesigner.space/feed/": {
+      "feed_url": "https://www.luckydesigner.space/feed/",
+      "checked_at": "2026-10-02T05:06:36.414638+00:00",
+      "status": "unknown",
+      "http_status": 502,
+      "final_url": "https://www.luckydesigner.space/feed/",
+      "reason": "HTTP 502; availability unconfirmed"
+    },
+    "https://blog.isteed.cc/atom.xml": {
+      "feed_url": "https://blog.isteed.cc/atom.xml",
+      "checked_at": "2026-10-02T05:06:36.811475+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.isteed.cc/atom.xml",
+      "entry_count": 16,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://luijp.cn/rss.xml": {
+      "feed_url": "https://luijp.cn/rss.xml",
+      "checked_at": "2026-10-02T05:06:36.885980+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "https://blog.winterchen.com/atom.xml": {
+      "feed_url": "https://blog.winterchen.com/atom.xml",
+      "checked_at": "2026-10-02T05:06:36.956677+00:00",
+      "status": "unknown",
+      "reason": "[Errno -5] No address associated with hostname"
+    },
+    "https://luotianyi.vc/feed": {
+      "feed_url": "https://luotianyi.vc/feed",
+      "checked_at": "2026-10-02T05:06:36.963200+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://luotianyi.vc/feed",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.luofei.org/feed/": {
+      "feed_url": "https://blog.luofei.org/feed/",
+      "checked_at": "2026-10-02T05:06:37.019704+00:00",
+      "status": "unknown",
+      "reason": "[Errno -2] Name or service not known"
+    },
+    "https://www.luozhiyun.com/feed": {
+      "feed_url": "https://www.luozhiyun.com/feed",
+      "checked_at": "2026-10-02T05:06:37.076146+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.luozhiyun.com/feed",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://luyuhuang.tech/feed.xml": {
+      "feed_url": "https://luyuhuang.tech/feed.xml",
+      "checked_at": "2026-10-02T05:06:37.215692+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://luyuhuang.tech/feed.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://scvoet.me/feed": {
+      "feed_url": "https://scvoet.me/feed",
+      "checked_at": "2026-10-02T05:06:37.279073+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://gbslot303.com/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/lvv2/top/sort-realtime/t-day": {
+      "feed_url": "https://rsshub.app/lvv2/top/sort-realtime/t-day",
+      "checked_at": "2026-10-02T05:06:37.529623+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lvv2/top/sort-realtime/t-day",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/lvv2/top/sort-score": {
+      "feed_url": "https://rsshub.app/lvv2/top/sort-score",
+      "checked_at": "2026-10-02T05:06:37.702116+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/lvv2/top/sort-score",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://quail.ink/lyric/feed/atom": {
+      "feed_url": "https://quail.ink/lyric/feed/atom",
+      "checked_at": "2026-10-02T05:06:37.908049+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://quaily.com/lyric/feed/atom",
+      "entry_count": 40,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://blog.lzwi.fun/atom.xml": {
+      "feed_url": "https://blog.lzwi.fun/atom.xml",
+      "checked_at": "2026-10-02T05:06:38.095655+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://blog.lzwi.fun/atom.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://lzy20021010.top/feed/": {
+      "feed_url": "https://lzy20021010.top/feed/",
+      "checked_at": "2026-10-02T05:06:38.159405+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://lzy20021010.top/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://chriszheng.science/atom.xml": {
+      "feed_url": "https://chriszheng.science/atom.xml",
+      "checked_at": "2026-10-02T05:06:38.174380+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://chriszheng.science/atom.xml",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/myfans/user/kuzu_v0": {
+      "feed_url": "https://rsshub.app/myfans/user/kuzu_v0",
+      "checked_at": "2026-10-02T05:06:38.197157+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/myfans/user/kuzu_v0",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://rsshub.app/feng/forum/23": {
+      "feed_url": "https://rsshub.app/feng/forum/23",
+      "checked_at": "2026-10-02T05:06:38.227652+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/feng/forum/23",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.macin.org/atom.xml": {
+      "feed_url": "https://www.macin.org/atom.xml",
+      "checked_at": "2026-10-02T05:06:38.283760+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://www.macin.org/atom.xml",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.youtube.com/feeds/videos.xml?user=macrumors": {
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?user=macrumors",
+      "checked_at": "2026-10-02T05:06:38.289516+00:00",
+      "status": "unknown",
+      "http_status": 500,
+      "final_url": "https://www.youtube.com/feeds/videos.xml?user=macrumors",
+      "reason": "HTTP 500; availability unconfirmed"
+    },
+    "http://feeds.macrumors.com/MacRumors-Mac": {
+      "feed_url": "http://feeds.macrumors.com/MacRumors-Mac",
+      "checked_at": "2026-10-02T05:06:38.383038+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://feeds.macrumors.com/MacRumors-Mac",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.macstories.net/feed": {
+      "feed_url": "https://www.macstories.net/feed",
+      "checked_at": "2026-10-02T05:06:38.449302+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.macstories.net/feed/",
+      "entry_count": 30,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.macworld.com/index.rss": {
+      "feed_url": "https://www.macworld.com/index.rss",
+      "checked_at": "2026-10-02T05:06:38.518583+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.macworld.com/feed",
+      "entry_count": 20,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/bangumi.tv/person/603": {
+      "feed_url": "https://rsshub.app/bangumi.tv/person/603",
+      "checked_at": "2026-10-02T05:06:38.586186+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/bangumi.tv/person/603",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://www.maemo.cc/feed/": {
+      "feed_url": "https://www.maemo.cc/feed/",
+      "checked_at": "2026-10-02T05:06:38.635002+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://www.maemo.cc/feed/",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://mafeifan.com/feed.rss": {
+      "feed_url": "https://mafeifan.com/feed.rss",
+      "checked_at": "2026-10-02T05:06:38.679421+00:00",
+      "status": "unknown",
+      "http_status": 200,
+      "final_url": "https://mafeifan.com/feed.rss",
+      "reason": "Feed exceeds 5 MiB"
+    },
+    "https://rsshub.app/magnumphotos/magazine": {
+      "feed_url": "https://rsshub.app/magnumphotos/magazine",
+      "checked_at": "2026-10-02T05:06:38.731515+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/magnumphotos/magazine",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://magren.cc/rss.xml": {
+      "feed_url": "https://magren.cc/rss.xml",
+      "checked_at": "2026-10-02T05:06:38.811249+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://magren.cc/rss.xml",
+      "entry_count": 49,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://rsshub.app/sega/maimaidx/news": {
+      "feed_url": "https://rsshub.app/sega/maimaidx/news",
+      "checked_at": "2026-10-02T05:06:38.980491+00:00",
+      "status": "unknown",
+      "http_status": 403,
+      "final_url": "https://rsshub.app/sega/maimaidx/news",
+      "reason": "HTTP 403; availability unconfirmed"
+    },
+    "https://mkitclear.github.io/atom.xml": {
+      "feed_url": "https://mkitclear.github.io/atom.xml",
+      "checked_at": "2026-10-02T05:06:39.109349+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://mkitclear.github.io/atom.xml",
+      "entry_count": 10,
+      "reason": "RSS/Atom parsed successfully"
+    },
+    "https://www.makeupandbeautyblog.com/feed/": {
+      "feed_url": "https://www.makeupandbeautyblog.com/feed/",
+      "checked_at": "2026-10-02T05:06:39.287237+00:00",
+      "status": "valid",
+      "http_status": 200,
+      "final_url": "https://makeupandbeautyblog.com/feed/",
+      "entry_count": 5,
+      "reason": "RSS/Atom parsed successfully"
     }
   }
 }
