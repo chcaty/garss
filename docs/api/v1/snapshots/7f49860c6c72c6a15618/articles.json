@@ -1,7 +1,493 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-02T14:07:08.048804Z",
+  "generated_at": "2026-10-02T22:06:04.121121Z",
   "articles": [
+    {
+      "id": "34018e2591046b8d19cd",
+      "source_id": "C035",
+      "title": "老哥们看看这是ai吗",
+      "url": "https://www.nodeseek.com/post-961612-1",
+      "published_at": "2026-10-02T22:04:34Z",
+      "summary": "我感觉很怪，评论给我就感到怪，",
+      "image_url": ""
+    },
+    {
+      "id": "6ed7cf698ad5327fc4a8",
+      "source_id": "C035",
+      "title": "HostBilby 12c/24GB/160GB NVMe ($60/yr) 这个鸡怎么样?",
+      "url": "https://www.nodeseek.com/post-961611-1",
+      "published_at": "2026-10-02T21:46:30Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "52ce69435ab7605b25c3",
+      "source_id": "C035",
+      "title": "【收】Aethercloud Lax $4.86",
+      "url": "https://www.nodeseek.com/post-961610-1",
+      "published_at": "2026-10-02T21:43:41Z",
+      "summary": "RT，最好是老机，欢迎大佬PM",
+      "image_url": ""
+    },
+    {
+      "id": "a80a64ef53f46a542657",
+      "source_id": "C035",
+      "title": "专家也不能帮我修改OpenAI邮箱",
+      "url": "https://www.nodeseek.com/post-961609-1",
+      "published_at": "2026-10-02T21:43:11Z",
+      "summary": "https://www.nodeseek.com/post-954244-1继上一条,发工单让修改邮箱",
+      "image_url": ""
+    },
+    {
+      "id": "eda0a621a9f0bc6e29d9",
+      "source_id": "C011",
+      "title": "[问与答] 有老哥自己拼装过键盘吗？",
+      "url": "https://www.v2ex.com/t/1246198#reply0",
+      "published_at": "2026-10-02T21:36:32Z",
+      "summary": "如题，目前还在用樱桃轴键盘，但似乎在键盘圈子里这已经非常老旧了。 想搞一套自己的键盘，有老哥可以说一下都需要攒哪几部分东西吗？ 我看网上一些发视频的，似乎底座材料和键帽材料这些对手感影响都比较大。 还有我比较在意的是，这种自拼装键盘，我正常都是用软胶膜的，以前是用标准化模具所以有人搞，但是 DIY 键盘怎么贴膜呢？如果不贴膜说实在的我感觉清理实在有些麻烦",
+      "image_url": ""
+    },
+    {
+      "id": "6c720fb79c211b6f90cd",
+      "source_id": "C035",
+      "title": "[IP 检测] 云悠 洛杉矶-TCVM - Mini GTT伪家宽",
+      "url": "https://www.nodeseek.com/post-961608-1",
+      "published_at": "2026-10-02T21:19:12Z",
+      "summary": "目前体感良好，不知道之后怎么样",
+      "image_url": ""
+    },
+    {
+      "id": "2fdec110f6aa4dfced16",
+      "source_id": "C035",
+      "title": "codex 已重置",
+      "url": "https://www.nodeseek.com/post-961607-1",
+      "published_at": "2026-10-02T21:16:29Z",
+      "summary": "开蹬",
+      "image_url": ""
+    },
+    {
+      "id": "12e1c7314f568ce1ada1",
+      "source_id": "C035",
+      "title": "人生建议：不要用Gemini干任何重要的事",
+      "url": "https://www.nodeseek.com/post-961606-1",
+      "published_at": "2026-10-02T21:14:49Z",
+      "summary": "配置个落地机特么面板的端口都放不明白，我要这垃圾有啥用。叫这逼配置机器，结果配置到一半叫我到控制台重建系统了",
+      "image_url": ""
+    },
+    {
+      "id": "0c1789032fe2a2ba9025",
+      "source_id": "C035",
+      "title": "【摸鱼好物】全球空气质量与微尘流体风场实时雷达，看3万座地面站PM2.5数值与风尘漂移",
+      "url": "https://www.nodeseek.com/post-961605-1",
+      "published_at": "2026-10-02T21:10:37Z",
+      "summary": "在电脑前闲暇时，如果看腻了卫星云图和航班雷达，不妨换个微观又宏观的视角——看看我们呼吸的大气中那些肉眼看不见的微尘颗粒与气体分子，正在全球风场的驱动下流向何方。今天要介绍的是全球老牌且极具公信力的开源环境遥测项目：AQICN（WorldAirQualityIndexProject/全球空气质量指数计划）。它把全球1",
+      "image_url": ""
+    },
+    {
+      "id": "72f694baa6635ab777b7",
+      "source_id": "T001",
+      "title": "The Harness Is the Company",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "published_at": "2026-10-02T21:06:56Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "3f2132b6c65b79880fe9",
+      "source_id": "C035",
+      "title": "我看到A➗的达里奥就不爽，大家有一样的想法吗？",
+      "url": "https://www.nodeseek.com/post-961604-1",
+      "published_at": "2026-10-02T20:58:41Z",
+      "summary": "总是搞站队",
+      "image_url": ""
+    },
+    {
+      "id": "36d18f0deffae0ec760f",
+      "source_id": "T001",
+      "title": "Zig v0.17.0",
+      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "published_at": "2026-10-02T20:56:36Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "49105b0e1652723c27a3",
+      "source_id": "C035",
+      "title": "在福建，移动根本不快乐",
+      "url": "https://www.nodeseek.com/post-961603-1",
+      "published_at": "2026-10-02T20:56:09Z",
+      "summary": "在福建，移动根本不快乐，vless+reality节点,tcp很容易被运营商阻断，有的时候网页转圈圈都要转几秒才能加载完，clash日志里i/otimeout一堆超时，ipv6会好些。。同样的节点，用电信和联通clash日志基本都正常",
+      "image_url": ""
+    },
+    {
+      "id": "425a23f3bb18cc2d5ab1",
+      "source_id": "C035",
+      "title": "gemini是怎么解释github的fork的。。。有点味道 哈哈哈",
+      "url": "https://www.nodeseek.com/post-961602-1",
+      "published_at": "2026-10-02T20:46:36Z",
+      "summary": "比如周杰伦在GitHub上开源了《简单爱》的全套工程文件。你没有权限直接在周杰伦的工程里建Branch、改他的代码对吧？你点一下Fork，GitHub就把周杰伦的《简单爱》100%完整复印一份，放到阿福的账号下面，叫阿福/简单爱。这时候这个复印件彻底归你管了！你想怎么加电吉他、怎么改R&B编曲都行。Pull",
+      "image_url": ""
+    },
+    {
+      "id": "c6afaa70d1ae67e05991",
+      "source_id": "C035",
+      "title": "【脚本】iperf服务管理工具 防止偷跑流量",
+      "url": "https://www.nodeseek.com/post-961601-1",
+      "published_at": "2026-10-02T20:35:43Z",
+      "summary": "有些DMIT的机器因为Iperf开放了端口忘记关掉而被扫了流量，检查了我的机器果然也开着，估计有些大佬已经在防火墙上做好了措施，但还是难免有朋友想图个方便，搓了个脚本供大家使用bash<(curl-fsSLhttps://raw.githubusercontent.com/DuoJLa/istop/main/",
+      "image_url": ""
+    },
+    {
+      "id": "2be153a78c0a96334177",
+      "source_id": "C011",
+      "title": "[人工智能] DecisionsApi：把文本分类与决策模型接入 AI 工作流",
+      "url": "https://www.v2ex.com/t/1246197#reply0",
+      "published_at": "2026-10-02T20:18:13Z",
+      "summary": "DecisionsApi 是一个面向开发者的 AI 平台，提供在线 playground 和 API ，用来测试决策模型并把它们接入产品流程。 它支持把文本、JSON 对象或文本数组作为输入，再定义 Choice 、Score 或 Noul （是/否）类型的问题，返回结构化答案、概率、置信度、用量和请求详情。 这类接口适合做客户请求路由、Agent 下一步选择、证据检查、安全闸门和人工复核流程。比较实用的方式是先在 playground 里验证问题和输出，再通过 API 接入自己的应用。 项目主页：DecisionsApi。",
+      "image_url": ""
+    },
+    {
+      "id": "93f639b8418972d3bcd6",
+      "source_id": "C035",
+      "title": "哪家有加拿大的家宽或者isp的？",
+      "url": "https://www.nodeseek.com/post-961600-1",
+      "published_at": "2026-10-02T20:17:57Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "d4399254e60f147c9007",
+      "source_id": "T001",
+      "title": "Everyone's Packing Up",
+      "url": "https://widdershins.verja.net/everyones-packing-up/",
+      "published_at": "2026-10-02T20:13:04Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "dcfcda8067432cbb06c3",
+      "source_id": "C035",
+      "title": "有个大哥注册了0w0.si吗",
+      "url": "https://www.nodeseek.com/post-961599-1",
+      "published_at": "2026-10-02T20:08:46Z",
+      "summary": "如题，我就问问",
+      "image_url": ""
+    },
+    {
+      "id": "dbc9fb9ba1a397e74489",
+      "source_id": "C035",
+      "title": "raksmart sjc 3.99 gb5跑分及探针26/10/3 3:30",
+      "url": "https://www.nodeseek.com/post-961598-1",
+      "published_at": "2026-10-02T20:03:22Z",
+      "summary": "我这边测速带宽不高400m左右，但体验上优化线路确实全天一样了基本上，我使用期间就一天晚上感知到丢包，3.99刀这个价格不错了我目前阿里cdt体验也不错，后续想ccs163非高峰使用，高峰使用cdt来最大节省开支，有缘再见raksmart💻基本信息+++++++++++++++++++++++++++++++++",
+      "image_url": ""
+    },
+    {
+      "id": "79c6fc53189f1f2b5055",
+      "source_id": "T001",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "published_at": "2026-10-02T20:00:15Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "676a7ef4e30177a66816",
+      "source_id": "C011",
+      "title": "[程序员] [CCProgress] 给 Claude Code 加了一个进度条， 长任务时能看到走到哪一步",
+      "url": "https://www.v2ex.com/t/1246196#reply3",
+      "published_at": "2026-10-02T19:53:20Z",
+      "summary": "我自己作为 Claude Code 的重度用户（月 150 亿 token 消耗），经常会让 Claude Opus 去跑一个长任务，有一个痛点就是在把任务丢给他以后，他在做的过程时完全没法看他走到哪一步了，只能通过看他的一些输出、工具调用去推，非常的不直观，也不知道到底是做偏了，会话也不敢停。 刚刷 X 看到 claude 支持 mod 了，就撸了一个进度条插件，欢迎体验！ Github: https://github.com/amigoer/ccprogress",
+      "image_url": "https://cdn.jsdelivr.net/gh/amigoer/ccprogress@cd864ca28c81ff98ef99a6aea114af7c2ba0e4cf/assets/social/ccprogress-hero.png"
+    },
+    {
+      "id": "5ef1b85cdbd4e9cc0bdf",
+      "source_id": "C035",
+      "title": "80元包push出个shlii-狗妈SG-Pro-x600G-2000M5折月付35循环款，居然无人问津",
+      "url": "https://www.nodeseek.com/post-961597-1",
+      "published_at": "2026-10-02T19:50:45Z",
+      "summary": "原价70一个月的，咋无人问津嘞，线路也不差呀，虽然是NAT机SGGM1配置30%CPU/512MB/512MB网络带宽2000Mbit流量0.11GB/600GBIPIPv41个/NAT续费价格¥35.00/1个月重置流量¥70.00到期时间2026/11/2，剩余31天同时200G5折10元月付循环的也出，28包",
+      "image_url": ""
+    },
+    {
+      "id": "335fc4d295663a2c5061",
+      "source_id": "C035",
+      "title": "出 matrix IDC. 圣何塞 4837 活动款  11.28/月",
+      "url": "https://www.nodeseek.com/post-961596-1",
+      "published_at": "2026-10-02T19:47:35Z",
+      "summary": "手头一个暂时用不到的🐔10月末前六折续费价格11.28/月之后13.16/月配置为1c0.5g10GSSD1000Mbps+800G流量10-7到期20口令红包出NQ链接：https://www.nodeseek.com/post-922759-1",
+      "image_url": ""
+    },
+    {
+      "id": "41df7cac0cc2a1e6c2df",
+      "source_id": "T001",
+      "title": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
+      "url": "https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression",
+      "published_at": "2026-10-02T19:45:06Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "d9dc819595e54f7813f7",
+      "source_id": "C035",
+      "title": "【人找车】蹲季付美西 西雅图 / 波特兰 静态家宽 带NQ",
+      "url": "https://www.nodeseek.com/post-961595-1",
+      "published_at": "2026-10-02T19:45:05Z",
+      "summary": "如题",
+      "image_url": ""
+    },
+    {
+      "id": "d05b53f15c0c68b9280c",
+      "source_id": "C035",
+      "title": "156出CCS金牌la 15.6刀",
+      "url": "https://www.nodeseek.com/post-961594-1",
+      "published_at": "2026-10-02T19:42:48Z",
+      "summary": "NQ参考https://www.nodeseek.com/post-961432-1移动用不了，不好玩改邮！改邮！改邮！3C4G60G1Gbps40T1，支付宝口令先款2，走中介，中介费用平摊到期日2026/11/26收自https://www.nodeseek.com/post-961372-1先睡觉了，睡醒交易",
+      "image_url": ""
+    },
+    {
+      "id": "e6160e52a1f8697a9a7e",
+      "source_id": "C035",
+      "title": "ehviewer更改UA+导入cookie",
+      "url": "https://www.nodeseek.com/post-961592-1",
+      "published_at": "2026-10-02T19:33:46Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "5bc25ea6e8bb15de58ba",
+      "source_id": "T001",
+      "title": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "published_at": "2026-10-02T19:26:54Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "f8f927e15a67233fdda7",
+      "source_id": "T001",
+      "title": "\"The only intuitive interface is the nipple\" (2012)",
+      "url": "https://www.greenend.org.uk/rjk/misc/nipple.html",
+      "published_at": "2026-10-02T19:18:12Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "23546c0d9d1d49729a8f",
+      "source_id": "T001",
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "published_at": "2026-10-02T19:06:56Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "18180b00c5c03e268cce",
+      "source_id": "C011",
+      "title": "[SSL] iTrustSSL 10 月最新优惠码",
+      "url": "https://www.v2ex.com/t/1246195#reply0",
+      "published_at": "2026-10-02T18:35:37Z",
+      "summary": "又半年没来 V2 了，发一篇 iTrustSSL 的优惠码吧，再次强调，主要还是对已经有流量有预算的中小企业开发者，我们对标的是商业证书里做最高性价比的 SSL 证书。 没什么流量和收入的，建议直接搞个 ACME.SH 去签 Let’s Encrypt 就行了，价值 110 的抵用券，抵用后 DV 单域名 50 元/年，DV 通配符 490 元/年 兑换码： F6E2CE8C715D75EF 2AFA37FAE1D0A48A 6E331F30E9D88F12 8F6B49637B43C3B9 兑换方式： https://www.knowsafe.com/help/1ecbedd8555915decaa4990d275f6ae2.shtml 之前出现了一些比较坏的，直接一个账户去把兑换码全给兑换废掉的情况，如果发现兑换码失效，直接联系 VX：itrustssl 告知 V2EX 来的即可。",
+      "image_url": ""
+    },
+    {
+      "id": "1ea9c9d8aa49d86db932",
+      "source_id": "C011",
+      "title": "[问与答] muse 出了有段时间了，有复刻其 workflow 的 repo 吗？",
+      "url": "https://www.v2ex.com/t/1246194#reply0",
+      "published_at": "2026-10-02T18:20:59Z",
+      "summary": "拿来自己部署，muse 用的自己的 muse spark ，不能换模型，grok 也是，所以 selfhosted 的需求应该不少呢。 自己搭建总是拼凑出来的，服务器隔离好弄，方案好几套了。比较成熟的接 docker-sbx ，或者 smolvm 。 初期预热的 repo 倒是看到几个，但方向性不明，后面技术背景不明，这个时期看 trend 没意义。所以懂行的能站出来推荐推荐不？",
+      "image_url": ""
+    },
+    {
+      "id": "e19a43e6fdb197982bf5",
+      "source_id": "C011",
+      "title": "[问与答] OPC 来一波夯的，另外问一下你用 AI 赚了多少钱？",
+      "url": "https://www.v2ex.com/t/1246193#reply0",
+      "published_at": "2026-10-02T18:18:04Z",
+      "summary": "好奇，真有人会在这发需求吗？ 另外问一下 AI 时代早已降临，你有没有赚到钱？",
+      "image_url": "https://files.mdnice.com/user/4562/c5652523-7224-4d9b-becc-c45e9358104a.png"
+    },
+    {
+      "id": "bd3d02a569326d31dfdb",
+      "source_id": "C011",
+      "title": "[硬件] AMD EPYC 9006 全系价格出来了： 8 核 700 美元到 256 核 14904 美元，附完整型号表",
+      "url": "https://www.v2ex.com/t/1246192#reply0",
+      "published_at": "2026-10-02T18:12:10Z",
+      "summary": "AMD 在 9 月 26 日公布了 EPYC 9006 （ Venice ，Zen 6 ）的全部 31 个型号和千颗批量价。整理了一份表，顺便说说供货的情况。 （图源：AMD ） SP7 平台：高核数，今年四季度上市，9 个型号 16 通道 DDR5 ，PCIe 6.0 ，支持单路和双路。 型号 核/线程 核心 基础/最高主频 L3 TDP 千颗价 9996 256/512 Zen 6c 2.55/4.1GHz 1024MB 600W $14,904 9966 192/384 Zen 6c 2.9/4.0GHz 768MB 600W $14,079 9846 168/336 Zen 6c 2.85/3.7GHz 768MB 500W $13,114 9756 128/256 Zen 6 3.15/4.0GHz 512MB 500W $12,498 9G76 96/192 Zen 6 3.4/4.8GHz 384MB 500W $11,622 9686F 96/192 Zen 6 3.4/5.0GHz 384MB 500W $11,434 9656 96/192 Zen 6 3.05/3.7GHz 512MB 400W $9,713 9586F 64/128 Zen 6 3.75/5.0GHz 384MB 500W $9,701 9556 64/128 Zen 6 2.75/4.3G",
+      "image_url": "https://www.storagereview.com/wp-content/uploads/2026/07/AMD-Advancing-AI-2026-Venice-SP7.png"
+    },
+    {
+      "id": "c32eeeb6f3f07d3faf24",
+      "source_id": "T001",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "published_at": "2026-10-02T18:01:16Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "92683e9ea55ffac2897e",
+      "source_id": "C011",
+      "title": "[硬件] 英伟达自己说， V100 快十年了还在跑客户业务",
+      "url": "https://www.v2ex.com/t/1246191#reply7",
+      "published_at": "2026-10-02T17:37:20Z",
+      "summary": "英伟达 9 月 30 日的官方博客里，副总裁 Ian Buck 提到：CoreWeave 的 V100 在 Volta 架构发布近十年后，仍在运行客户的工作负载。同一家 CoreWeave ，也已经把最新的 Vera Rubin NVL72 机柜投入生产。 （图源：英伟达官方博客） 我们做过保设备的维保，见得最多的就是这种情况：设备早过了折旧年限，业务还离不开。能不能继续跑，一看有没有备件，二看有没有人会修。 新旧搭配着用才是常态：最新的柜子跑最重的活，老卡跑轻一些的。",
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/09/48AA46C8-A24C-44DA-8C2B-C48E21A510FE_1_201_a-1280x720.jpeg"
+    },
+    {
+      "id": "61122760aef519ed5f96",
+      "source_id": "C011",
+      "title": "[Claude] Claude 网页版似乎可以泄漏思维链",
+      "url": "https://www.v2ex.com/t/1246190#reply0",
+      "published_at": "2026-10-02T17:20:13Z",
+      "summary": "",
+      "image_url": "https://i.imgur.com/w3bnVmI.png"
+    },
+    {
+      "id": "a48c1ff3105b252f9d62",
+      "source_id": "C011",
+      "title": "[分享发现] [曝光贴]曝光一个在论坛里发易支付接口推广贴的诈骗犯",
+      "url": "https://www.v2ex.com/t/1246189#reply5",
+      "published_at": "2026-10-02T17:17:02Z",
+      "summary": "推广贴地址∶https://www.v2ex.com/t/1233691 诈骗群∶https://t.me/qxzfqun 诈骗犯电报 id∶@qxzfnb 诈骗犯易支付接口网址∶https://cn.qxzf.xyz/user 上次被跑路还是在 24 年，人家好歹还坚持一个月才跑，这个 b 第一天都不给结算太急了。 10.1 当天接入前说的满 500 第二天 0 点后结算，2 号 0 点我就把他的接口停了，看他给不给结算，不出意外他在群里发了结算通知，但钱没有到账，私信他不回，就在刚刚 3 号 0 点我在群里问了句 1 号的钱什么时候结算，结果被踢了，他给我的账号也被删了。",
+      "image_url": "https://img.cdn1.vip/i/6abfe64aab47d_1790961226.webp"
+    },
+    {
+      "id": "7004726e4e0a7a4d6106",
+      "source_id": "T001",
+      "title": "STS-51-F Abort-to-Orbit (1985)",
+      "url": "https://en.wikipedia.org/wiki/STS-51-F",
+      "published_at": "2026-10-02T16:56:47Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "32b1971ccfcabd72c30a",
+      "source_id": "C011",
+      "title": "[推广] hotel lobby 这玩意到底是怎么火起来的",
+      "url": "https://www.v2ex.com/t/1246188#reply0",
+      "published_at": "2026-10-02T16:53:35Z",
+      "summary": "谁能告诉我，为啥油管上的一条 4 年前的视频突然火了，火的有点莫名其妙，橙色录音棚里的双人说唱视频。是因为太伪人了吗。anyway ，我做了个制作同款视频的网站，上传两张图片上去就可以生成一条 5/10/15s 的同款抽象视频（音频是原版的） 地址： https://tryhotellobby.com/",
+      "image_url": ""
+    },
+    {
+      "id": "ed88defaef8c4e4fc946",
+      "source_id": "C011",
+      "title": "[分享创造] [开源推广] Vatrix：一款视频加密混淆编码工具，在 B 站、油管上传你想要的任何视频！附 B 站 / YouTube 油猴脚本",
+      "url": "https://www.v2ex.com/t/1246187#reply2",
+      "published_at": "2026-10-02T16:46:13Z",
+      "summary": "Vatrix 的 Github 仓库地址 灵感来源 不久之前刷到过了之前 B 站守望先锋直播的加密方案，就是对直播流进行分块重排置换，接着在网页端上再反着做一遍，实现直播原本不让直播的守望先锋，于是借鉴这个思路，我开发了 Vatrix 。 用法 作为一个独立的软件，它可以对视频做编码处理，并在编码完成的视频开头显示一秒的二维码，其中包含了解码所需的一些参数信息。 安装了配套的油猴插件后，会在视频刚播放的 0-1 秒检测当前视频画面中是否有二维码，有的话就尝试解析，并用解析出的参数对视频进行解码，下面上几张图 ⬆️ 编码后的视频，支持编码时做反色处理，使得编码后的内容更难被肉眼识别 ⬆️ 解码后的效果，能看到还是存在一些小方格，略有瑕疵，但不影响识别内容。顺带一提这里对原始音频做了个简单的频率倒置处理，可以去掉原始音频的语义性，人耳无法识别出处理后的音频表达什么内容。这个过程也是可逆的。 浏览器插件面板。这里以 B 站未为例，入口在分享按钮的右边，默认是会自动解码的，不需要手动点启动。 用 AI 简单搓的一个软件 UI ，有点丑，但能用。 后话 想看各位大佬会用它上传什么呢？ 有人用的话欢迎在评论区带上视频链接，也欢迎 star 和 issue ！",
+      "image_url": "https://xingyeai-images-cdn.oss-cn-shanghai.aliyuncs.com/talkie-user-img/448124399158206/448129631791480.png"
+    },
+    {
+      "id": "6eb87d01b53c1aaad6de",
+      "source_id": "C011",
+      "title": "[推广] azure gpt, aws bedrock, calude key 上游源头找下游用户. az gpt, awsb, claude openai",
+      "url": "https://www.v2ex.com/t/1246186#reply0",
+      "published_at": "2026-10-02T16:38:58Z",
+      "summary": "主要找大厂和大台子，散户不接。 外商源头，价格美丽可谈。 谢谢",
+      "image_url": ""
+    },
+    {
+      "id": "f045f34fb9baf04d2807",
+      "source_id": "C011",
+      "title": "[宽带症候群] 分享下我的家庭网络方案",
+      "url": "https://www.v2ex.com/t/1246185#reply6",
+      "published_at": "2026-10-02T16:24:13Z",
+      "summary": "成本： 1.联通宽带 79 元/月 1000Mbps 家宽，79G 通用流量，800 分钟通话，2T 联通云 2.联通专线 300 元/月 100Mbps 对等，3 个 IPv4 ，/56 的 IPv6 ，静态上网已备案端口全开 3.香港腾讯云锐驰型 40 元/月 合计：419 元/月 另外联通专线 IP 41 走 HE.NET 隧道到 Fremont 真的是一点丢包都没有，境外 Web 流量(WARP)还是无限的，是美国的 WARP ，github.com/xykt/IPQuality 测试会显示原生 IP ？打开类似 ip.skk.moe 等网站也没有人机验证，而且在 IP 41 里挂 Wireguard 不会被阻断，TCP/UDP 走香港腾讯云，打游戏延迟也低到香港 18ms ，大陆流量走家宽下载千兆也快，用手机流量连到家里机房也不会有跨网问题 一张图看全貌： https://cdn.ozo.ooo/network.html （点击左侧设备可以看到流量走线） 我的博客： https://log.ozo.ooo （平时喜欢折腾就写写）",
+      "image_url": ""
+    },
+    {
+      "id": "3830eaab79336e0b942c",
+      "source_id": "C011",
+      "title": "[问与答] 有没有可以使用字节跳动给企业 AI 的模型的途径？",
+      "url": "https://www.v2ex.com/t/1246184#reply1",
+      "published_at": "2026-10-02T16:19:49Z",
+      "summary": "最近想用 AI 搜一下抖音的内容，但是字节跳动给 C 端没有提供这个能力。豆包搜不了，抖音搜不了，抖音 AI 也搜不了。就不是那种简单的去搜，而是搜了之后抽取视频里面的内容，还有图片呐这些内容。好像直接搜抖音，这个是字节跳动提供给企业的功能，个人用户也买不到这个功能。有没有人去拿到了企业功能，然后放到外面卖接口的？",
+      "image_url": ""
+    },
+    {
+      "id": "a631e939f34e5d89e345",
+      "source_id": "C011",
+      "title": "[生活] 长大后你们如何看待自己当年被欺负的经历和欺负自己的人",
+      "url": "https://www.v2ex.com/t/1246183#reply4",
+      "published_at": "2026-10-02T16:19:44Z",
+      "summary": "我出生在河北省衡水市的一个小县城里边，然后我记得当时我是去衡水市里边的衡水第六中学上学，然后呢，县城里边儿，有一个很好的朋友，好像叫马腾宇，就是在初二的时候，我们之间关系是很好的，我也认为他是我的好朋友。但是到了初三之后，他就时不时地会跟一些调皮捣蛋的孩子一起玩儿，然后，慢慢我们就不在一起玩儿了。但是每次他碰到我，他就会说他饭卡没有钱了，能不能让他刷个鸡腿儿，然后我每次都让他刷，我心里就觉得他是我的好朋友，但是，慢慢的，他好像并没有因为我经常让他刷我的饭卡，就停止这些行为。我就因为这件事内耗了一年，后来毕业以后把他删了，这种感觉很奇怪，我觉得就是欺负我，但是好像又不是那种特别明显的揍我或者骂我什么的😭😭😭😭😭😭😭😭😭，国庆节回老家，然后晚上突然梦到这些奇怪的事情了",
+      "image_url": ""
+    },
+    {
+      "id": "029e6bb18801724d4c6f",
+      "source_id": "C006",
+      "title": "继 AMD 后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付",
+      "url": "https://www.ithome.com/1/009/373.htm",
+      "published_at": "2026-10-02T16:16:55Z",
+      "summary": "IT之家 10 月 3 日消息，Microsoft（微软）当地时间 1 日通过 DirectX 开发者博客宣布，高级着色器交付 (ASD) 将在本月扩展到高通、英特尔、英伟达硬件上。 由于 AMD 的 \"RDNA\" 家族已率先支持 ASD，这意味着该特性即将实现对四大 GPU 制造商平台的全覆盖。更多用户将可享受到直接下载云端预编译着色器带来的好处：缩短加载时间、消除着色器卡顿。 高通已通过今年 9 月 22 日上线的 2026.08.3 显卡驱动为骁龙 X2 的核显提供了 ASD 支持。英特尔、英伟达的支持将在本月晚些时候到来，兼容的英特尔设备包括 Arc B570 / B580 独立显卡、第 2~3 代酷睿 Ultra 处理器核显，英伟达方面则是所有 RTX GPU 以及 RTX Spark 系统。 IT之家了解到，首款支持多 GPU 供应商 ASD 的游戏为《战争机器：事变日》(Gears of War: E-Day)。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/a3098d1c-f431-41bf-a65b-fffe77f5bb7f.jpg"
+    },
+    {
+      "id": "f42b1faf590bfa95309a",
+      "source_id": "C018",
+      "title": "电机家族：有的电机听“目标”，有的电机听“力气” - Zw-awa",
+      "url": "https://www.cnblogs.com/zw-awa/p/23187442",
+      "published_at": "2026-10-02T15:44:00Z",
+      "summary": "两种电机都能接在同一路调速信号上，也都转得起来，看上去像是一回事。可写程序之前，为什么必须先弄清楚自己该给它力气，还是给它一个目标？",
+      "image_url": ""
+    },
+    {
+      "id": "87fa8f8196ab1357427f",
+      "source_id": "C018",
+      "title": "使用 SciPy 库进行时间序列分析 - wang_yb",
+      "url": "https://www.cnblogs.com/wang_yb/p/23187441",
+      "published_at": "2026-10-02T15:43:00Z",
+      "summary": "时间序列分析听起来有点学术，但其实干起来挺直接的。 你有一串按时间排列的数据，想知道里面有没有趋势、有没有周期性、噪声有多大，或者两个序列之间有没有延迟关系。 SciPy 这个库在信号处理、统计检验方面提供了不少现成的工具，配合 Matplotlib 画图，基本能覆盖日常分析的大部分需求。 本文不是",
+      "image_url": ""
+    },
+    {
+      "id": "022788b429b1ddf5be63",
+      "source_id": "C006",
+      "title": "AMD“锐龙 9 5900X3D”处理器工程样品现身，配备 32MB + 96MB L3 缓存",
+      "url": "https://www.ithome.com/1/009/372.htm",
+      "published_at": "2026-10-02T15:36:05Z",
+      "summary": "IT之家 10 月 2 日消息，Chiphell 论坛用户 @灵乌路空 9 月 28 日分享了一款 AMD Socket AM4 平台处理器工程样品的信息。 该处理器代号 \"100-000000652\"，属于 \"Zen 3\" 微架构的 \"Vermeer\" 家族，步进 \"B2\"，拥有 12 核心 24 线程的规格，频率可达 4.85GHz，配备 32MB + 96MB 的 L3 末级高速缓存，热设计功耗为 105W。 从其 L3 缓存规格来看，该芯片拥有 2 颗 CCD，其中 1 颗拥有 3D V-Cache 形式的额外 L3 缓存，可以说算是未曾推出的“锐龙 9 5900X3D”的测试型号。 @灵乌路空 提到，这颗处理器与最新版本的 UEFI (BIOS) 不兼容，但在 SMU 版本 56.70.0 的旧版 UEFI (BIOS) 中可以点亮。 \"Zen 3\" 微架构时代是 AMD 探索 3D V-Cache 技术初期。AMD 尽管最终并未在锐龙 5000 系列中正式推出拥有 2 颗 CCD 的 X3D 处理器，但那时在内部进行过各种 2CCD 的 3D V-Cache 产品的探索。 参考 https://www.chiphell.com/thread-2905514-1-1.html 相关阅读： 《AMD 官宣 3D Chiplet 架构：可实现“3D 垂直缓存”，年底用于高端产",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/3e34b827-f593-4a0f-9efc-7d24b6630b89.png"
+    },
+    {
+      "id": "ed0d8eb6bfffb522b126",
+      "source_id": "C006",
+      "title": "焕新极氪 001 配色上新：推出哑光岩灰车色、冰川灰内饰",
+      "url": "https://www.ithome.com/1/009/371.htm",
+      "published_at": "2026-10-02T15:30:57Z",
+      "summary": "IT之家 10 月 2 日消息，极氪汽车今日宣布焕新极氪 001 色彩上新，推出全新外饰色“哑光岩灰”以及全新内饰色“冰川灰”。2026 年 10 月 1 日-10 月 31 日，下定焕新极氪 001 可享更多限时权益。 IT之家注意到，焕新极氪 001 于 2025 年 10 月 11 日上市，售价 26.98 万元起，可限时叠加 1 万元置换金。 焕新极氪 001 全系标配 900V 全栈高压架构，实现 CLTC 综合工况续航里程最长达到 810 公里；实现电池最大充电倍率 12C，电量 10%-80% 充电最快仅需 7 分钟；实现双电机最大马力 925 匹，零百加速最快 2.83 秒，最高车速达到 280 公里 / 小时。 底盘操控方面，该车全系标配 CCD 电磁减振系统和智能魔毯功能，并升级搭载了闭式双腔空气悬架。辅助驾驶方面，全系标配千里浩瀚 H7 辅助驾驶系统，全系标配激光雷达，并搭载 NVIDIA DRIVE Thor-U 芯片 700TOPS 算力。 值得一提的是，极氪于 10 月 1 日发布“极氪 001 车型更新计划预告”，正式宣布 2027 款极氪 001 计划于 2027 年第一季度上市。2027 款极氪 001 将延续经典原创猎装造型，并保持全栈 900V 高压架构等核心硬核实力；在此基础上，新车将进一步强化功能配置舒适度、提供更多个性化风格选项，并丰富产",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/a475f277-fb97-4292-81b8-1dd850970a8f.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "62446d2d2bd1669cde8f",
+      "source_id": "C006",
+      "title": "韩国全胜卫冕亚运会《英雄联盟》项目冠军，中国台北收获第二",
+      "url": "https://www.ithome.com/1/009/370.htm",
+      "published_at": "2026-10-02T15:15:53Z",
+      "summary": "IT之家 10 月 2 日消息，在当地时间今日举行的 2026 年爱知 · 名古屋亚运会《英雄联盟》项目决赛中，韩国队以 3:0 的比分战胜中国台北队，以未失小局的全胜战绩完成对该项目的卫冕。越南与沙特阿拉伯并列三四名。 在韩国《英雄联盟》代表队中，李 \"Faker\" 相赫、崔 \"Zeus\" 祐齐、柳 \"Keria\" 岷析均为上届冠军阵容成员，另外三名选手则是金 \"Canyon\" 建敷、金 \"Zeka\" 建佑、李 \"Gumayusi\" 珉炯。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/b40b93ec-93f8-479a-8808-e0ebde1b20b5.jpg?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "f0818df34bb18c2eb466",
+      "source_id": "C006",
+      "title": "1100 亿美元超级并购：派拉蒙与华纳兄弟探索合并后将更名为“Skydance”",
+      "url": "https://www.ithome.com/1/009/369.htm",
+      "published_at": "2026-10-02T15:00:48Z",
+      "summary": "IT之家 10 月 2 日消息，派拉蒙天舞公司（Paramount SkyDance）首席执行官埃里森（David Ellison）今日宣布，在公司下周完成与华纳兄弟探索（WBD）的合并后，合并后的实体将命名为“Skydance”。 按照今年 2 月达成的协议，派拉蒙将以 1,100 亿美元（IT之家注：现汇率约合 7,386.01 亿元人民币）收购华纳兄弟，在这场持续数月的竞购中击败 Netflix，这项交易预计于 10 月 6 日达成。 大卫 · 埃里森此前宣布，1,100 亿美元收购华纳兄弟探索公司的交易完成后，美泰前 CEO 伊农 · 克雷兹将与他共同执掌合并后的公司，出任联席 CEO。派拉蒙公告称，埃里森将继续担任合并后公司的董事长，公司高管将同时向两人汇报。 IT之家注意到，任命克雷兹只是派拉蒙一系列高层人事调整中的一项。埃里森将搭建合并后的管理团队，其中既有华纳兄弟的核心人才，也有克雷兹这样的资深管理者，以应对这宗复杂的合并交易。交易完成后，两家大型电影制片厂、流媒体平台、电视网业务和新闻机构都将归入同一家公司旗下。",
+      "image_url": ""
+    },
+    {
+      "id": "bc800aff7be4d5ded493",
+      "source_id": "C018",
+      "title": "AG-UI 有了官方 .NET SDK，Blazor AI 组件同步登场：.NET 的 Agent 应用栈补齐了 - 张善友",
+      "url": "https://www.cnblogs.com/shanyou/p/23187356",
+      "published_at": "2026-10-02T14:58:00Z",
+      "summary": "如果只看一件事：微软这次解决的不是\"AI 能不能做界面\"，而是\"Agent 的界面该由谁说了算\"。 答案是：协议层由 AG-UI 统一，呈现层由你的应用决定。这两篇博客分别从传输和呈现两端给出了官方答案，而且都不强制你上全栈——一个标准抽象（IChatClient）打通了所有环节。",
+      "image_url": ""
+    },
     {
       "id": "80f1a6c4859636e47148",
       "source_id": "C035",
@@ -1272,6 +1758,15 @@
       "image_url": "https://freeapp.macapp8.com/icloud-backup-recovery-select-data-types.png?imageView2/2/w/1920"
     },
     {
+      "id": "f28fd39f3708a8784cd4",
+      "source_id": "C014",
+      "title": "重读随记 (评论: 明代的图像与视觉性)",
+      "url": "https://book.douban.com/review/17838896/",
+      "published_at": "2026-10-02T08:09:08Z",
+      "summary": "苦影评论: 明代的图像与视觉性 (https://book.douban.com/subject/6727670/) 评价: 还行 {\"blocks\":[{\"key\":\"9a15m\",\"text\":\"研究所需，时隔七年把这本书翻出来重新看了一遍，这次终于有能力梳理清楚自己一直以来对这本问题意识和观点其实都很有价值的著作为何感到如此遗憾。Clunas对“画”之定义及其语言的局限性，以及这种局限性必然导致的视角的偏狭的敏感非常好，然而他和高居翰相似，最大问题都在于设立了...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s6828379.jpg"
+    },
+    {
       "id": "333d5dd73ef9e1998dc7",
       "source_id": "C011",
       "title": "[分享创造] claude code 支持 mod 了，可以定制界面， 我用 AI 糊了一个导航站， https://ccmods.dev/",
@@ -1387,6 +1882,15 @@
       "published_at": "2026-10-02T07:33:42Z",
       "summary": "IT之家 10 月 2 日消息，《战争机器：事变日（Gears of War：E-Day）》开发商 The Coalition 现已公布游戏发售宣传片，本作将于北京时间 10 月 7 日正式发售，登陆 XBOX Series X|S 与 PC 平台（包括 Steam 与 Microsoft Store），首发加入 XBOX Game Pass。游戏在 PC 平台首发支持英伟达 DLSS 4.5 技术以及硬件光线追踪功能。 价格方面，本作标准版 298 元，预购高级版（428 元）的玩家可提前最多 5 天抢先体验，并可在游戏发售时解锁“Exfil Dom”角色皮肤与“Exfil”武器皮肤套装。IT之家附游戏商品页（https://store.steampowered.com/app/3010850/Gears_of_War_EDay/）。 公开信息显示，《战争机器：事变日》是《战争机器》系列的前传作品，故事设定在初代《战争机器》的十四年前。玩家将扮演年轻的马库斯 · 菲尼克斯与多姆 · 圣地亚哥，见证名为“兽族”的地底生物族群首次从地下涌出、发动全面入侵的“事变日”（Emergence Day）。在这场导致人类失去近三分之二人口的全球性灾难中，两人将在混乱中拼死抵抗。 根据英伟达官方公布的信息，PC 版《战争机器：事变日》将支持 DLSS 超分辨率与动态多帧生成技术，可有效提升帧率与",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/4df1d8b9-4f53-4a75-93f4-9fbc33f12d88.jpg"
+    },
+    {
+      "id": "e4d46eb60b49825da47c",
+      "source_id": "YE001",
+      "title": "抖音精神小妹李知恩 与炮友做爱视频被曝光 自爆喝多被人摆一道",
+      "url": "https://kqoamayxshh5bcz2.fefaujqk.cc/archives/222744.html",
+      "published_at": "2026-10-02T07:33:00Z",
+      "summary": "抖音精神小妹李知恩这波直接炸了。搜索栏里“李知恩出底牌视频”“被爆事件完整经过”全是热搜，评论区一片求瓜。她本人发文称28号有人发图时还懵着，29号晚视频就流出，30号下午微信被骚扰，澄清是喝多...",
+      "image_url": ""
     },
     {
       "id": "4240c8e4a6eb9e112828",
@@ -1576,6 +2080,15 @@
       "published_at": "2026-10-02T06:53:09Z",
       "summary": "IT之家 10 月 2 日消息，极狐汽车宣布为旗下阿尔法 T5 推送新一轮 OTA 升级包，本次更新包含 5 项新增功能与 1 项功能优化，围绕手机互联、高阶辅助驾驶、泊车能力、车辆安防、HUD 显示以及座舱音效进行迭代，不同版本车型可获得对应专属功能。 据官方介绍，阿尔法 T5 新增手机互联能力，支持 CarLink、苹果 CarPlay 与华为 HiCar。其中 CarPlay、华为 HiCar 为元境版车型专属配置，其余车型可使用 CarLink。 除此之外，元境版车型还将获得高悟性端到端 4.0 辅助驾驶模型。该模型基于海量真实路况数据训练，能够自主学习高质量驾驶行为，提升对路况的理解与决策能力，在窄路通行、泊车、变道场景下的表现更顺滑，对道路风险预判能力得到加强。官方同时给出提示，升级该模型后，辅助驾驶相关设置会恢复初始状态，车主需要根据自身驾驶习惯重新配置；泊车辅助功能与车辆驾驶模式存在关联，纯电版车型需要切换至运动或舒适模式，增程版车型需切换至运动或经济模式，才可正常启用泊车辅助。 针对睿享版车型，本次 OTA 新增 APA 泊出辅助以及 RPA 遥控泊车辅助功能。这套组合功能可支持车辆自动泊出车位，同时支持在车外通过手机遥控车辆完成泊车操作，面对狭窄车位时，能够解决上下车不便的问题。睿享版还新增哨兵模式远程控制功能，车主可通过极狐 APP 远程开启或关闭哨兵模式，实",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/05a603ad-e376-4a2d-83dc-af10e86b8a92.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "32104a2f4a72e8532f25",
+      "source_id": "C014",
+      "title": "房子是租的，可生活是自己的 (评论: 必须美)",
+      "url": "https://book.douban.com/review/17838797/",
+      "published_at": "2026-10-02T06:50:03Z",
+      "summary": "稳稳评论: 必须美 (https://book.douban.com/subject/38548513/) 评价: 推荐 {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \"2020\\u5e74\\u6625\\uff0c...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35557569.jpg"
     },
     {
       "id": "814555a8fd6f8cbab883",
@@ -2235,6 +2748,15 @@
       "image_url": "https://design-milk.com/images/2026/10/2993-Photo-credit-Giada-Paoloni-1-1500x1000.jpg"
     },
     {
+      "id": "0d50f963057ec893797c",
+      "source_id": "YE001",
+      "title": "炸裂 四川南充 张帅 何奇颖 婚礼请帖上演皇帝的新装 这是为下海提前做的宣传吗",
+      "url": "https://kqoamayxshh5bcz2.fefaujqk.cc/archives/222717.html",
+      "published_at": "2026-10-02T04:27:00Z",
+      "summary": "四川南充嘉陵区文峰假日庄园这封电子请帖，首页就写着张帅和何奇颖。时间钉在2026年10月22日中午12点，农历九月十三。请帖不是红底金字那种，做成深红信封，翻开就是两人的大尺度照。第一张全裸背影...",
+      "image_url": ""
+    },
+    {
       "id": "97308f63f7279eddd9a2",
       "source_id": "YE001",
       "title": "炸裂 四川南充 张帅 何奇颖 婚礼请帖上演皇帝的新装 这是为下海提前做的宣传吗",
@@ -2322,6 +2844,15 @@
       "url": "https://36kr.com/newsflashes/4008224334319749?f=rss",
       "published_at": "2026-10-02T04:16:38Z",
       "summary": "10月2日，阿里巴巴集团旗下高德公布十一长假首日运营数据：其中，高德日活跃用户数（DAU）近3.7亿，提供空间智能服务超28亿次，进一步印证高德已成为全球规模最大的空间智能应用。同日，高德驾车导航总里程达97亿公里，使用高德扫街榜的用户超1.28亿人，均创历史新高。此外，中国安全生产科学研究院与高德联合发布的鹰眼守护预警系统向用户发出安全提醒超6亿次。",
+      "image_url": ""
+    },
+    {
+      "id": "c6c26f5b5244783e4caa",
+      "source_id": "YE001",
+      "title": "鱼哥约炮顶级天菜第二弹  女仆装毛绒耳罩的极致尤物诱惑火热来袭",
+      "url": "https://kqoamayxshh5bcz2.fefaujqk.cc/archives/222716.html",
+      "published_at": "2026-10-02T04:14:00Z",
+      "summary": "鱼哥最新释出再次把顶级天菜推到台前，第二弹直接锁定这身棕色女仆装搭配毛绒耳罩的尤物。长发铺散在白床单上，表情从微微皱眉到眼神迷离层层递进，上衣被缓缓拉开露出完整胸型，腰间系带与蕾丝边在镜头下清晰...",
       "image_url": ""
     },
     {
@@ -4080,6 +4611,15 @@
       "image_url": ""
     },
     {
+      "id": "b597a39d12efe62a26ff",
+      "source_id": "C014",
+      "title": "奇想大纲叠叠乐 (评论: A先生の名推理)",
+      "url": "https://book.douban.com/review/17838325/",
+      "published_at": "2026-10-01T17:35:29Z",
+      "summary": "山寨评论: A先生の名推理 (https://book.douban.com/subject/6869394/) 评价: 还行 {\"blocks\":[{\"key\":\"f6vd2\",\"text\":\"抛出诡谲的谜面，用唬烂或是一眼能看破的解答应付过去——本书的大部分作品都是这种情况。但同样是天谜地解，岛田后期的很多作品我其实也看得津津有味。我觉得更大的问题是，大部分篇目是以新闻报道或者诡计大纲的笔...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s6955668.jpg"
+    },
+    {
       "id": "8b257a3ed78deee09735",
       "source_id": "T001",
       "title": "Vote on which of Hacker News' challenges for AI have been met",
@@ -5453,7 +5993,7 @@
       "title": "塗り",
       "url": "https://www.pixiv.net/artworks/150337706",
       "published_at": "2026-10-01T14:12:33Z",
-      "summary": "第 8 位 画师：けけもつ - 上传于：2026-10-01 23:12:33 - 阅览数：13664 - 收藏数：1586",
+      "summary": "第 8 位 画师：けけもつ - 上传于：2026-10-01 23:12:33 - 阅览数：15254 - 收藏数：1683",
       "image_url": "https://pixiv.cat/150337706.jpg"
     },
     {
@@ -5723,7 +6263,7 @@
       "title": "無題",
       "url": "https://www.pixiv.net/artworks/150336334",
       "published_at": "2026-10-01T13:42:47Z",
-      "summary": "第 16 位 画师：ヒロき - 上传于：2026-10-01 22:42:47 - 阅览数：7060 - 收藏数：1345",
+      "summary": "第 16 位 画师：ヒロき - 上传于：2026-10-01 22:42:47 - 阅览数：7954 - 收藏数：1433",
       "image_url": "https://pixiv.cat/150336334.jpg"
     },
     {
@@ -5750,7 +6290,7 @@
       "title": "バニー作業モード",
       "url": "https://www.pixiv.net/artworks/150336102",
       "published_at": "2026-10-01T13:37:22Z",
-      "summary": "第 4 位 画师：マツモト（松本陽介） - 上传于：2026-10-01 22:37:22 - 阅览数：15740 - 收藏数：1608",
+      "summary": "第 4 位 画师：マツモト（松本陽介） - 上传于：2026-10-01 22:37:22 - 阅览数：17201 - 收藏数：1694",
       "image_url": "https://pixiv.cat/150336102.jpg"
     },
     {
@@ -5768,7 +6308,7 @@
       "title": "お嬢メロつき委員会２ 「お嬢のファンサ」",
       "url": "https://www.pixiv.net/artworks/150335752",
       "published_at": "2026-10-01T13:29:49Z",
-      "summary": "第 2 位 画师：シノ - 上传于：2026-10-01 22:29:49 - 阅览数：21222 - 收藏数：1377",
+      "summary": "第 2 位 画师：シノ - 上传于：2026-10-01 22:29:49 - 阅览数：22991 - 收藏数：1438",
       "image_url": "https://pixiv.cat/150335752-1.jpg"
     },
     {
@@ -5795,7 +6335,7 @@
       "title": "姉妹で温泉卓球ガチバトル",
       "url": "https://www.pixiv.net/artworks/150335414",
       "published_at": "2026-10-01T13:21:41Z",
-      "summary": "第 1 位 画师：クレハ - 上传于：2026-10-01 22:21:41 - 阅览数：13864 - 收藏数：2621",
+      "summary": "第 1 位 画师：クレハ - 上传于：2026-10-01 22:21:41 - 阅览数：15440 - 收藏数：2786",
       "image_url": "https://pixiv.cat/150335414-1.jpg"
     },
     {
@@ -6137,7 +6677,7 @@
       "title": "無題",
       "url": "https://www.pixiv.net/artworks/150331069",
       "published_at": "2026-10-01T11:48:44Z",
-      "summary": "第 4 位 画师：おいも🍠 - 上传于：2026-10-01 20:48:44 - 阅览数：16976 - 收藏数：1641",
+      "summary": "第 4 位 画师：おいも🍠 - 上传于：2026-10-01 20:48:44 - 阅览数：19792 - 收藏数：1816",
       "image_url": "https://pixiv.cat/150331069.jpg"
     },
     {
@@ -6182,7 +6722,7 @@
       "title": "【創作BL】大隈家の花嫁 37",
       "url": "https://www.pixiv.net/artworks/150330255",
       "published_at": "2026-10-01T11:29:31Z",
-      "summary": "第 17 位 画师：shino - 上传于：2026-10-01 20:29:31 - 阅览数：7347 - 收藏数：562",
+      "summary": "第 17 位 画师：shino - 上传于：2026-10-01 20:29:31 - 阅览数：8417 - 收藏数：616",
       "image_url": "https://pixiv.cat/150330255-1.jpg"
     },
     {
@@ -6623,7 +7163,7 @@
       "title": "【創作BL(?)】平成の攻め様(仮)、幼稚園で令和を学ぶ。",
       "url": "https://www.pixiv.net/artworks/150326456",
       "published_at": "2026-10-01T10:00:01Z",
-      "summary": "第 2 位 画师：あとろ - 上传于：2026-10-01 19:00:01 - 阅览数：18042 - 收藏数：2348",
+      "summary": "第 2 位 画师：あとろ - 上传于：2026-10-01 19:00:01 - 阅览数：20788 - 收藏数：2547",
       "image_url": "https://pixiv.cat/150326456-1.jpg"
     },
     {
@@ -6902,7 +7442,7 @@
       "title": "空気が「読める」元新入社員と親友が語る職場男子の食事情・後編",
       "url": "https://www.pixiv.net/artworks/150324542",
       "published_at": "2026-10-01T09:01:02Z",
-      "summary": "第 1 位 画师：鳥原習 - 上传于：2026-10-01 18:01:02 - 阅览数：33769 - 收藏数：2388",
+      "summary": "第 1 位 画师：鳥原習 - 上传于：2026-10-01 18:01:02 - 阅览数：39637 - 收藏数：2617",
       "image_url": "https://pixiv.cat/150324542-1.jpg"
     },
     {
@@ -6911,7 +7451,7 @@
       "title": "空気が「読める」元新入社員と親友が語る職場男子の食事情・後編",
       "url": "https://www.pixiv.net/artworks/150324542",
       "published_at": "2026-10-01T09:01:02Z",
-      "summary": "第 6 位 画师：鳥原習 - 上传于：2026-10-01 18:01:02 - 阅览数：33378 - 收藏数：2371",
+      "summary": "第 6 位 画师：鳥原習 - 上传于：2026-10-01 18:01:02 - 阅览数：39556 - 收藏数：2615",
       "image_url": "https://pixiv.cat/150324542-1.jpg"
     },
     {
@@ -7307,7 +7847,7 @@
       "title": "ひと紡ぎロイヤルサーカス",
       "url": "https://www.pixiv.net/artworks/150322680",
       "published_at": "2026-10-01T07:58:21Z",
-      "summary": "第 9 位 画师：Sa-fu - 上传于：2026-10-01 16:58:21 - 阅览数：5573 - 收藏数：937",
+      "summary": "第 9 位 画师：Sa-fu - 上传于：2026-10-01 16:58:21 - 阅览数：6669 - 收藏数：1027",
       "image_url": "https://pixiv.cat/150322680.jpg"
     },
     {
@@ -7577,7 +8117,7 @@
       "title": "【ポケマス】フラダリさんログ④",
       "url": "https://www.pixiv.net/artworks/150321521",
       "published_at": "2026-10-01T07:06:28Z",
-      "summary": "第 9 位 画师：無理 - 上传于：2026-10-01 16:06:28 - 阅览数：6922 - 收藏数：713",
+      "summary": "第 9 位 画师：無理 - 上传于：2026-10-01 16:06:28 - 阅览数：7911 - 收藏数：777",
       "image_url": "https://pixiv.cat/150321521-1.jpg"
     },
     {
@@ -7892,7 +8432,7 @@
       "title": "Genshin Impact 6th Anniversary",
       "url": "https://www.pixiv.net/artworks/150320002",
       "published_at": "2026-10-01T05:55:43Z",
-      "summary": "第 8 位 画师：Sakon04 - 上传于：2026-10-01 14:55:43 - 阅览数：4839 - 收藏数：1294",
+      "summary": "第 8 位 画师：Sakon04 - 上传于：2026-10-01 14:55:43 - 阅览数：6212 - 收藏数：1509",
       "image_url": "https://pixiv.cat/150320002.jpg"
     },
     {
@@ -8382,6 +8922,15 @@
       "image_url": ""
     },
     {
+      "id": "3d4c5643d71c6117a180",
+      "source_id": "YE001",
+      "title": "康奈尔大学兄弟会轮奸案反转 留学生群P淫趴细节曝光 牢A三通一达再度翻红",
+      "url": "https://kqoamayxshh5bcz2.fefaujqk.cc/archives/222651.html",
+      "published_at": "2026-10-01T04:35:00Z",
+      "summary": "更多聊天记录被曝光后，康奈尔大学兄弟会轮奸案持续发酵。七名涉事者被指都是惯犯，平时爱邀请中国女留学生参加party，随后嗑药进行群交。受害女生疑似国人，过程看似自愿而非强迫。事情曝光后女子无法继...",
+      "image_url": ""
+    },
+    {
       "id": "2944f40e72321dba4f66",
       "source_id": "YE001",
       "title": "康奈尔大学兄弟会轮奸案反转 留学生群P淫趴细节曝光 牢A三通一达再度翻红",
@@ -8711,7 +9260,7 @@
       "title": "なかよし女冒険者、単行本化決定！",
       "url": "https://www.pixiv.net/artworks/150317396",
       "published_at": "2026-10-01T03:36:10Z",
-      "summary": "第 10 位 画师：ゆかたろ／新作配信中！ - 上传于：2026-10-01 12:36:10 - 阅览数：19133 - 收藏数：914",
+      "summary": "第 10 位 画师：ゆかたろ／女冒険者単行本化！ - 上传于：2026-10-01 12:36:10 - 阅览数：21664 - 收藏数：976",
       "image_url": "https://pixiv.cat/150317396.jpg"
     },
     {
@@ -10925,7 +11474,7 @@
       "title": "彼女の家にお泊り",
       "url": "https://www.pixiv.net/artworks/150302476",
       "published_at": "2026-09-30T15:01:13Z",
-      "summary": "第 20 位 画师：観乃ふみ - 上传于：2026-10-01 00:01:13 - 阅览数：13992 - 收藏数：876",
+      "summary": "第 20 位 画师：観乃ふみ - 上传于：2026-10-01 00:01:13 - 阅览数：16209 - 收藏数：937",
       "image_url": "https://pixiv.cat/150302476-1.jpg"
     },
     {
@@ -11583,6 +12132,15 @@
       "url": "https://36kr.com/newsflashes/4005872610906246?f=rss",
       "published_at": "2026-09-30T12:24:20Z",
       "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "763dbbdfbc25e70c014c",
+      "source_id": "YE001",
+      "title": "每日大赛之极品尤物都是谁在操  各种风格反差骚货一次看到爽",
+      "url": "https://kqoamayxshh5bcz2.fefaujqk.cc/archives/222610.html",
+      "published_at": "2026-09-30T12:20:00Z",
+      "summary": "各种风格反差骚货合集，从被操出高潮脸再也离不开鸡巴的女人，到彻底被大鸡巴征服的小萝莉，调皮有情趣直接让男人硬到不行，肥臀尤物后入撞击到臀浪翻飞，精挑细选的极品大学生被操到失神，女上位漂亮货自己坐...",
       "image_url": ""
     },
     {
@@ -23562,60 +24120,6 @@
       "url": "https://tao.zz.ac/zz/ip.html",
       "published_at": "2026-09-03T16:00:00Z",
       "summary": "家宽通常只有动态公网 IP 地址。为了能访问家庭内部网络，我们需要通过 DDNS 技术 将变化的公网 IP 地址自动映射到某个固定的域名上。如果 DDNS 工具运行在边缘路由器上， 它可以直接获得公网 IP 地址；如果 DDNS 工具是运行在局域网内的一台主机上，获取当前 的出口公网 IP 就会麻烦一些。最简单的办法就是通过 curl 访问类似 ip.network 这类 可以返回调用方公网 IP 地址的服务。我一直用 ip.network 确认自己的公网 IP。但是今 天收到告警邮件，发现我被 ip.network 给封锁了，可能是嫌我每五分钟调一次太多了😂 所以我赶紧基于 Nginx 和 MaxMind 提供的免费 IP 地址库搭了一套简易的 IP 查询工具。 今天把方案分享给大家。",
-      "image_url": ""
-    },
-    {
-      "id": "aca307bc7f7ab72db6f2",
-      "source_id": "C027",
-      "title": "HBD サオリ",
-      "url": "https://www.pixiv.net/artworks/149241199",
-      "published_at": "2026-09-03T15:00:13Z",
-      "summary": "第 9 位 画师：Shigure@FANBOX - 上传于：2026-09-04 00:00:13 - 阅览数：47017 - 收藏数：9637",
-      "image_url": "https://pixiv.cat/149241199.jpg"
-    },
-    {
-      "id": "17a733a37e752dfd419c",
-      "source_id": "B008",
-      "title": "The Blood of Dawnwalker Trainer",
-      "url": "https://flingtrainer.com/trainer/the-blood-of-dawnwalker-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=the-blood-of-dawnwalker-trainer",
-      "published_at": "2026-09-03T14:12:29Z",
-      "summary": "Options Num 1 – God Mode/Ignore Hits Num 2 – Infinite Health Num 3 – Infinite Stamina Num 4 – Infinite Activation Charge Num 5 – Instant Ability Cooldown Num 6 – Zero Weight Num 7 – Infinite Consumables Num 8 – Instant Refill Quick Slot Items Num 9 – 100% Critical Chance Num 0... The post The Blood of Dawnwalker Trainer appeared first on FLiNG Trainer.",
-      "image_url": "https://flingtrainer.com/wp-content/uploads/2026/09/1-6.png"
-    },
-    {
-      "id": "8b5a266b41c8b516eb6f",
-      "source_id": "B055",
-      "title": "海南之行后记",
-      "url": "https://blog.est.im/2026/stderr-28",
-      "published_at": "2026-09-03T12:51:00Z",
-      "summary": "趁还记得，记录一些 起初是发现 嫦娥七号 在文昌发射，于是兴冲冲带着孩子去观看 CZ-5 发射 围绕着这个火箭发射基地做了大量调研；了解到很多知识： 发射基地分两块，一个是国发，一个是商发；CZ-5 在国发 国发最佳观赏地是 文昌县 门楼镇，淇水湾 发射前会封路，开车进不去 二话不说，定机票；无意中刷到 云闪付 有 -200 优惠，于是周五定闹钟抢票，抢到手。不过发现使用优惠，折腾了大半天发现 这优惠只能买去海南的单程，不能往返； 订单必须只有一人，而且必须是自己，付款人和乘机人必须是同一个人。 孩子未成年无法单独购票 未成年人在 -200 优惠之后附加购买，+100 折腾半天，感觉还比如直接一起打包买往返划算。囧 然后就是轰轰烈烈的定住处，观礼台。 因为时间比较接近了，发现价格贵得起飞，甚至一度想到骑电瓶车去路边看，考虑发射时间早上8点太早，很可能天气预报有雨于是作罢 选了一圈定 淇水湾五号 小区，价格 1500 。其实在门楼镇上有1200甚至900的，但是住宿条件更差。 然后，延迟一天，房东也爽快的答应延期一天入住； 但是返程机票已定，时间不够，于是折腾半天去改机票，每个人 -140 。啊痛死！ 接下来，让人更崩溃的事发生了，发射tmd取消了！ 还好这个房东比较爽快，直接退款。网上很多撕逼的。 虽然我也一直关注今年广西边上这个土台风，没想到居然取消了啊。虽然有消息传言说天气因素",
-      "image_url": "https://blog.est.im/images/2026/stderr-28-01.avif"
-    },
-    {
-      "id": "378c3db3ad84837a2996",
-      "source_id": "C027",
-      "title": "知更鸟晴歌",
-      "url": "https://www.pixiv.net/artworks/149232450",
-      "published_at": "2026-09-03T11:43:28Z",
-      "summary": "第 11 位 画师：爱东东不爱画生肉 - 上传于：2026-09-03 20:43:28 - 阅览数：16325 - 收藏数：3788",
-      "image_url": "https://pixiv.cat/149232450.jpg"
-    },
-    {
-      "id": "1d989e03b1fbf6cf606d",
-      "source_id": "C027",
-      "title": "朝のワカモ",
-      "url": "https://www.pixiv.net/artworks/149228208",
-      "published_at": "2026-09-03T09:56:40Z",
-      "summary": "第 15 位 画师：리규철(gyu chul) - 上传于：2026-09-03 18:56:40 - 阅览数：11329 - 收藏数：3572",
-      "image_url": "https://pixiv.cat/149228208.jpg"
-    },
-    {
-      "id": "7f64aa37bf6c0005df9a",
-      "source_id": "B004",
-      "title": "别再使用IndexedDB，大文件读写就用OPFS",
-      "url": "https://www.zhangxinxu.com/wordpress/2026/09/indexdb-navigator-storage-getdirectory/",
-      "published_at": "2026-09-03T09:39:07Z",
-      "summary": "",
       "image_url": ""
     },
     {
