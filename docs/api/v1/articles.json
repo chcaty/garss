@@ -1,7 +1,889 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-03T14:52:03.225753Z",
+  "generated_at": "2026-10-03T22:54:37.672678Z",
   "articles": [
+    {
+      "id": "e25cf50ed0a1fa7927aa",
+      "source_id": "C035",
+      "title": "网络终于好点了，昨天所有线路卡成狗",
+      "url": "https://www.nodeseek.com/post-963301-1",
+      "published_at": "2026-10-03T22:52:36Z",
+      "summary": "1号倒是不卡，昨天非常卡，什么情况？",
+      "image_url": ""
+    },
+    {
+      "id": "1c596d57a9a5c58ddce1",
+      "source_id": "C006",
+      "title": "索尼等好莱坞制片厂争夺 EA《战地》电影改编权，迈克尔 ·B· 乔丹制片并有望参演",
+      "url": "https://www.ithome.com/1/009/582.htm",
+      "published_at": "2026-10-03T22:51:29Z",
+      "summary": "IT之家 10 月 4 日消息，据《好莱坞报道》《综艺》和 TheWrap 昨日报道，索尼影业正在洽谈收购《战地》游戏改编电影项目，或者说索尼影业目前是该项目最有希望的买家。 该片改编自艺电旗下《战地》系列游戏，由克里斯托弗 · 麦奎里负责编剧、导演和制片，迈克尔 ·B· 乔丹则将担任制片人，并有望出演。 据报道，此前已有多家好莱坞制片厂和流媒体平台接触该项目。若交易最终达成，索尼影业将获得这部军事题材游戏改编电影的发行及相关权益。 《战地》系列最早于 2002 年推出，首作《战地 1942》以第二次世界大战为背景。此后系列作品不断拓展时代背景，从现代战争延伸至未来世界，并逐渐形成以大规模多人战斗、步兵作战和载具协同为特色的军事第一人称射击游戏系列。 系列最新作《战地 6》于 2025 年 10 月 10 日推出，故事背景设定在 2027 年。艺电此前公布的信息显示，游戏剧情围绕全球局势动荡展开，部分欧洲国家退出北约，美国及其盟友面临新的地缘政治危机。 《战地 6》上市后创下系列最佳开局。艺电表示，该作发售首 3 天销量超过 700 万份，并刷新《战地》系列同期销量、同时在线玩家数等多项纪录。艺电随后在财报中确认，《战地 6》是 2025 年销量最高的射击游戏。 克里斯托弗 · 麦奎里此前曾参与《碟中谍》系列多部电影的编剧、导演和制片工作。迈克尔 ·B· 乔丹则将参与《战地》电影的",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/06f1089b-a8ef-48fa-a546-bc41f65e97b2.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "eecd2ad1fb9d73d875a1",
+      "source_id": "C035",
+      "title": "甲骨文也没难度啊",
+      "url": "https://www.nodeseek.com/post-963300-1",
+      "published_at": "2026-10-03T22:50:11Z",
+      "summary": "注册2分钟，点击开实例不就开了吗弄了个sjc的2c12g，不知道干什么用",
+      "image_url": ""
+    },
+    {
+      "id": "89847bf0791af6becbaf",
+      "source_id": "C035",
+      "title": "NQ bero 69o",
+      "url": "https://www.nodeseek.com/post-963299-1",
+      "published_at": "2026-10-03T22:46:57Z",
+      "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m89.106.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[",
+      "image_url": ""
+    },
+    {
+      "id": "3bbba71bed1bc4a1fe25",
+      "source_id": "C035",
+      "title": "【NQ】bero 49o",
+      "url": "https://www.nodeseek.com/post-963298-1",
+      "published_at": "2026-10-03T22:46:34Z",
+      "summary": "https://nodequality.com/r/TI2wFBMNEZxYzINaEDEJtuaxQ0roJqzi",
+      "image_url": ""
+    },
+    {
+      "id": "dc52ad42c82f1ad2311a",
+      "source_id": "C035",
+      "title": "【剩余价值-8r出】cloudsilk DE 9929 299.99/年",
+      "url": "https://www.nodeseek.com/post-963297-1",
+      "published_at": "2026-10-03T22:45:09Z",
+      "summary": "200元CPU1核心RAM1024MB内存DISK10GSSD硬盘500G流量(1000Mbps带宽)Price299.99一年去程CN2GIA/AS9929/CMIN2回程三网AS9929",
+      "image_url": ""
+    },
+    {
+      "id": "09f431211afa2898db07",
+      "source_id": "C006",
+      "title": "OpenAI 前安全部门员工：AI 模型迭代部署太激进，公司的文化已经崩坏",
+      "url": "https://www.ithome.com/1/009/581.htm",
+      "published_at": "2026-10-03T22:43:56Z",
+      "summary": "IT之家 10 月 4 日消息，据路透社报道，一名近期辞职的前 OpenAI 安全部门员工批评了该公司对待人工智能安全的做法，他认为一味追求快速开发的高压企业文化会提高系统发生故障的风险。 IT之家注意到，戴维 · 鲁宾森（David Robinson）于当地时间周六在《大西洋》杂志发表题为《我辞去 OpenAI 的工作，只因这家公司的文化已经崩坏》的文章中表示，包括 OpenAI 在内的各家人工智能企业做得“远远不够谨慎”，在研发能力更强的系统之前，应当更加重视安全方面的专业人才与相关研究。 “试错的时代已经结束了。”鲁宾森（David Robinson）写道。他提出，先进人工智能系统所需要的防护机制，应当更接近核电与航空这类行业所采用的安全保障体系。 鲁宾森（David Robinson）称，OpenAI 十分依赖其所谓的“迭代部署”模式：先对外发布系统，等到问题暴露之后再去加固安全防护。 此番言论进一步激化了人工智能行业内部的一场争论，争议焦点在于各家企业研发性能日益强大的系统时，推进的脚步是否过快。此前已经发生过多起安全管控失效或是实验性系统出现异常表现的事件，OpenAI 及其竞争对手 Anthropic 也因此受到外界审视。 鲁宾森自称曾在 OpenAI 任职三年半，参与起草过该公司的风险应对框架，并且负责监督 12 次前沿模型发布对应的安全报告。他写道：“公司只顾着接",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "35d04329c67fc18fc125",
+      "source_id": "C011",
+      "title": "[分享创造] 给 Touch Bar 做了个新用途：直接看 Codex / Claude Code 是在工作，还是已经做完",
+      "url": "https://www.v2ex.com/t/1246327#reply0",
+      "published_at": "2026-10-03T22:40:51Z",
+      "summary": "大家好，前几天在这里分享过 DockTouchBar 。这次做了一个面向 AI 编程的 Vibe 版本，新增智能体工作状态显示，想分享给还在用带 Touch Bar 的 Mac 的朋友。 AI 在另一个窗口里写代码时，想知道它还在跑还是已经结束，常常要切回去看一眼。所以我把这个状态放到了 Touch Bar 上，低头就能看到。 GIF 演示直链 智能体工作时，所在 App 的图标会变成一个像素风小屏幕，播放字符雨；做完后显示 OK，点一下可以清除提示。多个工具一起用时，可以从各自图标看谁还在忙。 配对也尽量做得简单：设置 → 配对智能体 → 复制提示词，粘贴给你的智能体。它会自检，通过自己的 hook 或长期指令规则接入，验证通过后出现在列表里。接入前提示词会要求它备份配置；有些工具还需要你确认信任 hook 。 目前在我自己的 Mac 上试过 Claude Code 、Codex 、Qoder 、WorkBuddy 、Antigravity 、千问办公和豆包。具体接入方式在 README 里：其中用长期指令规则的工具，状态上报依赖智能体遵循规则。其他能在本机执行命令的智能体也可以尝试配对，纯网页聊天工具不适用。 Vibe 同时包含原版 DockTouchBar 的功能：在 Touch Bar 上点图标切应用、双击最小化、长按退出，还有像素风四季动画。纯净版和 Vibe 是两个独立",
+      "image_url": "https://raw.githubusercontent.com/hooosberg/DockTouchBar/main/assets/vibe-agents.gif"
+    },
+    {
+      "id": "4aff092c5ebf900d74b8",
+      "source_id": "C035",
+      "title": "[收]家人云Nosla优惠码",
+      "url": "https://www.nodeseek.com/post-963296-1",
+      "published_at": "2026-10-03T22:39:28Z",
+      "summary": "[收]家人云Nosla优惠码7/7.5折如题",
+      "image_url": ""
+    },
+    {
+      "id": "510318cda8e6781132e1",
+      "source_id": "C035",
+      "title": "【出】 110出Zouter JP BGP Global Plus 4c8g",
+      "url": "https://www.nodeseek.com/post-963295-1",
+      "published_at": "2026-10-03T22:38:13Z",
+      "summary": "到期时间：2026-10-16",
+      "image_url": ""
+    },
+    {
+      "id": "0fe2835c584dd0e69f7b",
+      "source_id": "C035",
+      "title": "Hostdzire 新加坡 年付 34 刀但没原油能卖多少",
+      "url": "https://www.nodeseek.com/post-963294-1",
+      "published_at": "2026-10-03T22:37:35Z",
+      "summary": "自用想换berohost了，但是买的时候用的自己的邮箱",
+      "image_url": ""
+    },
+    {
+      "id": "26423ef635d5e6120830",
+      "source_id": "C035",
+      "title": "【车找人】【YouTube Premium】家庭组 5人｜ 年付120｜美/港区",
+      "url": "https://www.nodeseek.com/post-963293-1",
+      "published_at": "2026-10-03T22:36:55Z",
+      "summary": "🏠低价家庭组（5人组队）半年付：88元年付：120元Google账户归属地：美/港区上车先自行了解风险哦，高价区优点稳定，缺点贵！低价区优点便宜，缺点存在一定波动【服务亮点】价格公开透明，支持支付宝/微信等多种支付方式；售后全包，支持无忧转移、补位服务；组队、续费灵活，长期稳定供货，拒绝“跑路”；【咨询与下单方式",
+      "image_url": ""
+    },
+    {
+      "id": "9ad5761d5ba52293d5ec",
+      "source_id": "C011",
+      "title": "[游戏开发] ai 开发游戏，你们用哪个框架？",
+      "url": "https://www.v2ex.com/t/1246326#reply0",
+      "published_at": "2026-10-03T22:35:26Z",
+      "summary": "‪godot 我开发的游戏 ui 都很丑，有啥特殊要求没？比如 skill ？‬",
+      "image_url": ""
+    },
+    {
+      "id": "52deabb3edf2feffd8be",
+      "source_id": "T001",
+      "title": "Big Balls Now Exposed to Serious Criminal Charges in at Least Six States",
+      "url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "published_at": "2026-10-03T22:35:14Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "a918b52d1c94c55edc59",
+      "source_id": "C035",
+      "title": "今天的签到收益是1个🍗，也是另一种欧洲人了😂",
+      "url": "https://www.nodeseek.com/post-963292-1",
+      "published_at": "2026-10-03T22:32:57Z",
+      "summary": "离谱最近怎么了",
+      "image_url": ""
+    },
+    {
+      "id": "e531b7d6fa1bb87441e0",
+      "source_id": "C035",
+      "title": "JTTI【收】+50 收 JTTI HK 49刀年付款",
+      "url": "https://www.nodeseek.com/post-963291-1",
+      "published_at": "2026-10-03T22:30:53Z",
+      "summary": "【收】+50收JTTIHK49刀年付款",
+      "image_url": ""
+    },
+    {
+      "id": "fcb817b8a48520484dcf",
+      "source_id": "C035",
+      "title": "出个甲骨文东京升级号",
+      "url": "https://www.nodeseek.com/post-963290-1",
+      "published_at": "2026-10-03T22:28:24Z",
+      "summary": "已满月，带原油430出",
+      "image_url": ""
+    },
+    {
+      "id": "aa05f6e4fcb9ec350ad7",
+      "source_id": "C035",
+      "title": "bero 是选哪款最好？",
+      "url": "https://www.nodeseek.com/post-963289-1",
+      "published_at": "2026-10-03T22:22:34Z",
+      "summary": "bero补货了是选哪款最好？",
+      "image_url": ""
+    },
+    {
+      "id": "26400819c3e033ea0f20",
+      "source_id": "C035",
+      "title": "【出】120出Aaitr 美国AT&T静态家宽 原油，10-30到期",
+      "url": "https://www.nodeseek.com/post-963288-1",
+      "published_at": "2026-10-03T22:17:02Z",
+      "summary": "pm",
+      "image_url": ""
+    },
+    {
+      "id": "c9f5480e7bf06e32757a",
+      "source_id": "C035",
+      "title": "【出】总价1700 DMIT MALIBU 2027-11-05到期",
+      "url": "https://www.nodeseek.com/post-963287-1",
+      "published_at": "2026-10-03T22:15:36Z",
+      "summary": "pm",
+      "image_url": ""
+    },
+    {
+      "id": "dd5b43022faa7bac8134",
+      "source_id": "C035",
+      "title": "Dedirock改ip如何收费",
+      "url": "https://www.nodeseek.com/post-963286-1",
+      "published_at": "2026-10-03T22:11:08Z",
+      "summary": "rt",
+      "image_url": ""
+    },
+    {
+      "id": "b66cfdb86806e197a580",
+      "source_id": "T001",
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "published_at": "2026-10-03T22:07:13Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "e655c8511a61b10afea3",
+      "source_id": "C035",
+      "title": "【TQ】绿云 Black Friday 2025 - 2222 JP (Softbank)",
+      "url": "https://www.nodeseek.com/post-963285-1",
+      "published_at": "2026-10-03T22:05:28Z",
+      "summary": "作为对比：[TQ]绿云BudgetKVMJP-2(Softbank)$25750GIPv4回程IPv4大包回程IPv6回程国际互联单线程测速报告链接：https://tcpquality.ibsgss.uk/r/bVax_9h9fW",
+      "image_url": ""
+    },
+    {
+      "id": "f02fbf5ee1ca7d2fd680",
+      "source_id": "M003",
+      "title": "Marble.Hall.Murders.S01E02.1080p.HDTV.H264-ORGANiC[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67949912/marble-hall-murders-s01e02-1080p-h264.html",
+      "published_at": "2026-10-03T21:59:33Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.5 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "e800a36e46113453ae9e",
+      "source_id": "M003",
+      "title": "The Celebrity Inner Circle S02E04 HDTV x264-NGP[EZTVx.to].mp4",
+      "url": "https://www.torlock.com/torrent/67949911/the-celebrity-inner-circle-s02e04.html",
+      "published_at": "2026-10-03T21:59:21Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 463 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "878f7aa6bf231757d987",
+      "source_id": "C011",
+      "title": "[分享创造] 看到 Chuttamalle 的 AI 深伪事件后，我做了一个强调安全与尊重的 AI 视频工具",
+      "url": "https://www.v2ex.com/t/1246325#reply0",
+      "published_at": "2026-10-03T21:59:18Z",
+      "summary": "最近看到一条新闻：印度电影《 Devara 》中的歌曲《 Chuttamalle 》，被人用 AI 制作成涉及演员 Janhvi Kapoor 的色情深伪视频。Jr NTR 随后公开谴责，表示将对制作和传播者采取法律行动。 事件报道这让我想了一件事：同样是 AI 换脸、人物替换，用在音乐和舞蹈二创上，可以很有意思；用来色情化他人，就变成了伤害。 所以我做了 Chuttamalle AI ，想把这首歌相关的创作需求，引导到正常、有授权的二创上。也坦白说，希望借这次关注验证一下产品需求。 网站： https://chuttamalleai.com/ 目前第一版围绕 Chuttamalle 视频制作，功能比较集中： 自选片段：可以播放源视频、拖动时间轴选择想制作的 10 秒，也有快捷选段。 Face Swap / Person Swap：提供换脸和换人物两种模式。 分别替换人物：男、女角色可以分别上传参考照片，只上传一张时，另一位保留原人物。 图片审核：上传照片在进入生成流程前，会经过 NSFW 检测。 登录和支付：支持 Google 登录，单条视频 $5 ，三条 $12 ，按次购买。 我想让这个品牌长期表达的是：安全、尊重的 AI 视频创作。 用户需要确认照片属于自己，或者已获得使用授权。网站明确禁止色情、NSFW 和未经同意的性化二创，也不提供自由提示词或任意源视频上传入口，先把创作",
+      "image_url": ""
+    },
+    {
+      "id": "258cd09c229a5630d888",
+      "source_id": "M003",
+      "title": "Dead Poets Society.1989.2160p.BDRemux.HDR.DV.mkv",
+      "url": "https://www.torlock.com/torrent/67949869/dead-poets-society-1989-2160p-bdremux-hdr-dv.html",
+      "published_at": "2026-10-03T21:52:11Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 53.5 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "07a04ebe3475b48ffd24",
+      "source_id": "M003",
+      "title": "300 2006  2160p Open Matte AI Upscaled BluRay 60FPS.H265.SDR.DTS-HD MA TrueHD 7.1.MultiSubs Marjenbo",
+      "url": "https://www.torlock.com/torrent/67949865/300-2160p-open-matte-ai-upscaled-60fps-h265-sdr-dts-hd-ma-truehd-7-1-multisubs-marjenbo.html",
+      "published_at": "2026-10-03T21:52:08Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 55.3 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "ce9de8759a7ff054935a",
+      "source_id": "M003",
+      "title": "Luca Marino - Luca Marino (2018 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949859/luca-marino-luca-marino-%282018-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:52:01Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 186 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "7bc06452968e3e6c725b",
+      "source_id": "M003",
+      "title": "The.Cowboy.Killer.2026.1080p.WEB-DL.H264-PlayfulDarkness.mkv",
+      "url": "https://www.torlock.com/torrent/67949854/the-cowboy-killer-2026-1080p-web-dl-h264-playfuldarkness.html",
+      "published_at": "2026-10-03T21:51:57Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 1.6 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "a60b097cba5d2219cca8",
+      "source_id": "M003",
+      "title": "Luca Marino - Le Farfalle Cantare (2026 Pop) [FLAC 24-44]",
+      "url": "https://www.torlock.com/torrent/67949848/luca-marino-le-farfalle-cantare-%282026-pop%29-%5Bflac-24-44%5D.html",
+      "published_at": "2026-10-03T21:51:56Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 39 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "27baed5fcdadc7234338",
+      "source_id": "M003",
+      "title": "Luca Marino - Aspetto Primavera (2021 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949849/luca-marino-aspetto-primavera-%282021-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:51:56Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 15 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "546550a3be3763d4b635",
+      "source_id": "M003",
+      "title": "Luca Marino - Bigfoot (Original Mix) (2013 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949851/luca-marino-bigfoot-%28original-mix%29-%28-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:51:56Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 35 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "1dc01d40900fd72d60f2",
+      "source_id": "M003",
+      "title": "Luca Marino - Vento Caldo (2021 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949830/luca-marino-vento-caldo-%282021-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:51:36Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 22 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "06ba0b3ca05d7e84acd0",
+      "source_id": "M003",
+      "title": "Dark.Phoenix.2019.2160P.Ai Enhanced.Bluray.60FPS.AV1.10BIT.SDR.DTS5.1_Marjenbo",
+      "url": "https://www.torlock.com/torrent/67949829/dark-phoenix-2019-2160p-ai-enhanced-60fps-av1-10bit-sdr-dts5-1_marjenbo.html",
+      "published_at": "2026-10-03T21:51:35Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 31.9 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "28b30ad5171ecd2dc776",
+      "source_id": "M003",
+      "title": "1944- Hollywood Canteen.mp4",
+      "url": "https://www.torlock.com/torrent/67949823/1944-hollywood-canteen.html",
+      "published_at": "2026-10-03T21:51:33Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 1.3 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "57af1d41ba55c15db0a6",
+      "source_id": "M003",
+      "title": "Luca Marino - L'Abitudine (2025 Pop) [FLAC 24-48]",
+      "url": "https://www.torlock.com/torrent/67949820/luca-marino-l%27abitudine-%282025-pop%29-%5Bflac-24-48%5D.html",
+      "published_at": "2026-10-03T21:51:32Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 25 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "2af2c855ae64be29f297",
+      "source_id": "M003",
+      "title": "Image-Line FL Studio Producer Edition 26.1.7.5653 Multilingual + Fix",
+      "url": "https://www.torlock.com/torrent/67949818/image-line-fl-studio-producer-edition-26-1-7-5653-multilingual-%2B-fix.html",
+      "published_at": "2026-10-03T21:51:30Z",
+      "summary": "Category: Software Seeds: 0 Leechers: 0 Size: 1.3 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "64af0a9903f803534d0b",
+      "source_id": "M003",
+      "title": "Luca Marino - Sotto lo stesso sole (2021 Pop) [FLAC 24-44]",
+      "url": "https://www.torlock.com/torrent/67949817/luca-marino-sotto-lo-stesso-sole-%282021-pop%29-%5Bflac-24-44%5D.html",
+      "published_at": "2026-10-03T21:51:29Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 35 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "de9b1446bc60ef83b223",
+      "source_id": "M003",
+      "title": "Luca Marino - davvero! (2024 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949815/luca-marino-davvero%21-%282024-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:51:27Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 24 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "9aa54304b48f32beecc3",
+      "source_id": "M003",
+      "title": "Luca Marino - Vivere non è di moda (2019 Pop) [FLAC 16-44]",
+      "url": "https://www.torlock.com/torrent/67949812/luca-marino-vivere-non-%C3%A8-di-moda-%282019-pop%29-%5Bflac-16-44%5D.html",
+      "published_at": "2026-10-03T21:51:24Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 180 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "c1d822e427d7551d990f",
+      "source_id": "M003",
+      "title": "Imperious_Mortality-Abyss_of_Uncreation-24BIT-WEB-FLAC-2026-TRB",
+      "url": "https://www.torlock.com/torrent/67949813/imperious_mortality-abyss_of_uncreation-24bit-web-flac-2026-trb.html",
+      "published_at": "2026-10-03T21:51:24Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 364 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "89daa80ea6f7db54e8b3",
+      "source_id": "M003",
+      "title": "WARSHIFT.2.Update.v2.39-TRB",
+      "url": "https://www.torlock.com/torrent/67949800/warshift-2-update-v2-39-trb.html",
+      "published_at": "2026-10-03T21:51:12Z",
+      "summary": "Category: Games Seeds: 0 Leechers: 0 Size: 47 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "f119bd2283a9318de9d7",
+      "source_id": "M003",
+      "title": "Ethan Gale",
+      "url": "https://www.torlock.com/torrent/67949802/ethan-gale.html",
+      "published_at": "2026-10-03T21:51:12Z",
+      "summary": "Category: eBooks Seeds: 0 Leechers: 0 Size: 447 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "6fe2037484a31d27c5c4",
+      "source_id": "M003",
+      "title": "DLRAW.APP_Ryu_Okuri_No_Isagi vol 01-08.rar",
+      "url": "https://www.torlock.com/torrent/67949805/dlraw-app_ryu_okuri_no_isagi-vol-01-08.html",
+      "published_at": "2026-10-03T21:51:12Z",
+      "summary": "Category: eBooks Seeds: 0 Leechers: 0 Size: 1 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "8388a993249203f2ba38",
+      "source_id": "M003",
+      "title": "Vaazha II Biopic Of A Billion Bros (2026) [2160p] [4K] [WEB] [5.1] [YTS.GG - YTS.BZ]",
+      "url": "https://www.torlock.com/torrent/67949782/vaazha-ii-biopic-of-a-billion-bros-%282026%29-%5B2160p%5D-%5B4k%5D-%5Bweb%5D-%5B5-1%5D-%5Byts-gg-yts-bz%5D.html",
+      "published_at": "2026-10-03T21:50:10Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 7.2 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "03c21183b3cdf1562894",
+      "source_id": "M003",
+      "title": "[Erai-raws] Zombie Sagashitemasu - 01 [1080p CR WEBRip HEVC AAC][MultiSub][AD92B5FC].mkv",
+      "url": "https://www.torlock.com/torrent/67949773/zombie-sagashitemasu-01-%5B1080p-cr-webrip-hevc-aac%5D%5Bmultisub%5D%5Bad92b5fc%5D.html",
+      "published_at": "2026-10-03T21:49:00Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 550 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "397510ea686632b6ec64",
+      "source_id": "M003",
+      "title": "Magical Explorer S01E01 SUBFRENCH 720p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+      "url": "https://www.torlock.com/torrent/67949774/magical-explorer-s01e01-subfrench-720p-cr-web-dl-aac2-0-tsundere-raws.html",
+      "published_at": "2026-10-03T21:49:00Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 705 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "de2dab74a0d26e3f082c",
+      "source_id": "C035",
+      "title": "bero已补货",
+      "url": "https://www.nodeseek.com/post-963284-1",
+      "published_at": "2026-10-03T21:41:23Z",
+      "summary": "有需要的快冲他https://bero-host.de/kvm-rootserver•优惠码：LET10（首期10%折扣，如€39/年→€35.10，€12/年→€10.80）",
+      "image_url": ""
+    },
+    {
+      "id": "4d1985aa1f7188307363",
+      "source_id": "M003",
+      "title": "[Erai-raws] Detective Conan - 1215 [1080p CR WEBRip HEVC AAC][MultiSub][89594C9E].mkv",
+      "url": "https://www.torlock.com/torrent/67949707/detective-conan-1215-%5B1080p-cr-webrip-hevc-aac%5D%5Bmultisub%5D%5B89594c9e%5D.html",
+      "published_at": "2026-10-03T21:40:27Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 343 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "2d06881885b8f62e89e8",
+      "source_id": "M003",
+      "title": "On Patrol Live S05E21 720p WEB H264-JFF[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67949706/on-patrol-live-s05e21-720p-web-h264-jff.html",
+      "published_at": "2026-10-03T21:39:00Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.4 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "501ee41075a63886f4fe",
+      "source_id": "M003",
+      "title": "Kill.The.Shadow.Update.v20260907-TRB",
+      "url": "https://www.torlock.com/torrent/67949681/kill-the-shadow-update-v20260907-trb.html",
+      "published_at": "2026-10-03T21:33:10Z",
+      "summary": "Category: Games Seeds: 0 Leechers: 0 Size: 642 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "d6d211b319cab02ed342",
+      "source_id": "M003",
+      "title": "Agustin_Olmedo-Ciclotimia_EP-FRS022-24BIT-WEB-FLAC-2026-TRB",
+      "url": "https://www.torlock.com/torrent/67949677/agustin_olmedo-ciclotimia_ep-frs022-24bit-web-flac-2026-trb.html",
+      "published_at": "2026-10-03T21:32:57Z",
+      "summary": "Category: Music Seeds: 0 Leechers: 0 Size: 283 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "286e6853f209ec9c7280",
+      "source_id": "M003",
+      "title": "UNABOMBER.2026.1080p.NF.WEB-DL.H.264-EniaHD.mkv",
+      "url": "https://www.torlock.com/torrent/67949678/unabomber-2026-1080p-nf-web-dl-h-264.html",
+      "published_at": "2026-10-03T21:32:57Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 5.6 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "304e6c6ba299a8dd63f6",
+      "source_id": "M003",
+      "title": "Hades.II.Update.v1.143476-TRB",
+      "url": "https://www.torlock.com/torrent/67949675/hades-ii-update-v1-143476-trb.html",
+      "published_at": "2026-10-03T21:32:42Z",
+      "summary": "Category: Games Seeds: 0 Leechers: 0 Size: 67 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "b3c97f96cbc801711b26",
+      "source_id": "C035",
+      "title": "[NQ] bero 89€",
+      "url": "https://www.nodeseek.com/post-963283-1",
+      "published_at": "2026-10-03T21:08:57Z",
+      "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m45.82.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[0",
+      "image_url": ""
+    },
+    {
+      "id": "8aaf1bb8b632210542dc",
+      "source_id": "C035",
+      "title": "【NodeQuality】Bero-Host Anniversary M 49€",
+      "url": "https://www.nodeseek.com/post-963282-1",
+      "published_at": "2026-10-03T20:54:56Z",
+      "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m45.82.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[0",
+      "image_url": ""
+    },
+    {
+      "id": "6603f31d6f6e3c901851",
+      "source_id": "T001",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "published_at": "2026-10-03T20:49:15Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "5caf0df087dea2e8ade3",
+      "source_id": "T001",
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "published_at": "2026-10-03T20:27:44Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "706f1750f7172584a7a8",
+      "source_id": "B008",
+      "title": "Ace Combat 8: Wings of Theve Trainer",
+      "url": "https://flingtrainer.com/trainer/ace-combat-8-wings-of-theve-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=ace-combat-8-wings-of-theve-trainer",
+      "published_at": "2026-10-03T20:17:44Z",
+      "summary": "Options Num 1 – God Mode/Ignore Hits Num 2 – Infinite Health Num 3 – Infinite Ammo Num 4 – Infinite Missiles & SP Weapon Ammo Num 5 – Instant Missile & SP Weapon Cooldown Num 6 – Infinite Flares Num 7 – Instant Flare Cooldown Num 8 – Freeze Mission Timer Num 9 –... The post Ace Combat 8: Wings of Theve Trainer appeared first on FLiNG Trainer.",
+      "image_url": "https://flingtrainer.com/wp-content/uploads/2026/10/1-1.png"
+    },
+    {
+      "id": "0cbd9fc357020a45c27d",
+      "source_id": "T001",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "published_at": "2026-10-03T19:33:16Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "ac325ce85a3971b9404a",
+      "source_id": "C011",
+      "title": "[分享创造] 做了一个 Raindance AI 视频小工具，欢迎大家来用",
+      "url": "https://www.v2ex.com/t/1246324#reply0",
+      "published_at": "2026-10-03T19:27:47Z",
+      "summary": "最近做了一个网站：Raindance AI，今天刚上线，想在这里分享一下，也请大家帮忙看看。 它的用途比较简单：选一个视频模板，上传照片，把自己放进视频里。围绕的是 Dave 和 Tems 的 Raindance 视频趋势，目前有夕阳码头、雨天、海边等 10 个模板，支持单人和双人。 做的时候，我觉得有一个问题需要说清楚：用户说“换脸”，实际期待可能不一样。有人希望只换自己的头，保留模板里的衣服和动作；有人希望连人物的外形、服装一起换。 所以现在提供了两种选择： 换头：参考上传照片的脸和发型，尽量保留模板的身体与服装。 全身替换：参考照片中的人物外形和服装，建议上传全身照片。 换头模式也包含发型。只把五官换过去、头发仍然是模板人物的，看起来很容易让人觉得“这不是我”。当然，AI 视频编辑仍然会出现细节变化，我也不想把它描述成能够百分之百还原本人。 操作流程就是选模板、上传照片、选择模式，然后生成、预览和下载。双人模板分别上传左右两个人的照片，上传图片会先经过内容检测。 技术上复用了已有项目的后端，部署在 Cloudflare 上，用 Workers、D1 和 R2，登录接了 Google，支付用 Stripe。上线过程中也踩了一些小坑，比如登录后想跳回首页生成器，传了 /#create，结果被登录框架的返回地址校验拒绝，后来改成完整的本站地址才解决。 目前是按次付费，没有订阅： 1",
+      "image_url": ""
+    },
+    {
+      "id": "add9e60c673739ad7bf6",
+      "source_id": "T001",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "published_at": "2026-10-03T19:14:48Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "e5b53724aa322861f00f",
+      "source_id": "T001",
+      "title": "RSS Feed Best Practices (2022)",
+      "url": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
+      "published_at": "2026-10-03T19:09:25Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "e2bd5efbdc70d5eb153d",
+      "source_id": "T001",
+      "title": "How to hack time, with C2PA",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+      "published_at": "2026-10-03T18:52:06Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "446de80f644a670fbab4",
+      "source_id": "T001",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "published_at": "2026-10-03T18:29:30Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "26b63dfd04d71843b2a9",
+      "source_id": "T001",
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "published_at": "2026-10-03T18:23:48Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "6a3d0b50b64d64580628",
+      "source_id": "C011",
+      "title": "[分享创造] 做了一个 rap 视频生成器，可以上传照片生成 rap 视频。",
+      "url": "https://www.v2ex.com/t/1246323#reply0",
+      "published_at": "2026-10-03T18:07:38Z",
+      "summary": "做了一个 rap 视频生成器，可以上传照片生成 rap 视频。 1 、上传 2 张人物图片，可以是你和好哥们的，可以是你和你女朋友的； 2 、输入主题：给暗恋对象整活，吐槽什么事情，祝朋友生日快乐等等； 3 、AI 直接生成你化身地下 Rapper 、自带薄肌质感、手势到位的说唱视频。 核心功能： 图片角色绑定 + Rap 动作/音唇同步生成 https://rapvideoai.com/ 赶快来试试吧！",
+      "image_url": ""
+    },
+    {
+      "id": "d8ff026479dd32e5adb3",
+      "source_id": "T001",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "published_at": "2026-10-03T18:06:45Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "e2d9c4695db44862b3f7",
+      "source_id": "T001",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "published_at": "2026-10-03T18:01:27Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "cb438d546ca589d1b1e0",
+      "source_id": "C011",
+      "title": "[程序员] 相比 AI 的能力，觉得更可怕是它进步的速度、变化的幅度。",
+      "url": "https://www.v2ex.com/t/1246322#reply6",
+      "published_at": "2026-10-03T17:47:32Z",
+      "summary": "在 Reddit 看到一位做游戏开发的老哥发飙，说 AI 先在的能力，开始让他都不知道怎么排期了…… https://www.reddit.com/r/gamedev/comments/1wo5asm/comment/pdnbnwt/?context=3&sort=confidence V2EX 上也有朋友，表达了类似感受。我的个人经历： 23 年，收集、打磨提示词。 24 年，研究 LangChain 、AutoGen 、n8n 、Dify ，开发我的 Agentic 工作流 25 年，研究 MCP 、长期记忆、编程 Spec 26 年，把之前的积累，做成 Skills 、以及 Skills 管理工具 …… LLM 提供商，是否收集了人们为更好使用 LLM 而探索出来的经验与智慧，并以此训练 LLM 的下一个版本？ 我感觉，为了更好使用 AI 而做的努力，成果几乎都迅速变为了 AI 的默认能力；而没有追赶这些技术、AI 有啥就用啥的人，日子还可能反而过的更轻松惬意。 昨天看到报道，一个自称从未破解过密码的人 carter.church ，用 GPT Astra 破解了一个存在有 217 年的拿破仑密令。而 OpenAI 对 Navier–Stokes 千禧年问题的证明、Anthropic 对黎曼猜想的证明的推进……也都不是由领域内最资深的人得出的……不是吗？ AI 正在把专属于各",
+      "image_url": ""
+    },
+    {
+      "id": "dbf9eb2888a1cfeb7fdb",
+      "source_id": "T001",
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "published_at": "2026-10-03T17:44:29Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "a22a393474270046eecc",
+      "source_id": "C011",
+      "title": "[分享创造] 写了 8 年代码，终于明白“说唱是男人最好的医美”",
+      "url": "https://www.v2ex.com/t/1246321#reply1",
+      "published_at": "2026-10-03T17:35:39Z",
+      "summary": "最近\"薄肌\"火了，我想说\"薄肌\"什么的弱暴了，说唱才是男人最好的医美。 趁着国庆摸鱼，我搓了个站点： https://rapvideoai.com/ 简单粗暴： 1 、上传一张两张图片，可以是你和好哥们的，可以是你和你女朋友的； 2 、输入主题：给暗恋对象整活，吐槽什么事情，祝朋友生日快乐等等； 3 、AI 直接生成你化身地下 Rapper 、自带薄肌质感、手势到位的说唱视频。 核心功能： 图片角色绑定 + Rap 动作/音唇同步生成 原本是做给自己整活的，发给几个同组同事看，他们纷纷把自己老板的照片塞进去唱“今晚我不加班”，效果极度拔群。 你也想体验一下从“大厂螺丝钉的”一秒爆改成“说唱圈黄毛”，欢迎来玩玩提点意见： https://rapvideoai.com 质疑黄毛，理解黄毛，成为黄毛，赶快试试吧！",
+      "image_url": ""
+    },
+    {
+      "id": "b8344cb32959693fcd29",
+      "source_id": "S002",
+      "title": "SimpleMind 2.10.2 小巧的思维导图工具",
+      "url": "https://xclient.info/s/simplemind.html",
+      "published_at": "2026-10-03T17:30:11Z",
+      "summary": "SimpleMind是Mac OS X上一款思维导图工具，这款工具非常小巧，完全可以取代笨重的MindManager，对Mac开发者来说称得上是一大福音了。",
+      "image_url": "https://img.xclient.info/attachment/2016/04/1e40fb5e-95a6-b92d-d171-75ea5cffbe23.png"
+    },
+    {
+      "id": "3d6d4ae9ba718fd50ba8",
+      "source_id": "S007",
+      "title": "限时免费获取游戏 Gnumz 2: Arcane Power[Windows][$9.99→0]",
+      "url": "https://free.apprcn.com/limited-time-get-game-gnumz-2-arcane-power-for-free/",
+      "published_at": "2026-10-03T17:26:32Z",
+      "summary": "Gnumz 2: Arcane Power 是备受期待的热门陷阱建造策略游戏的续作，矮人城正面临前所未有的巨大威胁！成群的敌人游荡在古老的殿堂中，渴望着魔法矿石。山中的主人已做好准备，运用巧妙的陷阱和强大的魔法力量对抗这些敌人。只要一声令下，敌人便会溃败！",
+      "image_url": "https://freeapp.macapp8.com/233463517520e13fe3c2d41efc8c8439.jpeg?imageView2/2/w/1920"
+    },
+    {
+      "id": "9baa9d05a2099657c370",
+      "source_id": "S002",
+      "title": "BuhoLaunchpad 2.0.0 重塑经典风格的应用启动器",
+      "url": "https://xclient.info/s/buholaunchpad.html",
+      "published_at": "2026-10-03T17:25:25Z",
+      "summary": "BuhoLaunchpad 是一款兼具“怀旧体验”与“现代化定制”的应用启动器，通过突破原生网格限制和完善的布局备份功能，为用户提供了比系统自带 Launchpad 更高的掌控力。",
+      "image_url": "https://img.xclient.info/attachment/2026/03/cb1e02a0-b502-433c-27e0-bf241cec9745.png"
+    },
+    {
+      "id": "0fea03937d37e1d3fc4f",
+      "source_id": "S002",
+      "title": "extraDock 4.3.23 自定义浮动Dock",
+      "url": "https://xclient.info/s/extradock.html",
+      "published_at": "2026-10-03T17:24:35Z",
+      "summary": "ExtraDock 让你在 Mac 上创建多个可自定义的浮动 Dock，以更灵活高效地管理应用和工作流程。",
+      "image_url": "https://img.xclient.info/attachment/2025/12/83c12166-96f2-97b7-ba9e-3b2c27132322.png"
+    },
+    {
+      "id": "968d4d9770c6ea464606",
+      "source_id": "S002",
+      "title": "Expenses 4.1.2 支出追踪工具",
+      "url": "https://xclient.info/s/expenses.html",
+      "published_at": "2026-10-03T17:23:59Z",
+      "summary": "Expenses 是一款简约、私密、直观的支出追踪工具。它能以任何币种跟踪你的支出和收入，扫描收据，分析趋势，共享预算--所有这些都无需注册、账户或收集个人数据。该应用程序的核心理念是简单、快速和绝对隐私。",
+      "image_url": "https://img.xclient.info/attachment/2026/06/b01b1015-d35d-eead-cccb-67de09e1a97a.webp"
+    },
+    {
+      "id": "403341d9b11cfea9af11",
+      "source_id": "T001",
+      "title": "Vx – One Language, Every Chip",
+      "url": "https://vxlang.org/",
+      "published_at": "2026-10-03T17:23:20Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "5f8dec3073b84ed54c8b",
+      "source_id": "S002",
+      "title": "SerialMailer 8.6.1 强大且便捷的邮件程序",
+      "url": "https://xclient.info/s/serialmailer.html",
+      "published_at": "2026-10-03T17:23:11Z",
+      "summary": "一款强大且便捷的应用程序，适用于企业和个人，无需不断重写收件人地址即可向大量人群发送电子邮件。内置数据库允许高效管理联系人，并能够从其他应用程序（如通讯录）导入地址。SerialMailer允许您通过在消息中插入信息字段来发送个性化电子邮件，程序将自动填充这些字段。",
+      "image_url": "https://img.xclient.info/attachment/2026/04/af5487d4-14be-c5af-7f40-c360e21cd54d.webp"
+    },
+    {
+      "id": "b6a32333b53c76297a73",
+      "source_id": "S002",
+      "title": "Postico 2.3.4 优秀的PostgreSQL客户端",
+      "url": "https://xclient.info/s/postico.html",
+      "published_at": "2026-10-03T17:22:33Z",
+      "summary": "Postico是一款Mac平台的优秀的PostgreSQL客户端，支持本地和远程云服务，Heroku Postgres, Amazon Redshift, Amazon RDS等",
+      "image_url": "https://img.xclient.info/attachment/2025/11/989e2869-442d-85d6-dbb2-42972f80136e.png"
+    },
+    {
+      "id": "80a92835f20a9598cbce",
+      "source_id": "S002",
+      "title": "Hyperspace 1.8.1 重复文件查找",
+      "url": "https://xclient.info/s/hyperspace.html",
+      "published_at": "2026-10-03T17:21:46Z",
+      "summary": "Hyperspace 会在一个或多个文件夹中查找内容相同的文件。如果发现了相同的文件，它可以在不删除任何文件的情况下，释放除一个文件外所有重复文件占用的磁盘空间！",
+      "image_url": "https://img.xclient.info/attachment/2025/06/6ca75953-6a0e-ef52-4dbd-6c3359cba259.png"
+    },
+    {
+      "id": "cabd44c4d3cda82b8896",
+      "source_id": "S002",
+      "title": "Substage 1.1.4 自然语言指令与文件自动化处理工具",
+      "url": "https://xclient.info/s/substage.html",
+      "published_at": "2026-10-03T17:21:12Z",
+      "summary": "Substage 是一款将自然语言交互与 macOS 终端强大生产力无缝缝合的桌面文件管理增强利器。它通过结合上下文感知、前置安全模拟以及对本地开源大模型的无缝支持，让用户无需记忆复杂的 Shell 语法即可在 Finder 内高效完成高阶文件自动化调度。",
+      "image_url": "https://img.xclient.info/attachment/2026/09/7e2f8b7c-6ebf-0857-f6e0-1f1712efc424.png"
+    },
+    {
+      "id": "91ad23f83787cf016d73",
+      "source_id": "S002",
+      "title": "Compresto 1.31 离线视频和图像压缩工具",
+      "url": "https://xclient.info/s/compresto.html",
+      "published_at": "2026-10-03T17:20:32Z",
+      "summary": "Compresto 是一款功能强大、操作简便的离线压缩工具，非常适合需要高效处理大量视频和图像文件的用户。",
+      "image_url": "https://img.xclient.info/attachment/2025/07/8b179c19-d9e6-ba0a-5f97-2ffaba00a85c.png"
+    },
+    {
+      "id": "8a32a48abbcf638c2543",
+      "source_id": "S002",
+      "title": "Photos Exif Editor 5.1 照片元数据编辑",
+      "url": "https://xclient.info/s/photos-exif-editor.html",
+      "published_at": "2026-10-03T17:19:54Z",
+      "summary": "Photos Exif Editor照片EXIF编辑器是一个直观的应用程序，可以在任何时间编辑数千张照片的EXIF，IPTC和XMP数据！",
+      "image_url": "https://img.xclient.info/attachment/2018/06/d7cc5eb8-3a79-d4f5-8dd7-e611e6044733.png"
+    },
+    {
+      "id": "b62843be8d7529216d49",
+      "source_id": "C011",
+      "title": "[远程工作] USACO 竞赛编程讲师（远程，华盛顿州）",
+      "url": "https://www.v2ex.com/t/1246319#reply0",
+      "published_at": "2026-10-03T17:09:32Z",
+      "summary": "职位简介 我们正在招募一名积极热情、具备扎实算法竞赛背景的 USACO （美国计算机奥林匹克竞赛）竞赛编程讲师，以远程兼职的形式加入我们的团队，为北美 K–12 学生提供高质量的算法与竞赛编程指导。 作为团队的一员，你将帮助学生系统学习算法、数据结构和编程技巧，指导他们解决具有挑战性的竞赛题目，培养逻辑思维、独立解决问题的能力，并为 USACO 等算法竞赛做好准备。 我们希望你不仅具备优秀的编程能力和算法竞赛经验，还热爱教学，善于将复杂的算法概念讲解清楚，并能够根据学生的不同水平提供有针对性的指导。如果你对教育科技和 AI 辅助学习产品的开发也感兴趣，未来还有机会参与相关产品和学习工具的设计与建设。 工作职责 根据学生的年龄、编程基础和竞赛目标，设计和准备算法、数据结构及竞赛编程课程。 为学生讲解 USACO 涉及的核心知识点、常见算法、解题思路和编程技巧。 通过实际编程练习、经典竞赛题目和模拟比赛，帮助学生提升分析问题和解决问题的能力。 指导学生分析复杂题目，理解不同解法的思路、时间复杂度和空间复杂度，并优化代码实现。 根据学生的学习进度和薄弱环节，提供个性化反馈、学习建议和针对性的练习。 跟踪学生的学习表现与竞赛准备情况，及时调整教学内容和辅导策略。 营造积极、互动的学习氛围，鼓励学生主动思考、独立探索，并培养面对难题时的耐心与韧性。 根据需要，与学生及家长沟通学习进展、阶段性",
+      "image_url": ""
+    },
+    {
+      "id": "25e863183a7b626083b8",
+      "source_id": "T001",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "published_at": "2026-10-03T17:03:37Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "7cfcc38e869079b94c22",
+      "source_id": "C011",
+      "title": "[OpenAI] 有没有人觉得 Codex 的智能比 Chat 差多了",
+      "url": "https://www.v2ex.com/t/1246318#reply1",
+      "published_at": "2026-10-03T17:00:43Z",
+      "summary": "我怎么感觉 Chat 回答的质量比 Codex 的 Astra 高多了，更别提 Sol 。而且不是差一点点，是差的非常多，感觉像两代模型。有人同样觉得么？",
+      "image_url": ""
+    },
+    {
+      "id": "f4f0475d961a074594ba",
+      "source_id": "T001",
+      "title": "RetailReady (YC W24) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations",
+      "published_at": "2026-10-03T17:00:12Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "8fdb9af1f01a7bdcbba9",
+      "source_id": "C018",
+      "title": "半夜校园网断网，为什么流量也用不了？ - 粉紫系超人气月兔铃仙",
+      "url": "https://www.cnblogs.com/Reisentyan/p/23193616",
+      "published_at": "2026-10-03T16:51:00Z",
+      "summary": "半夜校园网断网，为什么流量也用不了？ 大学这四年饱受折磨，半夜断网之后，手机开热点给电脑用，但是往往有一些网站，不管怎么刷新都进不去，浏览器上显示的是白屏。 但是奇怪的是，手机却可以进去，明明电脑上没有任何的网络问题。 因为不是很紧急的待解决的问题，所以每次都忘记去处理这件事。 咬咬牙就忍过去了，懒",
+      "image_url": ""
+    },
+    {
+      "id": "02e5048b5a3fc2f6d244",
+      "source_id": "S007",
+      "title": "Wise Care 365 Pro – 系统清理优化软件[终身不可更新授权][Windows][$29.95→0]",
+      "url": "https://free.apprcn.com/wise-care-365-pro-122/",
+      "published_at": "2026-10-03T16:30:50Z",
+      "summary": "Wise Care 365 Pro 是一款能为你清理硬盘中无用文件、注册表中无用键值条目，优化系统，提高系统性能的软件。软件中附带了不少小工具，都是可以帮你为系统进行清理、修复系统一些常见的使用问题。本次赠送版本为 8.0.6，终身授权但不可升级版本。",
+      "image_url": "https://freeapp.macapp8.com/Wise_Care_365_Pro-System_Monitor-804.webp?imageView2/2/w/1920"
+    },
+    {
+      "id": "a34bc8cb1d83e957db8e",
+      "source_id": "C006",
+      "title": "华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型",
+      "url": "https://www.ithome.com/1/009/580.htm",
+      "published_at": "2026-10-03T16:20:02Z",
+      "summary": "IT之家 10 月 4 日消息，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 Mate 90 系列手机正式发布。其中，Mate 90 Pro Max / RS 非凡大师搭载的是首款逻辑折叠 τ 芯片 —— 麒麟 9050 Pro。 根据华为官方介绍，麒麟 9050 Pro 是麒麟性能新巅峰，通过软硬芯云垂直整合，整机性能提升 31%。这枚芯片 CPU 还支持 9 核 16 线程超线程技术，多核性能提升 23%、GPU 渲染性能提升 40%、NPU 性能提升 140%。 极客湾发布了一期针对华为 Mate 90 Pro Max 的性能分析报告，讲解了麒麟 9050 Pro 的逻辑折叠是如何实现，并公开了 Mate 90 Pro Max 的实际性能续航表现。 需要注意的是，此次华为 Mate 90 和 Mate 90 Pro 分别搭载的是麒麟 9030 和麒麟 9035 处理器。前者为 Mate 80 Pro 同款芯片，较搭载麒麟 9020 的 Mate 80 强 27%；后者其实相当于麒麟 9030 Pro（CPU、GPU 规格完全相同），仅峰值频率有所提升，较搭载麒麟 9030 的 Mate 80 Pro 强 20%。 另外，麒麟 9030、麒麟 9035 与麒麟 9050 Pro 采用相同的 CPU 核心架构设计，实际应用时可支持鸿蒙 Har",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/b70d4e90-b430-435e-ac84-395a36cb49c7.jpg"
+    },
+    {
+      "id": "1e50c4e963dffd6b3c78",
+      "source_id": "C011",
+      "title": "[德语] 用 GPT Live 构建了一个 德语 B1 口语考试的工具",
+      "url": "https://www.v2ex.com/t/1246317#reply0",
+      "published_at": "2026-10-03T16:15:26Z",
+      "summary": "有准备歌德或 telc B1 口试的朋友可以试试。 AI 扮演考官和另一位考生，陪你走完三个部分。实时对话用 GPT-Live ，结束后由 GPT-6 根据你说过的句子给反馈，也能回听录音。 地址： https://b1sprechen.com 免费体验码：V2EX-9MFP 建议用电脑和麦克风。欢迎试试，尤其想听听考过的朋友觉得和真实考试有什么差距。",
+      "image_url": ""
+    },
+    {
+      "id": "20bde10174dbe0afdcbf",
+      "source_id": "C011",
+      "title": "[程序员] 3 号凌晨的这次重置，体感鲜明的感受到了额度的下降",
+      "url": "https://www.v2ex.com/t/1246316#reply8",
+      "published_at": "2026-10-03T16:08:33Z",
+      "summary": "一天干了 50%的周额度，20pro 的订阅。 任务负载今天也没有增加啥的，就是平常的正常用。",
+      "image_url": ""
+    },
+    {
+      "id": "f78f75f25fc06a17e92a",
+      "source_id": "C011",
+      "title": "[程序员] 还有人说这波 Personal AI Agent 是伪需求？",
+      "url": "https://www.v2ex.com/t/1246315#reply3",
+      "published_at": "2026-10-03T16:05:38Z",
+      "summary": "网上竟然还有不少人认为这轮的 personal AI Agent 是伪需求。 其实一个产品是不是伪需求，最好的检验标准，就是看不懂技术的普罗大众能不能用起来？是不是已经离不开了？ 那我们看现在这些普通用户分享出来的大量的案例，其已经说明了这个问题。 这个比年初的小龙虾靠谱 10 倍都不止吧。 https://agentshow.cc",
+      "image_url": ""
+    },
+    {
+      "id": "f9d129f5c25c3841e72a",
+      "source_id": "C006",
+      "title": "明日出行请注意，交通运输部提示 33 个高速公路路段易发拥堵",
+      "url": "https://www.ithome.com/1/009/579.htm",
+      "published_at": "2026-10-03T15:27:44Z",
+      "summary": "IT之家 10 月 3 日消息，据交通运输部动态研判，10 月 4 日，全国高速公路有 33 个路段易发拥堵，主要集中在江苏、四川、广东、湖南、浙江等省份。如计划途经这些路段，请合理安排出行时间和路线。 序号省份城市路线编号路线名称起点桩号止点桩号方向1江苏南京市G25长深高速K2152K2094下行2江苏无锡市G2京沪高速K1091K1121上行3江苏无锡市S48沪宜高速K134K171上行4江苏常州市G4221沪武高速K196K166下行5江苏南通市G15沈海高速K1180K1219上行6江苏淮安市G1516盐洛高速K220K187下行7江苏盐城市G15沈海高速K954K984上行8江苏盐城市G15沈海高速K1076K1147上行9江苏扬州市G2京沪高速K893K933上行10江苏镇江市G42沪蓉高速K242K203下行11四川成都市G4202成都绕城高速K1K79上行12四川成都市G4217蓉昌高速K3K35上行13四川成都市S2成巴高速K71K37下行14四川德阳市G5京昆高速K1745K1778上行15四川广安市G65包茂高速K1456K1495上行16四川雅安市G5京昆高速K1953K1917下行17四川资阳市G5013渝蓉高速K169K202上行18广东广州市G1508广州绕城高速K43K120下行19广东广州市S81广州环城高速K0K59上行20广东广州市S81广州",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/db826883-aeb1-4f7e-b90c-698bc1d50d6a.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "6b30b73eb1695c8e4910",
+      "source_id": "C018",
+      "title": "蜂鸣器为什么会响：有源、无源和低电平触发 - Zw-awa",
+      "url": "https://www.cnblogs.com/zw-awa/p/23193318",
+      "published_at": "2026-10-03T15:26:00Z",
+      "summary": "同样接上电源，有的蜂鸣器自己就叫了，有的怎么通电都不出声。有源、无源和触发电平之间到底差在哪，程序里那一行又该写什么才算对？",
+      "image_url": ""
+    },
+    {
+      "id": "744c005ac5f810efc184",
+      "source_id": "C006",
+      "title": "泰坦军团“P2511G+”24.5 英寸显示器发售：1080P 215Hz 超频，509 元",
+      "url": "https://www.ithome.com/1/009/578.htm",
+      "published_at": "2026-10-03T15:18:00Z",
+      "summary": "IT之家 10 月 3 日消息，泰坦军团旗下“P2511G+”24.5 英寸显示器现已在京东发售，该机主打 1080P 215Hz 超频，定价为 509 元，部分地区国补后低至 483.55 元。 京东泰坦军团 P2511G+ 显示器 509 元直达链接 该机配备一块 1920x1080 分辨率 215Hz 超频（原生 200Hz）Fast IPS 面板，显示器亮度 400 尼特，GtG 响应速度 1ms，显示器支持 8-Bit 色彩，覆盖 99% sRGB 色域。 该机支架支持俯仰，显示器本体支持 VESA 100x100mm 壁挂，提供 1 个 HDMI 2.0、1 个 DP1.4、1 个 3.5mm 音频接口。 IT之家附显示器参数如下：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/526611/32/3314/159335/6aa7a767F27c4eda0/0083320320abd192.png"
+    },
     {
       "id": "4ccb804ff5f0b0564836",
       "source_id": "C035",
@@ -489,6 +1371,15 @@
       "image_url": ""
     },
     {
+      "id": "a89e81395717f5609bec",
+      "source_id": "C014",
+      "title": "1 (评论: La Faculté de juger)",
+      "url": "https://book.douban.com/review/17840782/",
+      "published_at": "2026-10-03T14:06:27Z",
+      "summary": "非行少女神乃襞评论: La Faculté de juger (https://book.douban.com/subject/5936835/) 评价: 力荐 {\"blocks\":[{\"key\":\"ad3sf\",\"text\":\"南希和德里达的论文形成了某种奇妙的互文：南希不自觉地回应了卡夫卡的低吟“我是自由的那就是我迷失的原因”，自由这一权能的自我给定依然意味着一种不自由的自我约束，这种约束并非来自道德的或法律的，而是自由“主权”化内在的必然条件（主权因而永远是他律的）；通过对“泰然任之”的反讽式使用，南希实际上进一步激进化了德里达的...",
+      "image_url": "https://img9.doubanio.com/view/subject/m/public/s29626254.jpg"
+    },
+    {
       "id": "7588e2c77a278e1c8e9b",
       "source_id": "C006",
       "title": "铭凡 PCIe 扩展卡 ESP4B 上市，可提供 4 个 M.2 与 4 个 SATA 接口",
@@ -687,6 +1578,15 @@
       "image_url": ""
     },
     {
+      "id": "b1920dc035776b26f023",
+      "source_id": "C014",
+      "title": "冬天的尽头究竟是什么意思 (评论: 冬之喜剧)",
+      "url": "https://book.douban.com/review/17840709/",
+      "published_at": "2026-10-03T13:20:33Z",
+      "summary": "黑船子评论: 冬之喜剧 (https://book.douban.com/subject/38436544/) 评价: 力荐 {\"entityMap\": {\"0\": {\"type\": \"SEPARATOR\", \"data\": {}, \"mutability\": null...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35567032.jpg"
+    },
+    {
       "id": "5f9e178a779e69309272",
       "source_id": "C006",
       "title": "充电桩扫码充电暗藏“弹窗投保”陷阱，消费者莫名被扣款",
@@ -712,6 +1612,15 @@
       "published_at": "2026-10-03T13:08:18Z",
       "summary": "IT之家 10 月 3 日消息，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 ——Mate 90 系列手机正式发布，全系搭载了韬定律芯片。 ▲ IT之家实拍：华为 Mate 90 RS 非凡大师演示样机 IT之家注意到，华为 Mate 90 Pro Max 旗舰机的首个版本更新内容已曝光，包体大小约 745.01 MB，实装了四卡三待、3D 动态照片等功能。 亮点推荐 新增四卡三待功能：可支持 4 个号码（2 个 SIM 卡号码和 2 个 eSIM 号码），可启用其中 3 个号码同时待机，进行通话、短信、上网等功能。 沉浸光感均衡档新增粒子动效：如在通知中心移除通知、桌面移除图标 / 卡片、控制中心调节音量条等场景均会产生粒子动效（设置 > 桌面和个性化 > 沉浸光感 > 均衡档）。 新增亲密圈：牵挂家人，温情常在。您可以邀请家人和挚友共享彼此的健康动态、所在地天气；可以共享屏幕，远程协助家人解决设备使用难题；可以查看设备使用状态，守护家人健康使用设备；还可以共享日程，给家人细致入微的贴心守护；同时支持添加宠物档案，关联宠物相册，珍藏萌宠美好瞬间（设置 > 华为账号 > 亲密圈）。 图库 图库智慧修图功能：依托美学大脑分析，可根据图像内容提供专属修图建议，支持一句话修图、主动推荐、涂鸦生图和圈选生图（图片编辑页 > 点击右下角图库智慧修图入口，",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/9/fe776e20-5f96-4f63-99cd-e5bbdfe5ea77.jpg"
+    },
+    {
+      "id": "2c3bab5be44700e7f0c8",
+      "source_id": "B109",
+      "title": "最近下北泽把月亮请了下来呢",
+      "url": "https://www.wikimoe.com/post/t-tmc7804v",
+      "published_at": "2026-10-03T13:04:48Z",
+      "summary": "最近下北泽把月亮请了下来呢",
+      "image_url": "https://www.wikimoe.com/content/uploadfile/202610/thum-6ac11a4973442a9e9cf27995.webp"
     },
     {
       "id": "42192e1cf14224d6bf54",
@@ -775,6 +1684,15 @@
       "published_at": "2026-10-03T12:47:59Z",
       "summary": "",
       "image_url": ""
+    },
+    {
+      "id": "0f96f807069f92b31b53",
+      "source_id": "C015",
+      "title": "权力结构下个体的服从与残酷，对纽约地下摧毁一切精神的回应——专辑推荐1316.Cop-Swans (评论: Cop/Young God)",
+      "url": "https://music.douban.com/review/17840657/",
+      "published_at": "2026-10-03T12:45:10Z",
+      "summary": "へ星评论: Cop/Young God (https://music.douban.com/subject/1890467/) 评价: 力荐 {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \"\\n\\u8bc4\\u5206\\uff1a8....",
+      "image_url": "https://img3.doubanio.com/view/subject/s/public/s35552063.jpg"
     },
     {
       "id": "c48335cb1e5f1563205a",
@@ -1128,6 +2046,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/04d874ef-550e-4dc6-a81e-f99f29e92a06.jpg?x-bce-process=image/format,f_auto"
     },
     {
+      "id": "5b652b847af2112dd594",
+      "source_id": "YE001",
+      "title": "抖音万粉男网红我是小学生 约炮被拍视频流出 女主群聊评价又长又大挺爽",
+      "url": "https://access.trrktzge.cc/archives/222789.html",
+      "published_at": "2026-10-03T09:45:00Z",
+      "summary": "抖音拥有46.6万粉丝的男网红“我是小学生”（真名赖盛杰），日常人设是清纯少年感，作品里全是校园风自拍和日常vlog，粉丝多为女性。然而最近他被爆出约炮实锤，不仅开房还拍了视频。事后女方在群聊里...",
+      "image_url": ""
+    },
+    {
       "id": "97ea7a60171221c132c7",
       "source_id": "YE001",
       "title": "抖音万粉男网红我是小学生 约炮被拍视频流出 女主群聊评价又长又大挺爽",
@@ -1198,6 +2125,15 @@
       "published_at": "2026-10-03T09:29:55Z",
       "summary": "IT之家 10 月 3 日消息，小米汽车今日宣布，Xiaomi Vision GT（Vision Gran Turismo）10 月即将正式入驻 Gran Turismo 7（跑车浪漫旅 7 / GT 赛车 7），成为游戏史上的首台中国 Vision GT。 Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目。该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想。 小米汽车曾在答网友问（第 212 集）中提到，小米是第 36 个加入该概念车项目的品牌，Xiaomi Vision Gran Turismo 则是该项目的第 51 款概念车。小米不仅是首个受邀参与该项目的中国品牌，也是全球第一家以科技公司身份参与其中的品牌。 据IT之家此前报道，今年 2 月，Xiaomi 17 Series 全球发布会在西班牙巴塞罗那举行。在发布会的最后，小米 Vision Gran Turismo 双门超跑（概念车）首发亮相。 据介绍，这款概念车是小米全球设计团队联手创造的作品，它是一辆“由风塑形”的车。在风阻与下压力之间，追求完美平衡。 小米首席设计师李田原表示：“我们的理念是不依靠额外加装部件，就能达成空气动力学目标。这种理念要求我们奉行“少即是多”，几乎每一处设计，都",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/11c77d73-e500-4b5b-b4dc-aafa6812f207.jpg"
+    },
+    {
+      "id": "4e150910f26ba6ec4212",
+      "source_id": "YE001",
+      "title": "AI短剧《野果君探花》第三集 这把是高端局 直接开启网红双飞盲盒",
+      "url": "https://access.trrktzge.cc/archives/222809.html",
+      "published_at": "2026-10-03T09:25:00Z",
+      "summary": "AI短剧《野果君探花》第三集正式上线，这次直接开启网红双飞盲盒模式。一位身穿青花瓷旗袍的清冷长发网红，搭配红色蕾丝旗袍的火辣女郎，两人同时伺候中年探花男。从客厅调戏“这么大网红还出来卖”开始，到...",
+      "image_url": ""
     },
     {
       "id": "5ef3601293688b5f8407",
@@ -2451,6 +3387,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/90ae17d2-6815-4cf3-9f31-b3981ccf4d44.jpg?x-bce-process=image/format,f_auto"
     },
     {
+      "id": "a314b80df0857fd9f6ba",
+      "source_id": "YE001",
+      "title": "抖音3W粉瑜伽网红 欣然 被曝曾是高端外围 其服务好评如潮 卿本佳人奈何为鸡",
+      "url": "https://access.trrktzge.cc/archives/222783.html",
+      "published_at": "2026-10-03T06:00:00Z",
+      "summary": "杭州瑜伽网红欣然被曝曾是上海武汉高端外围，约啪视频流出，时长4分16秒，画质标高清无码。馆里她穿黑色运动内衣和黑色紧身裤，垫子上跪撑，长发扎马尾，镜子墙、白纱帘、落地窗都在。另一段两条腿竖起来，...",
+      "image_url": ""
+    },
+    {
       "id": "cf51001ce2fb3b8b49c6",
       "source_id": "YE001",
       "title": "抖音3W粉瑜伽网红 欣然 被曝曾是高端外围 其服务好评如潮 卿本佳人奈何为鸡",
@@ -2700,6 +3645,15 @@
       "url": "https://www.nodeseek.com/post-962010-1",
       "published_at": "2026-10-03T05:00:40Z",
       "summary": "有那些大厂优化线路可以买流量，套餐流量用完了，可以加的",
+      "image_url": ""
+    },
+    {
+      "id": "3812f8d335297a77080b",
+      "source_id": "YE001",
+      "title": "抖音2.5W粉网红 Melina 人设崩塌 明知男方有女友仍知三当三 出轨视频流出",
+      "url": "https://access.trrktzge.cc/archives/222779.html",
+      "published_at": "2026-10-03T05:00:00Z",
+      "summary": "dy5.2万粉女网红Melina小三出轨视频流出，抖音号Elena 33，IP广东，获赞68.7万，粉丝5.2万，简介写物物而不物于物，主页已经设成私密。男方号MM.睿哒，另一个号叫睿哒，IP一...",
       "image_url": ""
     },
     {
@@ -3573,6 +4527,15 @@
       "url": "https://www.v2ex.com/t/1246213#reply0",
       "published_at": "2026-10-03T01:55:29Z",
       "summary": "最近在做 agent 落地时一直被一个问题困扰：让 agent 查数据很容易，让它写数据就很吓人。 提示词里写\"不要乱改生产数据\"没什么用。agent 拿到一个有写权限的连接，一句 WHERE 条件写宽了，几千行就被悄悄改掉了，事后连改了哪些行都说不清楚。 我们的思路是把 Git 那套工作流搬到表上，做成数据库原生的 SQL 能力（ MatrixOne ，开源，兼容 MySQL 协议）： Snapshot：agent 动手前给表打个快照。只记元数据，不复制数据，随时可以对比或回退 Branch：给 agent 开一个可写的表分支，它的增删改都在分支上，不碰主表 Diff：行级对比分支和主表，改了哪些行、改成什么一目了然 Merge：审核通过后按明确的冲突策略合并回主表；不满意就直接丢掉分支 简单说就是给表提 PR：隔离 → 审查 → 批准 → 合并。 先说清楚边界，免得被喷： 这是底层原语，不是完整的安全方案。校验规则、审批流程、权限、审计还得你自己的系统来做，我们提供的是一条\"可以被卡住\"的写入路径 教程里的示例是演示场景，不是客户案例 想试的话，教程是可以直接跑的 SQL： 教程仓库： https://github.com/matrixorigin/git4data-tutorial 上手文章： https://www.matrixorigin.io/blog/git4data",
+      "image_url": ""
+    },
+    {
+      "id": "a83795ea594706052899",
+      "source_id": "YE001",
+      "title": "AI短剧《体育生的榨精生活》巨乳班长小姨全收 日常生活全是痴女伺候",
+      "url": "https://access.trrktzge.cc/archives/222771.html",
+      "published_at": "2026-10-03T01:55:00Z",
+      "summary": "身为体育生的主角抵抗不了身边痴女们的不断榨精。青梅竹马的女神终于答应和他交往，却坚持把初夜留到婚后。但她却不知道，他根本就不缺性生活，姐姐每天都会帮他练习做爱技巧。在平时的生活中，他把妈妈、姐姐...",
       "image_url": ""
     },
     {
@@ -4773,6 +5736,15 @@
       "image_url": "https://img3.doubanio.com/view/subject/s/public/s1455233.jpg"
     },
     {
+      "id": "dde8267bfd4594cc24ac",
+      "source_id": "C014",
+      "title": "关于consent：最性感是你想要我也想要 (评论: Heated Rivalry)",
+      "url": "https://book.douban.com/review/17839453/",
+      "published_at": "2026-10-02T15:05:09Z",
+      "summary": "差点没头的女巫评论: Heated Rivalry (https://book.douban.com/subject/34916088/) 评价: 力荐 {\"blocks\":[{\"key\":\"3goa9\",\"text\":\"围观电视剧并且读完有一阵了，以至于当时印象深的词好多忘了。但是读完就想写的核心内容是：我觉得此书为“如何践行consent”（以及其他让世界变...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35317643.jpg"
+    },
+    {
       "id": "f0818df34bb18c2eb466",
       "source_id": "C006",
       "title": "1100 亿美元超级并购：派拉蒙与华纳兄弟探索合并后将更名为“Skydance”",
@@ -5048,7 +6020,7 @@
       "title": "twst夢ログ11",
       "url": "https://www.pixiv.net/artworks/150374178",
       "published_at": "2026-10-02T13:32:54Z",
-      "summary": "第 17 位 画师：はら - 上传于：2026-10-02 22:32:54 - 阅览数：10330 - 收藏数：1397",
+      "summary": "第 17 位 画师：はら - 上传于：2026-10-02 22:32:54 - 阅览数：12536 - 收藏数：1646",
       "image_url": "https://pixiv.cat/150374178-1.jpg"
     },
     {
@@ -5120,7 +6092,7 @@
       "title": "銀狼",
       "url": "https://www.pixiv.net/artworks/150373641",
       "published_at": "2026-10-02T13:22:34Z",
-      "summary": "第 9 位 画师：flasso - 上传于：2026-10-02 22:22:34 - 阅览数：19121 - 收藏数：3303",
+      "summary": "第 9 位 画师：flasso - 上传于：2026-10-02 22:22:34 - 阅览数：21733 - 收藏数：3570",
       "image_url": "https://pixiv.cat/150373641.jpg"
     },
     {
@@ -5246,7 +6218,7 @@
       "title": "プンプン師匠",
       "url": "https://www.pixiv.net/artworks/150371684",
       "published_at": "2026-10-02T12:44:47Z",
-      "summary": "第 11 位 画师：ノダチ - 上传于：2026-10-02 21:44:47 - 阅览数：20342 - 收藏数：1698",
+      "summary": "第 11 位 画师：ノダチ - 上传于：2026-10-02 21:44:47 - 阅览数：22483 - 收藏数：1778",
       "image_url": "https://pixiv.cat/150371684.jpg"
     },
     {
@@ -5291,7 +6263,7 @@
       "title": "お母さんが言ってた自称17歳年齢を詐称してるVtuber",
       "url": "https://www.pixiv.net/artworks/150370728",
       "published_at": "2026-10-02T12:24:53Z",
-      "summary": "第 14 位 画师：なまず バアド五巻発売中！ - 上传于：2026-10-02 21:24:53 - 阅览数：26783 - 收藏数：1032",
+      "summary": "第 14 位 画师：なまず バアド五巻発売中！ - 上传于：2026-10-02 21:24:53 - 阅览数：30287 - 收藏数：1081",
       "image_url": "https://pixiv.cat/150370728.jpg"
     },
     {
@@ -5327,7 +6299,7 @@
       "title": "幼なじみの付き添い",
       "url": "https://www.pixiv.net/artworks/150370142",
       "published_at": "2026-10-02T12:11:24Z",
-      "summary": "第 5 位 画师：新挑限 - 上传于：2026-10-02 21:11:24 - 阅览数：46323 - 收藏数：3064",
+      "summary": "第 5 位 画师：新挑限 - 上传于：2026-10-02 21:11:24 - 阅览数：50992 - 收藏数：3260",
       "image_url": "https://pixiv.cat/150370142.jpg"
     },
     {
@@ -5408,7 +6380,7 @@
       "title": "Afternoon",
       "url": "https://www.pixiv.net/artworks/150368423",
       "published_at": "2026-10-02T11:38:15Z",
-      "summary": "第 6 位 画师：WERI - 上传于：2026-10-02 20:38:15 - 阅览数：8290 - 收藏数：2157",
+      "summary": "第 6 位 画师：WERI - 上传于：2026-10-02 20:38:15 - 阅览数：9789 - 收藏数：2332",
       "image_url": "https://pixiv.cat/150368423.jpg"
     },
     {
@@ -5419,6 +6391,15 @@
       "published_at": "2026-10-02T11:34:14Z",
       "summary": "IT之家 10 月 2 日消息，小米米家体脂秤 4 Pro 现已在京东开启预售，这是米家首款充电体脂秤，定价为 149 元。 该产品搭载 300x300mm 的 ITO 镀膜钢化玻璃，无需刻意寻找踩踏位置。适配多种脚型 (最大 48 欧码)、支持 0.1~150kg 大量程称重，支持小物称重、抱婴称重、心率检测等多种模式，覆盖各类居家称重场景。支持录入多只爱宠信息，持续记录、追踪体重数据。 官方强调，该产品新增身体数据趋势显示，秤面可直观对比上一次的测量数据。功能键集合了多项核心操作，短按一下，称重单位随心切换。用户连接 App 即可查看 25 项身体成分分析报告，详细解析身体数据，评估内脏脂肪等级和隐形肥胖风险，身体状况一目了然。 该产品采用 USB-C 充电，内置 450mAh 锂电池，按每日测量 3 次计算，充满电可续航 150 天。机身可存储 36 位家庭成员的健康数据，支持青少年测脂，满足不同年龄层用户需求。 IT之家附产品参数：",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/5e6fcafc-cd93-42b2-a10b-73176bfc4f56.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "321a7ed4d84b0b146543",
+      "source_id": "C014",
+      "title": "2026年最强神话题材类新书 (评论: 中国神仙)",
+      "url": "https://book.douban.com/review/17839142/",
+      "published_at": "2026-10-02T11:28:08Z",
+      "summary": "麒麟评论: 中国神仙 (https://book.douban.com/subject/38630288/) 评价: 力荐 {\"blocks\":[{\"key\":\"a1usv\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"5afa8\",\"te...",
+      "image_url": "https://img2.doubanio.com/view/subject/m/public/s35609351.jpg"
     },
     {
       "id": "8583588ac89469e9ff11",
@@ -5453,7 +6434,7 @@
       "title": "いっぱい食べた結果",
       "url": "https://www.pixiv.net/artworks/150367035",
       "published_at": "2026-10-02T11:07:02Z",
-      "summary": "第 12 位 画师：りん次郎 - 上传于：2026-10-02 20:07:02 - 阅览数：15636 - 收藏数：761",
+      "summary": "第 12 位 画师：りん次郎 - 上传于：2026-10-02 20:07:02 - 阅览数：18164 - 收藏数：819",
       "image_url": "https://pixiv.cat/150367035-1.jpg"
     },
     {
@@ -5723,7 +6704,7 @@
       "title": "嫉妬",
       "url": "https://www.pixiv.net/artworks/150362771",
       "published_at": "2026-10-02T09:19:15Z",
-      "summary": "第 11 位 画师：ちり - 上传于：2026-10-02 18:19:15 - 阅览数：6436 - 收藏数：848",
+      "summary": "第 11 位 画师：ちり - 上传于：2026-10-02 18:19:15 - 阅览数：7374 - 收藏数：926",
       "image_url": "https://pixiv.cat/150362771-1.jpg"
     },
     {
@@ -6011,7 +6992,7 @@
       "title": "ホイクエン・カムイ",
       "url": "https://www.pixiv.net/artworks/150361601",
       "published_at": "2026-10-02T08:48:47Z",
-      "summary": "第 6 位 画师：るべる - 上传于：2026-10-02 17:48:47 - 阅览数：7893 - 收藏数：1032",
+      "summary": "第 6 位 画师：るべる - 上传于：2026-10-02 17:48:47 - 阅览数：9223 - 收藏数：1159",
       "image_url": "https://pixiv.cat/150361601-1.jpg"
     },
     {
@@ -6191,7 +7172,7 @@
       "title": "マンダロリアンまとめ②",
       "url": "https://www.pixiv.net/artworks/150360475",
       "published_at": "2026-10-02T08:03:03Z",
-      "summary": "第 4 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：26099 - 收藏数：2327",
+      "summary": "第 4 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：30545 - 收藏数：2553",
       "image_url": "https://pixiv.cat/150360475-1.jpg"
     },
     {
@@ -6200,7 +7181,7 @@
       "title": "マンダロリアンまとめ②",
       "url": "https://www.pixiv.net/artworks/150360475",
       "published_at": "2026-10-02T08:03:03Z",
-      "summary": "第 8 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：25851 - 收藏数：2314",
+      "summary": "第 8 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：30457 - 收藏数：2552",
       "image_url": "https://pixiv.cat/150360475-1.jpg"
     },
     {
@@ -6398,7 +7379,7 @@
       "title": "無題",
       "url": "https://www.pixiv.net/artworks/150359371",
       "published_at": "2026-10-02T07:14:43Z",
-      "summary": "第 19 位 画师：こたろう - 上传于：2026-10-02 16:14:43 - 阅览数：4193 - 收藏数：946",
+      "summary": "第 19 位 画师：こたろう - 上传于：2026-10-02 16:14:43 - 阅览数：5238 - 收藏数：1028",
       "image_url": "https://pixiv.cat/150359371-1.jpg"
     },
     {
@@ -7703,7 +8684,7 @@
       "title": "【会社と私生活】やった",
       "url": "https://www.pixiv.net/artworks/150354216",
       "published_at": "2026-10-02T03:00:26Z",
-      "summary": "第 1 位 画师：金沢真之介 - 上传于：2026-10-02 12:00:26 - 阅览数：53443 - 收藏数：3755",
+      "summary": "第 1 位 画师：金沢真之介 - 上传于：2026-10-02 12:00:26 - 阅览数：63153 - 收藏数：4119",
       "image_url": "https://pixiv.cat/150354216-1.jpg"
     },
     {
@@ -7955,7 +8936,7 @@
       "title": "５０年後の老人ホーム連載決定",
       "url": "https://www.pixiv.net/artworks/150353533",
       "published_at": "2026-10-02T02:22:26Z",
-      "summary": "第 7 位 画师：金沢真之介 - 上传于：2026-10-02 11:22:26 - 阅览数：32767 - 收藏数：1558",
+      "summary": "第 7 位 画师：金沢真之介 - 上传于：2026-10-02 11:22:26 - 阅览数：37606 - 收藏数：1660",
       "image_url": "https://pixiv.cat/150353533.jpg"
     },
     {
@@ -8756,7 +9737,7 @@
       "title": "ダーツ",
       "url": "https://www.pixiv.net/artworks/150348943",
       "published_at": "2026-10-01T22:00:10Z",
-      "summary": "第 6 位 画师：カフェ - 上传于：2026-10-02 07:00:10 - 阅览数：18690 - 收藏数：1155",
+      "summary": "第 6 位 画师：カフェ - 上传于：2026-10-02 07:00:10 - 阅览数：20966 - 收藏数：1232",
       "image_url": "https://pixiv.cat/150348943.jpg"
     },
     {
@@ -26324,8 +27305,8 @@
       "title": "比悬疑更震撼，比治愈更戳心?《创伤清洁工》必读 (评论: 创伤清洁工)",
       "url": "https://book.douban.com/review/17831995/",
       "published_at": "2026-09-27T08:10:29Z",
-      "summary": "",
-      "image_url": ""
+      "summary": "安娜评论: 创伤清洁工 (https://book.douban.com/subject/38598077/) 评价: 力荐 {\"entityMap\": {\"0\": {\"type\": \"IMAGE\", \"data\": {\"caption\": \"\", \"id\": \"137...",
+      "image_url": "https://img3.doubanio.com/view/subject/m/public/s35612432.jpg"
     },
     {
       "id": "c8cf24d1946db090ab25",
@@ -28515,93 +29496,12 @@
       "image_url": "https://static.imalan.cn/file/image/post/my-tim-cook-era/buy-ipod-shuffle-ec979690d3c5.png"
     },
     {
-      "id": "b970cede493345e94dc9",
-      "source_id": "C034-21f4b318",
-      "title": "Computable GPU Index：查看 H100/H200/B200 GPU 云算力价格",
-      "url": "https://www.ahhhhfs.com/82297/",
-      "published_at": "2026-09-04T15:02:52Z",
-      "summary": "Computable GPU Index（简称 CGI）不是用来帮你找“哪家 H100 最便宜”的普通比价工具",
-      "image_url": ""
-    },
-    {
-      "id": "fbe473a75b773d79c9af",
-      "source_id": "C027",
-      "title": "メランコリック・パジャマライフ",
-      "url": "https://www.pixiv.net/artworks/149278529",
-      "published_at": "2026-09-04T15:00:23Z",
-      "summary": "第 11 位 画师：torino - 上传于：2026-09-05 00:00:23 - 阅览数：86228 - 收藏数：13587",
-      "image_url": "https://pixiv.cat/149278529.jpg"
-    },
-    {
-      "id": "cc4698736658595cba61",
-      "source_id": "C027",
-      "title": "花火",
-      "url": "https://www.pixiv.net/artworks/149268730",
-      "published_at": "2026-09-04T11:30:10Z",
-      "summary": "第 7 位 画师：flasso - 上传于：2026-09-04 20:30:10 - 阅览数：59200 - 收藏数：6198",
-      "image_url": "https://pixiv.cat/149268730.jpg"
-    },
-    {
-      "id": "e5f123316fdc39517e38",
-      "source_id": "C027",
-      "title": "かぼちゃタルト",
-      "url": "https://www.pixiv.net/artworks/149268713",
-      "published_at": "2026-09-04T11:30:05Z",
-      "summary": "第 19 位 画师：チャイ - 上传于：2026-09-04 20:30:05 - 阅览数：40018 - 收藏数：4001",
-      "image_url": "https://pixiv.cat/149268713.jpg"
-    },
-    {
-      "id": "989849313bc2c8a36c9a",
-      "source_id": "C027",
-      "title": "モナ",
-      "url": "https://www.pixiv.net/artworks/149268652",
-      "published_at": "2026-09-04T11:29:05Z",
-      "summary": "第 20 位 画师：flasso - 上传于：2026-09-04 20:29:05 - 阅览数：39554 - 收藏数：3943",
-      "image_url": "https://pixiv.cat/149268652.jpg"
-    },
-    {
-      "id": "26be31a0f4f55e17af59",
-      "source_id": "C027",
-      "title": "ティフォロスのオペレーター記念画像",
-      "url": "https://www.pixiv.net/artworks/149264203",
-      "published_at": "2026-09-04T09:44:05Z",
-      "summary": "第 12 位 画师：_LM7_ - 上传于：2026-09-04 18:44:05 - 阅览数：45041 - 收藏数：9171",
-      "image_url": "https://pixiv.cat/149264203.jpg"
-    },
-    {
-      "id": "d68813c855584a98a6fb",
-      "source_id": "B008",
-      "title": "Onimusha: Way of the Sword Trainer",
-      "url": "https://flingtrainer.com/trainer/onimusha-way-of-the-sword-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=onimusha-way-of-the-sword-trainer",
-      "published_at": "2026-09-04T04:24:05Z",
-      "summary": "Options Num 1 – God Mode/Ignore Hits Num 2 – Infinite Health Num 3 – Infinite Stamina Num 4 – Max Oni Power Gauge Num 5 – Fast Bow Charge Num 6 – Infinite Buff Duration Num 7 – Super Stamina Damage/One Hit Breaks Num 8 – Stamina Damage Multiplier Num 9 – Stamina Defense... The post Onimusha: Way of the Sword Trainer appeared first on FLiNG Trainer.",
-      "image_url": "https://flingtrainer.com/wp-content/uploads/2026/09/1-3.png"
-    },
-    {
       "id": "0d4c95939047cbe082aa",
       "source_id": "B014",
       "title": "联邦制公司的黄昏",
       "url": "http://weiwuhui.com/11090.html",
       "published_at": "2026-09-04T02:09:00Z",
       "summary": "我在AI里设置了几个资本警报器，其中有一个是“重组警报”，也就是公司发生不同寻常的重组。本来是监控AI行业的， 更多...",
-      "image_url": ""
-    },
-    {
-      "id": "ec7e5dca7c7e20dfcd1f",
-      "source_id": "T006",
-      "title": "产品经理的三思之道：思危、思退、思变",
-      "url": "https://www.woshipm.com/pmd/6459338.html",
-      "published_at": "2026-09-04T01:31:38Z",
-      "summary": "产品经理的成长，不止于向前冲，更在于深谙进退之道。本文借《大明王朝1566》中吕芳的六字真言，拆解思危、思退、思变如何映射产品工作，从预判风险到取舍迭代，再到破局革新，为产品人提供一套穿越周期的思维框架。 最近二刷《大明王朝1566》，名场面之一莫过于吕芳教导冯保的六字真言：思危、思退、思变。这其实也是最通透的职场智慧，剧中的台词，已经说出了精髓： 我再教你两句话，你记住！一句是文官们说的‘做官要三思’，什么叫三思？三思就是思危、思退、思变。知道了危险就能躲开危险，这就叫思危；躲到人家都不再注意你的地方，这就叫思退；退了下来就有机会，再慢慢看、慢慢想，自己以前哪儿错了，往后该怎么做，这就叫思变。 这看似是古人G场的生存法则，实则是适配所有职场人的顶级成事逻辑，尤其契合产品经理的核心工作。 产品经理是产品的第一责任人，手握需求、掌控节奏、决定走向，全程游走在用户需求、商业目标、技术瓶颈、市场竞争的博弈之中。很多产品人越做越疲惫、越做越迷茫，不是能力不足，而是思维偏执：只懂往前冲、求迭代、追热点，不懂预判风险、适时沉淀、灵活革新。 真正成熟的产品思维，从来不是一味激进推进，而是深谙三思之道：思危以立身，思退以蓄力，思变以破局。 一、思危 预判风险，是产品的底层底气 何为思危？剧中给出最直白的解读：看清当下的处境，预判潜藏的隐患，在风险爆发前主动规避。 很多初级产品经理拿到需求就落地，跟",
-      "image_url": "https://image.woshipm.com/2026/09/03/5ef25094-a7a2-11f1-84ff-00163e4b86a1.png"
-    },
-    {
-      "id": "59d14544c7d68d139f94",
-      "source_id": "B109",
-      "title": "日本的永住权申请已提交，希望能早日通过",
-      "url": "https://www.wikimoe.com/post/t-tkte1gzo",
-      "published_at": "2026-09-04T00:44:03Z",
-      "summary": "日本的永住权申请已提交，希望能早日通过。",
       "image_url": ""
     },
     {

@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-03T14:52:03.225753Z",
+  "generated_at": "2026-10-03T22:54:37.672678Z",
   "feeds": [
     {
       "id": "S001",
@@ -16,7 +16,7 @@
       "description": "精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务",
       "feed_url": "https://xclient.info/feed",
       "status": "ok",
-      "article_count": 34
+      "article_count": 44
     },
     {
       "id": "S003",
@@ -56,7 +56,7 @@
       "description": "反斗软件旗下软件限免资讯网站",
       "feed_url": "https://free.apprcn.com/feed/",
       "status": "ok",
-      "article_count": 24
+      "article_count": 26
     },
     {
       "id": "S008",
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 139
+      "article_count": 155
     },
     {
       "id": "T002",
@@ -1288,7 +1288,7 @@
       "description": "产品经理 – 人人都是产品经理",
       "feed_url": "http://www.woshipm.com/category/pmd/feed",
       "status": "ok",
-      "article_count": 8
+      "article_count": 7
     },
     {
       "id": "T007",
@@ -1480,7 +1480,7 @@
       "description": "IT之家 - 软媒旗下网站",
       "feed_url": "https://www.ithome.com/rss",
       "status": "ok",
-      "article_count": 628
+      "article_count": 633
     },
     {
       "id": "C007",
@@ -1520,7 +1520,7 @@
       "description": "创意工作者的社区",
       "feed_url": "https://www.v2ex.com/index.xml",
       "status": "ok",
-      "article_count": 628
+      "article_count": 640
     },
     {
       "id": "C012",
@@ -1544,7 +1544,7 @@
       "description": "豆瓣最受欢迎的书评",
       "feed_url": "https://www.douban.com/feed/review/book",
       "status": "ok",
-      "article_count": 30
+      "article_count": 34
     },
     {
       "id": "C015",
@@ -1552,7 +1552,7 @@
       "description": "豆瓣最受欢迎的乐评",
       "feed_url": "https://www.douban.com/feed/review/music",
       "status": "ok",
-      "article_count": 57
+      "article_count": 58
     },
     {
       "id": "C016",
@@ -1576,7 +1576,7 @@
       "description": "博客园首页",
       "feed_url": "http://feed.cnblogs.com/blog/sitehome/rss",
       "status": "ok",
-      "article_count": 63
+      "article_count": 65
     },
     {
       "id": "C019",
@@ -1648,7 +1648,7 @@
       "description": "Pixiv每月排行 - 前20",
       "feed_url": "http://rakuen.thec.me/PixivRss/monthly-20",
       "status": "ok",
-      "article_count": 10
+      "article_count": 5
     },
     {
       "id": "C028",
@@ -1704,7 +1704,7 @@
       "description": "A姐分享",
       "feed_url": "https://www.ahhhhfs.com/feed",
       "status": "ok",
-      "article_count": 12
+      "article_count": 11
     },
     {
       "id": "C034-8a4502aa",
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 495
+      "article_count": 515
     },
     {
       "id": "M001",
@@ -1744,7 +1744,7 @@
       "description": "种子站Torlock",
       "feed_url": "https://www.torlock.com/rss.xml",
       "status": "ok",
-      "article_count": 60
+      "article_count": 90
     },
     {
       "id": "M004",
@@ -1912,7 +1912,7 @@
       "description": "不定期推送黑料",
       "feed_url": "https://access.xtlmrmig.cc/feed",
       "status": "ok",
-      "article_count": 55
+      "article_count": 60
     }
   ]
 }
