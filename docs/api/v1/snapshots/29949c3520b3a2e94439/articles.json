@@ -1,7 +1,1303 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-03T09:06:45.887309Z",
+  "generated_at": "2026-10-03T14:52:03.225753Z",
   "articles": [
+    {
+      "id": "4ccb804ff5f0b0564836",
+      "source_id": "C035",
+      "title": "请教一下，办一张流量卡当宽带用靠谱吗？技术方案要怎么实现？",
+      "url": "https://www.nodeseek.com/post-962975-1",
+      "published_at": "2026-10-03T14:52:26Z",
+      "summary": "这种想法靠谱吗？看了下实际上家里一个月也用不到300G，于是产生了可以用流量卡来替代高额宽带费用的想法，这种想法靠谱吗？搜了下论坛，有人说用5GCPE，有人说F50固定插卡，请问有大佬实际试过的吗，哪种方案更好？流量卡初步考虑用联通39月付或移动29月付，不管哪个总比现在电信宽带一年一千多省钱。",
+      "image_url": ""
+    },
+    {
+      "id": "ed354d69e94c4b3c1de3",
+      "source_id": "C035",
+      "title": "【测试留档】JoysolData 三网优化 60m小口子 发20个🍗",
+      "url": "https://www.nodeseek.com/post-962974-1",
+      "published_at": "2026-10-03T14:52:20Z",
+      "summary": "📝概览📌套餐详情💻CPU：2核心🧠内存：1GB💾存储：30GBNVMe📊流量：400GB/月🚀带宽：60Mbps端口🌐IP地址：IPv4💰价格：￥15.99（优惠后）/月优惠码：z5fOLg02JoysolData#AFF：点击直达🔧硬件测试YabsBasicSystemInformation:",
+      "image_url": ""
+    },
+    {
+      "id": "10a2fa50d2fea411dd70",
+      "source_id": "C006",
+      "title": "点球大战制胜！国足击败乌兹别克斯坦队，时隔 28 年再夺亚运会男足比赛铜牌",
+      "url": "https://www.ithome.com/1/009/577.htm",
+      "published_at": "2026-10-03T14:51:51Z",
+      "summary": "IT之家 10 月 3 日消息，2026 爱知-名古屋亚运会男足三四名决赛，中国队在常规时间内 2 比 2 战平乌兹别克斯坦队。点球大战中，中国队 4 比 3 取胜，获得本次亚运会男足比赛铜牌。 上半场，中国队胡荷韬破门。半场结束，中国男足与对手 1-1 战平。 下半场，中国队王钰栋破门。90 分钟双方战成 2-2。 这也是中国队时隔 28 年再次获得亚运会男足比赛铜牌！也是亚运会男足项目实行 U23 年龄限制后，中国队首次获得奖牌。 IT之家查询获悉，中国男足曾在 1994 年广岛亚运会上获得银牌，并于 1978 年、1998 年两次获得铜牌。本届比赛，中国队时隔 28 年再次闯入亚运会男足四强，并最终登上领奖台。 另外，今年 1 月，在 2026 年 U23 亚洲杯半决赛中，中国 U23 男足以 3:0 战胜越南队，历史首次晋级决赛，彭啸、向余望、王钰栋先后建功。在最终决赛中，中国队负于日本队，与冠军失之交臂（获得亚军）。这也是中国队在 U23 亚洲杯参赛历史上最好成绩。 相关阅读： 《再再再创历史！中国 U23 国足 3:0 完胜越南，史上首次挺进亚洲杯决赛》",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/e9ad1542-87b8-44ca-bc58-4c3468e0293f.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "4931c5fbb3ea056d78be",
+      "source_id": "C035",
+      "title": "48总价 出个年付9刀 HaloCloud HK",
+      "url": "https://www.nodeseek.com/post-962973-1",
+      "published_at": "2026-10-03T14:51:30Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "bb2918b3109e259dd77b",
+      "source_id": "C035",
+      "title": "关于 TCP 重传的问题——两台机子了",
+      "url": "https://www.nodeseek.com/post-962972-1",
+      "published_at": "2026-10-03T14:51:20Z",
+      "summary": "河南千兆宽带，晚高峰用iPerf3测一条跨境线路，想问下这个表现算正常吗？空载ping大约134ms，基本0丢包。iPerf3用反向下载测试，16线程持续30秒，大约只能跑到350Mbps，继续加线程基本不上升。同时另一终端持续ping，满载时平均延迟大概138ms，最高160ms左右，有少量丢包。比较明显的是iP",
+      "image_url": ""
+    },
+    {
+      "id": "ccf308b2aa52b496c855",
+      "source_id": "C035",
+      "title": "阿里云 香港 的ipv6如何？绕路还是直连？",
+      "url": "https://www.nodeseek.com/post-962971-1",
+      "published_at": "2026-10-03T14:51:20Z",
+      "summary": "教程一般都是说不开的，不知道实际如何？",
+      "image_url": ""
+    },
+    {
+      "id": "99db49db175732e1d864",
+      "source_id": "C035",
+      "title": "25出bestvm的香港BGP-Standard 5折机",
+      "url": "https://www.nodeseek.com/post-962970-1",
+      "published_at": "2026-10-03T14:50:45Z",
+      "summary": "论坛邮箱push，10-29到期，月付10元。",
+      "image_url": ""
+    },
+    {
+      "id": "bb98f7e2aeb8285d05f2",
+      "source_id": "C035",
+      "title": "【总价2500出】 ovh ksstor 英国 上下对等10G",
+      "url": "https://www.nodeseek.com/post-962969-1",
+      "published_at": "2026-10-03T14:50:43Z",
+      "summary": "2026年10月29到期，23.99o/月，剩余约170ie区push出，先款后鸡，或中介费买家出",
+      "image_url": ""
+    },
+    {
+      "id": "d42ab9c8715221f19f6b",
+      "source_id": "C035",
+      "title": "看到BeroHost是气球回收有点担心",
+      "url": "https://www.nodeseek.com/post-962968-1",
+      "published_at": "2026-10-03T14:50:34Z",
+      "summary": "超开多了不会很难用吗",
+      "image_url": ""
+    },
+    {
+      "id": "02fa13ea16c21f7112eb",
+      "source_id": "C035",
+      "title": "交通事故处理探讨",
+      "url": "https://www.nodeseek.com/post-962967-1",
+      "published_at": "2026-10-03T14:49:50Z",
+      "summary": "我舅小区进入主干道撞上了在辅道上逆行的年轻小伙，当场吹气无酒驾(5-6点左右)，事后2～3个小时,医院说情况有点严重，在交警队配合医生完成抽血酒驾检测。这个流程怎么不是当场抽血检测，如果中间间隔的时间喝了酒这怎么搞?",
+      "image_url": ""
+    },
+    {
+      "id": "2a6ef3c1502642c42092",
+      "source_id": "C035",
+      "title": "已解决 看了看沸羊羊的AI画像",
+      "url": "https://www.nodeseek.com/post-962966-1",
+      "published_at": "2026-10-03T14:48:07Z",
+      "summary": "感谢各位老哥",
+      "image_url": ""
+    },
+    {
+      "id": "11c1c179d95b4e8e2d8b",
+      "source_id": "C006",
+      "title": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
+      "url": "https://www.ithome.com/1/009/576.htm",
+      "published_at": "2026-10-03T14:47:46Z",
+      "summary": "IT之家 10 月 3 日消息，海马云 (haimacloud) 近日推出了 haimacloud GEAR 端云混合掌机。其本地采用高通骁龙 865 移动平台，运行 Android 13 操作系统，支持海马云的云游戏服务。 该掌机拥有 8GB + 128GB 的存储器组合，搭配 7\" FHD 144Hz 2ms 800nits OLED 屏幕，内置 8000mAh 电池，具备主动散热、TMR 摇杆、霍尔扳机、机械微动按键、六轴体感，ABXY 为模块化设计，支持 Wi-Fi 6 & BT 5.1，质量 450g。 IT之家获悉，配套的云游戏服务基于英特尔酷睿 i7-12700KF 处理器、\"70\" 级 NVIDIA GeForce RTX 显卡，支持 1080p 144FPS。 haimacloud GEAR 仅硬件首发价 3,149 元，包含 1 年云游戏传奇会员的套装首发价为 4,349 元。 相关阅读： 《【IT之家开箱】芒米 MANGMI Pocket Max 安卓掌机体验：7 英寸 144Hz 大屏、按键模块化设计》 《首发价 1388 元芒米 Pocket Max 安卓游戏掌机价格公布：搭骁龙 865、磁吸可拆换 ABXY / 十字键设计》",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/25fb1700-0f25-4c54-a332-53e45f86f1a5.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "2399accce9f1aebfc2e3",
+      "source_id": "C035",
+      "title": "支付宝羊毛活动几号结束，准备抄底~",
+      "url": "https://www.nodeseek.com/post-962965-1",
+      "published_at": "2026-10-03T14:47:23Z",
+      "summary": "支付宝羊毛活动几号结束，准备抄底~用于vmiss的充值~",
+      "image_url": ""
+    },
+    {
+      "id": "15fec7954fa7a2634c7c",
+      "source_id": "C035",
+      "title": "甲骨文二次验证没过会封号吗",
+      "url": "https://www.nodeseek.com/post-962964-1",
+      "published_at": "2026-10-03T14:46:36Z",
+      "summary": "刚才收到短信扣款1.38SGD失败，正好卡里没留钱",
+      "image_url": ""
+    },
+    {
+      "id": "f1ca36396749020833b5",
+      "source_id": "C035",
+      "title": "【出】BageVM HKL 20刀",
+      "url": "https://www.nodeseek.com/post-962963-1",
+      "published_at": "2026-10-03T14:45:57Z",
+      "summary": "HKL20.65年付27.1.3到期80元出",
+      "image_url": ""
+    },
+    {
+      "id": "004ae9d8a223ff69cba7",
+      "source_id": "C035",
+      "title": "[抽奖+出鸡]抽kurun美西三网优化,出绿云软银",
+      "url": "https://www.nodeseek.com/post-962962-1",
+      "published_at": "2026-10-03T14:45:53Z",
+      "summary": "抽奖机:kurun1c1g50mbps优化线路,一个月十一点半开奖出的机:绿云软银2cepyc8gram35gssd月流量1.5T明盘160原油出本月十六日到期,续费70刀/三年开奖链接",
+      "image_url": ""
+    },
+    {
+      "id": "3b7bb406de72e94657c6",
+      "source_id": "C006",
+      "title": "余承东：华为星河通信团队驾驶享界 G9 实测独库公路，98.7% 路段信号都很好",
+      "url": "https://www.ithome.com/1/009/575.htm",
+      "published_at": "2026-10-03T14:45:50Z",
+      "summary": "IT之家 10 月 3 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发文称，前阵子，星河通信团队开着享界 G9 去了趟独库公路，实测车载星河通信在独库公路的表现，反复测试下来 98.7% 以上的路段信号都非常不错。 他表示：“星河通信是鸿蒙智行六大独有核心技术之一。华为在通信领域积累了几十年，我们也把这些技术带到了车上，希望大家开车走到更远的地方，都能保持稳定通信，出行更有底。国庆准备自驾的朋友，路上如果遇到弱网，可以打开车上热点，给同行的家人朋友共享网络”。 IT之家注意到，去年 2 月发布的尊界 S800 车型首发搭载华为星河通信，该技术支持主动智能选网、双网双待，可实现三网连接和弱网加速，并支持将网络共享至手机、平板等设备。在无地面网络时，支持通过车载卫星完成通话及紧急联络功能。 据悉，独库公路北起北疆石油之城克拉玛依市独山子区，南至终点为天山南麓、塔里木盆地北缘的南疆阿克苏地区库车市。据官方最新公告，G217 线独库公路 2026 年国庆节假日期间正常通行，自 2026 年 10 月 8 日 20 时起实施冬季封闭，禁止社会车辆通行（伊阿铁路、G3033 奎独库高速公路、G217 天山神秘大峡谷等重点项目物资运输及相关施工车辆除外）。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/e596417e-d161-4c6b-9e68-5758ce42617d.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "4b77fd21973d520c7f19",
+      "source_id": "C035",
+      "title": "3-6号的临期老母速度来换钱",
+      "url": "https://www.nodeseek.com/post-962961-1",
+      "published_at": "2026-10-03T14:45:05Z",
+      "summary": "论坛不经常看论坛不经常看论坛不经常看论坛不经常看论坛不经常看论坛不经常看加qq5441184700级私信不了加qq聊论坛不经常看论坛不经常看论坛不经常看论坛不经常看论坛不经常看论坛不经常看",
+      "image_url": ""
+    },
+    {
+      "id": "a2a69885fb4433ee5af9",
+      "source_id": "C035",
+      "title": "剩余价值outlook原油出CCS 3C4G 60G 金牌 20.99",
+      "url": "https://www.nodeseek.com/post-962960-1",
+      "published_at": "2026-10-03T14:43:43Z",
+      "summary": "剩余价值83出ccs金牌cpu3h4g年付20.99刀款",
+      "image_url": ""
+    },
+    {
+      "id": "d528fa82a3f58a2f9568",
+      "source_id": "C035",
+      "title": "cloudleadinno ISP UK  3d留测",
+      "url": "https://www.nodeseek.com/post-962959-1",
+      "published_at": "2026-10-03T14:43:14Z",
+      "summary": "💻基本信息[H[J[3J++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m85.189.*.*[0m[4mhttps://github.com/xykt/HardwareQ",
+      "image_url": ""
+    },
+    {
+      "id": "101dd00b5caa5622a45c",
+      "source_id": "C011",
+      "title": "[生活] 360 这公司的嚣张程度终究还是超出我预期",
+      "url": "https://www.v2ex.com/t/1246306#reply0",
+      "published_at": "2026-10-03T14:42:50Z",
+      "summary": "回老家把我爸要的音乐拷到他 U 盘里，在他电脑见到了预料之中的一幕。 360 过于嚣张了。它篡改代理设置导致 IE 和火狐连百度都打不开，就他自己的浏览器能上网。 我没救它，我爸说只用这电脑干一件事，玩纸牌。没必要救，捏着鼻子拷完关机。 PC 时代过去也挺好，把这种恶贯满盈的公司一起拖进坟墓。",
+      "image_url": "https://picx.zhimg.com/100/v2-2f9ecb4cc3e8f7f2d5f85e6b1d385cfd_qhd.jpg"
+    },
+    {
+      "id": "0cdb7789be633441dfcf",
+      "source_id": "C035",
+      "title": "【NQ留档】DMIT MALIBU 154段晚高峰（暂未续IP）",
+      "url": "https://www.nodeseek.com/post-962958-1",
+      "published_at": "2026-10-03T14:42:40Z",
+      "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m154.17.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[",
+      "image_url": ""
+    },
+    {
+      "id": "d8e92d77af8c18549a10",
+      "source_id": "C035",
+      "title": "求教菲区gpt自动充值",
+      "url": "https://www.nodeseek.com/post-962957-1",
+      "published_at": "2026-10-03T14:42:04Z",
+      "summary": "有没有大佬说一下这个的自动化支付整体思路，以及拿到session后如何充值的，想写一个给自己的一些朋友同学用",
+      "image_url": ""
+    },
+    {
+      "id": "6e90933f39a412e86b5c",
+      "source_id": "C035",
+      "title": "短期gpt team车，到本月27号中午12点，60出一个席位",
+      "url": "https://www.nodeseek.com/post-962956-1",
+      "published_at": "2026-10-03T14:41:00Z",
+      "summary": "翻车按比例退，比例为：60/25天。美区5小时限制，",
+      "image_url": ""
+    },
+    {
+      "id": "6c5c221fa80e740d5a90",
+      "source_id": "C011",
+      "title": "[分享发现] 老男人们互相问：“你几个亿？”在当下多半不是问精子数了",
+      "url": "https://www.v2ex.com/t/1246304#reply0",
+      "published_at": "2026-10-03T14:35:09Z",
+      "summary": "以前老男人们互相问一句几个亿，当然绝大部分是谈不到能赚这么多钱的，所以可能多是私下聊聊精子量，对生育有没有影响，现在技术男之间问你一天几个亿，可能默认问的是 token 数了",
+      "image_url": ""
+    },
+    {
+      "id": "ad72addccb693f9dcb5b",
+      "source_id": "C011",
+      "title": "[酷工作] [招聘] 海外运营客服",
+      "url": "https://www.v2ex.com/t/1246303#reply0",
+      "published_at": "2026-10-03T14:31:37Z",
+      "summary": "招聘岗位：运营客服 招聘人数：2 工作职责： 1:玩家咨询：处理账号、登录、充值、活动、游戏规则，结算疑问等游戏问题，保证回复时效及服务满意度。 2:玩家维护：提供基础服务，玩家情绪安抚，收集玩家意见及建议。 3:数据整理：统计客户的高频问题/活动反馈/玩家建议/游戏 Bug 。记录数据，反馈后跟进解决进度，并做好记录和月底总结。 要求： 1:打字速度 60 字/分钟以上 2:熟练使用 Office 办公软件 3:能服从管理，接受轮班制度 有互联网客服经验优先。 工作地点：海外 联系：telegram: bWFydGlua2V5aQ== (Base64) 邮箱：ZGltaW5nY2hhbkBnbWFpbC5jb20= (Base64)",
+      "image_url": ""
+    },
+    {
+      "id": "63bae4fa79ec57a86a1f",
+      "source_id": "M003",
+      "title": "[AsukaRaws] Yasei No Last Boss Ga Arawareta! - 14 (WEB-DL 1280x720 x264 AAC).mp4",
+      "url": "https://www.torlock.com/torrent/67946259/%5Basukaraws%5D-yasei-no-last-boss-ga-arawareta%21-14-%28web-dl-1280x720-aac%29.html",
+      "published_at": "2026-10-03T14:29:00Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 277 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "f3bd1584b924c909b483",
+      "source_id": "M003",
+      "title": "[shincaps] Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku. - 01 (AT-X 1440x1080 MPEG2 AAC).ts",
+      "url": "https://www.torlock.com/torrent/67946260/%5Bshincaps%5D-jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-01-%28at-x-1440x1080-mpeg2-aac%29-ts.html",
+      "published_at": "2026-10-03T14:29:00Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 2 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "ea8926ff9252863088ad",
+      "source_id": "C006",
+      "title": "铭凡 MS-01 SE 迷你工作站上市，12600H + 32GB + 1TB 到手 6399 元",
+      "url": "https://www.ithome.com/1/009/574.htm",
+      "published_at": "2026-10-03T14:28:33Z",
+      "summary": "IT之家 10 月 3 日消息，MINISFORUM（铭凡）此前公布的 MS-01 SE 迷你工作站现已在电商平台销售，包含英特尔酷睿 i5-12600H、32GB DDR4 内存、1TB SSD 存储的完整配置到手价 6,399 元。 京东铭凡 MS-01 SE 迷你工作站 6399 元直达链接 MS-01 SE 整体设计与原版 MS-01 类似，但存在多处降级或调整：内部的 PCIe Gen4 插槽仅支持 4 通道；后部的 2 个 10GbE SFP+ 被替换为 USB-A 480Mbps；无线网卡改为联发科技 MT7902 (Wi-Fi 6E & BT 5.2)。 其内置 3 个 M.2 2280 盘位，分别支持 PCIe Gen4 ×4、Gen3 ×4、Gen3 ×2，拥有 2 个 USB-C 40Gbps、2 个 2.5GbE RJ-45 等 I/O，符合英特尔 vPro 平台要求。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/0ea8e989-9560-498a-8954-34a6053d1afb.jpg"
+    },
+    {
+      "id": "9f342cbff10739b8186f",
+      "source_id": "C011",
+      "title": "[分享创造] 做了个沿着时间回看记录的小程序：锚一锚，支持微信和支付宝",
+      "url": "https://www.v2ex.com/t/1246302#reply1",
+      "published_at": "2026-10-03T14:27:50Z",
+      "summary": "大家好，我是锚一锚的开发者，平时以「锚 Studio 」的名字发布作品。这次来分享一个微信和支付宝都能用的日常记录与提醒小程序。 目前全部功能免费，没有付费试用或订阅。 它主要用来放一些零散的小事：路过一家想再去的店，突然想到一个点子，或者几天后需要处理的一件事。写下内容，选一个时间，就留下一条记录，在应用里叫作一枚「锚点」。 首页做成了一条可以前后浏览的「时间河流」。过去记下的内容、当下的想法和未来的安排，都放在各自的时间位置。想找回某段日子记过什么，可以沿着时间看看；也可以进入「锚点档案」，按「已保存」「待提醒」等状态集中查看。 记录时有两个选择： 保存：比如「这家面馆不错，下次带朋友来」，只把内容留下来。 保存并提醒：比如「周六下午三点取修好的台灯」，为未来的事情设置消息提醒。 选了未来时间、只点「保存」，不会自动提醒。消息提醒需要开启云同步，并完成微信或支付宝的订阅消息授权，实际送达也会受通知设置和平台、服务状态影响。 数据方面，可以选择先只存在当前设备，也可以主动开启云同步。开启后，普通记录也能存到云端；如果微信和支付宝两边都用，可以通过一次性同步码连接账号，查看同一份云端记录。仅保存在本机的记录，清理小程序数据前需要留意。 使用时无需单独注册一套账号或设置密码，在已登录的微信或支付宝里搜索「锚一锚」即可，也可以从官网扫描小程序码打开。 产品介绍、小程序入口和在线体验： ",
+      "image_url": ""
+    },
+    {
+      "id": "a2d211d023d52e7e38b5",
+      "source_id": "M003",
+      "title": "Africa Earth s Wild Home S01E07 Africa s Wild Future 1080p DSNP WEB-DL DD 5 1 H 264-playWEB[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946234/africa-earth-s-wild-home-s01e07-africa-s-wild-future-1080p-dsnp-web-dl-dd-5-1-h-264-playweb.html",
+      "published_at": "2026-10-03T14:22:37Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.3 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "32c5fd02a0bf87a05617",
+      "source_id": "M003",
+      "title": "Africa Earth s Wild Home S01E04 Desert 1080p DSNP WEB-DL DD 5 1 H 264-playWEB[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946218/africa-earth-s-wild-home-s01e04-desert-1080p-dsnp-web-dl-dd-5-1-h-264-playweb.html",
+      "published_at": "2026-10-03T14:21:58Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.2 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "186fa8e962ee85050af4",
+      "source_id": "M003",
+      "title": "Africa Earth s Wild Home S01E02 Jungle 1080p DSNP WEB-DL DD 5 1 H 264-playWEB[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946213/africa-earth-s-wild-home-s01e02-jungle-1080p-dsnp-web-dl-dd-5-1-h-264-playweb.html",
+      "published_at": "2026-10-03T14:21:18Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.3 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "5561a116aab029382380",
+      "source_id": "M003",
+      "title": "Dateline.NBC.2026.10.02.Unmasking.the.Monster.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946210/dateline-nbc-2026-10-02-unmasking-the-monster-1080p-hevc-x265.html",
+      "published_at": "2026-10-03T14:20:51Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 878 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "f825ce1638d8940569fd",
+      "source_id": "C006",
+      "title": "公安机关发布国庆假期安全提示：警惕机票退改签、冒充电商物流客服等电信网络诈骗",
+      "url": "https://www.ithome.com/1/009/573.htm",
+      "published_at": "2026-10-03T14:20:28Z",
+      "summary": "IT之家 10 月 3 日消息，据公安部刑侦局，国庆假期期间，旅游出行、休闲娱乐、购物消费活动增多，为提高广大群众的防范意识，针对假期高发的诈骗类型，公安机关今日发布防范安全提示。IT之家附整理主要内容如下： 一、警惕机票退改签类诈骗 假期期间，民航客流增多，票务紧张，航班延误、退票改签等情况多发，容易给不法分子以可乘之机。诈骗分子往往冒充航空公司客服，通过电话或者短信与被害人进行联系，准确说出其姓名、身份证号、航班号、登机时间等信息，以此骗取信任，再谎称航班因故障、天气等原因延误或取消，需被害人办理机票退改签手续，并主动提出给予赔偿，诱导被害人点击不明链接、登录虚假网站或下载具有屏幕共享、远程控制功能的诈骗 App，套取被害人银行卡账号、密码、验证码实施诈骗，或者以缴纳保证金等理由，直接诱骗被害人向诈骗分子转账。 公安机关提醒：当被告知航班延误或取消，应通过航空公司客服电话、官方网站等正规渠道核实，避免脱离官方平台操作，切勿向不明账户转账，切勿点击不明链接、登录虚假网站、下载涉诈 App 或开启屏幕共享功能。 二、警惕冒充电商物流客服类诈骗 假期期间，购物消费活动增多，诈骗分子通常会通过群发短信、拨打电话等方式，冒充电商物流平台客服，以快递丢失、快递滞留、包裹破损、网购商品存在质量问题等为由，向被害人主动提出理赔补偿，诱导点击所谓退货链接、登录虚假购物网站，套取被害人身份证号、银",
+      "image_url": ""
+    },
+    {
+      "id": "df28e7f711dee125a1b6",
+      "source_id": "M003",
+      "title": "20-20.2026.10.02.Home.Alone.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946202/20-20-2026-10-02-home-alone-1080p-hevc-x265.html",
+      "published_at": "2026-10-03T14:19:24Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 639 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "1ea4c042f7ba4abbc4a8",
+      "source_id": "M003",
+      "title": "Ascendance.of.a.Bookworm.S04E24.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946201/ascendance-of-a-bookworm-s04e24-1080p-hevc-x265.html",
+      "published_at": "2026-10-03T14:19:00Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 160 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "475fecc3842f05cd384d",
+      "source_id": "C006",
+      "title": "华硕 a 豆 × WIGGLE WIGGLE 联名多彩外设发售，单品 69 元起",
+      "url": "https://www.ithome.com/1/009/572.htm",
+      "published_at": "2026-10-03T14:18:03Z",
+      "summary": "IT之家 10 月 3 日消息，华硕 a 豆现已在电商平台销售与韩国时尚家居品牌 WIGGLE WIGGLE 合作打造的联名款外设产品。 此次联名产品包括香氛机械键盘（449 元）、100W 氮化镓充电器（169 元）、电脑桌垫（69 元）、蓝牙鼠标（99 元）、云朵手提包（169 元），均装饰以 WIGGLE WIGGLE 标志性的丰富色彩和花卉图案。 天猫华硕 a 豆 × WIGGLE WIGGLE 联名 69 元起直达链接",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/33b6a97e-745d-4011-ac83-fd734b064a85.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "a9a67b9e4a61797deb57",
+      "source_id": "M003",
+      "title": "American.Horror.Story.S13E04.1080p.DSNP.WEB-DL.DD+.5.1.H.264-TRB",
+      "url": "https://www.torlock.com/torrent/67946148/american-horror-story-s13e04-1080p-dsnp-web-dl-dd%2B-5-1-h-264-trb.html",
+      "published_at": "2026-10-03T14:12:52Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 1.1 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "2043d5de6c4a2e8559e4",
+      "source_id": "M003",
+      "title": "Changing.Landscapes.1964.1080p.BluRay.x264-BiPOLAR.mkv",
+      "url": "https://www.torlock.com/torrent/67946142/changing-landscapes-1964-1080p-bipolar.html",
+      "published_at": "2026-10-03T14:12:45Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 2.4 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "d1253b8bd9960ef77a72",
+      "source_id": "M003",
+      "title": "Prank.Night.2026.1080p.WEB-DL.H264-PlayfulDarkness.mkv",
+      "url": "https://www.torlock.com/torrent/67946144/prank-night-2026-1080p-web-dl-h264-playfuldarkness.html",
+      "published_at": "2026-10-03T14:12:45Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 1.2 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "8ce64dc6a04bf46c7e0d",
+      "source_id": "M003",
+      "title": "Murder USA 2026 Season 1 Complete 720p WEB x264 [i_c]",
+      "url": "https://www.torlock.com/torrent/67946145/murder-usa-2026-season-1-complete-720p-web.html",
+      "published_at": "2026-10-03T14:12:45Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 15.4 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "32433ef8071e3cb1507f",
+      "source_id": "M003",
+      "title": "Change.of.Life.1966.PORTUGUESE.ENSUBBED.1080p.AMZN.WEBRip.DDP2.0.x264-TEPES.mkv",
+      "url": "https://www.torlock.com/torrent/67946134/change-of-life-1966-portuguese-ensubbed-1080p-amzn-webrip-ddp2-0.html",
+      "published_at": "2026-10-03T14:12:38Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 6.5 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "a7ac8b8dd86b1b419675",
+      "source_id": "M003",
+      "title": "JAY-Z.In.8.S01E06.1080p.HEVC.x265-MeGusta",
+      "url": "https://www.torlock.com/torrent/67946130/jay-z-in-8-s01e06-1080p-hevc-x265.html",
+      "published_at": "2026-10-03T14:12:35Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 875 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "4bc3767a0065dde8972d",
+      "source_id": "M003",
+      "title": "Romelia.War.Chronicle.S01E01.1080p.NF.WEB-DL.JPN.AAC2.0.H.264-ToonsHub.mkv",
+      "url": "https://www.torlock.com/torrent/67946123/romelia-war-chronicle-s01e01-1080p-nf-web-dl-jpn-aac2-0-h-264.html",
+      "published_at": "2026-10-03T14:12:29Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 867 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "f41ca3d0e13cafc67167",
+      "source_id": "M003",
+      "title": "Chandler.Christmas.Getaway.2018.1080p.AMZN.WEB-DL.DDP2.0.H.264-TEPES.mkv",
+      "url": "https://www.torlock.com/torrent/67946116/chandler-christmas-getaway-2018-1080p-amzn-web-dl-ddp2-0-h-264.html",
+      "published_at": "2026-10-03T14:12:27Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 6 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "03424498970af5dc5456",
+      "source_id": "M003",
+      "title": "Мистер Одиночество.2007.BDRip AVC msltel.mkv",
+      "url": "https://www.torlock.com/torrent/67946094/%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80-%D0%9E%D0%B4%D0%B8%D0%BD%D0%BE%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-avc-msltel.html",
+      "published_at": "2026-10-03T14:11:23Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 3.1 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "aff5f71aefb2456a4d47",
+      "source_id": "C011",
+      "title": "[问与答] 现在 chatgpt 短信验证，用哪家稳一点？",
+      "url": "https://www.v2ex.com/t/1246300#reply3",
+      "published_at": "2026-10-03T14:11:22Z",
+      "summary": "下载了闲鱼，发现怎么搜索都搜不到相关服务了，以前同事遇到的时候的店铺也不在了",
+      "image_url": ""
+    },
+    {
+      "id": "2b8dec149a9b6135c9d8",
+      "source_id": "M003",
+      "title": "www.5MovieRulz.company - Toxic (2026) Telugu HDRip - x264 - AAC - 500MB - HC-ESub",
+      "url": "https://www.torlock.com/torrent/67946090/pany-toxic-%282026%29-telugu-aac-500mb-hc-esub.html",
+      "published_at": "2026-10-03T14:11:16Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 545 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "70d4ed9338704662d180",
+      "source_id": "M003",
+      "title": "Anna.Pigeon.S01E09.Nature.vs.Nurture.1080p.WEB-DL.HEVC.x265-RMTeam",
+      "url": "https://www.torlock.com/torrent/67946087/anna-pigeon-s01e09-nature-vs-nurture-1080p-web-dl-hevc-x265-rmteam.html",
+      "published_at": "2026-10-03T14:10:57Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 522 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "fcdbf28f015b3f13b3ef",
+      "source_id": "M003",
+      "title": "www.5MovieRulz.company - Toxic (2026) 720p Telugu HDRip - x264 - AAC - 1.7GB - HC-ESub",
+      "url": "https://www.torlock.com/torrent/67946084/pany-toxic-%282026%29-720p-telugu-aac-1-7gb-hc-esub.html",
+      "published_at": "2026-10-03T14:10:01Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 1.8 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "0f7f7fabec2abedc9f67",
+      "source_id": "M003",
+      "title": "Chandni.Chowk.To.China.2009.1080p.AMZN.WEBRip.DDP5.1.x264-ABM.mkv",
+      "url": "https://www.torlock.com/torrent/67946082/chandni-chowk-to-china-1080p-amzn-webrip-ddp5-1-abm.html",
+      "published_at": "2026-10-03T14:09:36Z",
+      "summary": "Category: Movies Seeds: 0 Leechers: 0 Size: 12.6 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "0f206506d08ed3a652a1",
+      "source_id": "M003",
+      "title": "outside.2026.s01e03.1080p.web.h264-hotdogwater",
+      "url": "https://www.torlock.com/torrent/67946083/outside-2026-s01e03-1080p-web-h264-hotdogwater.html",
+      "published_at": "2026-10-03T14:09:36Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 2.8 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "03f100de27eefa68c2ec",
+      "source_id": "M003",
+      "title": "A.Wild.Last.Boss.Appeared.S02E02.1080p.WEB.H264-TRB",
+      "url": "https://www.torlock.com/torrent/67946081/a-wild-last-boss-appeared-s02e02-1080p-web-h264-trb.html",
+      "published_at": "2026-10-03T14:09:00Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 899 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "7588e2c77a278e1c8e9b",
+      "source_id": "C006",
+      "title": "铭凡 PCIe 扩展卡 ESP4B 上市，可提供 4 个 M.2 与 4 个 SATA 接口",
+      "url": "https://www.ithome.com/1/009/571.htm",
+      "published_at": "2026-10-03T14:05:25Z",
+      "summary": "IT之家 10 月 3 日消息，MINISFORUM（铭凡）现已在电商平台销售 PCIe AIC 扩展卡 ESP4B，到手价 669 元。这一型号基于祥硕 \"Promontory 21\" 芯片，采用主动散热，可提供 4 个 M.2 与 4 个 SATA 接口。 PROM 21 芯片上行侧为 4 条 PCIe Gen4，下行侧则包括 8 条 PCIe Gen4、4 条 PCIe Gen3、一系列 USB I/O。 在 ESP4B 上，下行 PCIe Gen4 用作 M.2 插槽，支持 2 个 4 通道或 4 个 2 通道；PCIe Gen3 通道则以 OCuLink 4i 形式呈现，可通过配套定制线材转换为 4 个 SATA III 接口；USB 部分则提供了 1 个 20Gbps Type-C。 京东铭凡 ESP4B 扩展卡 669 元直达链接",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/c63f1b06-aaee-4c5f-89cf-6cf88374a5da.jpg"
+    },
+    {
+      "id": "73b501e9bd3b65410076",
+      "source_id": "C011",
+      "title": "[分享创造] [我的搜索-桌面版] 一款呼出搜索工具，支持网站/文本类/插件",
+      "url": "https://www.v2ex.com/t/1246299#reply0",
+      "published_at": "2026-10-03T14:01:44Z",
+      "summary": "使用场景 项目开发最开始解决的问题是收藏了很多网站/软件/一些小教程(后面可能用到)，通过按规则写好源放到 github 上得到订阅然软件负责递归解析出数据项来搜索，有内置订阅，可制作自己订阅（教程 | 官方源仓库-参考），桌面版有插件功能 使用 桌面版（订阅数据+插件）：基于 Rust 开发 my-search-desktop 原版（订阅数据）：油猴脚本应用 mysearch 当前有哪些可用的插件 插件名 描述 Pi Agent Pi 编码代理 - 支持多项目、多模型、模型配置面板、插件管理、流式对话与工具调用 文件搜索 在粘贴/拖入的文件夹里按名称搜索文件：一直扫描、边扫边显示，随时可停止；回车或点击用系统默认程序打开 插件市场 浏览、安装、更新与卸载插件 录屏与水印 屏幕录制（可选实时叠加水印），并给已有视频批量添加文字/图片水印，支持九宫格定位与水印预设 截图 全局快捷键截图：框选区域、标注后复制到剪贴板，并在前台查看最近 7 天的截图 MayeLite 快速启动 把常用文件/文件夹拖进来固定，随时一键打开；支持分类、排序与拖拽整理 百度翻译 使用百度翻译 AI 能力，支持 200+ 语言互译，输入文本即译 GitHub 文件上传 将文件上传到 GitHub 仓库，支持拖拽、粘贴、选择文件与图片压缩 剪贴板历史 自动记录你复制过的文本与图片，按快捷键呼出即可搜索、复制、删除",
+      "image_url": "https://cdn.jsdelivr.net/gh/18476305640/typora@master/uploads/2026/10/03/1791035519022.png"
+    },
+    {
+      "id": "120cacf931c624a31a30",
+      "source_id": "M003",
+      "title": "A.Wild.Last.Boss.Appeared.S02E02.480p.x264-mSD[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946019/a-wild-last-boss-appeared-s02e02-480p.html",
+      "published_at": "2026-10-03T14:01:01Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 120 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "36a3c3b1b8b0e4556876",
+      "source_id": "M003",
+      "title": "[Erai-raws] Romelia Senki - 01 [480p CR WEB-DL AVC AAC][MultiSub][9FAA25F7].mkv",
+      "url": "https://www.torlock.com/torrent/67946018/romelia-senki-01-%5B480p-cr-web-dl-avc-aac%5D%5Bmultisub%5D%5B9faa25f7%5D.html",
+      "published_at": "2026-10-03T14:00:45Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 196 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "108da44eb6163c69933b",
+      "source_id": "M003",
+      "title": "Cops S38E14 720p WEB H 264-JFF[EZTVx.to].mkv",
+      "url": "https://www.torlock.com/torrent/67946017/cops-s38e14-720p-web-h-264-jff.html",
+      "published_at": "2026-10-03T14:00:44Z",
+      "summary": "Category: Television Seeds: 0 Leechers: 0 Size: 447 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "bfcb3c64ac59e38bc17e",
+      "source_id": "M003",
+      "title": "[Erai-raws] Romelia Senki - 01 [720p CR WEB-DL AVC AAC][MultiSub][158F818B].mkv",
+      "url": "https://www.torlock.com/torrent/67946016/romelia-senki-01-%5B720p-cr-web-dl-avc-aac%5D%5Bmultisub%5D%5B158f818b%5D.html",
+      "published_at": "2026-10-03T14:00:42Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 426 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "72aa9e8b9025e70ab75e",
+      "source_id": "M003",
+      "title": "[Erai-raws] Tensei shita Daiseijo wa Seijo de Aru Koto wo Hitakakusu - 02 [480p CR WEB-DL AVC AAC][MultiSub][E7DE9BD4].mkv",
+      "url": "https://www.torlock.com/torrent/67946015/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu-02-%5B480p-cr-web-dl-avc-aac%5D%5Bmultisub%5D%5Be7de9.html",
+      "published_at": "2026-10-03T14:00:37Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 198 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "7cdefdc2857898260b4a",
+      "source_id": "M003",
+      "title": "[Erai-raws] Tensei shita Daiseijo wa Seijo de Aru Koto wo Hitakakusu - 01 [720p CR WEB-DL AVC AAC][MultiSub][B0936A48].mkv",
+      "url": "https://www.torlock.com/torrent/67946014/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu-01-%5B720p-cr-web-dl-avc-aac%5D%5Bmultisub%5D%5Bb0936.html",
+      "published_at": "2026-10-03T14:00:36Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 406 MB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "666f7203f93bcbadbe67",
+      "source_id": "M003",
+      "title": "[Erai-raws] Tensei shita Daiseijo wa Seijo de Aru Koto wo Hitakakusu - 01 [1080p CR WEB-DL AVC AAC][MultiSub][3FD480A0].mkv",
+      "url": "https://www.torlock.com/torrent/67946013/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu-01-%5B1080p-cr-web-dl-avc-aac%5D%5Bmultisub%5D%5B3fd4.html",
+      "published_at": "2026-10-03T14:00:35Z",
+      "summary": "Category: Anime Seeds: 0 Leechers: 0 Size: 1.4 GB More info at Torlock",
+      "image_url": ""
+    },
+    {
+      "id": "ad15683b35a2e1ae9a8a",
+      "source_id": "C006",
+      "title": "成达万高铁铺轨施工启动，我国“八纵八横”高铁网建设迎来新进展",
+      "url": "https://www.ithome.com/1/009/570.htm",
+      "published_at": "2026-10-03T14:00:25Z",
+      "summary": "IT之家 10 月 3 日消息，据中国铁路官方公众号，10 月 1 日 8 时 18 分，在四川省南充市南充北站的施工现场，随着第一组 500 米长钢轨稳稳落下，成都至达州至万州高速铁路（以下简称：成达万高铁）铺轨施工正式启动。 成达万高铁是我国“八纵八横”高铁网沿江通道的重要组成部分，线路西起四川省成都市天府站，途经四川省资阳市、遂宁市、南充市、达州市及重庆市开州区、万州区，接入既有郑渝高铁万州北站，正线全长 477 公里，设计时速 350 公里。 成达万高铁全线铺轨总里程约 890 公里，含 178 组道岔，其中无砟道岔 133 组、有砟道岔 45 组。目前，成达万高铁建设桥梁桩基、承台、墩身已全部完成，隧道、站房及“四电”工程正按节点有序推进。铺轨节点的如期实现，标志着项目从线下工程转入线上施工阶段，为全线按期通车奠定坚实基础。 据介绍，成达万高铁建成后，将形成成都直达中原和京津冀地区的便捷客运通道，对推动成渝地区双城经济圈建设、长江经济带发展具有重要意义。 IT之家注：“八纵”通道包括沿海通道、京沪通道、京港（台）通道、京哈-京港澳通道、呼南通道、京昆通道、包（银）海通道、兰（西）广通道。“八横”通道包括绥满通道、京兰通道、青银通道、陆桥通道、沿江通道、沪昆通道、厦渝通道、广昆通道。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/7e1713b8-7c43-4656-a5e8-73983809d13b.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "1bd80632dfab85ec88cc",
+      "source_id": "C006",
+      "title": "超八成 16 岁以下青少年绕过监管，澳大利亚拟强化社媒禁令",
+      "url": "https://www.ithome.com/1/009/569.htm",
+      "published_at": "2026-10-03T13:50:39Z",
+      "summary": "IT之家 10 月 3 日消息，据央视新闻今日报道，去年 12 月，澳大利亚正式实施全球首个针对 16 岁以下未成年人的社交媒体禁令。然而，有研究显示，这一禁令在澳大利亚实际执行效果并不明显。近期，澳大利亚政府推出新法案，继续强化社交媒体管控和青少年社交媒体禁令。 今年 9 月，澳大利亚议会通过了《网络安全法案》修订案，继续强化社交媒体最低年龄限制的执法。修订案扩大了澳大利亚电子安全局和电子安全专员的执法权限，并提高了违反社交媒体最低年龄限制的罚款额度。新规加大惩戒力度，倒逼受管控社交媒体平台履行法定义务，阻止 16 岁以下澳大利亚人持有平台账号。 澳大利亚政府还在 9 月公布《数字注意责任法》草案，并向公众征询意见。这份草案要求互联网公司允许用户关闭算法选项。如果社交媒体平台未能保护青少年用户免受有害内容侵害，将面临最高 1.09 亿澳元（IT之家注：现汇率约合 5.09 亿元人民币）的罚款。 澳大利亚今年 7 月发布的官方监管与评估报告显示，社交媒体禁令去年 12 月正式实施，3 个月后，80% 以上的 16 岁以下青少年通过虚报年龄、借用家人或朋友账号等各种方式绕过监管，继续使用社交媒体。禁令效果有限。 IT之家注意到，去年 12 月，澳大利亚开始实施全球首个 16 岁以下未成年人社交媒体禁令，禁止未成年人使用 Facebook、Snapchat、YouTube 等社交媒体平",
+      "image_url": ""
+    },
+    {
+      "id": "9c902a5da87f8d45e196",
+      "source_id": "C018",
+      "title": "洛谷-P8162 让我们赢得选举 题解 - xiaoniu142857",
+      "url": "https://www.cnblogs.com/xiaoniu142857/p/23193101",
+      "published_at": "2026-10-03T13:47:00Z",
+      "summary": "Solution \\(N\\le 500\\)，我们需要 \\(O(N^3)\\) 的算法。 直接状压 dp 至少 \\(O(2^N)\\)，我们一定有大量最优解的性质没有找到。 为了方便，约定一个州有三种状态： B 类点：演讲至 \\(B_i\\) 小时，同时获得选票和协作者。 A 类点：演讲至 \\(A_i\\)",
+      "image_url": ""
+    },
+    {
+      "id": "ae449fb8d69684ed70ba",
+      "source_id": "C006",
+      "title": "经典永不过时：智感旋转功能在 Mate 90 系列手机回归，华为智慧感知能力再补关键一环",
+      "url": "https://www.ithome.com/1/009/568.htm",
+      "published_at": "2026-10-03T13:44:37Z",
+      "summary": "IT之家 10 月 3 日消息，在 2019 年，华为发布了 Mate 30 系列手机，并率先带来智感旋转功能。该功能支持识别人脸方向，智能切换横屏、竖屏。例如：竖持手机斜躺，手机屏幕不会旋转，横持手机则会旋转。 华为智感旋转功能一经发布，便一直预装在华为旗舰手机中，包括经典的 P40 系列、Mate 40 系列、P50 Pro（麒麟版）等。然而该功能在 Mate 50 之后便遗憾退场，一直未回归。 令人惊喜的是，在 10 月 1 日发布的华为 Mate 90 系列旗舰手机上，智感旋转功能终于回归。已经购买到 Mate 90 系列的用户可在“设置”中搜索“智感旋转”跳转至如下页面，并开启该功能。 IT之家注：开启自动旋转开关，将手机水平放置后打开图库照片。如果照片能随人脸朝向自动切换横竖屏，则功能正常，否则异常。在游戏、导航、暗光等场景中，屏幕旋转基于重力传感器，不会根据人脸朝向自动旋转。 目前，华为智慧感知能力正陆续回归，包括经典的隔空手指（隔空截屏 / 隔空滑屏等）、智能熄屏显示等。同时，华为近两年还新增了隔空传送、智感握姿等全新智慧感知能力。 2025 年 8 月，央视记者徐德智就为联合国秘书长发言人迪雅里克和在场外国记者演示了隔空传送技术。美联社驻联合国资深记者伊迪丝・莱德勒更是在现场直言：“这波直接告诉你，谁家的科技更顶。” 相关阅读： 《华为新品 12:08 正式开抢：",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/140e20cd-a866-4f30-9109-094d9863345e.jpg?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "28bb021eb469d65188fb",
+      "source_id": "C006",
+      "title": "QCY 推出 Crossky C70 耳夹式耳机：SQ5 欧姆原声单元、-54dB ENC 降噪深度，399 元",
+      "url": "https://www.ithome.com/1/009/565.htm",
+      "published_at": "2026-10-03T13:37:51Z",
+      "summary": "IT之家 10 月 3 日消息，QCY 现已在京东上架 Crossky C70 耳夹式耳机，该耳机采用双单元分频声学架构，支持骨声纹通话降噪，定价为 399 元。 京东 QCY C70 耳机 399 元直达链接 该耳机提供亮银和午夜黑两色，充电盒采用了准分子雾面工艺，耳机本体采用 0.5mm 钛 C 桥，配备“Aero-Pad 气感软垫 3.0”、“花苞形出音嘴”设计，支持不分左右耳佩戴。 该耳机搭载 SQ5 欧姆原声单元（含 10.8mm 高碳纤维动圈与 8mm 压电陶瓷单元），获 Hi-Res 与 LDAC 认证，耳机采用 2MIC+VPU 骨声纹 6 麦架构，通过感知颌骨振动区分人声与环境音，配合 ENC 算法可实现 -54dB 平均降噪深度与 HD Voice 人声增强，并支持 SoundLock 防漏音 3.0 与隐私模式。 续航方面，该耳机本体内置 46mAh 电池，充电盒内置 500mAh 电池，至高拥有 30 小时续航，IT之家附产品参数：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/525969/33/14124/83879/6abc90cdFc0dd45bb/00835dc5dc2830d3.png"
+    },
+    {
+      "id": "43b3a4104e9f44114d10",
+      "source_id": "C006",
+      "title": "2026 国庆档电影总票房破 5 亿：《神探之痕迹》《什么意思夫妇》《欢迎来龙餐馆》前三",
+      "url": "https://www.ithome.com/1/009/559.htm",
+      "published_at": "2026-10-03T13:34:08Z",
+      "summary": "IT之家 10 月 3 日消息，据灯塔专业版，截至 10 月 3 日 17 时 01 分，2026 年国庆档（10 月 1 日 —10 月 7 日）档期总票房（含预售）突破 5 亿，《神探之痕迹》《什么意思夫妇》《欢迎来龙餐馆》《小猪佩奇 · 完美假期》《复仇者联盟 4：终局之战（加码臻享版）》暂列档期票房前五。 IT之家整理如下： 《神探之痕迹》1.96 亿元 《什么意思夫妇》1.17 亿元 《欢迎来龙餐馆》2949.74 万元 《小猪佩奇 · 完美假期》2895.04 万元 《复仇者联盟 4：终局之战（加码臻享版）》2746.61 万元 IT之家注意到，《神探之痕迹》由陈思诚执导，张译、马丽、陈明昊领衔主演。该片取材于真实案件，改编自啄木鸟杂志社策划、群众出版社出版的《中国神探 —— 共和国刑警崔道植》，以崔道植同志的先进事迹为蓝本创作，讲述了崔寻始终秉持“为人民服务”的初心，通过侦破多起重大案件见证公安技术发展历程，其职业生涯见证着新中国公安事业建设与发展历程。 《什么意思夫妇》是一部由沈春阳执导的喜剧，小沈阳、沈春阳、贾冰、于洋、魏翔主演。影片讲述了一对结婚多年的欢喜冤家夫妻，日子早已过成了没滋没味的白开水。谁料离婚申请刚递完，天降意外，两人生活从此发生翻天覆地的变化。 《欢迎来龙餐馆》是由宁浩监制，文牧野执导并联合钟伟、郎群力编剧，沈腾、蒋奇明、奥马尔 · 谢里夫主演，李",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/2c6c37bc-e179-4573-9044-fe54319f9cda.jpg"
+    },
+    {
+      "id": "7ec90cd8c867a75bdaca",
+      "source_id": "C011",
+      "title": "[推广] Chatgpt 代充 plus/5x/10x/25x",
+      "url": "https://www.v2ex.com/t/1246298#reply0",
+      "published_at": "2026-10-03T13:29:19Z",
+      "summary": "chatgpt 代充，可开票。 plus/139 5x/699 10x/1400 菲区卡充秒到账 https://gptibo.com/r/CV0DJB 收代理欢迎对接",
+      "image_url": ""
+    },
+    {
+      "id": "538bebf9bd0eee7b927b",
+      "source_id": "C006",
+      "title": "华硕上架 2026 款无畏 16 锐龙版笔记本：R7 H 260 + 16G + 512G 售 5999 元",
+      "url": "https://www.ithome.com/1/009/550.htm",
+      "published_at": "2026-10-03T13:27:28Z",
+      "summary": "IT之家 10 月 3 日消息，华硕现已在京东上架 2026 款无畏 16 锐龙版笔记本，该机采用锐龙 R7 H 260+16GB RAM + 512GB SSD 规格，定价为 5999 元。 京东 2026 款华硕无畏 16 锐龙版笔记本 5999 元直达链接 该机采用全金属机身，厚度 15.9mm，重量 1.69 Kg，B 面配备一块 2.5K 144Hz 面板（覆盖 100% sRGB 色域），C 面配备全尺寸背光键盘和 7.1 英寸触控板，机身提供 2 个全功能 USB-C、2 个 USB-A 、1 个 HDMI 2.1 接口。 该机搭载 8 核心 16 线程 AMD 锐龙 7 H 260 处理器，匹配 16GB LPDDR5 RAM 和 512GB PCIe SSD，提供至高 45W 性能释放，笔记本内置 70Wh 电池。",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/539802/23/1394/108545/6abce141Fa5a6cd85/0083320320fbcaeb.jpg"
+    },
+    {
+      "id": "ead85cf169afde8ae54d",
+      "source_id": "C011",
+      "title": "[问与答] 199 的小米充电宝放在图书馆，插着充电忘记拿走，第二天一大家被一家子（女的还考公）偷走了，我需要较真吗？",
+      "url": "https://www.v2ex.com/t/1246297#reply14",
+      "published_at": "2026-10-03T13:27:17Z",
+      "summary": "小孩老婆男的 三口之家早上 8 点半就来了 神奇的是，这男的一进门就抬头看监控 然后她家孩子把我的充电宝拔下来给他爸爸 他爸爸先放到地上一分钟，再拿到桌上，还拿自己的线看是不是可以正常使用的充电宝（因此我怀疑惯犯了） 女的拿个笔记本电脑看网课在考公，男的没事做左顾右盼一会出去买奶茶，还拿一包抽纸挡着我的充电宝 其后监控里拍的一清二楚，抖腿几十分钟，这男的，估计在做思想斗争 最后 11 点 39 的时候走，她和她老婆还抬头看了下监控 帽子来了，我强烈要求看监控，拍的清清楚楚，我看了全过程，但是不肯我用手机拍 后来帽子说这个只是侵占，不是盗窃，我实在要追究只能我自己去法院起诉 刚刚打督察电话，不知道结果如何，真的很生气，图书馆到处都是监控，很多人都把笔记本电脑手机放那充电，大家信任这样的环境 我希望拘留几天，让这个爸爸给他儿子做个表率，好恶心，我家里找了半天，还打了很多电话给吃饭的餐厅，网约车，浪费好长时间。 说下午对方还过来，结果没消息，刚才晚上九点半派出所一个女的打电话过来让我去拿，说对方把充电宝送过来了？？？ 我特么，这小偷零成本啊，太搞笑了，还要被偷的人跑 2 公里大老远打车来回去拿，我不用休息的，气了一天！ 再打过去，男的接的，说什么，你怎么就有证据证明对方是偷的，我说我看了全过程的监控，直接把我电话挂了 我说现在 AI 人工智能时代，相关法律一问就知道了，你糊弄不了谁！ 结",
+      "image_url": ""
+    },
+    {
+      "id": "cd66ff5f47e7aff5e883",
+      "source_id": "S005",
+      "title": "本周赛博领鸡蛋（10.2~10.8）：《深埋之星》《网络奇兵2：25周年重制版》《桥梁建造师工作室》",
+      "url": "https://www.appinn.com/eggs-26102/",
+      "published_at": "2026-10-03T13:26:51Z",
+      "summary": "本周赛博领鸡蛋 Epic 送出 3 款游戏：《深埋之星 / BURIED STARS》和《网络奇兵2：25周年重制版 / System Shock 2: 25th Anniversary Remast",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/Copy-of-appinn-homework-2026-10-03T212423.619.jpg"
+    },
+    {
+      "id": "d4cf30358eaeed19a11e",
+      "source_id": "C004",
+      "title": "本周赛博领鸡蛋（10.2~10.8）：《深埋之星》《网络奇兵2：25周年重制版》《桥梁建造师工作室》",
+      "url": "https://www.appinn.com/eggs-26102/",
+      "published_at": "2026-10-03T13:26:51Z",
+      "summary": "本周赛博领鸡蛋 Epic 送出 3 款游戏：《深埋之星 / BURIED STARS》和《网络奇兵2：25周年重制版 / System Shock 2: 25th Anniversary Remast",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/Copy-of-appinn-homework-2026-10-03T212423.619.jpg"
+    },
+    {
+      "id": "067f618ae42942626d39",
+      "source_id": "C006",
+      "title": "联力上架刃界 EDGE Platinum V2 白金全模组电源：可选 1000/1200/1350W 版本、十年质保，979 元起",
+      "url": "https://www.ithome.com/1/009/541.htm",
+      "published_at": "2026-10-03T13:21:32Z",
+      "summary": "IT之家 10 月 3 日消息，联力现已在京东上架刃界 EDGE Platinum V2 电源，提供 1000W、1200W 与 1350W 三种规格可选，定价为 979 元起，IT之家整理价格如下： 1000W 黑色：979 元 1000W 白色：999 元 1200W 黑色：1079 元 1200W 白色：1099 元 1350W 黑色：1699 元 1350W 白色：1749 元 京东刃界联力 EGP V2 白金全模组电源 979 元起直达链接 系列电源提供黑白两种配色，机身使用家族式 L 型设计，网孔带有几何立体纹理效果。随附集线器内置磁铁，可直接插接电源或吸附在机箱内部。 系列电源获得三重白金认证，采用日系电容，内置 120mm 风扇，支持按需切换启停模式与低负载零转速停转。用户可利用 L-Connect 3 软件实时查看电源状态。 线材方面，全系电源附带加固握持区的双色供电线与三根 550mm 独立显卡线；其中 1350W 版本还标配两根 200mm 短款线材及一根转接线，便于背插主板与双舱机箱理线。 IT之家附产品参数：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/528011/13/10368/2310446/6aba3b49Fe366e2d5/0083bb8bb8d86d02.jpg"
+    },
+    {
+      "id": "b856a71161f07b7499a0",
+      "source_id": "C018",
+      "title": "JT/T 808 部标车辆监控平台实战（第 1 篇 · 业务与架构） - Sam Xiao",
+      "url": "https://www.cnblogs.com/xcj26/p/23192965",
+      "published_at": "2026-10-03T13:21:00Z",
+      "summary": "1、实时监控 2、轨迹查询 3、告警管理 4、围栏设置 5、看板与报表 JT/T 808 部标车辆监控平台实战 （第 1 篇 · 业务与架构） 做车联网，绕不开三个国标：JT/T 808（终端怎么跟平台说话）、JT/T 1078（车载视频怎么传）、JT/T 809（平台怎么向上级监管平台汇报）。 去",
+      "image_url": ""
+    },
+    {
+      "id": "5f9e178a779e69309272",
+      "source_id": "C006",
+      "title": "充电桩扫码充电暗藏“弹窗投保”陷阱，消费者莫名被扣款",
+      "url": "https://www.ithome.com/1/009/540.htm",
+      "published_at": "2026-10-03T13:12:04Z",
+      "summary": "IT之家 10 月 3 日消息，据央视新闻今日报道，有消费者在充电桩扫码充电时遭遇“弹窗投保”陷阱，扫码操作后，页面会弹出伪装成广告的窗口，诱导用户填写信息并办理保险业务。 IT之家从报道获悉，西藏林芝的索朗先生在一个充电站给电动汽车充电的时候，手机扫充电桩的二维码，首先跳出来的并不是充电桩的小程序，而是一个看着并不像广告的页面，要求输入银行卡、手机号等信息。索朗以为这是充电必须填写的信息，因此也没多想就填了，过了一段时间后居然收到了银行发来的某保险公司的扣款信息。 该消费者称：“我以为充电桩需要验证身份信息，当时输入了身份证号、银行卡号。我没太在意，因为当时比较着急就直接输进去了。当时也没有扣款，然后突然扣款，我发现是那种保险类的。” 索朗告诉记者，当时弹窗页面并不像是广告，因为广告一般都有关闭按钮并且会有倒计时，而这个弹窗所展示的内容，也没有明确说是办理保险，更没有详细展示保险的产品说明以及保单等关键信息。 据悉，“弹窗投保”陷阱多发生于：充电桩扫码、快递柜扫码、共享充电宝扫码、停车缴费等各类生活消费场景。扫码操作后，页面会弹出伪装成广告的窗口，诱导用户填写信息并办理保险业务。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/32fd8b32-1140-405f-b355-74199a269b89.png"
+    },
+    {
+      "id": "e1de7f7f8115a737b2ef",
+      "source_id": "C018",
+      "title": "并发编程（七）：volatile——从语言规则到 CPU - ThinkerQAQ",
+      "url": "https://www.cnblogs.com/ThinkerQAQ/p/23192943",
+      "published_at": "2026-10-03T13:09:00Z",
+      "summary": "沿用 counter + ready 的例子，从 Java 内存模型一路看到 HotSpot 与 x86-64，理解 volatile 如何提供可见性和有序性，以及它与 Atomic、Mutex 的边界。",
+      "image_url": ""
+    },
+    {
+      "id": "704e3cbf5399a0491be2",
+      "source_id": "C006",
+      "title": "华为 Mate 90 Pro Max 旗舰机首个版本更新内容曝光，实装四卡三待、3D 动态照片等功能",
+      "url": "https://www.ithome.com/1/009/539.htm",
+      "published_at": "2026-10-03T13:08:18Z",
+      "summary": "IT之家 10 月 3 日消息，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 ——Mate 90 系列手机正式发布，全系搭载了韬定律芯片。 ▲ IT之家实拍：华为 Mate 90 RS 非凡大师演示样机 IT之家注意到，华为 Mate 90 Pro Max 旗舰机的首个版本更新内容已曝光，包体大小约 745.01 MB，实装了四卡三待、3D 动态照片等功能。 亮点推荐 新增四卡三待功能：可支持 4 个号码（2 个 SIM 卡号码和 2 个 eSIM 号码），可启用其中 3 个号码同时待机，进行通话、短信、上网等功能。 沉浸光感均衡档新增粒子动效：如在通知中心移除通知、桌面移除图标 / 卡片、控制中心调节音量条等场景均会产生粒子动效（设置 > 桌面和个性化 > 沉浸光感 > 均衡档）。 新增亲密圈：牵挂家人，温情常在。您可以邀请家人和挚友共享彼此的健康动态、所在地天气；可以共享屏幕，远程协助家人解决设备使用难题；可以查看设备使用状态，守护家人健康使用设备；还可以共享日程，给家人细致入微的贴心守护；同时支持添加宠物档案，关联宠物相册，珍藏萌宠美好瞬间（设置 > 华为账号 > 亲密圈）。 图库 图库智慧修图功能：依托美学大脑分析，可根据图像内容提供专属修图建议，支持一句话修图、主动推荐、涂鸦生图和圈选生图（图片编辑页 > 点击右下角图库智慧修图入口，",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/9/fe776e20-5f96-4f63-99cd-e5bbdfe5ea77.jpg"
+    },
+    {
+      "id": "42192e1cf14224d6bf54",
+      "source_id": "C011",
+      "title": "[程序员] 做了个“不受欢迎的博客特征”：全站离线按钮",
+      "url": "https://www.v2ex.com/t/1246296#reply4",
+      "published_at": "2026-10-03T13:01:44Z",
+      "summary": "上次做的博客压缩包这下可以用上了，在这个页面： https://mayx.eu.org/offline.html 就可以用上次制作的压缩包让全站完全离线。 使用了 service worker 和 libarchive 另外“不受欢迎的博客特征”的说法引自文章《谈谈不受欢迎的博客技术特征》",
+      "image_url": ""
+    },
+    {
+      "id": "69032f2839c90d954fc6",
+      "source_id": "C011",
+      "title": "[分享创造] [魔力工作台] 一个开源版 workbuddy 替代品",
+      "url": "https://www.v2ex.com/t/1246295#reply0",
+      "published_at": "2026-10-03T12:56:15Z",
+      "summary": "我做了一个开源版 workbuddy 替代品，你可能会问，类似的产品海了去了，重复造轮子有什么意义？ 缘起 事情是这样的 我在一家 AI 公司就职产品经理工作，就我用这个行业真实业务的视角，以及我接触到的一些东西来看我觉得他很有机会 公司业务说白了就是卖 token 而组成公司收入的主要客户实际上是搞蒸馏，这种客户我觉得并不优质 因为这不产生价值，是军备竞赛，一旦 AI 泡沫破灭，市场没有了钱，军备竞赛终止，公司业绩会大幅缩水，所带来的连锁反应是非常恐怖的 不过也在转型，在做企业客户，转型二字说来容易，赚钱真的是太难了，企业直客就两个特点，没钱、事多 企业用 AI 本身的目的就是为了降本增效，让他花大把的钱买 token 肯定要考虑是否值得 我们公司员工不限量使用任何大模型，成本价的情况下一个月最高的能用到五六千块 rmb ，平均使用也有 1500 左右，这个价格去企业里推，很少有公司愿意花这个钱来买 token 企业顶多能接受一个月一个坐席几百块的预算，甚至更低 一个蒸馏客户一天就能消费十几万 rmb ，而一个企业客户那，可能一个月才一两万，如果按这个来计算，这背后基础建设的投入想要回本需要拓展非常多的企业客户去平摊，也就是市场生产力需求真的爆发 大部分公司买 token 也不知道怎么用，你要跟他们讲 codex 、claudecode ，他们跟听天书一样，哪怕是程序员，大部分也",
+      "image_url": "https://img.cdn1.vip/i/6ac0fb3c7f690_1791032124.webp"
+    },
+    {
+      "id": "0d550b2e054b5000ee6c",
+      "source_id": "C011",
+      "title": "[职场话题] 大家有什么离开码农岗位能保持一定稳定收入的事业？",
+      "url": "https://www.v2ex.com/t/1246294#reply2",
+      "published_at": "2026-10-03T12:55:37Z",
+      "summary": "都说码农被裁员一定不会直接滴滴/外卖/跑腿，而是经历一段时间的找工作、一段时间的独立开发、一段时间的 AI 创收、一段时间的实体创业，最后才是滴滴/外卖/跑腿？ 我先说下我身边的： 有人写番茄小说，前期温饱都难解决，字数上去加上题材还行，不全职的情况目前每个月有七千多以上； 有人在跑腿，刚开始一周五六百左右，习惯后目前一天下来保底能有两百多的样子； 有人和朋友开了小餐馆，主要是炒菜/粉面等，目前月均亏损三千左右； 有人通过 AI 结合 3D 打印，再制作一些手办等小玩意，收入未知； 我了解的都非常普通，有好的门路可能也不会和我分享，也想看看各位大佬有没有能分享的一些门路，互相讨论。",
+      "image_url": ""
+    },
+    {
+      "id": "46bcbcd939bea97b7999",
+      "source_id": "C011",
+      "title": "[AI SaaS 产品推荐] 10 月 1 日完成开发，看看我的新产品能跑多远",
+      "url": "https://www.v2ex.com/t/1246293#reply0",
+      "published_at": "2026-10-03T12:50:59Z",
+      "summary": "我是一个前前端，之前几乎没怎么开发过手机端客户端，做独立开发这两年接触了很多 app 开发，每次开发 app 的时候提交都让我头疼，尤其是每次做 预览图，已经成为我的一个劝退原因，我经常会因为畏惧多语音的重复制作预览图而放弃多语言的发布。即使在 AI 已经可以很好地帮我处理多语言的情况下。 所以我最近着手开发了一款 APP STORE 的 Sreenshoot 的模板编辑软件，网址是 https://appscreenshoot.com ，我计划未来支持 MCP 的调用，可以让 Codex 直接远程调用网站提供的模板，多语言都可以自动完成，让 Codex 来操作 Simulator 自动截屏多语言的屏幕，这样可以节省大量的人力。 目前网站完全免费，欢迎试用，留言建议我会及时采纳。",
+      "image_url": ""
+    },
+    {
+      "id": "75e6cd9ffccc7a15c943",
+      "source_id": "C011",
+      "title": "[Apple] iPhone 18 Pro 屏下 Face ID 识别率下降，开局输入密码",
+      "url": "https://www.v2ex.com/t/1246292#reply2",
+      "published_at": "2026-10-03T12:49:39Z",
+      "summary": "iPhone 18 Pro 屏下 Face ID 识别率感觉有所下降，不像自媒体说的解锁率一致。 人脸重录过 系统升级过 大角度转头重录过 眼镜佩戴录入过。 没贴防窥膜，就普通钢化膜。 Apple Watch S12 联动解锁的开关也开了，但是这功能仅限面部遮挡情况下。 最后解锁率还是相较以前的手机低。 经常开屏就是密码，感觉小白鼠感有点拉满。",
+      "image_url": ""
+    },
+    {
+      "id": "3018b6a91b4a54abf8ba",
+      "source_id": "F001",
+      "title": "普通人投资的出路到底在哪儿",
+      "url": "http://xueqiu.com/1433550277/411255785",
+      "published_at": "2026-10-03T12:48:06Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "3485058606a1267b8c0f",
+      "source_id": "F001",
+      "title": "从美光财报谈谈市场需要什么预期",
+      "url": "http://xueqiu.com/5332385101/411250110",
+      "published_at": "2026-10-03T12:47:59Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "c48335cb1e5f1563205a",
+      "source_id": "C011",
+      "title": "[推广] 做了一个简单的 Font Changer，复制粘贴文字就能换字体",
+      "url": "https://www.v2ex.com/t/1246291#reply0",
+      "published_at": "2026-10-03T12:37:19Z",
+      "summary": "做了一个比较简单的小工具，主要是因为有时候想给 V2EX 上的帖子换一种字体，但又懒得找各种字体转换网站。 所以自己做了一个：Font Changer 它的功能很简单，目前做了一些比较常见的样式，比如： Bold Italic Script Fraktur Monospace Double Struck 以及其他 Unicode 字符风格 比较适合用在： 帖子和评论 个性签名 整个过程不需要安装字体，也不需要下载软件，直接浏览器里复制粘贴就可以。 网站目前是免费的，也不需要注册： 👉 https://fontschanger.org/ 这是一个刚做的小项目，如果大家平时也有类似需求，欢迎试试看。 如果你发现某些字体在手机、Windows 或 Mac 上显示不正常，也欢迎反馈一下，我后面可以继续调整。",
+      "image_url": "https://fontschanger.org/img/og-default.jpg"
+    },
+    {
+      "id": "e85586417730c9ebc008",
+      "source_id": "C011",
+      "title": "[反馈] 本人是做 AI 代充的，最近发现被封号了，我一直在推广区进行推广，请问是什么原因",
+      "url": "https://www.v2ex.com/t/1246290#reply0",
+      "published_at": "2026-10-03T12:34:40Z",
+      "summary": "本人做 AI 代充的，平时大概一天一贴的频率，一直老老实实在推广区发帖 但是昨天发现账号被封了，是触犯了哪一条违规了吗？ 但是目前我看推广区内还是有人可以发 是因为是 Pro 会员才可以发吗？ 目前也联系不上管理跟站长，有人可以解答一下吗？ @Livid",
+      "image_url": ""
+    },
+    {
+      "id": "9a28efd884e82206aa33",
+      "source_id": "C011",
+      "title": "[分享创造] 中国人能飞小游戏",
+      "url": "https://www.v2ex.com/t/1246289#reply5",
+      "published_at": "2026-10-03T12:33:44Z",
+      "summary": "简介： （ 1 ）打开网页地址，打开大音量 （ 2 ）按住按钮，不断飞行，欣赏沿途风景，可以截图分享 （ 3 ）我们中国人能飞！哈哈哈，欢迎来玩 游戏地址： https://vtyjss9883o0.meoo.pub/",
+      "image_url": ""
+    },
+    {
+      "id": "546449a1f515d44ff3cf",
+      "source_id": "C006",
+      "title": "荣耀推出 HONOR Life 充气泵 Lite：具备照明功能、标称“42 秒充满一条自行车胎”，248 元",
+      "url": "https://www.ithome.com/1/009/538.htm",
+      "published_at": "2026-10-03T12:32:44Z",
+      "summary": "IT之家 10 月 3 日消息，荣耀现已在京东上架 HONOR Life 充气泵 Lite，该产品具备充气、胎压检测和照明功能，定价为 248 元。 京东荣耀 HONOR Life 充气泵 Lite248 元直达链接 该充气泵采用黑色修长机身，尺寸为 160x63x62mm，净重 583g，官方称其整体尺寸类似一瓶 500ml 矿泉水，可放入车门格或水杯位。充气泵正面配有数显屏（实时显示胎压，支持 PSI、BAR、KPA、Kg / cm² 四种单位切换），内部采用贯穿式风道散热，顶部设有应急照明灯。 该充气泵提供汽车、摩托车、自行车、球类及自定义 5 种充气模式，充气速度为 25-30L/min，气压范围为 0.1-11BAR（最高 160PSI）。产品支持吊装充气，标称 17s 可充满一个篮球，42s 可充满一条自行车胎，支持预设胎压、充满自停。 该充气泵内置“3 节 2500mAh 电池”，具备过压、过流及过温等保护，满电可充 4 个轿车轮胎或 102 个篮球。机身采用 USB-C 充电接口，标配美式气管、球针和法嘴等配件。 IT之家附产品参数：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/537904/8/1667/175379/6aba0696Fa115344d/00835dc5dcc2de0b.png"
+    },
+    {
+      "id": "3e88347f4c4f730614f0",
+      "source_id": "C006",
+      "title": "小米 Vision GT 十月入驻，GT 系列游戏将首次推出电车驾驶教学",
+      "url": "https://www.ithome.com/1/009/537.htm",
+      "published_at": "2026-10-03T12:26:40Z",
+      "summary": "IT之家 10 月 3 日消息，小米汽车今日发文称，GT World Series 新加坡站，小米汽车欧洲研发中心设计负责人 Jean 与 GT 系列制作人山内一典共同宣布：GT 将首次推出电车驾驶教学。 IT之家注意到，小米汽车今日早些时候宣布，Xiaomi Vision GT（Vision Gran Turismo）10 月即将正式入驻 Gran Turismo 7（跑车浪漫旅 7 / GT 赛车 7），成为游戏史上的首台中国 Vision GT。 据悉，Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目。该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/d848478e-0bf9-4f18-8bde-820e25598280.png"
+    },
+    {
+      "id": "64822c5762ba243dc8db",
+      "source_id": "S007",
+      "title": "On The Lock - 锁屏备忘[iOS、Apple Watch][内购限免]",
+      "url": "https://free.apprcn.com/on-the-lock/",
+      "published_at": "2026-10-03T12:21:11Z",
+      "summary": "On The Lock 是一款把备忘录和下一步行动放到锁屏上的轻量工具，让重要的事不再藏在 App 里面。你可以快速写下备忘，把它转换成今天的待办，并通过实时活动、主屏幕小组件和锁屏小组件查看重要内容。添加照片来保留上下文，连接日历查看今天剩余日程，设置 D-day，并自定义布局、颜色、文字大小、对齐方式和背景皮肤。",
+      "image_url": "https://freeapp.macapp8.com/ca93bb04-5c2d-f698-b2a0-c0ea8a88d37c.webp?imageView2/2/w/1920"
+    },
+    {
+      "id": "d1176924884cab8871fc",
+      "source_id": "C018",
+      "title": "把 OpenClaw.NET 的 83 篇 Markdown 变成一个网站：完整复盘 - 张善友",
+      "url": "https://www.cnblogs.com/shanyou/p/23192862",
+      "published_at": "2026-10-03T12:17:00Z",
+      "summary": "把 Markdown 变成网站，80% 的工作量根本不在渲染，而在让每一个链接换了个环境之后依然诚实——该重写的重写，该标注的标注，一个死链都不留。",
+      "image_url": ""
+    },
+    {
+      "id": "9dd764b317f31e07ef7f",
+      "source_id": "C006",
+      "title": "泰坦军团推出“P326MV Ultra”31.5 英寸 4K 200Hz / FHD 400Hz 双模显示器：XDR 亮度 2200 尼特 + 双扬，3888 元（国补后 3499.2 元）",
+      "url": "https://www.ithome.com/1/009/536.htm",
+      "published_at": "2026-10-03T12:16:42Z",
+      "summary": "IT之家 10 月 3 日消息，泰坦军团现已在京东上架一款型号为“P326MV Ultra”的 31.5 英寸显示器，该机主打 4K 200Hz / 1080P 400Hz 双模 QD-Mini LED，定价为 4410 元，首发价 3888 元，部分地区国补后低至 3499.2 元，10 月 8 日首销。 京东泰坦军团 P326MV Ultra 显示器 3888 元直达链接 该机配备的 2304 分区 QD-Mini LED 背光 Fast IPS 面板支持以 3840x2160 分辨率 200Hz 或 1920x1080 分辨率 400Hz 显示，其 XDR 峰值亮度达 2200 尼特，HDR 峰值亮度 1400 尼特，GtG 响应速度 1ms，覆盖 100% sRGB、99% DCI-P3、99% Adobe RGB 色域。显示器表层采用 2.5% 微米级凹凸蚀刻防眩光结构，能够改善反射问题。 该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 100x100mm 壁挂，内置双扬声器，同时背面带有 RGB 电竞氛围灯，提供双 HDMI 2.1、DP 1.4、90W USB-C 等接口。 IT之家附产品参数：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/517905/30/8517/106612/6aa3a645Fb22df3d3/00833203206bcb85.png"
+    },
+    {
+      "id": "51a1583917938b4f060f",
+      "source_id": "S007",
+      "title": "GrowFocus - 番茄钟专注计时器[iOS][内购限免]",
+      "url": "https://free.apprcn.com/grow-focus/",
+      "published_at": "2026-10-03T12:10:24Z",
+      "summary": "GrowFocus 是一款高级认知训练应用，它能将注意力练习变成一座美丽的 3D 花园。每完成一次专注时段，即可获得培育珍稀植物的资源。跳过一天，花园就会枯萎。简单的规则，持久的习惯。",
+      "image_url": "https://freeapp.macapp8.com/a3f8f9e1-2cf1-3157-ecb1-edf698e9c8cc.webp?imageView2/2/w/1920"
+    },
+    {
+      "id": "d8f9f7a655380a50689f",
+      "source_id": "C006",
+      "title": "前索尼高管吉田修平谈《GTA 6》超高热度：未来再有此关注度，可能得《GTA 7》或等中国厂商出手",
+      "url": "https://www.ithome.com/1/009/535.htm",
+      "published_at": "2026-10-03T12:07:27Z",
+      "summary": "IT之家 10 月 3 日消息，近日，前索尼互动娱乐全球工作室总裁吉田修平在接受媒体 The Verge 采访时谈到了《GTA 6》所带来的巨大关注度。 当被问及未来是否可能还会有其他作品能达到类似的热度与影响力时，他认为，或许还得等到《GTA 7》，不过未来中国厂商可能也会参与到这场竞争中。他表示，《GTA 6》之后可能还会有十几年的空白期，所以中国厂商或许会带来类似的作品。他强调道：“任何人都不应该低估中国游戏厂商的实力。” 《GTA 6》数字版定于 2026 年 11 月 19 日登陆 Xbox Series X|S 和 PlayStation 5。收藏版也会同步推出，但不包含游戏本体。实体原声带同样得到官宣，CD 和黑胶版均已开放预购。 R 星确认，《GTA 6》的地图规模超过其此前制作的所有游戏，面积达到《GTA 5》的两倍，细节密度也大幅增加。整个地图分为六大区域，分别是雷奥奈达礁岛群、大草泽、盖尔霍恩港、安柏西亚、卡拉加山国家公园和罪恶城。 除了常规互动外，玩家可以通过网约车快速旅行，并在途中与随机 NPC 交谈；可以浏览游戏内社交平台 Snapmatic（IT之家注：与现实生活中的 Instagram 或 TikTok 等类似）；可以追踪动物、狩猎稀有猎物。游戏收录近 200 种动物，玩家还能参加水肺潜水、划皮艇、健身等活动。",
+      "image_url": ""
+    },
+    {
+      "id": "e83cec885e62214f7606",
+      "source_id": "C006",
+      "title": "航嘉推出重火力 AX1000P 三叉戟白金全模组电源：7 年质保，759 元",
+      "url": "https://www.ithome.com/1/009/534.htm",
+      "published_at": "2026-10-03T12:03:26Z",
+      "summary": "IT之家 10 月 3 日消息，航嘉现已在京东上架重火力 AX1000P 三叉戟白金全模组电源，提供 7 年质保，定价为 759 元。 京东航嘉重火力 AX1000P 氮化镓白金电源 759 元直达链接 该电源采用黑色方正壳体，顶部设有条形散热格栅与品牌标识，侧面印有规格铭牌。随附压纹工艺的黑色蟒纹线。 该电源符合英特尔 ATX 3.1 规范，在 230V 典型负载下转换效率达 94%。原生配备 PCIe 5.1 12V-2x6 接口，单接口支持 600W 输出，并标配 8-pin 常规接口兼容不同平台。 该电源搭载英诺赛科氮化镓开关管，同时配备日系电容，内置双滚珠风扇，在 27°C 室温满载运行 1 小时温度控制在 52°C 左右。电源提供 SCP 短路保护、OPP 过功率保护、OVP 过压保护、UVP 欠压保护、OCP 过流保护。",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/534618/32/510/166599/6ab0f1bfF39088ce8/00835dc5dcbe02c6.jpg"
+    },
+    {
+      "id": "e662d895aa18cd83666e",
+      "source_id": "C011",
+      "title": "[新手求助] 我想请问一下现在推广区是不能发广告了吗？",
+      "url": "https://www.v2ex.com/t/1246284#reply12",
+      "published_at": "2026-10-03T12:03:19Z",
+      "summary": "本人做 AI 代充的，平时大概一天一贴的频率，一直老老实实在推广区发帖 但是昨天发现账号被封了，是触犯了哪一条违规了吗？ 但是目前我看推广区内还是有人可以发 是因为是 Pro 会员才可以发吗？ 目前也联系不上管理跟站长，有人可以解答一下吗？",
+      "image_url": ""
+    },
+    {
+      "id": "79e3461d041fc6402568",
+      "source_id": "T001",
+      "title": "Great Question (YC W21) Is Hiring Product Engineers in Canada (Remote)",
+      "url": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+      "published_at": "2026-10-03T12:02:10Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "07702ca5c0ee2470e88d",
+      "source_id": "C011",
+      "title": "[问与答] 请问刷票的那种水军谁知道怎么做的。",
+      "url": "https://www.v2ex.com/t/1246283#reply2",
+      "published_at": "2026-10-03T11:58:40Z",
+      "summary": "和手机号是绑定的。",
+      "image_url": ""
+    },
+    {
+      "id": "b5d8d206e371d6b4bbff",
+      "source_id": "T001",
+      "title": "The Escalation of War in Ethiopia",
+      "url": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
+      "published_at": "2026-10-03T11:54:24Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "adb1b86f9d1207d9bc39",
+      "source_id": "C006",
+      "title": "VGN 推出霓虹 75 Turbo 磁轴键盘：0.005mm RT 精度、双 8KHz 回报率，439 元",
+      "url": "https://www.ithome.com/1/009/533.htm",
+      "published_at": "2026-10-03T11:45:13Z",
+      "summary": "IT之家 10 月 3 日消息，VGN 现已京东上架霓虹 75 Turbo 磁轴键盘，将于 10 月 9 日开启首销，定价为 439 元。 京东 VGN 霓虹 75Turbo 磁轴键盘 439 元直达链接 该键盘尺寸为 323x138x20mm，提供粉色渐变、粉蓝渐变和黑金雾透三种配色，匹配 CNC 工艺面壳，带有霓虹氛围灯带，键盘底部配二段式脚撑，内置 8000mAh 电池。 该键盘为 Gasket 结构，采用战魂 MVP V2 磁轴方案，具备 0.005mm RT 精度、128K 通道扫描率与 0.1ms 延迟，在有线及 2.4GHz 模式下支持双 8K 回报率。键盘匹配原厂高度键帽，采用天霸 Turbo 轴体，初始压力 35±5gf，触底压力 50±5gf，总行程 3.5±0.2mm。 IT之家附产品参数：",
+      "image_url": "https://img14.360buyimg.com/pop/jfs/t1/528903/26/8589/115206/6abba26eF90a099c7/0083320320c0826c.jpg"
+    },
+    {
+      "id": "bc9fecc6d82be4b8894b",
+      "source_id": "C011",
+      "title": "[Claude] 历经千辛万苦终于用上了 opus5.5.",
+      "url": "https://www.v2ex.com/t/1246282#reply14",
+      "published_at": "2026-10-03T11:43:45Z",
+      "summary": "现在想在国内订阅上、并且不封号实在是太难了。 0. 第零步订阅一个好用的 vpn ，最好是家宽，稳定的美国 ip 。 第一步注册一个 google 账号。 申请一张招行的 visa 卡 下载一个安卓模拟器，使用 google play 订阅 此时订阅完成以后，会提示需要过 kyc 使用中国护照通过 kyc 使用。目前正常用了两天 该说不说，opus5.5 聊天是真的体贴，一到晚上就提醒我早点睡觉。",
+      "image_url": ""
+    },
+    {
+      "id": "12f3faee581249d9f0f1",
+      "source_id": "C013",
+      "title": "翻译｜帕克·波西：“我很怀念那种纯粹的交友方式。现在完全不一样了。” (评论: 派对女郎)",
+      "url": "https://movie.douban.com/review/17840547/",
+      "published_at": "2026-10-03T11:36:47Z",
+      "summary": "冰冷脆脆鲨评论: 派对女郎 (https://movie.douban.com/subject/3291136/) 评价: 力荐 {\"entityMap\": {\"0\": {\"type\": \"IMAGE\", \"data\": {\"origin\": false, \"id\": \"1...",
+      "image_url": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2613269321.jpg"
+    },
+    {
+      "id": "eff46d47e4de7facb041",
+      "source_id": "C011",
+      "title": "[香港] 汇丰开户,是线上申请,还是要去网点.",
+      "url": "https://www.v2ex.com/t/1246281#reply2",
+      "published_at": "2026-10-03T11:36:22Z",
+      "summary": "线上据说 2 个字名字不好通过. 线下网点开卡要预约还是直接找个网点进去?",
+      "image_url": ""
+    },
+    {
+      "id": "95b8baa8f9a483701655",
+      "source_id": "C011",
+      "title": "[分享创造] 几句话，让 GPT-6.1 Sol 把一个开源口算游戏改造上线了",
+      "url": "https://www.v2ex.com/t/1246280#reply1",
+      "published_at": "2026-10-03T11:35:05Z",
+      "summary": "最近找到一个开源口算小游戏 Dopa Drill ，想拿它试试：现在的 ChatGPT ，能不能把一个现成项目改成自己想要的样子，再直接部署上线？ 选好模型（ GPT-6.1 Sol ）、给出需求，后面的代码修改、图片生成、排查问题、测试和部署，都交给它执行了，最后包含部署上线，全程人工不介入。 做出来是这个：小学数学速算。主要是小学口算和竖式练习，不用注册，进度保存在浏览器里。 里面的两只猫，是拿我家猫咪的照片让它生成的。答对以后，猫咪会用前爪拉绳子，把数字捞进答案里，挺有意思的。 调研+开发+部署上线（域名提前买好），整个过程人工 0 介入，很丝滑，包括后面提出的一些细节的修改，只需要截图+几句话，也能很好完成，同样不需要人工介入，GPT 自己打开网页、截图、测试...直到满足需求。最后它自己提交、推送、部署，再打开正式网站检查效果。 这整个过程，只使用了周额度的 5%～ 7% 的样子，我开的是 GPT-6.1 Sol 高，账号是 Pro ，不得不说，GPT-6.1 Sol 还是很耐用的，比 Astra 耐用太多了，Astra 是真用不起～",
+      "image_url": "https://i.imgur.com/ZbR7Lno.png"
+    },
+    {
+      "id": "382ab163973d2301988c",
+      "source_id": "C011",
+      "title": "[分享创造] 做了个 iOS App：拍一下杯贴，把每天那杯咖啡的取餐号收集成 000–999 号码册，求 TestFlight 内测",
+      "url": "https://www.v2ex.com/t/1246279#reply1",
+      "published_at": "2026-10-03T11:33:38Z",
+      "summary": "每天一杯瑞幸，取餐时总会瞄一眼杯贴上的号码。某天意识到这其实是个每天免费开一次的数字盲盒：可能是 888 ，可能是顺子，可能正好是生日。但喝完杯子一扔，号码就没了。 所以给自己做了个收集册，叫「杯号」：000–999 一千个格子，每喝一杯，拍一下杯贴，点亮一格。 拍完几秒：认出品牌和取餐号，把号码贴纸从照片里\"撕\"下来、拉正、包白边，整杯也从背景里抠出来。每一格都必须用真实照片点亮，不能手填。 想找什么样的人 瑞幸、星巴克是我自己天天喝的，已经比较稳。品牌表里还收了 50 多家，但每家杯贴长得五花八门，我手里样张很少，尤其想找常喝 Manner 、M Stand 、Peet's 、喜茶、奈雪的朋友。 你只需要：平时喝东西时顺手拍一下杯贴。认错了、卡住了、哪里难用，直接在帖子里回复就行。 怎么加入 iPhone 上直接打开 TestFlight 公开链接（会先引导装苹果官方的 TestFlight ）： https://testflight.apple.com/join/pGpDNz5K 不想直接装的话，也可以先在 https://beihao.app/beta/ 填 4 道题（ 1 分钟），填完同样给链接，顺便帮我统计一下大家常喝什么。",
+      "image_url": "https://beihao.app/promo/recruit-2026-10/01-photo-to-sticker.jpg"
+    },
+    {
+      "id": "2b384a5276fb9eee40b1",
+      "source_id": "C011",
+      "title": "[问与答] 微信输入法安装的时候强制要管理员权限",
+      "url": "https://www.v2ex.com/t/1246278#reply18",
+      "published_at": "2026-10-03T11:33:32Z",
+      "summary": "正常吗",
+      "image_url": "https://i.v2ex.co/mlVqkMyK.jpeg"
+    },
+    {
+      "id": "2e82e0488ee76c0666b0",
+      "source_id": "C011",
+      "title": "[AI Agent 智能体] muse.ai 把视频教程总结成图文教程 按教程搭建 3x-ui 系统和节点",
+      "url": "https://www.v2ex.com/t/1246277#reply4",
+      "published_at": "2026-10-03T11:32:36Z",
+      "summary": "前言 几个月前, 我写过呼吁小白们都使用 Agent 部署项目, 那还是基于项目的 README 这种图文教程. 几天前, 我在和一个群友交流使用 Agent 搭 3x-ui 系统时, TA 说看的 Youtube 视频教程 操作下来结果是正常使用的, 我当时还说, 要是图文教程我肯定有信心让 Agent 照着操作成功, 视频教程我不敢保证效果. 我今天想, 试试看让 Agent 照着视频教程搭建会是什么结果? 这两天 space-bunny-alpha 我感觉降智了. 那就用 muse 来吧. 实践 视频教程就是在 youtube 上搜的发布日期最新的 3x-ui 教程. (没有特别为某个频道背书的意思, 就是随便搜, 随便选的) https://www.youtube.com/watch?v=8gmkLML-3CI 以下引用框里面就是我发给 Agent 的自然语言 你能把这条视频 教程总结成图文教程吗？ https://www.youtube.com/watch?v=8gmkLML-3CI IP **.**.**.** User root Password T********2 SSH Port 22 你按教程部署好, 并且你自己按教程测试节点可用. * 过程中, muse 会多次请你授权连接 IP 和端口, 记得点同意. 你能设置一个订阅链接吗? 我用 shadowrocke",
+      "image_url": "https://r2.lvedong.eu.org/firefox_2026-10-03_17-29-21.png"
+    },
+    {
+      "id": "d544395dafaae9ccbc77",
+      "source_id": "C006",
+      "title": "V社 Steam Frame 头显第三方摄像头模块 Arcturus Vision 上市：可提供高分辨率彩透效果，售 150 美元",
+      "url": "https://www.ithome.com/1/009/531.htm",
+      "published_at": "2026-10-03T11:30:34Z",
+      "summary": "IT之家 10 月 3 日消息，制造商 Arcturus 宣布为 V 社 Steam Frame 头显推出一款 Vision Camera 彩透外置摄像头模块，可以显著提升头显的透视（Passthrough）画面质量，定价 150 美元（IT之家注：现汇率约合 1,007 元人民币）。 该模块重量仅 10 克，采用即插即用设计，与 Steam Frame 的机身高度融合，可以直接安装在 Steam Frame 鼻梁下方隐藏的扩展接口中。安装后无需重启头显，系统即可自动切换至 Arcturus 摄像头。原本使用 Steam Frame 内置透视画面的场景，例如 SteamVR 背景以及混合现实游戏，都会改为使用 Vision Camera 提供的画面。 外媒 RoadtoVR 上手后认为，Vision Camera 不仅为 Steam Frame 引入了彩色画面，实际上透视分辨率也有极大提升。一个比较直观的测试方式是通过透视画面阅读手机屏幕，Steam Frame 原生摄像头基本无法完成这一任务，而安装 Vision Camera 后则已经可以较为清晰地读取手机屏幕内容。从实际观感来看，升级后的 Steam Frame 透视效果大致可以达到 Meta Quest 3 的水平，但与苹果 Vision Pro 相比仍存在明显差距。 ▲ 原版 Steam Frame 透视效果 ▲ 加装 A",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/336dab67-4e33-4d75-a4a3-9195228e3960.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "003ee0a5fc82c5b235f1",
+      "source_id": "C011",
+      "title": "[智谱] glm 模型真犟啊，是和 z\\学的吗",
+      "url": "https://www.v2ex.com/t/1246276#reply2",
+      "published_at": "2026-10-03T11:22:33Z",
+      "summary": "glm5.3 和 flash 都很犟啊，都指出来问题在哪里了，死活不肯承认自己的错误，就是不肯改。非说是用户可见的行为一致不需要改，然后洋洋洒洒废话了一大堆，却就是不肯改几行的代码。可这个任务是重构任务啊，一开始就说了需要保证前后逻辑一致。有点无语😅",
+      "image_url": ""
+    },
+    {
+      "id": "f14c7a4fae209d7c3139",
+      "source_id": "C006",
+      "title": "外媒试玩 VR 游戏《新世纪福音战士：ΔCROSS REFLECTIONS》：线性叙事结构、支持体感战斗",
+      "url": "https://www.ithome.com/1/009/530.htm",
+      "published_at": "2026-10-03T11:15:48Z",
+      "summary": "IT之家 10 月 3 日消息，韩国工作室 Pixelity 将于明年推出基于经典动画《新世纪福音战士》改编的 VR 游戏《EVANGELION：Δ CROSS REFLECTIONS》，目前媒体 RoadtoVR 提前体验了游戏早期版本中的“Story Mode（故事模式）”和“Battle Mode（战斗模式）”，IT之家汇总该媒体报告如下： 从目前试玩内容来看，本作围绕原版《新世纪福音战士》动画展开，整体采用较为线性的叙事结构，与部分视觉小说类 VR 作品类似。游戏大量剧情通过电影化场景呈现，同时穿插针对 VR 设计的互动内容。例如使徒会从玩家头顶跃过并摧毁城市，玩家则需要在特定场景中进行射击等操作，整体逻辑类似于游戏厅里的传统射击光枪游戏，只是改成了 VR 形式。 外媒表示，本作主要采用基于手部追踪的移动方式。玩家只需用手指向希望移动的方向，即可进行类似摇杆的平滑移动；如果需要后退，则向上抬起手指。Pixelity 表示，目前展示的手势并非最终版本，开发团队正在持续测试不同的手势方案，希望进一步提高操作的响应速度、直观程度和自然感。 游戏战斗系统同样主要依赖体感操作。近战攻击直接通过挥拳实现，而远程射击则需要张开右手，并模拟握住气步枪前握把的动作。玩家随后可以通过弯曲食指模拟扣动扳机，同时完成瞄准和射击。游戏还提供防御动作，玩家同时抬起双手做出格挡姿势后，可以暂时展开护盾，",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2025/9/aea31564-b93c-4821-b809-4121e8183e72.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "8af55fc943654543c31a",
+      "source_id": "C013",
+      "title": "罗杰·伊伯特评《鸭羹》 (评论: 鸭羹)",
+      "url": "https://movie.douban.com/review/17840514/",
+      "published_at": "2026-10-03T11:06:19Z",
+      "summary": "东木头评论: 鸭羹 (https://movie.douban.com/subject/1298113/) 评价: 力荐 {\"entityMap\": {\"0\": {\"type\": \"IMAGE\", \"data\": {\"origin\": false, \"id\": \"1...",
+      "image_url": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1050245844.jpg"
+    },
+    {
+      "id": "6a30e2ddd6c692bdadaf",
+      "source_id": "C006",
+      "title": "开发者为经典 FPS《泰坦陨落 2》单人战役模式推出免费 VR 模组：支持体感操作武器换弹",
+      "url": "https://www.ithome.com/1/009/529.htm",
+      "published_at": "2026-10-03T11:02:40Z",
+      "summary": "IT之家 10 月 3 日消息，模组作者 CircuitLord 宣布为经典 FPS 游戏《泰坦陨落 2》推出一款免费 VR 模组，为游戏加入头部追踪、武器瞄准、机甲武器控制以及手动换弹等功能，玩家可以通过 CircuitLord 制作的 Mod 安装器进行快速安装。 除了头部追踪和 VR 武器瞄准外，玩家还可以利用手部控制器直接操作机甲武器，并使用体感手势动作为部分武器进行换弹，以取得更加沉浸式的效果。 CircuitLord 同时表示，《泰坦陨落 2》本身就是以高速移动著称的 FPS，因此 VR 版本对于玩家的适应能力要求更高。游戏中的跑墙、空中移动以及利用抓钩高速穿越战场等操作，会产生比传统平面屏幕游戏更加明显的视角变化，可能导致部分玩家因此出现晕动情况，相应玩家可以单独开启模组的“辅助移动”功能，以降低不适情况。 不过，目前这款 VR Mod 仅支持《泰坦陨落 2》的单人战役模式，处于维护竞技平衡原因，因此其不支持多人游戏。对于想在 VR 下进行多人竞技的玩家，目前 CircuitLord 正在制作自己 VR FPS《No Shot》，本作主打 Rougelike 零重力射击体验。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/58d4e897-e456-4aa6-86c0-20e38c5ca797.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "c9591ad7f87701ca1b39",
+      "source_id": "G001",
+      "title": "总想在游戏里花钱？我真没招了【视频播客音频版】",
+      "url": "https://www.gcores.com/radios/220498",
+      "published_at": "2026-10-03T10:58:41Z",
+      "summary": "欢迎回到“核电波”！今天聊聊为什么我们总喜欢在游戏里花钱？ 本期为机核视频播客节目音频版，若大家想看我们在录节目的时候究竟是什么样的状态,可以关注我们的B站账号【核电波】 本期主播：Nadya / 西蒙 / Ryoma",
+      "image_url": "https://image.gcores.com/56778f8aed8978ffaa351991b75dd359-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90"
+    },
+    {
+      "id": "da12a1b99c08b4d0bce5",
+      "source_id": "T001",
+      "title": "Show HN: Germany's new sovereign AI model Kolibri",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "published_at": "2026-10-03T10:43:51Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "9b7bb74c19c166a41e06",
+      "source_id": "C011",
+      "title": "[分享创造] Pebrel —— 可能是 Windows 最好看的 AI 终端",
+      "url": "https://www.v2ex.com/t/1246274#reply2",
+      "published_at": "2026-10-03T10:39:18Z",
+      "summary": "项目的起点是，Mac 上好看的终端太多了，非常眼馋，Windows 上好用的终端确实有，比如 Warp 、Windows Terminal 。但在我的日常使用里，Warp 显得偏重； Windows Terminal 用起来很顺手，但功能相对基础。当我开始频繁使用 Claude Code 、Codex ，同时处理多个本地和远程会话时，就希望终端能提供更多贴合这些工作流的功能。 我想要一个轻快、好看、支持 AI CLI ，又能方便地管理终端、远程连接和文件的原生工作区。于是，我决定用 Rust 和 GPUI ，围绕这些需求做一个终端。Pebrel 就这样出现了。 目前 Pebrel 的主要功能包括： 标签与分屏 / Claude Code 、Codex 集成：识别 AI CLI ，显示对应图标和活动状态 / LaTeX 数学公式渲染 / 会话通知 / SSH 连接管理 / SFTP 文件传输 / 本地文件树与 Git 操作 / 工作区布局保存 / Windows 后台驻留 / 内置 Markdown 阅读 / 图片查看器 / 代码编辑 / 文本编辑等功能 Pebrel 免费、开源。目前重点打磨 Windows ，Linux 和 macOS 也提供了 Preview 版。 项目地址： https://github.com/Kuddev/pebrel 下载地址： https://gith",
+      "image_url": "https://cdn.nodeimage.com/i/r9uEreST8RbFUXcqaBnaL6LiJPwVDLGI.webp"
+    },
+    {
+      "id": "d3bf4c82fbff5a32a3fd",
+      "source_id": "C006",
+      "title": "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统",
+      "url": "https://www.ithome.com/1/009/527.htm",
+      "published_at": "2026-10-03T10:36:12Z",
+      "summary": "IT之家 10 月 3 日消息，据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。 据介绍，2022 年 3 月 1 日起，《浙江省电子商务条例》施行。全省入网外卖商家必须以视频形式实时公开食品加工制作现场，在后厨装监控，实现“明厨亮灶”。画面同步上传监管平台与外卖平台，实现“互联网 + 明厨亮灶”监管模式。 消费者在商家订单页点击“明厨亮灶”，就能看后厨实时画面。摄像头覆盖烹调、切配等重点区域。50㎡以下小店，若 1 个摄像头能拍全重点区域，可只装 1 个；后厨有隔断或面积大于 50㎡，应增设。 AI 可自动识别后厨违规行为，将信息推送给监管人员，再由监管人员短信督促商家落实整改。比如，食用油禁止直接接触地面；垃圾桶必须加盖；纸浆蛋托不得堆放在地面、操作台或设备上；消毒后的餐饮具、直接入口容器工具要存放在专用密闭保洁设施内。 目前浙江省入驻有 19.5 万外卖商家，具备 AI 识别功能的摄像头覆盖率 97.3%。小动物进厨房、洗菜池洗拖布、在厨房吸烟等问题，都被“明厨 AI”发现处置。浙江省市场监督管理局餐饮服务食品安全监管处处长邵慧群说，非现场监管让后厨环境卫生不合格率从上线时的超 28%，逐月下降至现在只有 3.9%。 IT之家注意到，根据市场监管总局今年 7 月公布信息，调查显示近 90% 受访消费者每个月",
+      "image_url": ""
+    },
+    {
+      "id": "e9b8a96c3cefec5487bb",
+      "source_id": "C011",
+      "title": "[问与答] 你们的 plus 账号取消了 5 小时限制吗",
+      "url": "https://www.v2ex.com/t/1246273#reply6",
+      "published_at": "2026-10-03T10:24:15Z",
+      "summary": "我的没有,但是看到很多人说取消了这是什么情况啊",
+      "image_url": ""
+    },
+    {
+      "id": "f61fbd2e9252b8804793",
+      "source_id": "C006",
+      "title": "大航跃迁自研 150 吨级火箭发动机“擎宇-11”完成核心部件研制与试验",
+      "url": "https://www.ithome.com/1/009/526.htm",
+      "published_at": "2026-10-03T10:04:42Z",
+      "summary": "IT之家 10 月 3 日消息，大航跃迁今日宣布，近日，大航跃迁自研 150 吨级液氧甲烷发动机“擎宇-11”配套阀门顺利完成设计、生产及全工况地面试验，各项性能指标全部达标，实现动力核心部件自主可控。 此前，擎宇-11 已先后完成火炬点火、组件低温及组件液流等多项核心研制试验，验证了核心组件性能与硬件可靠性。本次阀门研制与试验的成功，为发动机整机联调与后续试车奠定基础。 据介绍，本次完成生产及验证的阀门主要包括：控制电磁阀、吹除电磁阀、点火电磁阀、起动电磁阀，甲烷主阀、氧主阀、甲烷副阀、氧副阀，以及泄出阀、高压单向阀、吹除单向阀，全面覆盖发动机预冷、点火、启动、供给、关机、吹除全工作链路。 为验证各阀门能否经受真实极端工况，团队逐台开展低温介质、高压密封、振动环境等专项工况试验，重点考核阀门的响应特性、密封性能与承压能力，多轮考核全部通过、各项指标满足工程标准，为后续整机试车提供可靠保障。 擎宇-11 作为大航跃迁自研的 150 吨级液氧甲烷发动机，设计可重复使用不少于 50 次、推质比大于 150，先后完成多项核心研制试验，本次配套阀门又顺利完成研制，动力核心部件实现自主可控，发动机关键环节逐项打通，正加速迈向全系统整机试车。 IT之家从大航跃迁官网获悉，大航跃迁成立于 2024 年 2 月，是一家以“地面捕获 + 智能控制”为特色、专注中大型可重复使用运载火箭研发的硬核科技企",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/73e94428-0fcb-477c-8232-118a9430a5a9.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "dfdd576aef0c188a4d9b",
+      "source_id": "C011",
+      "title": "[macOS] macOS 27 在国内网络下无法登录 apple 和 iCloud 账户 提示无网络连接",
+      "url": "https://www.v2ex.com/t/1246269#reply1",
+      "published_at": "2026-10-03T10:01:13Z",
+      "summary": "排查下来是系统默认走 quic 协议 而登录过程要连接 apple 香港的 ip ，quic 走不通。 导致整个登录过程被中断卡在半完成状态 国内运营商对 udp/quic 协议到现在都没改善可用性，已经到了无法正常使用的地步",
+      "image_url": ""
+    },
+    {
+      "id": "75397f4826cb997ed28d",
+      "source_id": "C006",
+      "title": "一次认证 3 个月有效，北京首都机场免费 Wi-Fi 攻略发布",
+      "url": "https://www.ithome.com/1/009/522.htm",
+      "published_at": "2026-10-03T09:59:54Z",
+      "summary": "IT之家 10 月 3 日消息，据央视新闻今日报道，目前正值国庆假期出行高峰，机场客流量大幅攀升，人员密集区域手机信号拥堵、流量消耗加快，成为不少旅客的困扰。但其实像首都机场、大兴机场等不少机场都为旅客提供了免费的 Wi-Fi 服务，那机场的免费 Wi-Fi 如何连接？有哪些注意事项呢？ 按照相关法律规定，公共场所无线网络首次连接需要进行实名认证。为兼顾不同旅客的使用习惯，首都机场为旅客提供了 4 种便捷认证登录方式： 手机短信认证，旅客直接填写手机号获取验证码即可登录使用； 护照认证，旅客通过手机拍摄护照信息页，系统会自动识别并完成认证； 通过现场 Wi-Fi 取号机认证，旅客扫描身份证、护照、港澳台居民通行证证件，便可获取 Wi-Fi 账号和密码，输入认证页面即可完成认证使用。首都机场在 T2 和 T3 航站楼内不同区域布置了 46 台取号设备； 通过首都机场官方微信及小程序一键登录。 首都机场信息科技部服务商业系统建设业务经理何志武介绍，Wi-Fi 信号已覆盖航站楼、停车楼所有旅客可达区域，每名旅客可独享带宽达 15M，在线高清视频也能流畅观看。首都机场 Wi-Fi 的认证有效期可达 3 个月，旅客在有效期内再次来到机场，打开手机 Wi-Fi 就能自动连上，无需重复认证。 此外，北京大兴机场国际候机区的 Wi-Fi 自助上网专区 7 月起投用，吧台式服务专区配置了舒适桌椅和高",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/52fc9463-60d5-4b3e-bbbd-bd1c6d2c04fa.png"
+    },
+    {
+      "id": "e223a2a2d9bbdb22b693",
+      "source_id": "T001",
+      "title": "GitHub's new dashboard experience now the default",
+      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "published_at": "2026-10-03T09:59:01Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "4eeb5d58d3e68c719d98",
+      "source_id": "C011",
+      "title": "[推广] AWS 谷歌云免绑卡开通服务器： 24H 自助 USDT 充值",
+      "url": "https://www.v2ex.com/t/1246268#reply0",
+      "published_at": "2026-10-03T09:56:47Z",
+      "summary": "服务网站：www.xuetucloud.com TG 客服：@cloudcup AWS / 谷歌云代理商充值：USDT 充值，优惠低至 7 折 对于需要使用海外云服务器的个人开发者、跨境电商、外贸企业以及海外业务团队来说，AWS 和谷歌云都是常见的海外云计算平台。不过，很多用户在开通海外云服务器时，会遇到外币银行卡、支付方式以及账户充值等问题。 如果没有方便使用 Visa 、Mastercard 等外币银行卡，可以通过代理商渠道咨询 AWS 、谷歌云服务器开通及充值服务，由代理商协助处理相关流程，减少自行办理外币支付方式带来的操作成本。",
+      "image_url": ""
+    },
+    {
+      "id": "d2d80f5ddd03daf00be2",
+      "source_id": "C006",
+      "title": "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求",
+      "url": "https://www.ithome.com/1/009/521.htm",
+      "published_at": "2026-10-03T09:53:20Z",
+      "summary": "IT之家 10 月 3 日消息，AMD 当地时间本月 1 日宣布向航天客户交付 Versal AI Core XQRVC1902 自适应 SoC 的早期样品。 这一 SoC 采用 AMD 自主研发的航天级无盖封装，结合了保守的设计规则和增强型有机基板材料，搭配航天级芯片电容器。该组合减轻了太空环境中的热应力和机械应力对芯片的影响，适合对可靠性要求极高的航天任务。 AMD 目前正在按照航天组件标准中质量和可靠性的最高级别 —— 美国军用标准 MIL-PRF-38535 Y 级认证对 Versal AI Core XQRVC1902 自适应 SoC 进行测试。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/04d874ef-550e-4dc6-a81e-f99f29e92a06.jpg?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "97ea7a60171221c132c7",
+      "source_id": "YE001",
+      "title": "抖音万粉男网红我是小学生 约炮被拍视频流出 女主群聊评价又长又大挺爽",
+      "url": "https://access.imhbkfpa.cc/archives/222789.html",
+      "published_at": "2026-10-03T09:45:00Z",
+      "summary": "抖音拥有46.6万粉丝的男网红“我是小学生”（真名赖盛杰），日常人设是清纯少年感，作品里全是校园风自拍和日常vlog，粉丝多为女性。然而最近他被爆出约炮实锤，不仅开房还拍了视频。事后女方在群聊里...",
+      "image_url": ""
+    },
+    {
+      "id": "4158650f2dd7681a1775",
+      "source_id": "C006",
+      "title": "戴尔推出 2 款强固型笔电，搭载第 3 代英特尔酷睿 Ultra 处理器",
+      "url": "https://www.ithome.com/1/009/520.htm",
+      "published_at": "2026-10-03T09:43:21Z",
+      "summary": "IT之家 10 月 3 日消息，Dell（戴尔）当地时间本月 6 日（IT之家注：此为原始新闻稿标注时间）宣布推出 2 款基于第 3 代英特尔酷睿 Ultra 处理器的强固型笔记本电脑新品。 新一代的 Dell Pro Rugged 13 Extreme 采用“全强固”设计，是同级别最小巧最强大的型号。其拥有 IP66 防尘防水，抗 1.8m 跌落，可在爆炸性环境中安全操作，配备 1400nits 的 13.3\" 触控屏，板载 LPDDR5X 内存。 而新一代 Dell Pro Rugged 14 属于“半强固”机型，也是同级别最小巧最强大的产品。其支持 IP53 防尘防水，抗 0.9m 跌落，配备 1100nits 的 14\" FHD+ 面板（可选触控支持），采用 LPCAMM2 内存模组，可选 NVIDIA RTX PRO 500 笔记本电脑 GPU。 两款设备均支持智能卡读卡器、指纹识别器、IR 人脸识别，可选配 5G 蜂窝网络模块，向下兼容上一代热插拔电池和充电器。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/bceb74c3-fa73-44ab-b6ea-5247a3e7914e.jpg"
+    },
+    {
+      "id": "e21e818b20a9526a1ced",
+      "source_id": "H002",
+      "title": "小米汽车：小米Vision GT 10月即将正式入驻Gran Turismo 7",
+      "url": "https://36kr.com/newsflashes/4009943497117577?f=rss",
+      "published_at": "2026-10-03T09:43:19Z",
+      "summary": "36氪获悉，小米汽车发文称，小米Vision GT 10月即将正式入驻Gran Turismo 7，成为游戏史上的首台中国Vision GT。",
+      "image_url": ""
+    },
+    {
+      "id": "a01008792c1e515d61e9",
+      "source_id": "C006",
+      "title": "《黄金矿工：派对狂欢》将于 11 月 17 日登陆 Steam，支持 2–6 人多人在线游戏",
+      "url": "https://www.ithome.com/1/009/518.htm",
+      "published_at": "2026-10-03T09:42:43Z",
+      "summary": "IT之家 10 月 3 日消息，《黄金矿工》新作《黄金矿工：派对狂欢》将于 11 月 17 日登陆 Steam 平台，支持 2–6 人在线多人、简体中文界面，将经典黄金矿工的抓钩玩法带入正面对决的全新舞台。 IT之家附官方介绍： 《黄金矿工：派对狂欢》将 2 至 6 名玩家同时投入同一场疯狂的淘金热。你记忆中那根物理抓钩，那颗超大金块落地时令人满足的声响，以及现在这个也在抢同一块宝贝的对手。 多轮对决，抢到手软，笑到最后。上手极简，淡定极难。 主要特色 2–6 人在线多人对战：和好友一起游玩，或即刻匹配来自世界各地的玩家 经典黄金矿工玩法：全面重构，专为对抗竞技打造 多轮积分赛制：分数不断累积，形势瞬息万变，逆转时刻随时上演 快速对战：随时开局，想挖就挖 排位模式 & 竞技天梯：献给认真对待每一局的矿工 IT之家注意到，《黄金矿工：经典版》Steam 版于今年 3 月加入简体中文支持。本作于 2025 年 7 月 20 日登陆 Steam，好评率 82%“特别好评”。作为参考，该作在国区售价 16.69 元。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/9cc4665b-7898-487a-ba9c-1ee775590014.png"
+    },
+    {
+      "id": "ff004ee849d150db3827",
+      "source_id": "C011",
+      "title": "[分享创造] 炒股老不按自己定的规则来，干脆写了个工具管住自己",
+      "url": "https://www.v2ex.com/t/1246267#reply7",
+      "published_at": "2026-10-03T09:41:28Z",
+      "summary": "炒股这几年，买卖基本看当天心情，备忘录里写的规则自己都不看。后来干脆写了个工具：条件先定死，每天收盘后让它对着股票池扫一遍，该买该卖的列出来，做不做还是我自己点。 https://stock-compass.app 条件是点选拼的，RSI 、均线、量比、PE 这些都有，不用写代码。写完可以先拿历史日线跑一遍回测，财报日也算在里面。自己记的交易会分成照规则做的和没照规则做的两堆，复盘的时候两边一比就清楚了。 不连券商，不碰钱，也不推荐股票，信号都从你自己的规则来。行情用的 Yahoo 日线，不是实时的，收盘后看比较合适。 目前是我一个人在开发维护，前端 TanStack Start ，后端 Supabase ，定时任务挂在 Cloudflare Worker 上。港股、美股、A 股都能用。 免费版能用每日信号、策略和交易日记，股票池 50 只。回测和邮件提醒在 Pro 里，$8/月或 $60/年，14 天试用不用绑卡。 懒得注册可以先看演示页，里面是示例数据： https://stock-compass.app/zh/demo 有问题欢迎评论区留言",
+      "image_url": ""
+    },
+    {
+      "id": "e2d8ca84a379ec721504",
+      "source_id": "T001",
+      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "published_at": "2026-10-03T09:36:04Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
+      "id": "11cf1a41ee7d32b9635b",
+      "source_id": "L002-c24629da",
+      "title": "我们手上的这瓶 AVESTAN，为什么被称为是“全球最神秘的香水”",
+      "url": "http://www.toodaylab.com/84233",
+      "published_at": "2026-10-03T09:34:54Z",
+      "summary": "说到从英国出发的小众香氛品牌，我们能想到的像是 Perfumer H（在上海巨鹿路有店）和 Bamford（酒店和航空公司用来做备品很多）这些，但更小众的——得算是 AVESTAN 了，甚至放在全球范围都独树一帜，乃至到了有些神秘的程度。 AVESTAN 不做电商，官网只用来展示，网上买不到产品，线下也不分销，要买必须去它自己的线下店。但它在全球只有两家店，首店在伦敦（Soho 区 Beak Street 73 号），是 2019 年 12 月 18 日开业的，纽约也有一家（伊丽莎白街 248 号），2024 年才开。 同时 AVESTAN 不按花香、木质调等传统方式定义香型，也不介绍前中后调。更重要的是 AVESTAN 产品极其少，开伦敦店时就只有一款香水，现在有两款了，但分别只在伦敦店和纽约店能买到，纽约店都买不到伦敦店的这一款（执行起来可比 Le Labo 的城市限定要严格多了）。 很长时间里 AVESTAN 保持着“一店、一香”的状态，这款香水甚至都没有名字，朴素的香水瓶上刻的是品牌名，而官方称呼它是“我们独有的无名香水”（Our signature unnamed fragrance）。也因为它的稀缺与反常规，它在社交平台上被自发传播，被赋予了一种“cult product”的意味。 这和品牌本身的故事有关。AVESTAN 的创始人 Brandon Truaxe 是 DE",
+      "image_url": "http://files.toodaylab.com/2026/10/AVESTAN_20261003171102_01.jpg"
+    },
+    {
+      "id": "da97152b41f77babebbf",
+      "source_id": "C006",
+      "title": "小米 Vision GT 十月即将正式入驻 Gran Turismo 7，成为游戏史上的首台中国 Vision GT",
+      "url": "https://www.ithome.com/1/009/517.htm",
+      "published_at": "2026-10-03T09:29:55Z",
+      "summary": "IT之家 10 月 3 日消息，小米汽车今日宣布，Xiaomi Vision GT（Vision Gran Turismo）10 月即将正式入驻 Gran Turismo 7（跑车浪漫旅 7 / GT 赛车 7），成为游戏史上的首台中国 Vision GT。 Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目。该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想。 小米汽车曾在答网友问（第 212 集）中提到，小米是第 36 个加入该概念车项目的品牌，Xiaomi Vision Gran Turismo 则是该项目的第 51 款概念车。小米不仅是首个受邀参与该项目的中国品牌，也是全球第一家以科技公司身份参与其中的品牌。 据IT之家此前报道，今年 2 月，Xiaomi 17 Series 全球发布会在西班牙巴塞罗那举行。在发布会的最后，小米 Vision Gran Turismo 双门超跑（概念车）首发亮相。 据介绍，这款概念车是小米全球设计团队联手创造的作品，它是一辆“由风塑形”的车。在风阻与下压力之间，追求完美平衡。 小米首席设计师李田原表示：“我们的理念是不依靠额外加装部件，就能达成空气动力学目标。这种理念要求我们奉行“少即是多”，几乎每一处设计，都",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/11c77d73-e500-4b5b-b4dc-aafa6812f207.jpg"
+    },
+    {
+      "id": "5ef3601293688b5f8407",
+      "source_id": "YE001",
+      "title": "AI短剧《野果君探花》第三集 这把是高端局 直接开启网红双飞盲盒",
+      "url": "https://access.imhbkfpa.cc/archives/222809.html",
+      "published_at": "2026-10-03T09:25:00Z",
+      "summary": "AI短剧《野果君探花》第三集正式上线，这次直接开启网红双飞盲盒模式。一位身穿青花瓷旗袍的清冷长发网红，搭配红色蕾丝旗袍的火辣女郎，两人同时伺候中年探花男。从客厅调戏“这么大网红还出来卖”开始，到...",
+      "image_url": ""
+    },
+    {
+      "id": "93ecddc56eb73f9f1b1f",
+      "source_id": "S005",
+      "title": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展",
+      "url": "https://www.appinn.com/officecommun-serach-browser/",
+      "published_at": "2026-10-03T09:23:22Z",
+      "summary": "Search 是一款刚刚发布的 Mac 浏览器，整个应用只有 6MB 左右。它直接调用 macOS 自带的 WebKit 内核，却支持 Chrome 扩展。 同时还提供标签页组、广告拦截、阅读模式、垂",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/ChatGPT-2026-10-3-17_16_40.jpg"
+    },
+    {
+      "id": "a671ecd198c47571bbde",
+      "source_id": "C004",
+      "title": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展",
+      "url": "https://www.appinn.com/officecommun-serach-browser/",
+      "published_at": "2026-10-03T09:23:22Z",
+      "summary": "Search 是一款刚刚发布的 Mac 浏览器，整个应用只有 6MB 左右。它直接调用 macOS 自带的 WebKit 内核，却支持 Chrome 扩展。 同时还提供标签页组、广告拦截、阅读模式、垂",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/ChatGPT-2026-10-3-17_16_40.jpg"
+    },
+    {
+      "id": "8900eb79f45c8e2d64f1",
+      "source_id": "C006",
+      "title": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
+      "url": "https://www.ithome.com/1/009/516.htm",
+      "published_at": "2026-10-03T09:18:12Z",
+      "summary": "IT之家 10 月 3 日消息，小艺帮帮忙智能体是 HarmonyOS 6.0 上推出的探索性智能体。华为官网显示，因业务调整，小艺帮帮忙智能体将不再支持后续新增的设备。 据悉，小艺帮帮忙智能体是一个专注于应用操控的智能体，支持操控更多的场景，可在智能体对话列表页中找到小艺帮帮忙智能体，也可以在广场中搜索小艺帮帮忙来体验使用。 对于原 HarmonyOS 6.0 期间支持的设备，小艺帮帮忙智能体还可继续使用，用户的个人技能和定时计划任务在升级到 HarmonyOS 7.0 后仍可继续使用。 对于不支持小艺帮帮忙智能体的设备，无法通过数据克隆将智能体、个人技能、定时计划任务克隆到不支持的设备中。 IT之家附原 HarmonyOS 6.0 期间支持设备： Mate 80 全系列、Mate 70 全系列、Mate 60 全系列 Mate X7 全系列、Mate X6 全系列、Mate X5 全系列 Pura X 全系列、Pura X Max 全系列 Pura 90 全系列、Pura 80 全系列、Pura 70 全系列 Pocket 2 全系列 nova 16 全系列（不包括 nova 16 SE）、nova 15 全系列、nova 14 全系列（不包括 nova14 活力版） 畅享 90 Plus，畅享 90 Pro Max 相关阅读： 《“小艺帮帮忙”适配华为 Pura 80 系列机",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/44d7b65c-4d5b-41dd-b5c6-9fe082543173.jpg"
+    },
+    {
+      "id": "202dc653f68182ab344c",
+      "source_id": "H002",
+      "title": "国庆假期前两天全国高速公路充电量超5000万千瓦时 易堵路段提醒",
+      "url": "https://36kr.com/newsflashes/4009922972094339?f=rss",
+      "published_at": "2026-10-03T09:16:28Z",
+      "summary": "从国家能源局了解到，10月1日0时至10月2日24时，全国高速公路累计充电次数206.04万次，累计充电量5010.99万千瓦时，同比增长51.34%。其中10月1日充电量是平时的3.24倍；10月2日充电需求维持高位，充电量是平时的2.55倍。另据交通运输部消息，根据动态研判，今天全国高速公路有24个路段易发拥堵，主要集中在江苏、广东、四川、陕西、江西、重庆、广西等省（区、市）。全国高速公路预计有48个服务区充电特别繁忙，主要集中在山西、河北、山东、河南、湖南、安徽、广西、广东等省（区）。公众可通过“e路畅通”微信小程序查询服务区充电桩运行状态，合理规划出行。（央视新闻）",
+      "image_url": ""
+    },
+    {
+      "id": "ec7b7bf4ae7c53c42be4",
+      "source_id": "C006",
+      "title": "消息称大众 CARIAD 拟进一步裁员 1000 人，未来 5 年削减 61 亿欧元投资",
+      "url": "https://www.ithome.com/1/009/515.htm",
+      "published_at": "2026-10-03T09:15:43Z",
+      "summary": "IT之家 10 月 3 日消息，德国《商报》(handelsblatt) 当地时间 9 月 30 日报道称，大众汽车集团旗下软件公司 CARIAD 拟进一步裁员 1000 人并在 2027~2031 年期间削减 61 亿欧元（IT之家注：现汇率约合 461.25 亿元人民币）投资。 CARIAD 此前已在 2025 年进行过一次 30% 大裁员，当前员工总数约为 4300 人。新一轮 1000 人裁员对应的裁员比例约为 23%。最有可能受到影响的是 CARIAD 与博世提前终止的合作项目涉及的约 500 名员工。 CARIAD 预计将在今年 12 月正式公布这份竞争力重振计划。该企业将进一步聚焦其核心业务，并有意在 30 年代初额外投入 4 亿欧元（现汇率约合 30.25 亿元人民币）以改善盈利能力。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/9a594617-37b4-4517-9124-ecbfa9404883.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11"
+    },
+    {
+      "id": "ec670bc1091e55f81525",
+      "source_id": "C011",
+      "title": "[OpenAI] 求大家推荐一点自学 AI 的网站",
+      "url": "https://www.v2ex.com/t/1246266#reply10",
+      "published_at": "2026-10-03T09:14:03Z",
+      "summary": "包括 vibe coding 不限于 AI 的各个方面",
+      "image_url": ""
+    },
+    {
+      "id": "d8697366ccd95298dfe2",
+      "source_id": "C006",
+      "title": "交通运输部：10 月 3 日全国 24 个高速公路路段易发拥堵",
+      "url": "https://www.ithome.com/1/009/514.htm",
+      "published_at": "2026-10-03T09:12:55Z",
+      "summary": "IT之家 10 月 3 日消息，据交通运输部动态研判，10 月 3 日，全国高速公路有 24 个路段易发拥堵，主要集中在江苏、广东、四川、陕西等省份。如计划途经这些路段，请合理安排出行时间和路线。 序号省份城市路线编号路线名称起点桩号止点桩号方向1江苏无锡市G2京沪高速K1133K1099下行2江苏常州市G25长深高速K2110K2142上行3江苏常州市G42沪蓉高速K150K184上行4江苏苏州市G50沪渝高速K84K133上行5江苏南通市G15沈海高速K1177K1219上行6江苏南通市G15沈海高速K1243K1203下行7江苏淮安市S49新扬高速K137K176上行8江苏盐城市G15沈海高速K1080K1146上行9广东广州市S81广州环城高速K0K60上行10广东佛山市G2518深岑高速K255K221下行11广东惠州市G35济广高速K1931K1961上行12广东惠州市G35济广高速K1963K1932下行13四川成都市G5京昆高速K1815K1847上行14四川成都市G4202成都绕城高速K2K78上行15四川成都市G5013渝蓉高速K184K224上行16四川德阳市G5京昆高速K1747K1777上行17陕西西安市G3002西安绕城高速K44K76上行18陕西西安市G3002西安绕城高速K81K2下行19陕西咸阳市G30连霍高速K1122K1091下行20湖南长沙市",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/1843023f-2c83-44fb-ad48-7f8e84dd420c.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "061fb450a7714c0d9324",
+      "source_id": "C006",
+      "title": "HMD M-Kopa X4e 运营商定制机曝光：Helio G81 处理器 + 4GB RAM",
+      "url": "https://www.ithome.com/1/009/513.htm",
+      "published_at": "2026-10-03T09:12:42Z",
+      "summary": "IT之家 10 月 3 日消息，消息源 smashx_60 现已曝光了 HMD M-Kopa X4e 运营商定制机型规格信息，该机基于 HMD Luma2 手机打造，但规格更为精简。 该机配备一块 90Hz IPS LCD 面板，匹配 8MP 自拍摄像头；手机背面配备 50MP 主摄摄像头。搭载 4GB LPDDR4X RAM，提供 128GB UFS 存储空间，搭载联发科 Helio G81 处理器，搭载安卓 16 系统。 作为参考，先前曝光的 HMD M-Kopa X4 标准版机型搭载 HD+ 120Hz IPS LCD 面板，采用紫光展锐 T7280 处理器，匹配 6000mAh 电池（支持 18W 有线充电）。",
+      "image_url": "https://img.ithome.com/newsuploadfiles/2026/6/b1dd5326-5068-4e6c-8c81-ecd221f5beea.jpg"
+    },
+    {
+      "id": "21e59207dac4eca48315",
+      "source_id": "C015",
+      "title": "长空孤羽，归向大荒 (评论: 孤雁)",
+      "url": "https://music.douban.com/review/17840402/",
+      "published_at": "2026-10-03T09:12:30Z",
+      "summary": "豆友17Q67r-4r4评论: 孤雁 (https://music.douban.com/subject/26615122/) 评价: 力荐 {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \"\\u300a\\u5b64\\u96c1\\u30...",
+      "image_url": "https://img2.doubanio.com/view/subject/s/public/s28299481.jpg"
+    },
+    {
+      "id": "3ce9c9d274435caa485c",
+      "source_id": "C011",
+      "title": "[程序员] 闲来无事，梳理了下自己最近的 ai 订阅",
+      "url": "https://www.v2ex.com/t/1246264#reply11",
+      "published_at": "2026-10-03T09:07:42Z",
+      "summary": "5 个 openai 的 team 席位订阅，月消费 45 刀（保持） 1 个 claude pro ，月消费 20 刀（保持） 火山云 coding plan pro ，目前特价 50 元/月，下个月恢复原价 200 就不续订了 2 个 kimi 老 199 套餐，月消费 398 元/月，这个月不续订了 之前订阅的 opencode go 5 刀，5 刀优惠没了，暂时也没续订了 deepseek 平台里充的还有 40 块钱 老马家的 grok 上了 grok heavy 年付，7100 （保持） 之后就是续费着 oai 的和 claude 的了。然后看哪家有活动再偶尔开一个月尝尝鲜。",
+      "image_url": ""
+    },
     {
       "id": "a93c06b9df7a982d7850",
       "source_id": "C035",
@@ -192,6 +1488,15 @@
       "image_url": ""
     },
     {
+      "id": "ef454fad7032dacc8e1c",
+      "source_id": "C011",
+      "title": "[生活] 陪老婆回娘家无聊透顶，我还是个外地女婿，天天下雨！",
+      "url": "https://www.v2ex.com/t/1246263#reply1",
+      "published_at": "2026-10-03T08:54:18Z",
+      "summary": "",
+      "image_url": ""
+    },
+    {
       "id": "caecb815bbab3ab6f360",
       "source_id": "C011",
       "title": "[生活] 陪老婆回娘家无聊透顶，我还是个外地女婿，天天下雨！",
@@ -226,6 +1531,15 @@
       "published_at": "2026-10-03T08:51:58Z",
       "summary": "豆友17Q67r-4r4评论: 江山如梦 (https://music.douban.com/subject/25833822/) 评价: {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \"2012\\u5e74\\u53d1\\u884c...",
       "image_url": "https://img3.doubanio.com/view/subject/s/public/s27225520.jpg"
+    },
+    {
+      "id": "ab5a310745a3dceeb106",
+      "source_id": "C011",
+      "title": "[Android] 荣耀新出的 magic9 怎么样",
+      "url": "https://www.v2ex.com/t/1246262#reply1",
+      "published_at": "2026-10-03T08:51:02Z",
+      "summary": "",
+      "image_url": ""
     },
     {
       "id": "363e5c23856e5326b08f",
@@ -273,6 +1587,15 @@
       "image_url": ""
     },
     {
+      "id": "2a060379a6c0f6c6bde4",
+      "source_id": "T001",
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "published_at": "2026-10-03T08:40:17Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
       "id": "bfa59270f565345e660d",
       "source_id": "C006",
       "title": "Stellantis 公布 2026 年 Q3 美国市场汽车销量：公羊卡车大涨、Jeep 下滑、阿尔法 · 罗密欧暴跌",
@@ -309,6 +1632,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/25bafb26-ecc0-468b-8588-d8a7baa245e0.jpg"
     },
     {
+      "id": "4b35693666f3ead9d6a0",
+      "source_id": "C011",
+      "title": "[问与答] 现在出个人二手物品, 一定要开票吗",
+      "url": "https://www.v2ex.com/t/1246259#reply5",
+      "published_at": "2026-10-03T08:32:46Z",
+      "summary": "在狗东的爱回收卖了个手机,要求我'应郭嘉合规开票的要求', 在 15 天内上传花票. 作为自然人,我们是没有开票资格的,只能请有关部门代开, 但是目前只有部分省份开通了 WEB 和 APP 上的'代开'功能,我这里没有开通. 这种没有开通的省份,你一定要票的话,只能去柜台办理. 虽然说这个税大概率可以在次年退回,但是为了一个一千多的破手机,专门打车跑一趟柜台,排队,然后还不知道要提供什么资料,资料不全还要二次补.简直太折磨了. 什么?嫌麻烦那你为什么要卖? 因为狗东在我下单的时候没有任何这种提示,而是在付款给我的时候才告知, 我要是早知道,还不如挂咸鱼了. 哎哟好烦阿,怎么弄?有其他办法吗",
+      "image_url": ""
+    },
+    {
       "id": "7afa00d6ab9062988ff3",
       "source_id": "C011",
       "title": "[问与答] 现在出个人二手物品, 一定要开票吗",
@@ -325,6 +1657,15 @@
       "published_at": "2026-10-03T08:32:34Z",
       "summary": "IT之家 10 月 3 日消息，据外媒 The Verge 报道，Netflix 奈飞正在逐步调整原创内容策略。最近几周，该公司陆续结束了其中一些合作协议，这或许意味着公司正在减少对知名电影人的长期依赖，将更多资源投入到能够持续吸引用户的剧集、真人秀、直播和体育内容。 例如，Netflix 近日确认，与导演大卫 · 芬奇的六年制作协议即将结束，相应协议最初于 2020 年公布，原计划持续 4 年，后来延长至 6 年。根据协议，Netflix 获得芬奇当时未来作品的独家流媒体发行权，其中包括传记电影《曼克》。 从商业表现来看，芬奇近年来为 Netflix 制作的电影并没有达到特别突出的水平。以传记电影《曼克》为例，本作虽然获得了影评人的普遍好评，赢得 10 项奥斯卡提名（并最终赢得其中两项），但影片在上映 3 周期间的全球票房仅约 10 万美元（IT之家注：现汇率约合 67.1 万元人民币），制作成本则达到 2,500 万美元（现汇率约合 1.68 亿元人民币）。登陆 Netflix 后，《曼克》也只在平台电影 Top 10 榜单中停留了一天，而且排名最后。 除此之外，《怪奇物语》创作者马特 · 达菲和罗斯 · 达菲也在 2025 年宣布离开 Netflix，转而与派拉蒙签署为期 4 年的影视制作协议。两人未来仍可能参与《怪奇物语》相关项目，而他们的新剧《The Boroughs》今",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/2913faee-2a22-4154-b7fd-2c575c5ed829.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "196077b01f7e6986f833",
+      "source_id": "C011",
+      "title": "[问与答] 你愿意付费在韩国/越南租一台家庭里的电脑使用 ai 吗？",
+      "url": "https://www.v2ex.com/t/1246258#reply15",
+      "published_at": "2026-10-03T08:32:16Z",
+      "summary": "想请问各位长时间/重度使用 ai 的 v 友们，如果是如下情况，你愿意付费吗？ 1 、物理位置：韩国/越南。（这两个对你来说你更倾向哪个吗？还是无所谓） 2 、电脑：mac mini （ M 芯片以上）/ Win pc （大概 i5 16G 内存的样子）。（这两个对你来说你更倾向哪个吗？还是无所谓） 3 、百分百放在真实家庭里的家宽环境。 4 、按月起，包一台机器，远程连接。 5 、价格可能在人民币 500 起每月，无其他费用。 6 、可能会慢慢开放当地银行卡代付款购买订阅业务。 ------- 如果您有此类需求，但以上条件仍有不满足的地方，愿意的话，可以留言您的更高需求",
+      "image_url": ""
     },
     {
       "id": "33a43ca1cb27823e9beb",
@@ -379,6 +1720,15 @@
       "published_at": "2026-10-03T08:16:18Z",
       "summary": "DeepStereo Reverb Lite 将混响视为围绕听者营造的空间，而非扁平的立体声效果。它既适用于常规立体声混音，也适用于双耳耳机制作，能够营造从微妙的深度到完全环绕的房间效果。",
       "image_url": "https://freeapp.macapp8.com/Leson-DeepStereo-Reverb-Lite_box-shot.webp?imageView2/2/w/1920"
+    },
+    {
+      "id": "da3fc7a3b043ff2db1b7",
+      "source_id": "C011",
+      "title": "[程序员] 用 Claude 搞了个新的 Event Driven、高性能、低内存的 Golang 网络库： fib 。",
+      "url": "https://www.v2ex.com/t/1246257#reply1",
+      "published_at": "2026-10-03T08:11:39Z",
+      "summary": "前置：这个主要内容是手动编辑的。 仓库：fib nbio 是以前手搓的，没有精力去手搓支持 HTTP 2/3，它已经不值一提、被我放弃。 fib 的几乎所有代码都由 Claude 生成。支持 TLS、HTTP 1/2/3 和 WebSocket，性能基本超过了几乎所有之前的 Go 库。 在 GitHub Actions CI 的 benchmark 中，fib 在一些场景下比标准库高出几倍的吞吐量并且内存占用更低，性能也基本比 fasthttp、fiber、herz 那些以性能著称的库更好。 与 C/C++/Rust 的一些库相比，fib 的性能也可以做到更加接近甚至超越，在某些情况下比如 Pipeline/Multiplex，得益于良好的背压机制优化，fib 甚至大幅领先一些 C/C++/Rust 库、成倍领先 Golang 其他库。 当然，不同的硬件规格、测试参数和框架配置可能会导致不同的结果。欢迎有兴趣的大佬们在自己的机器上运行这些基准测试。 更多详情： https://github.com/lesismal/fib/blob/main/docs/blog/introducing-fib.zh-CN.md https://github.com/lesismal/fib/blob/main/docs/blog/introducing-fib.md 各协议的完整基准测试代码： h",
+      "image_url": ""
     },
     {
       "id": "4ba3777ff0a7f0ea8533",
@@ -507,6 +1857,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/c2cccf43-bbed-47b8-bd61-8c26b1c7eac8.jpg?x-bce-process=image/format,f_auto"
     },
     {
+      "id": "c748ad2f91f0f65cb0c4",
+      "source_id": "C011",
+      "title": "[问与答] 为何 Windows 版本的 codex(chatgpt)客户端体验这么拉跨 openai 怎么优化的 他们真没人用 win 测试吗",
+      "url": "https://www.v2ex.com/t/1246256#reply4",
+      "published_at": "2026-10-03T07:50:08Z",
+      "summary": "一台新的 windows11 电脑刚装的 codex 对话正常但是电脑操控用不了 浏览器安装了扩展 读取个 chrome 浏览器状态也不行 你们 win 电脑也这样吗",
+      "image_url": ""
+    },
+    {
       "id": "bc0fee7ce872b18607e3",
       "source_id": "C011",
       "title": "[问与答] 为何 Windows 版本的 codex(chatgpt)客户端体验这么拉跨 openai 怎么优化的 他们真没人用 win 测试吗",
@@ -588,6 +1947,15 @@
       "image_url": ""
     },
     {
+      "id": "149b5ea3fefaf50b108a",
+      "source_id": "C011",
+      "title": "[iPhone] 没明白为什么突然就应激了",
+      "url": "https://www.v2ex.com/t/1246252#reply63",
+      "published_at": "2026-10-03T07:33:48Z",
+      "summary": "起因是在群里转发了财联社官方账号发的《苹果确认：iPhone 18 Pro Max 有问题》，美国苹果基带出现问题可能需要返厂维修，然后开始有人质疑新闻准确性，后来我也发了 MacRumors 和美国 AT&T 运营商官方发的新闻 整个过程中没有提到华为 然后下面的人就开始应激了，什么被新闻洗脑了、叫醒人家 、花粉有福了、xx 东真坏、假新闻太多了、这么好的 x 你怎么不早点告诉我 等等.. 我也算是个苹果用户，mac 、iPhone ，刚刚上架了苹果 App ，然后我就突然不理解了，这个世界到底怎么了？ 互联网 20 年来戾气没这么严重过，大家都是相互讨论问题本身，哪怕就算有假新闻，大家都看个乐呵，手机品牌也只是个标志，不管你买的是诺基亚还是三星，都不会有人为了搞对立去攻击你 科技发展越来越快，人的戾气日益严重，不知道到哪个时间节点就会爆炸了...",
+      "image_url": "https://i.imgur.com/X8W5pAV.jpeg"
+    },
+    {
       "id": "493375713264b9dfc7c3",
       "source_id": "C011",
       "title": "[iPhone] 没明白为什么突然就应激了",
@@ -595,6 +1963,15 @@
       "published_at": "2026-10-03T07:33:48Z",
       "summary": "起因是在群里转发了财联社官方账号发的《苹果确认：iPhone 18 Pro Max 有问题》，美国苹果基带出现问题可能需要返厂维修，然后开始有人质疑新闻准确性，后来我也发了 MacRumors 和美国 AT&T 运营商官方发的新闻 整个过程中没有提到华为 然后下面的人就开始应激了，什么被新闻洗脑了、叫醒人家 、花粉有福了、xx 东真坏、假新闻太多了、这么好的 x 你怎么不早点告诉我 等等.. 我也算是个苹果用户，mac 、iPhone ，刚刚上架了苹果 App ，然后我就突然不理解了，这个世界到底怎么了？ 互联网 20 年来戾气没这么严重过，大家都是相互讨论问题本身，哪怕就算有假新闻，大家都看个乐呵，手机品牌也只是个标志，不管你买的是诺基亚还是三星，都不会有人为了搞对立去攻击你 科技发展越来越快，人的戾气日益严重，不知道到哪个时间节点就会爆炸了...",
       "image_url": "https://i.imgur.com/X8W5pAV.jpeg"
+    },
+    {
+      "id": "d5b3de6ebdb81fca64d3",
+      "source_id": "C011",
+      "title": "[OpenAI] 体感上， ChatGPT plus 5 小时额度少于 Claude pro",
+      "url": "https://www.v2ex.com/t/1246251#reply17",
+      "published_at": "2026-10-03T07:31:54Z",
+      "summary": "",
+      "image_url": ""
     },
     {
       "id": "54613a758c500879c34d",
@@ -660,6 +2037,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/0fa89301-60d5-41d3-9683-ba7c84f06164.png?x-bce-process=image/format,f_auto"
     },
     {
+      "id": "bc41eca0fdb7d89d4c42",
+      "source_id": "C011",
+      "title": "[人工智能] 感谢大家的批评指点，现在改成 claude 5.5 秀了",
+      "url": "https://www.v2ex.com/t/1246249#reply6",
+      "published_at": "2026-10-03T07:18:54Z",
+      "summary": "网站还是那个网站，背后的 llm 变成了 Opus-5.5 https://dyntu.com/ 各位看看有何进一步意见？",
+      "image_url": ""
+    },
+    {
       "id": "71817993a42b3ee481b2",
       "source_id": "C011",
       "title": "[人工智能] 感谢大家的批评指点，现在改成 claude 5.5 秀了",
@@ -667,6 +2053,15 @@
       "published_at": "2026-10-03T07:18:54Z",
       "summary": "网站还是那个网站，背后的 llm 变成了 Opus-5.5 https://dyntu.com/ 各位看看有何进一步意见？",
       "image_url": ""
+    },
+    {
+      "id": "6eba0269d87590dfdd0d",
+      "source_id": "C011",
+      "title": "[iPad] 老 iPad 当显示屏用 OpenDisplay",
+      "url": "https://www.v2ex.com/t/1246248#reply3",
+      "published_at": "2026-10-03T07:14:36Z",
+      "summary": "家里有个老 iPad Air2 ，已经很慢了，总想着怎么当显示器用就好了。 一堆收费的 App ，看着广告及糟心... 终于碰到了一个好 APP ，推荐给大家：OpenDisplay （ Free ） Mac 端支持 macOS12+（ 14 以上的版本用最新的 App ） 地址： https://opendisplay.app/ 支持 USB/WiFi 网络连接 支持把另一台 Mac 当成扩展显示屏（也挺实用的，一些旧 macbook 的显示效果总比一些 PC 的效果要好，不用拆屏幕 DIY 显示器了，还要额外买驱动板也不便宜） 也支持一些 android 设备，没有设备测试...",
+      "image_url": "https://i.imgur.com/Zgq4ccg.jpeg"
     },
     {
       "id": "6939a49156f3f8597153",
@@ -703,6 +2098,15 @@
       "published_at": "2026-10-03T07:10:07Z",
       "summary": "IT之家 10 月 3 日消息，据外媒 Eurogamer 今天（3 日）报道，去年推出《天国：拯救 2》的开发商战马工作室联合创始人马丁 · 克拉玛希望游戏能够涨价，并将打破现有定价格局寄望于《GTA 6》。 克拉玛指出，游戏行业面临几项棘手问题。开发成本近年来一路攀升，稳定购买新游戏的玩家群体却已基本停止增长。数字发行的普及还让实体零售逐渐退出游戏销售链条，“我们把实体零售干掉了，也把他们的钱全拿走了。” 如果又不想靠在游戏里塞满微交易赚钱，开发商还能怎么办？克拉玛的答案是：“最后一个办法就是提高游戏单价。它会帮上大忙，但大家都怕得要命。希望《GTA 6》能先开这个头，让我们也能涨价。” 克拉玛认为，恐怕只有 Rockstar 和母公司 Take-Two 还有实力、也有胆量提高游戏售价，“我认为游戏早就该涨价了，这也是这个行业继续生存所必需的。所以我祝他们好运。” 《GTA 6》有望成为游戏史上规模最大的首发，但其他游戏能否让玩家接受 80 美元（IT之家注：现汇率约合 537.2 元人民币）售价就是另一回事。去年 Xbox 曾准备以 80 美元发售《天外世界 2》，最终还是撤回涨价决定，把这款科幻讽刺作品的售价改回通常的 70 美元（现汇率约合 470 元人民币）。 克拉玛虽然希望 R 星取得成功，可自己却对《GTA 6》本身却没有多少兴趣。“除非有人逼我，否则我不会玩《GT",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/5aa7684f-4f39-4a20-97c1-c4ed5a4d611a.png?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "3b43198b1c210d84aece",
+      "source_id": "C011",
+      "title": "[Google] Antitravity 三方模型要变成 Opus 5.5 and sonnet 5.5 了",
+      "url": "https://www.v2ex.com/t/1246247#reply20",
+      "published_at": "2026-10-03T07:10:06Z",
+      "summary": "付费 pro 和 ultra 用户可以使用；已经收到通知了；不知道能有多少额度； Pro 账号的含金量提升了；",
+      "image_url": ""
     },
     {
       "id": "344f6d3e3c8194dece4c",
@@ -777,6 +2181,15 @@
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/0741fe20-d1e5-44fa-8583-98177d72eb2a.png"
     },
     {
+      "id": "062f649dc50e3418ef27",
+      "source_id": "C011",
+      "title": "[程序员] AI 干活中，闲下来玩手机过久怎么办",
+      "url": "https://www.v2ex.com/t/1246246#reply8",
+      "published_at": "2026-10-03T06:51:15Z",
+      "summary": "独立开发工作，各位佬怎么解决工作中大多数活都交给 AI 了，执行一个问答花费时间较长，然后自己很自然拿出手机刷抖音、头条、知乎，一刷就是半小时偶尔刷上头了 AI 任务都执行完半天了都不知道，一天感觉浪费特别多的时间，这怎么破~~~ 各位都靠什么来控制自己的",
+      "image_url": ""
+    },
+    {
       "id": "4e5782afe78be3102bde",
       "source_id": "C011",
       "title": "[程序员] AI 干活中，闲下来玩手机过久怎么办",
@@ -813,6 +2226,15 @@
       "image_url": ""
     },
     {
+      "id": "c67c25fc380bc7220e65",
+      "source_id": "C011",
+      "title": "[程序员] 谷歌 antigravity 可以用 opus5.5 和 sonnet 5.5 了",
+      "url": "https://www.v2ex.com/t/1246245#reply8",
+      "published_at": "2026-10-03T06:44:57Z",
+      "summary": "仅限付费 pro 和 ultra 用户 现有的 4.6 也将会在 11 月份被移除 印度 pro 和学生 pro 以及 pixel pro 用户以后就只有哈吉米用了 这么看来，这种用户后面给不给用哈吉米 4 pro 也未可知了",
+      "image_url": ""
+    },
+    {
       "id": "71e17345bdf1076a98d8",
       "source_id": "C011",
       "title": "[程序员] 谷歌 antigravity 可以用 opus5.5 和 sonnet 5.5 了",
@@ -829,6 +2251,15 @@
       "published_at": "2026-10-03T06:41:54Z",
       "summary": "IT之家 10 月 3 日消息，在国产横版动作游戏《艾希》（ICEY）发售十年后，作者老马克肖公布了游戏续作《艾希：续》，本作于 10 月 1 日开启众筹，截至（10 月 3 日）IT之家发稿，目前众筹金额已突破 1800 万元。 官方在致谢文中提到，目前开发组的核心目标是把明年 5 月 1 日上线的版本踏踏实实做好，还将多制作几个免费 DLC、BOSS、CG 演出、Meta 事件，感谢各位玩家支持。 IT之家查询公开资料获悉，初代《艾希》于 2016 年正式发售，凭借独特的旁白叙事、快节奏战斗以及打破第四面墙的 Meta 元素设计获得大量玩家认可，在 Steam 平台收获“特别好评”评价，并曾获得 2016 年东京电玩展《电击 PlayStation》最佳独立游戏提名、2016 年台北电玩展最受期待独立游戏第二名等多个奖项。",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/28745240-c322-414a-a953-c2d80114bbf8.jpg?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "632718f22c2a9c5133c6",
+      "source_id": "C011",
+      "title": "[OpenAI] 拼图接力，来说说什么是 AI 味",
+      "url": "https://www.v2ex.com/t/1246243#reply11",
+      "published_at": "2026-10-03T06:40:57Z",
+      "summary": "我先来： 1：喜欢在标题附近用极细体的小字 字间距莫名的大； 2：看起来“高级”，但往往和真实业务没有关系 3：过度使用渐变/到处都是圆角卡片/圆角过大 4：阴影泛滥 5：喜欢做“伪科技感”发光 6：左边一个大图标，右边一大块标题 7：喜欢做大号数字 Dashboard 8：指标卡一排 4 ～ 6 个 9：无处不在的副标题/说明文字 10：过度解释简单功能，比如按钮叫“测试连接”，旁边还写：“测试您的 API 连接是否可以正常工作”",
+      "image_url": ""
     },
     {
       "id": "7d84b0591c00ac88e375",
@@ -921,6 +2352,15 @@
       "image_url": ""
     },
     {
+      "id": "348b13855af8c7305df8",
+      "source_id": "C013",
+      "title": "是鸡，也是人的故事 (评论: 母鸡)",
+      "url": "https://movie.douban.com/review/17840212/",
+      "published_at": "2026-10-03T06:28:38Z",
+      "summary": "不懂翁评论: 母鸡 (https://movie.douban.com/subject/35182657/) 评价: 推荐 {\"entityMap\": {}, \"blocks\": [{\"key\": \"\", \"text\": \" \\u4e00\\u4e0a\\u...",
+      "image_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2926802647.jpg"
+    },
+    {
       "id": "e1f174599e81c03474ac",
       "source_id": "C006",
       "title": "HPE 获得其首笔 AMD \"Helios\" AI 机架订单，价值 12 亿美元",
@@ -1009,6 +2449,15 @@
       "published_at": "2026-10-03T06:01:12Z",
       "summary": "IT之家 10 月 3 日消息，当地时间 10 月 1 日，AI 音乐制作平台 Suno 宣布推出 Speech，Suno 宣称这是业界首个能够将语音与音乐作为单一连贯音轨共同生成的音频模型。 据悉，该模型并非像传统工作流那样先做 TTS（文本转语音）再拼接 BGM，而是端到端一体化生成，是首个能单次生成完整融合“语音朗读 + 原创 BGM”的端到端闭源音频模型。 在过去一个月中，Suno 与小范围用户共同测试了该功能，现在正式面向所有人开放公测（Beta）。 官方表示，通过 Speech，用户可以轻松创作带有 BGM 的语音音频。该功能已直接内置于 Suno 中：只需输入一个灵感、一首诗或一段文字，再描述用户心目中的音色与音乐风格即可。 IT之家注意到，Suno 官方也指出了当前 Beta 版的不足，当前版本偶发口音不稳定的问题，例如英音可能会在中途漂移到澳音然后又漂回来；语调与情感停顿有时会显得“过于戏剧化”，导致断句节奏过慢。",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/90ae17d2-6815-4cf3-9f31-b3981ccf4d44.jpg?x-bce-process=image/format,f_auto"
+    },
+    {
+      "id": "cf51001ce2fb3b8b49c6",
+      "source_id": "YE001",
+      "title": "抖音3W粉瑜伽网红 欣然 被曝曾是高端外围 其服务好评如潮 卿本佳人奈何为鸡",
+      "url": "https://access.imhbkfpa.cc/archives/222783.html",
+      "published_at": "2026-10-03T06:00:00Z",
+      "summary": "杭州瑜伽网红欣然被曝曾是上海武汉高端外围，约啪视频流出，时长4分16秒，画质标高清无码。馆里她穿黑色运动内衣和黑色紧身裤，垫子上跪撑，长发扎马尾，镜子墙、白纱帘、落地窗都在。另一段两条腿竖起来，...",
+      "image_url": ""
     },
     {
       "id": "55ea73ff227622ecc094",
@@ -1251,6 +2700,15 @@
       "url": "https://www.nodeseek.com/post-962010-1",
       "published_at": "2026-10-03T05:00:40Z",
       "summary": "有那些大厂优化线路可以买流量，套餐流量用完了，可以加的",
+      "image_url": ""
+    },
+    {
+      "id": "255b97fe2092920accdc",
+      "source_id": "YE001",
+      "title": "抖音2.5W粉网红 Melina 人设崩塌 明知男方有女友仍知三当三 出轨视频流出",
+      "url": "https://access.imhbkfpa.cc/archives/222779.html",
+      "published_at": "2026-10-03T05:00:00Z",
+      "summary": "dy5.2万粉女网红Melina小三出轨视频流出，抖音号Elena 33，IP广东，获赞68.7万，粉丝5.2万，简介写物物而不物于物，主页已经设成私密。男方号MM.睿哒，另一个号叫睿哒，IP一...",
       "image_url": ""
     },
     {
@@ -2118,6 +3576,15 @@
       "image_url": ""
     },
     {
+      "id": "7bed655a1d08b6724bca",
+      "source_id": "YE001",
+      "title": "AI短剧《体育生的榨精生活》巨乳班长小姨全收 日常生活全是痴女伺候",
+      "url": "https://access.imhbkfpa.cc/archives/222771.html",
+      "published_at": "2026-10-03T01:55:00Z",
+      "summary": "身为体育生的主角抵抗不了身边痴女们的不断榨精。青梅竹马的女神终于答应和他交往，却坚持把初夜留到婚后。但她却不知道，他根本就不缺性生活，姐姐每天都会帮他练习做爱技巧。在平时的生活中，他把妈妈、姐姐...",
+      "image_url": ""
+    },
+    {
       "id": "c73e60cafded7ea00d0c",
       "source_id": "YE001",
       "title": "AI短剧《体育生的榨精生活》巨乳班长小姨全收 日常生活全是痴女伺候",
@@ -2206,6 +3673,15 @@
       "published_at": "2026-10-03T01:35:19Z",
       "summary": "IT之家 10 月 3 日消息，科技媒体 Wccftech 昨日（10 月 2 日）发布博文，报道称索尼可能重启沉寂约 16 年的经典游戏 IP《捉猴啦》（Ape Escape），该项目已进入实际开发阶段。 有用户于 10 月 1 日在 ResetEra 论坛上发帖，表示两个独立信源的交叉印证，指出索尼正在重启开发《捉猴啦》游戏，而消息源 Nate The Hate 随后跟帖表示：“正如我之前所说，索尼正计划重启一些沉寂已久的系列游戏。” IT之家注：《捉猴啦》由索尼日本工作室（Japan Studio）开发，1999 年登陆初代 PlayStation。它是首款强制要求使用 DualShock 手柄的 PlayStation 游戏，玩家需用右摇杆操控 Time Net 捕捉戴 Peak Point 头盔的猴子。 该系列后续推出《捉猴啦 2》《捉猴啦 3》等作品，登陆 PlayStation 2 平台。PSP 平台推出初代重制版，另有仅在日本发售的衍生作。 系列最后一部新作为 2010 年 PlayStation 3 平台的 PlayStation Move 版《捉猴啦》。至此该 IP 已沉寂 16 年，跨越两代主机周期。 索尼日本工作室于 2021 年 4 月重组，剩余成员并入 Team Asobi。Nate 称该项目并非概念阶段，而是已有具体开发工作推进。 当被问及 Team ",
       "image_url": "https://img.ithome.com/newsuploadfiles/2026/10/fa3d882b-a506-4072-8be7-d7be4e15e71e.jpg"
+    },
+    {
+      "id": "7300bf4feccb74b727c2",
+      "source_id": "G001",
+      "title": "秋促仅需8.4的《火线迈阿密》，凭什么让人死到红温还舍不得关游戏？",
+      "url": "https://www.gcores.com/articles/220484",
+      "published_at": "2026-10-03T01:31:09Z",
+      "summary": "如果预算只有10元，去推荐一款高难度又极度耐玩的游戏，你最想推荐谁？ 首先排除《和班尼福特一起掘地求生》，它确实很难，但绝大数人红温之后都会选择离开。 其次《Limbo》、《Inside》、《Braid》这样的，解谜难度高不假，也能讲好一个故事，只是通关后便再少捡起来的机会。 如果只允许推荐一款，那我一定会推荐2012年的老古董《火线迈阿密》（Hotline Miami）。 作为非常古老的俯视角射击游戏，它的胜利条件严苛到惊人的程度： 你一次只有1条命，然后击败所有的敌人。 该系列的玩家已经超过500万，在不支持中文的情况下，仍有不少国区玩家“痛并快乐着”，称其为火线迈R密（因为重置关卡需要按R键）。 别的游戏「一命通关」是挑战，而在HM里却只是日常基本功，尤其是距离收尾最后一个人头就差一点，却被反手爆头的刹那，很难不儒雅随和几句-我吃草莓。 那些频繁失败、却还能让玩家乐在其中的游戏，除了便宜，究竟还有什么魔力？ 最近玩《科恩 1939》，这种“死亡如风常伴吾身”的游戏体验，再度令我想起几年前玩过的《火线迈阿密》，顺手补了个秋促仅需8.7元的HM2代。 对于未曾玩过此类硬核游戏的玩家，死亡总是降临得莫名其妙—— 进门方向不对，死； 空手试图肉搏持枪敌人，死； 被狗追上，死； 并非无路可走，我们还有死路一条，感动吗？ 拿枪的打歪了可还行 很多时候不动反而是好事，毕竟动了会引起敌人的注",
+      "image_url": "https://image.gcores.com/295f84a42af456fcdb8033ea04dfeaeb-1275-680.png?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90"
     },
     {
       "id": "c9062cd6305669f3785e",
@@ -2775,6 +4251,15 @@
       "image_url": ""
     },
     {
+      "id": "7b218902380702b41269",
+      "source_id": "T001",
+      "title": "Woking Electrical Control Room (2016)",
+      "url": "http://www.darbiansphotography.com/woking-electrical-control-room-urbex",
+      "published_at": "2026-10-02T20:44:38Z",
+      "summary": "Comments",
+      "image_url": ""
+    },
+    {
       "id": "09ece64154c2abe0d40e",
       "source_id": "T001",
       "title": "Barcodes are about to go extinct",
@@ -2925,6 +4410,15 @@
       "url": "https://www.nodeseek.com/post-961592-1",
       "published_at": "2026-10-02T19:33:46Z",
       "summary": "",
+      "image_url": ""
+    },
+    {
+      "id": "43235e6cbfafc745afcc",
+      "source_id": "T001",
+      "title": "Make Tmux the OS",
+      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+      "published_at": "2026-10-02T19:29:07Z",
+      "summary": "Comments",
       "image_url": ""
     },
     {
@@ -3554,7 +5048,7 @@
       "title": "twst夢ログ11",
       "url": "https://www.pixiv.net/artworks/150374178",
       "published_at": "2026-10-02T13:32:54Z",
-      "summary": "第 17 位 画师：はら - 上传于：2026-10-02 22:32:54 - 阅览数：8080 - 收藏数：1144",
+      "summary": "第 17 位 画师：はら - 上传于：2026-10-02 22:32:54 - 阅览数：10330 - 收藏数：1397",
       "image_url": "https://pixiv.cat/150374178-1.jpg"
     },
     {
@@ -3626,7 +5120,7 @@
       "title": "銀狼",
       "url": "https://www.pixiv.net/artworks/150373641",
       "published_at": "2026-10-02T13:22:34Z",
-      "summary": "第 9 位 画师：flasso - 上传于：2026-10-02 22:22:34 - 阅览数：16572 - 收藏数：3012",
+      "summary": "第 9 位 画师：flasso - 上传于：2026-10-02 22:22:34 - 阅览数：19121 - 收藏数：3303",
       "image_url": "https://pixiv.cat/150373641.jpg"
     },
     {
@@ -3752,7 +5246,7 @@
       "title": "プンプン師匠",
       "url": "https://www.pixiv.net/artworks/150371684",
       "published_at": "2026-10-02T12:44:47Z",
-      "summary": "第 11 位 画师：ノダチ - 上传于：2026-10-02 21:44:47 - 阅览数：17458 - 收藏数：1581",
+      "summary": "第 11 位 画师：ノダチ - 上传于：2026-10-02 21:44:47 - 阅览数：20342 - 收藏数：1698",
       "image_url": "https://pixiv.cat/150371684.jpg"
     },
     {
@@ -3797,7 +5291,7 @@
       "title": "お母さんが言ってた自称17歳年齢を詐称してるVtuber",
       "url": "https://www.pixiv.net/artworks/150370728",
       "published_at": "2026-10-02T12:24:53Z",
-      "summary": "第 14 位 画师：なまず バアド五巻発売中！ - 上传于：2026-10-02 21:24:53 - 阅览数：22691 - 收藏数：943",
+      "summary": "第 14 位 画师：なまず バアド五巻発売中！ - 上传于：2026-10-02 21:24:53 - 阅览数：26783 - 收藏数：1032",
       "image_url": "https://pixiv.cat/150370728.jpg"
     },
     {
@@ -3833,7 +5327,7 @@
       "title": "幼なじみの付き添い",
       "url": "https://www.pixiv.net/artworks/150370142",
       "published_at": "2026-10-02T12:11:24Z",
-      "summary": "第 5 位 画师：新挑限 - 上传于：2026-10-02 21:11:24 - 阅览数：40645 - 收藏数：2842",
+      "summary": "第 5 位 画师：新挑限 - 上传于：2026-10-02 21:11:24 - 阅览数：46323 - 收藏数：3064",
       "image_url": "https://pixiv.cat/150370142.jpg"
     },
     {
@@ -3914,7 +5408,7 @@
       "title": "Afternoon",
       "url": "https://www.pixiv.net/artworks/150368423",
       "published_at": "2026-10-02T11:38:15Z",
-      "summary": "第 6 位 画师：WERI - 上传于：2026-10-02 20:38:15 - 阅览数：6912 - 收藏数：1949",
+      "summary": "第 6 位 画师：WERI - 上传于：2026-10-02 20:38:15 - 阅览数：8290 - 收藏数：2157",
       "image_url": "https://pixiv.cat/150368423.jpg"
     },
     {
@@ -3959,7 +5453,7 @@
       "title": "いっぱい食べた結果",
       "url": "https://www.pixiv.net/artworks/150367035",
       "published_at": "2026-10-02T11:07:02Z",
-      "summary": "第 12 位 画师：りん次郎 - 上传于：2026-10-02 20:07:02 - 阅览数：12663 - 收藏数：697",
+      "summary": "第 12 位 画师：りん次郎 - 上传于：2026-10-02 20:07:02 - 阅览数：15636 - 收藏数：761",
       "image_url": "https://pixiv.cat/150367035-1.jpg"
     },
     {
@@ -4229,7 +5723,7 @@
       "title": "嫉妬",
       "url": "https://www.pixiv.net/artworks/150362771",
       "published_at": "2026-10-02T09:19:15Z",
-      "summary": "第 11 位 画师：ちり - 上传于：2026-10-02 18:19:15 - 阅览数：5601 - 收藏数：785",
+      "summary": "第 11 位 画师：ちり - 上传于：2026-10-02 18:19:15 - 阅览数：6436 - 收藏数：848",
       "image_url": "https://pixiv.cat/150362771-1.jpg"
     },
     {
@@ -4517,7 +6011,7 @@
       "title": "ホイクエン・カムイ",
       "url": "https://www.pixiv.net/artworks/150361601",
       "published_at": "2026-10-02T08:48:47Z",
-      "summary": "第 6 位 画师：るべる - 上传于：2026-10-02 17:48:47 - 阅览数：6579 - 收藏数：928",
+      "summary": "第 6 位 画师：るべる - 上传于：2026-10-02 17:48:47 - 阅览数：7893 - 收藏数：1032",
       "image_url": "https://pixiv.cat/150361601-1.jpg"
     },
     {
@@ -4697,7 +6191,7 @@
       "title": "マンダロリアンまとめ②",
       "url": "https://www.pixiv.net/artworks/150360475",
       "published_at": "2026-10-02T08:03:03Z",
-      "summary": "第 4 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：20931 - 收藏数：2066",
+      "summary": "第 4 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：26099 - 收藏数：2327",
       "image_url": "https://pixiv.cat/150360475-1.jpg"
     },
     {
@@ -4706,7 +6200,7 @@
       "title": "マンダロリアンまとめ②",
       "url": "https://www.pixiv.net/artworks/150360475",
       "published_at": "2026-10-02T08:03:03Z",
-      "summary": "第 8 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：20722 - 收藏数：2056",
+      "summary": "第 8 位 画师：案山子 - 上传于：2026-10-02 17:03:03 - 阅览数：25851 - 收藏数：2314",
       "image_url": "https://pixiv.cat/150360475-1.jpg"
     },
     {
@@ -4904,7 +6398,7 @@
       "title": "無題",
       "url": "https://www.pixiv.net/artworks/150359371",
       "published_at": "2026-10-02T07:14:43Z",
-      "summary": "第 19 位 画师：こたろう - 上传于：2026-10-02 16:14:43 - 阅览数：3387 - 收藏数：855",
+      "summary": "第 19 位 画师：こたろう - 上传于：2026-10-02 16:14:43 - 阅览数：4193 - 收藏数：946",
       "image_url": "https://pixiv.cat/150359371-1.jpg"
     },
     {
@@ -6209,7 +7703,7 @@
       "title": "【会社と私生活】やった",
       "url": "https://www.pixiv.net/artworks/150354216",
       "published_at": "2026-10-02T03:00:26Z",
-      "summary": "第 1 位 画师：金沢真之介 - 上传于：2026-10-02 12:00:26 - 阅览数：43732 - 收藏数：3412",
+      "summary": "第 1 位 画师：金沢真之介 - 上传于：2026-10-02 12:00:26 - 阅览数：53443 - 收藏数：3755",
       "image_url": "https://pixiv.cat/150354216-1.jpg"
     },
     {
@@ -6461,7 +7955,7 @@
       "title": "５０年後の老人ホーム連載決定",
       "url": "https://www.pixiv.net/artworks/150353533",
       "published_at": "2026-10-02T02:22:26Z",
-      "summary": "第 7 位 画师：金沢真之介 - 上传于：2026-10-02 11:22:26 - 阅览数：27749 - 收藏数：1445",
+      "summary": "第 7 位 画师：金沢真之介 - 上传于：2026-10-02 11:22:26 - 阅览数：32767 - 收藏数：1558",
       "image_url": "https://pixiv.cat/150353533.jpg"
     },
     {
@@ -7262,7 +8756,7 @@
       "title": "ダーツ",
       "url": "https://www.pixiv.net/artworks/150348943",
       "published_at": "2026-10-01T22:00:10Z",
-      "summary": "第 6 位 画师：カフェ - 上传于：2026-10-02 07:00:10 - 阅览数：16555 - 收藏数：1072",
+      "summary": "第 6 位 画师：カフェ - 上传于：2026-10-02 07:00:10 - 阅览数：18690 - 收藏数：1155",
       "image_url": "https://pixiv.cat/150348943.jpg"
     },
     {
@@ -26886,6 +28380,15 @@
       "image_url": ""
     },
     {
+      "id": "b372397494060de2abe0",
+      "source_id": "C027",
+      "title": "君を辿る軌跡",
+      "url": "https://www.pixiv.net/artworks/149365241",
+      "published_at": "2026-09-06T15:00:22Z",
+      "summary": "第 14 位 画师：Rella - 上传于：2026-09-07 00:00:22 - 阅览数：96966 - 收藏数：15393",
+      "image_url": "https://pixiv.cat/149365241.jpg"
+    },
+    {
       "id": "9cf2fd2dc96afd5bac58",
       "source_id": "B056",
       "title": "微言小义 (2026.07 - 2026.08)",
@@ -26909,7 +28412,7 @@
       "title": "朝の黒い天使",
       "url": "https://www.pixiv.net/artworks/149354126",
       "published_at": "2026-09-06T11:24:37Z",
-      "summary": "第 9 位 画师：MeioN - 上传于：2026-09-06 20:24:37 - 阅览数：121514 - 收藏数：19362",
+      "summary": "第 3 位 画师：MeioN - 上传于：2026-09-06 20:24:37 - 阅览数：122876 - 收藏数：19573",
       "image_url": "https://pixiv.cat/149354126-1.jpg"
     },
     {
@@ -26958,6 +28461,15 @@
       "image_url": "https://colobu.com/2026/09/05/mysql-postgresql-timestamp-go-java-pitfalls/image-20260905114630109.png"
     },
     {
+      "id": "41b17b03f7a8096d4aa0",
+      "source_id": "C027",
+      "title": "アリア & レミエール",
+      "url": "https://www.pixiv.net/artworks/149310107",
+      "published_at": "2026-09-05T11:36:18Z",
+      "summary": "第 16 位 画师：Roro - 上传于：2026-09-05 20:36:18 - 阅览数：22703 - 收藏数：4397",
+      "image_url": "https://pixiv.cat/149310107-1.jpg"
+    },
+    {
       "id": "2238d0c1556d7140f417",
       "source_id": "B081",
       "title": "如果你不能外包你的理解，你咋掌控AI写的那一大坨代码",
@@ -26965,6 +28477,24 @@
       "published_at": "2026-09-05T10:42:51Z",
       "summary": "上一篇文章的结尾，我留了一个话题。 我引用了那句话：\"你可以外包你的思考，但是你不能外包你的理解。\" 有读者在后台问我：道理都懂，可 AI 一天给我生成的代码，比我自己一年写的都多。思考我可以外包给 AI，理解我肯定要自己消化——但是消化也得有时间和精力啊。生成是光速，理解是步行，AI拉的是一大坨，理解缺是要细嚼慢咽，这道题怎么解？",
       "image_url": "https://colobu.com/2026/09/05/control-ai-code-without-outsourcing-understanding/image-20260830233509261.png"
+    },
+    {
+      "id": "cb3ba6d1298570f73c78",
+      "source_id": "C027",
+      "title": "Sunna",
+      "url": "https://www.pixiv.net/artworks/149307054",
+      "published_at": "2026-09-05T10:25:45Z",
+      "summary": "第 11 位 画师：晴靄 - 上传于：2026-09-05 19:25:45 - 阅览数：20668 - 收藏数：4974",
+      "image_url": "https://pixiv.cat/149307054.jpg"
+    },
+    {
+      "id": "e8657ee8ceec4f6794c4",
+      "source_id": "C027",
+      "title": "オルペウス",
+      "url": "https://www.pixiv.net/artworks/149299100",
+      "published_at": "2026-09-05T06:20:53Z",
+      "summary": "第 18 位 画师：flasso - 上传于：2026-09-05 15:20:53 - 阅览数：38984 - 收藏数：4369",
+      "image_url": "https://pixiv.cat/149299100.jpg"
     },
     {
       "id": "eec2a5a720285185c291",

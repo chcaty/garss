@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-10-03T09:06:45.887309Z",
+  "generated_at": "2026-10-03T14:52:03.225753Z",
   "feeds": [
     {
       "id": "S001",
@@ -40,7 +40,7 @@
       "description": "分享免费、小巧、实用、有趣、绿色的软件",
       "feed_url": "https://www.appinn.com/feed/",
       "status": "ok",
-      "article_count": 17
+      "article_count": 19
     },
     {
       "id": "S006",
@@ -56,7 +56,7 @@
       "description": "反斗软件旗下软件限免资讯网站",
       "feed_url": "https://free.apprcn.com/feed/",
       "status": "ok",
-      "article_count": 22
+      "article_count": 24
     },
     {
       "id": "S008",
@@ -1216,7 +1216,7 @@
       "description": "36氪",
       "feed_url": "https://www.36kr.com/feed",
       "status": "ok",
-      "article_count": 186
+      "article_count": 188
     },
     {
       "id": "H003",
@@ -1240,7 +1240,7 @@
       "description": "聪明的投资者都在这里,雪球每日精华",
       "feed_url": "https://xueqiu.com/hots/topic/rss",
       "status": "ok",
-      "article_count": 15
+      "article_count": 17
     },
     {
       "id": "T001",
@@ -1248,7 +1248,7 @@
       "description": "极其优质的极客新闻",
       "feed_url": "https://news.ycombinator.com/rss",
       "status": "ok",
-      "article_count": 131
+      "article_count": 139
     },
     {
       "id": "T002",
@@ -1352,7 +1352,7 @@
       "description": "为更理想的生活",
       "feed_url": "https://www.toodaylab.com/rss",
       "status": "ok",
-      "article_count": 24
+      "article_count": 25
     },
     {
       "id": "L003",
@@ -1464,7 +1464,7 @@
       "description": "小众软件RSS",
       "feed_url": "https://www.appinn.com/feed/",
       "status": "ok",
-      "article_count": 17
+      "article_count": 19
     },
     {
       "id": "C005",
@@ -1480,7 +1480,7 @@
       "description": "IT之家 - 软媒旗下网站",
       "feed_url": "https://www.ithome.com/rss",
       "status": "ok",
-      "article_count": 592
+      "article_count": 628
     },
     {
       "id": "C007",
@@ -1520,7 +1520,7 @@
       "description": "创意工作者的社区",
       "feed_url": "https://www.v2ex.com/index.xml",
       "status": "ok",
-      "article_count": 582
+      "article_count": 628
     },
     {
       "id": "C012",
@@ -1536,7 +1536,7 @@
       "description": "豆瓣最受欢迎的影评",
       "feed_url": "https://www.douban.com/feed/review/movie",
       "status": "ok",
-      "article_count": 53
+      "article_count": 56
     },
     {
       "id": "C014",
@@ -1552,7 +1552,7 @@
       "description": "豆瓣最受欢迎的乐评",
       "feed_url": "https://www.douban.com/feed/review/music",
       "status": "ok",
-      "article_count": 56
+      "article_count": 57
     },
     {
       "id": "C016",
@@ -1576,7 +1576,7 @@
       "description": "博客园首页",
       "feed_url": "http://feed.cnblogs.com/blog/sitehome/rss",
       "status": "ok",
-      "article_count": 59
+      "article_count": 63
     },
     {
       "id": "C019",
@@ -1648,7 +1648,7 @@
       "description": "Pixiv每月排行 - 前20",
       "feed_url": "http://rakuen.thec.me/PixivRss/monthly-20",
       "status": "ok",
-      "article_count": 6
+      "article_count": 10
     },
     {
       "id": "C028",
@@ -1720,7 +1720,7 @@
       "description": "一个面向Web开发、主机托管、VPS/服务器等技术话题的极客社区",
       "feed_url": "https://rss.nodeseek.com/",
       "status": "ok",
-      "article_count": 475
+      "article_count": 495
     },
     {
       "id": "M001",
@@ -1743,8 +1743,8 @@
       "title": "Torlock",
       "description": "种子站Torlock",
       "feed_url": "https://www.torlock.com/rss.xml",
-      "status": "error",
-      "article_count": 30
+      "status": "ok",
+      "article_count": 60
     },
     {
       "id": "M004",
@@ -1768,7 +1768,7 @@
       "description": "不止是游戏",
       "feed_url": "https://www.gcores.com/rss",
       "status": "ok",
-      "article_count": 53
+      "article_count": 55
     },
     {
       "id": "G002",
@@ -1912,7 +1912,7 @@
       "description": "不定期推送黑料",
       "feed_url": "https://access.xtlmrmig.cc/feed",
       "status": "ok",
-      "article_count": 50
+      "article_count": 55
     }
   ]
 }
