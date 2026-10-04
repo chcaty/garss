@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
-  "generated_at": "2026-09-30T03:50:28.772938Z",
+  "generated_at": "2026-10-04T05:00:00.150781Z",
   "instance": "https://rsshub.app",
-  "route_count": 3864,
+  "route_count": 3866,
   "routes": [
     {
       "id": "4dc66079b6e3bbe634e2",
@@ -16841,6 +16841,21 @@
       "supports_radar": false
     },
     {
+      "id": "1f6d7cd6db3da3328195",
+      "namespace": "eurogamer",
+      "namespace_name": "Eurogamer",
+      "name": "Articles",
+      "path": "/eurogamer/:category?",
+      "example": "/eurogamer",
+      "example_url": "https://rsshub.app/eurogamer",
+      "site": "www.eurogamer.net/latest",
+      "categories": [
+        "game"
+      ],
+      "requires_config": false,
+      "supports_radar": true
+    },
+    {
       "id": "0ffacb8d04028870ea66",
       "namespace": "europapress",
       "namespace_name": "Europa Press",
@@ -23792,7 +23807,6 @@
       "example_url": "https://rsshub.app/hackernews/threads/comments_list/dang",
       "site": "ycombinator.com",
       "categories": [
-        "popular",
         "programming"
       ],
       "requires_config": false,
@@ -27354,25 +27368,10 @@
       "supports_radar": false
     },
     {
-      "id": "e284a2c8570958294fb6",
-      "namespace": "instagram",
-      "namespace_name": "Instagram",
-      "name": "User Profile / Hashtag",
-      "path": "/instagram/2/:category/:key",
-      "example": "/instagram/2/user/stefaniejoosten",
-      "example_url": "https://rsshub.app/instagram/2/user/stefaniejoosten",
-      "site": "www.instagram.com",
-      "categories": [
-        "social-media"
-      ],
-      "requires_config": false,
-      "supports_radar": false
-    },
-    {
       "id": "6008c8477fd12692bae2",
       "namespace": "instagram",
       "namespace_name": "Instagram",
-      "name": "User Profile / Hashtag - Private API",
+      "name": "User",
       "path": "/instagram/:category/:key",
       "example": "/instagram/user/stefaniejoosten",
       "example_url": "https://rsshub.app/instagram/user/stefaniejoosten",
@@ -54774,6 +54773,36 @@
       "site": "www.wzbc.edu.cn",
       "categories": [
         "university"
+      ],
+      "requires_config": false,
+      "supports_radar": false
+    },
+    {
+      "id": "0ccae893f8a90bf1ebd7",
+      "namespace": "wzbwg",
+      "namespace_name": "National Museum of Chinese Writing",
+      "name": "资讯",
+      "path": "/wzbwg/news/:type",
+      "example": "/wzbwg/news/24",
+      "example_url": "https://rsshub.app/wzbwg/news/24",
+      "site": "www.wzbwg.com",
+      "categories": [
+        "travel"
+      ],
+      "requires_config": false,
+      "supports_radar": false
+    },
+    {
+      "id": "59cb4de351601a24c539",
+      "namespace": "wzbwg",
+      "namespace_name": "National Museum of Chinese Writing",
+      "name": "最新展览",
+      "path": "/wzbwg/zhanlan/specialexhibition",
+      "example": "/wzbwg/zhanlan/specialexhibition",
+      "example_url": "https://rsshub.app/wzbwg/zhanlan/specialexhibition",
+      "site": "www.wzbwg.com",
+      "categories": [
+        "travel"
       ],
       "requires_config": false,
       "supports_radar": false
